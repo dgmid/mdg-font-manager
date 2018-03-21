@@ -1,0 +1,23 @@
+
+$text: 			#fff;
+$background: 	#132635;
+$disabled: 		#FF5D5B;
+$active: 		#00C956;
+$link:			#34C0F9;
+
+
+
+@mixin small { @media (max-width: 689px) { @content; } }
+
+@mixin clearfix {
+	
+	&:before,
+	&:after {
+		content: " ";
+		display: table;
+	}
+	
+	&:after {
+		clear: both;
+	}
+}

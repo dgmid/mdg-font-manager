@@ -1,0 +1,76 @@
+
+header {
+	
+	text-align: center;
+	height: 100px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	
+	@include clearfix();
+	
+	h1 {
+		
+		-webkit-app-region: drag;
+		font-size: 13px;
+		font-weight: normal;
+		line-height: 24px;
+		padding-bottom: 20px;
+	}
+	
+	.tab {
+		
+		float: left;
+		width: percentage(1/2);
+		text-align: left;
+		
+		div {
+			
+			height: 48px;
+			
+			&.active-tab {
+				
+				padding: 8px 5px 0 80px;
+				background: url('#{$active-folder-icon}') no-repeat 10px 0;
+			}
+			
+			&.disabled-tab {
+				
+				padding: 8px 10px 0 75px;
+				background: url('#{$disabled-folder-icon}') no-repeat 5px 0;
+			}
+			
+			h2 {
+				
+				font-size: 18px;
+				font-weight: 400;
+				padding-bottom: 6px;
+				overflow: hidden;
+				white-space: nowrap;
+				text-overflow: ellipsis;
+			}
+			
+			a {
+				
+				font-size: 12px;
+				font-weight: 200;
+				text-decoration: none;
+				color: rgba( $text, .6 );
+				transition: color .15s ease-in-out;
+				
+				display: block;
+				overflow: hidden;
+				white-space: nowrap;
+				text-overflow: ellipsis;
+				
+				cursor: default;
+				
+				&:hover {
+					
+					color: $link;
+				}
+			}
+		}
+	}
+}

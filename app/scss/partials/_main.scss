@@ -1,0 +1,162 @@
+
+main {
+
+	@include clearfix();
+	
+	position: fixed;
+	top: 100px;
+	left: 0;
+	right: 0;
+	bottom: 60px;
+	
+	.left-panel,
+	.right-panel {
+		
+		width: calc(50% - 15px );
+		overflow-y: scroll;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		border-radius: 4px;
+		background-color: rgba(255,255,255,.2);
+		
+		padding: 20px;
+	}
+	
+	.left-panel		{ left: 10px; }
+	.right-panel 	{ right: 10px; }
+	
+	ul {
+		
+		li {
+			
+			font-size: 15px;
+			line-height: 26px;
+			margin-bottom: 2px;
+			position: relative;
+			padding: 0 32px 0 40px;
+			font-weight: 300;
+			
+			cursor: default;
+			transition: background-color .15s ease-in-out;
+			border-radius: 13px;
+			
+			@include small() {
+				
+				padding: 0 24px 0 36px;
+				font-size: 11px;
+				line-height: 20px;
+				border-radius: 10px;
+			}
+			
+			&::before {
+				
+				content: '';
+				display: block;
+				width: 18px;
+				height: 16px;
+				position: absolute;
+				left: 10px;
+				top: 5px;
+				background: url('#{$folder}') no-repeat center top;
+				opacity: .5;
+				transition: opacity .15s ease-in-out;
+				
+				@include small() {
+					
+					top: 2px;
+				}
+			}
+			
+			&.file::before {
+				
+				background: url('#{$font}') no-repeat center top;
+			}
+			
+			&::after {
+				
+				content: '';
+				display: block;
+				width: 20px;
+				height: 20px;
+				position: absolute;
+				right: 3px;
+				top: 3px;
+				background-position: center center;
+				background-repeat: no-repeat;
+				background-size: contain;
+				opacity: 0;
+				transition: opacity .15s ease-in-out;
+				
+				@include small() {
+					
+					width: 16px;
+					height: 16px;
+					top: 2px;
+					right: 2px;
+				}
+			}
+			
+			&:hover {
+				
+				background-color: rgba($text, .15);
+				
+				&::after {
+					
+					opacity: .2;
+				}
+			}
+			
+			div {
+				
+				overflow: hidden;
+				white-space: nowrap;
+				text-overflow: ellipsis;
+			}
+		}
+		
+		&#active-list {
+			
+			li {
+				
+				&::after {
+					
+					background-image: url('#{$disabled-icon}');
+				}
+				
+				&.selected {
+					
+					background-color: $disabled;
+					
+					&::before,
+					&::after {
+						
+						opacity: 1;
+					}
+				}
+			}
+		}
+		
+		&#disabled-list {
+			
+			li {
+				
+				&::after {
+					
+					background-image: url('#{$active-icon}');
+				}
+				
+				&.selected {
+					
+					background-color: $active;
+					
+					&::before,
+					&::after {
+						
+						opacity: 1;
+					}
+				}
+			}
+		}
+	}
+}

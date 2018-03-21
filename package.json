@@ -1,0 +1,34 @@
+{
+  "name": "mdg-font-manager",
+  "version": "1.0.0",
+  "productName": "MDG Font Manager",
+  "description": "A simple font manager for Mac. For activating and disabling fonts and installing Google Fonts",
+  "main": "dist/js/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@duncanmid",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "electron-store": "^1.3.0",
+    "err-code": "^1.1.2",
+    "extract-zip": "^1.6.6",
+    "fs-extra": "^5.0.0",
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-iconutil": "^1.2.0",
+    "gulp-if": "^2.0.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "reset-css": "^2.2.0"
+  }
+}
