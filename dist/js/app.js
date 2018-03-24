@@ -329,7 +329,7 @@ ipcRenderer.on('update-path', () => {
 
 ipcRenderer.on('display-bezel', (event, message) => {
 	
-	$('#overlay').html('<div class="bezel"><div class="inner"><img src="./dist/assets/svg/loader.svg" width="75" height="75"><span>installing</span><span>' + message + '</span></div></div>').fadeIn('fast')
+	$('#overlay').html('<div class="bezel"><div class="inner"><img src="../assets/svg/loader.svg" width="75" height="75"><span>installing</span><span>' + message + '</span></div></div>').fadeIn('fast')
 })
 
 ipcRenderer.on('remove-bezel', (event, message) => {

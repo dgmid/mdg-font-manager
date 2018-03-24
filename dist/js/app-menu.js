@@ -1,5 +1,5 @@
-const {Menu, shell} = require('electron')
 const electron = require('electron')
+const {Menu, shell} = require('electron')
 const app = electron.app
 const BrowserWindow = electron.BrowserWindow
 const name = app.getName()
@@ -122,9 +122,17 @@ const template = [
 		]  
 	},
 	{
-		label: 'Google Fonts',
+		label: 'Tools',
 		submenu:
 		[
+			{
+				label: 'Open Font Book…',
+				accelerator: 'Alt+Cmd+F',
+				click () { require('electron').shell.openItem('/Applications/Font\ Book.app/') }  
+			},
+			{
+				type: 'separator'
+			},
 			{
 				label: 'Browse Google Webfonts Helper…',
 				accelerator: 'Ctrl+Alt+Cmd+G',
