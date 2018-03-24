@@ -1,12 +1,12 @@
 const electron = require('electron')
 const BrowserWindow = electron.BrowserWindow
 const app = electron.app
-var dialog = require('electron').dialog
-var extract = require('extract-zip')
-var fs = require( 'fs-extra' )
+const dialog = require('electron').dialog
+const extract = require('extract-zip')
+const fs = require( 'fs-extra' )
 const Store = require('electron-store')
 const store = new Store()
-var tempPath = app.getPath('temp')
+const tempPath = app.getPath('temp')
 var Download, dl
 
 Download = require('./download').Download
@@ -19,12 +19,12 @@ function downloadFont(id, name, zip) {
 	
 	dl = new Download('https://google-webfonts-helper.herokuapp.com/api/fonts/' + id + '?download=zip&subsets=latin&formats=ttf', zip)
 	
-	dl.on('progress', function(progress) {
+	dl.on('progress', (progress) => {
 		
 		console.log("" + progress + "%")
 	})
 	
-	dl.on('end', function(code) {
+	dl.on('end', (code) => {
 		
 		if (code === 0) {
 			
@@ -62,7 +62,7 @@ function downloadFont(id, name, zip) {
 
 
 
-app.on('install-font', function(event) {
+app.on('install-font', (event) => {
 	
 	var { id, name } = event
 	var zip = tempPath + '/com.midwinter-dg.mdg-font-manager/' + id + '.zip'

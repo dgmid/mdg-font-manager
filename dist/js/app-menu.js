@@ -1,10 +1,9 @@
-const {Menu} = require('electron')
+const {Menu, shell} = require('electron')
 const electron = require('electron')
-const {shell} = require( 'electron' )
 const app = electron.app
 const BrowserWindow = electron.BrowserWindow
 const name = app.getName()
-
+var about = require('./about');
 
 
 //todo(@duncanmid): dynamic updatable google font menu
@@ -14,7 +13,8 @@ const template = [
 		label: name,
 		submenu: [
 			{
-				role: 'about'
+				label: 'About MDG Font Manager',
+				click() { about.createAbout() }
 			},
 			{
 				type: 'separator'
@@ -50,17 +50,17 @@ const template = [
 			{
 				label: 'Select All Acitve Fonts',
 				accelerator: 'Command+A',
-				click (item, focusedWindow) { if(focusedWindow) focusedWindow.webContents.send('select-active') }
+				click (item, focusedWindow) { if(focusedWindow) focusedWindow.webContents.send('select-all', 'active') }
 			},
 			{
 				label: 'Deselect All Active Fonts',
 				accelerator: 'Shift+Command+A',
-				click (item, focusedWindow) { if(focusedWindow) focusedWindow.webContents.send('deselect-active') }
+				click (item, focusedWindow) { if(focusedWindow) focusedWindow.webContents.send('deselect-all', 'active') }
 			},
 			{
 				label: 'Toggle Active Fonts',
 				accelerator: 'Control+Command+A',
-				click (item, focusedWindow) { if(focusedWindow) focusedWindow.webContents.send('toggle-active') }
+				click (item, focusedWindow) { if(focusedWindow) focusedWindow.webContents.send('toggle-selection', 'active') }
 			},
 			{
 				type: 'separator'
@@ -68,17 +68,17 @@ const template = [
 			{
 				label: 'Select All Disabled Fonts',
 				accelerator: 'Command+D',
-				click (item, focusedWindow) { if(focusedWindow) focusedWindow.webContents.send('select-disabled') }
+				click (item, focusedWindow) { if(focusedWindow) focusedWindow.webContents.send('select-all', 'disabled') }
 			},
 			{
 				label: 'Deselect All Disabled Fonts',
 				accelerator: 'Shift+Command+D',
-				click (item, focusedWindow) { if(focusedWindow) focusedWindow.webContents.send('deselect-disabled') }
+				click (item, focusedWindow) { if(focusedWindow) focusedWindow.webContents.send('deselect-all', 'disabled') }
 			},
 			{
 				label: 'Toggle Disabled Fonts',
 				accelerator: 'Control+Command+D',
-				click (item, focusedWindow) { if(focusedWindow) focusedWindow.webContents.send('toggle-disabled') }
+				click (item, focusedWindow) { if(focusedWindow) focusedWindow.webContents.send('toggle-selection', 'disabled') }
 			},
 			{
 				type: 'separator'

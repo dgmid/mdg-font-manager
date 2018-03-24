@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/about.min.css" media="all">
+</head>
+<body>
+	<header></header>
+	
+	<main>
+		<figure>
+			<img src="../assets/icon/icon.png" width="128" height="128" alt="" />
+		</figure>
+		
+		<h1><span id="productName"></span> <span id="version"></span></h1>
+		<p id="description"></p>
+	</main>
+	
+	<footer>
+		<table>
+			<tfoot>
+				<tr>
+					<td colspan="2">
+						<button id="repo" role="button">project repo</button>
+					</td>
+				</tr>
+			</tfoot>
+			<tr>
+				<th>author:</th>
+				<td id="author"></td>
+			</tr>
+			<tr>
+				<th>license:</th>
+				<td id="license"></td>
+			</tr>
+		</table>
+	</footer>
+	<script>
+		window.$ = window.jQuery = require( 'jquery' )
+		const shell = require('electron')
+				
+		$.getJSON('../../package.json', function(json) {
+			
+			var packageData = json
+			
+			$('#productName').html( packageData['productName'] )
+			$('#version').html( 'v ' + packageData['version'] )
+			$('#description').html( packageData['description'] )
+			$('#author').html( packageData['author'] )
+			$('#license').html( packageData['license'] )
+			
+			$('#repo').click(function() {
+				
+				require('electron').shell.openExternal( packageData['repository']['url'] )
+			})
+		})
+	</script>
+</body>
+</html>

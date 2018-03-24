@@ -8,21 +8,19 @@ const 	gulp 			= require('gulp'),
 
 
 
-const	sassFile 		= 'app/scss/styles.scss',
+const	appCss 			= 'app/scss/*.scss',
 		cssDest 		= 'dist/css';
 
 
 
 gulp.task('sass', () => {
 
-	return gulp.src(sassFile)
+	return gulp.src(appCss)
 		.pipe(sourcemaps.init())
-		.pipe(sass({
-			outputStyle: 'expanded'
-		}).on('error', sass.logError))
+		.pipe(sass({ outputStyle: 'expanded' }).on('error', sass.logError))
 		.pipe(autoprefixer())
-		.pipe(rename('styles.min.css'))
 		.pipe(cssnano())
+		.pipe(rename({ suffix: '.min' }))
 		.pipe(gulp.dest(cssDest))
 		.pipe(sourcemaps.write('./maps'))
 		.pipe(gulp.dest(cssDest));
@@ -34,6 +32,10 @@ gulp.task('icon', () => {
 
 	gulp.src('./app/assets/Icon.iconset/icon_*.png')
 	.pipe(iconutil('icon.icns'))
+	.pipe(gulp.dest('./dist/assets/icon/'))
+	
+	gulp.src('./app/assets/Icon.iconset/icon_128x128@2x.png')
+	.pipe(rename('icon.png'))
 	.pipe(gulp.dest('./dist/assets/icon/'))
 })
 

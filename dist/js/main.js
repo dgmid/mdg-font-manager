@@ -1,8 +1,9 @@
 const {app, BrowserWindow, shell} = require('electron')
 const url = require('url') 
-const path = require('path') 
-var dialog = require('electron').dialog
+const path = require('path')
+const dialog = require('electron').dialog
 const Store = require('electron-store')
+
 let win
 
 
@@ -31,6 +32,7 @@ function createWindow() {
 	let { x, y, width, height } = store.get('windowBounds')
 	
 	win = new BrowserWindow({
+		show: false,
 		titleBarStyle: 'hidden',
 		x: x,
 		y: y,
@@ -50,15 +52,19 @@ function createWindow() {
 	
 	win.loadURL(url.format ({ 
 		
-		pathname: path.join(__dirname, '../../index.html'), 
+		pathname: path.join(__dirname, '../html/app.html'), 
 		protocol: 'file:', 
 		slashes: true 
 	}))
 	
+	win.once('ready-to-show', () => {
+		win.show()
+	})
+	
 	win.on('resize', saveWindowBounds)
 	win.on('move', saveWindowBounds)
 	
-	win.on('closed', function () {
+	win.on('closed', () => {
 		app.quit();
 	})
 	
@@ -67,20 +73,18 @@ function createWindow() {
 	require('./install-font')
 }
 
-
-
 app.on('ready', createWindow) 
 
 
 
-app.on('open-folder', function(message) {
+app.on('open-folder', (message) => {
 	
 	shell.openExternal('file://' + store.get('fontDirectories.' + message ))
 })
 
 
 
-app.on('choose-folder', function(message) {
+app.on('choose-folder', (message) => {
 	
 	let currentPath = store.get('fontDirectories.' + message ),
 		label = 'Active'
@@ -110,4 +114,3 @@ app.on('choose-folder', function(message) {
 		}
 	}
 })
-

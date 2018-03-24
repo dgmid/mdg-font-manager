@@ -1,9 +1,9 @@
 window.$ = window.jQuery = require( 'jquery' )
-var fs = require( 'fs-extra' )
+const fs = require( 'fs-extra' )
 const {ipcRenderer} = require( 'electron' )
-var electron = require("electron")
-var remote = electron.remote
-var dialog = remote.dialog
+const electron = require("electron")
+const remote = electron.remote
+const dialog = remote.dialog
 const Store = require('electron-store')
 const store = new Store()
 
@@ -67,7 +67,6 @@ function addItemsToList( oldPath, newPath, list) {
 						
 					$('#' + list + '-list').append('<li class="' + item + '" data-oldpath="' + oldPath + file + '" data-newpath="' + newPath + file + '"><div>' + file + '</div></li>')
 				}
-				
 			})
 		}
 	})
@@ -76,7 +75,6 @@ function addItemsToList( oldPath, newPath, list) {
 
 
 //note(@duncanmid): move selected files or folders
-//todo(@duncanmid): ENOTEMPTY if dir exists is opposite list
 
 function move( oldPath, newPath, count, total, callback ) {
 	
@@ -162,13 +160,20 @@ function updateButtonState() {
 
 
 
-//note(@duncanmid): toggle list item state
+//note(@duncanmid): on click list item
 
-$('body').on('click', '#active-list li, #disabled-list li', function() {
+$('body').on('mouseup', '#active-list li, #disabled-list li', function(event) {
 	
-	$(this).toggleClass('selected')
-	
-	updateButtonState()
+	if( event.which === 3 ) {
+		
+		//todo(@duncanmid): add a context menu for extra options for individual fonts
+		//ipcRenderer.send('show-context-menu')
+		
+	} else {
+			
+		$(this).toggleClass('selected')
+		updateButtonState()
+	}
 })
 
 
@@ -214,6 +219,8 @@ function updateAll() {
 		var oldPath = $(this).data('oldpath'),
 			newPath = $(this).data('newpath')
 		
+		move( oldPath, newPath, counter++, items.length, updateLists )
+		
 		function updateLists() {
 		
 			$('#active-list li, #disabled-list li').remove()
@@ -221,74 +228,54 @@ function updateAll() {
 			
 			populateFontLists()
 		}
-		
-		move( oldPath, newPath, counter++, items.length, updateLists )
 	})
 }
 
 
-$('#update-all').click( function() {
+$('#update-all').click( () => {
 	
 	updateAll()
 })
 
 
 
-//note(@duncanmid): open font folders in finder
+//note(@duncanmid): open font folder menus
 
-$('#active-menu').click( function(e) {
+$('#active-menu').click( (e) => {
 	
 	e.preventDefault()
-	ipcRenderer.send('show-active-menu')
+	ipcRenderer.send('show-folder-menu', 'active')
 })
 
-$('#disabled-menu').click( function(e) {
+$('#disabled-menu').click( (e) => {
 	
 	e.preventDefault()
-	ipcRenderer.send('show-disabled-menu')
+	ipcRenderer.send('show-folder-menu', 'disabled')
 })
 
 
 
 //note(@duncanmid): list-menu commands
 
-ipcRenderer.on('select-active', function () {
+ipcRenderer.on('select-all', (event, message) => {
 	
-	$('#active-list li').addClass('selected')
+	$('#' + message + '-list li').addClass('selected')
 	updateButtonState()
 })
 
-ipcRenderer.on('deselect-active', function () {
-
-	$('#active-list li').removeClass('selected')
-	updateButtonState()
-})
-
-ipcRenderer.on('toggle-active', function () {
+ipcRenderer.on('deselect-all', (event, message) => {
 	
-	$('#active-list li').toggleClass('selected')
+	$('#' + message + '-list li').removeClass('selected')
 	updateButtonState()
 })
 
-ipcRenderer.on('select-disabled', function () {
-
-	$('#disabled-list li').addClass('selected')
-	updateButtonState()
-})
-
-ipcRenderer.on('deselect-disabled', function () {
-
-	$('#disabled-list li').removeClass('selected')
-	updateButtonState()
-})
-
-ipcRenderer.on('toggle-disabled', function () {
+ipcRenderer.on('toggle-selection', (event, message) => {
 	
-	$('#disabled-list li').toggleClass('selected')
+	$('#' + message + '-list li').toggleClass('selected')
 	updateButtonState()
 })
 
-ipcRenderer.on('update-lists', function () {
+ipcRenderer.on('update-lists', () => {
 	
 	if( $('#update-all').prop('disabled') ) {
 	
@@ -303,7 +290,7 @@ ipcRenderer.on('update-lists', function () {
 	}
 })
 
-ipcRenderer.on('delete-fonts', function () {
+ipcRenderer.on('delete-fonts', () => {
 
 	var selected = $('#active-list li.selected, #disabled-list li.selected')
 	
@@ -329,19 +316,23 @@ ipcRenderer.on('delete-fonts', function () {
 	}
 })
 
-ipcRenderer.on('update-path', function() {
+ipcRenderer.on('update-path', () => {
 	
 	$('#active-list li, #disabled-list li').remove()
 	$('#update-all').prop('disabled', true)
 	populateFontLists()
 })
 
-ipcRenderer.on('display-bezel', function(event, message) {
+
+
+//note(@duncanmid): show / hide bezel
+
+ipcRenderer.on('display-bezel', (event, message) => {
 	
 	$('#overlay').html('<div class="bezel"><div class="inner"><img src="./dist/assets/svg/loader.svg" width="75" height="75"><span>installing</span><span>' + message + '</span></div></div>').fadeIn('fast')
 })
 
-ipcRenderer.on('remove-bezel', function(event, message) {
+ipcRenderer.on('remove-bezel', (event, message) => {
 	
 	$('#active-list li, #disabled-list li').remove()
 	$('#update-all').prop('disabled', true)
