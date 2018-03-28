@@ -21,18 +21,20 @@
 			<tfoot>
 				<tr>
 					<td colspan="2">
-						<button id="repo" role="button">project repo</button>
+						<button id="info" role="button">more info</button>
 					</td>
 				</tr>
 			</tfoot>
-			<tr>
-				<th>author:</th>
-				<td id="author"></td>
-			</tr>
-			<tr>
-				<th>license:</th>
-				<td id="license"></td>
-			</tr>
+			<tbody>
+				<tr>
+					<th>Author:</th>
+					<td id="author"></td>
+				</tr>
+				<tr>
+					<th>License</th>
+					<td id="license"></td>
+				</tr>
+			</tbody>
 		</table>
 	</footer>
 	<script>
@@ -46,12 +48,12 @@
 			$('#productName').html( packageData['productName'] )
 			$('#version').html( 'v ' + packageData['version'] )
 			$('#description').html( packageData['description'] )
-			$('#author').html( packageData['author'] )
+			$('#author').html( packageData['author']['name'] )
 			$('#license').html( packageData['license'] )
 			
-			$('#repo').click(function() {
+			$('#info').click(function() {
 				
-				require('electron').shell.openExternal( packageData['repository']['url'] )
+				require('electron').shell.openExternal( packageData['homepage'] )
 			})
 		})
 	</script>

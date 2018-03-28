@@ -1,13 +1,18 @@
 {
   "name": "mdg-font-manager",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "productName": "MDG Font Manager",
   "description": "A simple font manager for Mac. For activating and disabling fonts and installing Google Fonts.",
   "main": "dist/js/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "@duncanmid",
+  "author": {
+	  "name": "D.G. Midwinter",
+	  "email": "duncan@midwinter-dg.com",
+	  "url": "https://www.midwinter-dg.com"
+  },
+  "homepage": "https://www.midwinter-dg.com",
   "license": "MIT",
   "repository": {
     "type": "git",

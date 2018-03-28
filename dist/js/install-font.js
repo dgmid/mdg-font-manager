@@ -21,7 +21,7 @@ function downloadFont(id, name, zip) {
 	
 	dl.on('progress', (progress) => {
 		
-		console.log("" + progress + "%")
+		console.log( name + " - download: " + progress + "%" )
 	})
 	
 	dl.on('end', (code) => {

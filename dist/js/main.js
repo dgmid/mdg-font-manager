@@ -1,8 +1,9 @@
-const {app, BrowserWindow, shell} = require('electron')
+const {app, BrowserWindow, shell, ipcMain} = require('electron')
 const url = require('url') 
 const path = require('path')
 const dialog = require('electron').dialog
 const Store = require('electron-store')
+const fs = require( 'fs-extra' )
 
 let win
 
@@ -70,6 +71,7 @@ function createWindow() {
 	
 	require('./app-menu')
 	require('./list-menus')
+	require('./font-menu')
 	require('./install-font')
 }
 
@@ -114,3 +116,43 @@ app.on('choose-folder', (message) => {
 		}
 	}
 })
+
+
+
+app.on('export-single', (message) => { exportFonts( [message] ) })
+ipcMain.on('export-list', (event, message) => { exportFonts( message) })
+
+function exportFonts(fonts) {
+	
+	dialog.showSaveDialog(win, {
+			
+			defaultPath: app.getPath('desktop') + '/Exported Fonts',
+			buttonLabel: 'Export Fonts'
+		},		
+		
+		exportList
+	)
+	
+	function exportList( filename ) {
+		
+		if ( filename === undefined ) {
+			
+			return
+		
+		} else {
+			
+			for(i = 0; i < fonts.length; i++ ) {
+				
+				fs.copy( fonts[i][1], filename + '/' + fonts[i][0], err => {
+					
+					if (err.code) {
+						
+						dialog.showErrorBox(
+							'An error occured whilst exporting the fonts', err.code
+						)
+					}
+				})
+			}	
+		}
+	}
+}

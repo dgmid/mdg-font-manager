@@ -3,7 +3,7 @@ const {Menu, shell} = require('electron')
 const app = electron.app
 const BrowserWindow = electron.BrowserWindow
 const name = app.getName()
-var about = require('./about');
+var about = require('./about')
 
 
 //todo(@duncanmid): dynamic updatable google font menu
@@ -13,7 +13,7 @@ const template = [
 		label: name,
 		submenu: [
 			{
-				label: 'About MDG Font Manager',
+				label: 'About ' + name,
 				click() { about.createAbout() }
 			},
 			{
@@ -92,6 +92,11 @@ const template = [
 				type: 'separator'
 			},
 			{
+				label: 'Export Selected Fonts',
+				accelerator: 'Command+E',
+				click (item, focusedWindow) { if(focusedWindow) focusedWindow.webContents.send('export-fonts') }
+			},
+			{
 				label: 'Delete Selected Fonts',
 				accelerator: 'Command+X',
 				click (item, focusedWindow) { if(focusedWindow) focusedWindow.webContents.send('delete-fonts') }
@@ -147,7 +152,7 @@ const template = [
 				type: 'separator'
 			},
 			{
-				label: 'Install Google Font…',
+				label: 'Install Google Font',
 				accelerator: 'Cmd+G',
 				submenu:
 				[

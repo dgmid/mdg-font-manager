@@ -4,7 +4,7 @@ const {ipcRenderer} = require( 'electron' )
 const electron = require("electron")
 const remote = electron.remote
 const dialog = remote.dialog
-const Store = require('electron-store')
+const Store = require( 'electron-store' )
 const store = new Store()
 
 populateFontLists()
@@ -24,6 +24,18 @@ function populateFontLists() {
 	addItemsToList( disabledPath, activePath, 'disabled' )
 	
 	$('.left-panel ul, .right-panel ul').fadeIn('fast')
+}
+
+
+
+//note(@duncanmid): update lists
+
+function updateLists() {
+
+	$('#active-list li, #disabled-list li').remove()
+	$('#update-all').prop('disabled', true)
+	
+	populateFontLists()
 }
 
 
@@ -65,7 +77,7 @@ function addItemsToList( oldPath, newPath, list) {
 				
 				if( !file.startsWith('.') ) {
 						
-					$('#' + list + '-list').append('<li class="' + item + '" data-oldpath="' + oldPath + file + '" data-newpath="' + newPath + file + '"><div>' + file + '</div></li>')
+					$('#' + list + '-list').append('<li class="' + item + '" data-name="' + file + '" data-oldpath="' + oldPath + file + '" data-newpath="' + newPath + file + '"><div>' + file + '</div></li>')
 				}
 			})
 		}
@@ -166,8 +178,10 @@ $('body').on('mouseup', '#active-list li, #disabled-list li', function(event) {
 	
 	if( event.which === 3 ) {
 		
-		//todo(@duncanmid): add a context menu for extra options for individual fonts
-		//ipcRenderer.send('show-context-menu')
+		var name = $(this).data('name'),
+			path = $(this).data('oldpath')
+		
+		ipcRenderer.send('show-font-menu', [name, path] )
 		
 	} else {
 			
@@ -191,16 +205,26 @@ function deleteSelected() {
 		
 		var oldPath = $(this).data('oldpath')
 		
-		function updateLists() {
-		
-			$('#active-list li, #disabled-list li').remove()
-			$('#update-all').prop('disabled', true)
-			
-			populateFontLists()
-		}
-		
 		deleteItems( oldPath, counter++, items.length, updateLists )
 	})
+}
+
+
+
+//note(@duncanmid): export selected
+
+function exportSelected() {
+	
+	var selected = $('#active-list li.selected, #disabled-list li.selected'),
+		message = []
+	
+	selected.each( function() {
+		
+		var $this = $(this)
+		message.push( [ $this.data('name') ,$this.data('oldpath') ] )
+	})
+	
+	ipcRenderer.send('export-list', message)
 }
 
 
@@ -220,14 +244,6 @@ function updateAll() {
 			newPath = $(this).data('newpath')
 		
 		move( oldPath, newPath, counter++, items.length, updateLists )
-		
-		function updateLists() {
-		
-			$('#active-list li, #disabled-list li').remove()
-			$('#update-all').prop('disabled', true)
-			
-			populateFontLists()
-		}
 	})
 }
 
@@ -312,6 +328,28 @@ ipcRenderer.on('delete-fonts', () => {
 		dialog.showErrorBox(
 			'No fonts are selected',
 			'Select fonts from the Active and Disabled lists to delete them from your system.'
+		)
+	}
+})
+
+ipcRenderer.on('delete-single', (event, message) => {
+	
+	deleteItems( message, 0, 1, updateLists );
+})
+
+ipcRenderer.on('export-fonts', () => {
+	
+	var selected = $('#active-list li.selected, #disabled-list li.selected')
+	
+	if( selected.length > 0 ) {
+		
+		exportSelected()
+	
+	} else {
+		
+		dialog.showErrorBox(
+			'No fonts are selected',
+			'Select fonts from the Active and Disabled lists to export them to the Desktop.'
 		)
 	}
 })
