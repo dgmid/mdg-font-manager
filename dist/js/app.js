@@ -371,15 +371,22 @@ ipcRenderer.on('display-bezel', (event, message) => {
 })
 
 ipcRenderer.on('remove-bezel', (event, message) => {
+
+	if( message !== 'font-not-installed' ) {
+		
+		$('#active-list li, #disabled-list li').remove()
+		$('#update-all').prop('disabled', true)
+		populateFontLists()
+		$('#overlay').fadeOut('fast').empty()
+			
+		let dir = store.get('fontDirectories.activePath')
+		
+		let fontInstalled = new Notification('Installation Complete', {
+			body: 'The font '+ message + ' has been installed to ' + dir
+		})
 	
-	$('#active-list li, #disabled-list li').remove()
-	$('#update-all').prop('disabled', true)
-	populateFontLists()
-	$('#overlay').fadeOut('fast').empty()
-	
-	let dir = store.get('fontDirectories.activePath')
-	
-	let fontInstalled = new Notification('Installation Complete', {
-		body: 'The font '+ message + ' has been installed to ' + dir
-	})
+	} else {
+		
+		$('#overlay').fadeOut('fast').empty()
+	}
 })

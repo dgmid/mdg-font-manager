@@ -52,8 +52,10 @@ function downloadFont(id, name, zip) {
 			
 			dialog.showErrorBox(
 				'An error occured whilst downloading',
-				'The font ' + name + 'was not downloaded'
+				'The font ' + name + ' was not downloaded'
 			)
+			
+			BrowserWindow.getFocusedWindow().webContents.send('remove-bezel', 'font-not-installed')
 		}
 	})
 		
