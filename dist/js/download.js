@@ -1,5 +1,7 @@
 /* curl downloader: https://github.com/hyspace/node-curl-download/blob/master/download.js */
 
+'use strict'
+
 var Download,
 	EventEmitter,
 	defaultOptions,

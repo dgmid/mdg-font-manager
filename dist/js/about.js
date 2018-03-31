@@ -1,3 +1,5 @@
+'use strict'
+
 const electron = require('electron')
 const BrowserWindow = electron.BrowserWindow
 const url = require('url')

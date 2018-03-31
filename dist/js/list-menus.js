@@ -1,3 +1,5 @@
+'use strict'
+
 const electron = require('electron')
 const {shell, app} = require( 'electron' )
 const BrowserWindow = electron.BrowserWindow

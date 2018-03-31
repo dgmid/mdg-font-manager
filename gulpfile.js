@@ -4,12 +4,14 @@ const 	gulp 			= require('gulp'),
 		autoprefixer 	= require('gulp-autoprefixer'),
 		sourcemaps 		= require('gulp-sourcemaps'),
 		cssnano 		= require('gulp-cssnano'),
-		iconutil 		= require('gulp-iconutil');
+		iconutil 		= require('gulp-iconutil')
 
 
 
 const	appCss 			= 'app/scss/*.scss',
-		cssDest 		= 'dist/css';
+		cssDest 		= 'dist/css',
+		apJs 			= 'app/js/*.js',
+		jsDest 			= 'dist/js'
 
 
 
@@ -23,7 +25,7 @@ gulp.task('sass', () => {
 		.pipe(rename({ suffix: '.min' }))
 		.pipe(gulp.dest(cssDest))
 		.pipe(sourcemaps.write('./maps'))
-		.pipe(gulp.dest(cssDest));
+		.pipe(gulp.dest(cssDest))
 });
 
 
@@ -43,5 +45,5 @@ gulp.task('icon', () => {
 
 gulp.task('watch', ['sass'], () => {
 
-	gulp.watch('app/scss/**/*.scss', ['sass']);
-});
+	gulp.watch('app/scss/**/*.scss', ['sass'])
+})

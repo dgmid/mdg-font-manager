@@ -1,3 +1,5 @@
+'use strict'
+
 window.$ = window.jQuery = require( 'jquery' )
 const fs = require( 'fs-extra' )
 const {ipcRenderer} = require( 'electron' )

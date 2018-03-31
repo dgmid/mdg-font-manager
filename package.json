@@ -8,9 +8,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": {
-	  "name": "D.G. Midwinter",
-	  "email": "duncan@midwinter-dg.com",
-	  "url": "https://www.midwinter-dg.com"
+    "name": "D.G. Midwinter",
+    "email": "duncan@midwinter-dg.com",
+    "url": "https://www.midwinter-dg.com"
   },
   "homepage": "https://www.midwinter-dg.com",
   "license": "MIT",
@@ -23,7 +23,8 @@
     "err-code": "^1.1.2",
     "extract-zip": "^1.6.6",
     "fs-extra": "^5.0.0",
-    "jquery": "^3.3.1"
+    "jquery": "^3.3.1",
+    "load-json-file": "^4.0.0"
   },
   "devDependencies": {
     "gulp": "^3.9.1",

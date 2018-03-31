@@ -1,3 +1,5 @@
+'use strict'
+
 const {app, BrowserWindow, shell, ipcMain} = require('electron')
 const url = require('url') 
 const path = require('path')
@@ -9,7 +11,7 @@ let win
 
 
 
-store = new Store({
+let store = new Store({
 	defaults: {
 		
 		windowBounds: {
