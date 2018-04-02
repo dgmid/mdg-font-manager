@@ -5,6 +5,7 @@ const 	gulp 			= require('gulp'),
 		sourcemaps 		= require('gulp-sourcemaps'),
 		cssnano 		= require('gulp-cssnano'),
 		iconutil 		= require('gulp-iconutil')
+		run 			= require('gulp-run-command').default
 
 
 
@@ -40,6 +41,10 @@ gulp.task('icon', () => {
 	.pipe(rename('icon.png'))
 	.pipe(gulp.dest('./dist/assets/icon/'))
 })
+
+
+
+gulp.task('json', run('php app/json/generate-json.php'))
 
 
 

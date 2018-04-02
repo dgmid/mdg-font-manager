@@ -1,7 +1,7 @@
 #!/usr/bin/php
 <?php
 
-$filepath = realpath( '../../dist/json/' );
+$filepath = realpath( './dist/json/' );
 
 $string = file_get_contents( "https://google-webfonts-helper.herokuapp.com/api/fonts" );
 $json = json_decode( $string, true );
@@ -22,7 +22,6 @@ foreach( $json as $array ) {
 	if( $length !== $count ) {
 		
 		fwrite( $file, ",\n" );
-	
 	}
 }
 
