@@ -1,7 +1,12 @@
 #!/usr/bin/php
 <?php
 
-$filepath = realpath( './dist/json/' );
+$filepath = realpath(__DIR__ . '/../..') . '/dist/json/';
+
+if(!is_dir( $filepath )) {
+	
+    mkdir( $filepath, 0755 );
+}
 
 $string = file_get_contents( "https://google-webfonts-helper.herokuapp.com/api/fonts" );
 $json = json_decode( $string, true );
@@ -10,7 +15,7 @@ array_multisort( $json );
 $length = sizeof( $json );
 $count = 0;
 
-$file = fopen( $filepath."/google-font-list.json", "w") or die("fopen error" );
+$file = fopen( $filepath."google-font-list.json", "w") or die("fopen error" );
 fwrite( $file, "[\n" );
 
 foreach( $json as $array ) {
