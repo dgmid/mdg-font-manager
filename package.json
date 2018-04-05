@@ -3,7 +3,7 @@
   "version": "1.0.3",
   "productName": "MDG Font Manager",
   "description": "A simple font manager for Mac. For activating and disabling fonts and installing Google Fonts.",
-  "main": "dist/js/main.js",
+  "main": "dist/js/main.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -35,6 +35,8 @@
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglify-es": "^1.0.1",
+    "pump": "^3.0.0",
     "reset-css": "^2.2.0",
     "run-sequence": "^2.2.1"
   }

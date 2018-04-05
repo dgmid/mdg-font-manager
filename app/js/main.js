@@ -71,10 +71,10 @@ function createWindow() {
 		app.quit();
 	})
 	
-	require('./app-menu')
-	require('./list-menus')
-	require('./font-menu')
-	require('./install-font')
+	require('./app-menu.min')
+	require('./list-menus.min')
+	require('./font-menu.min')
+	require('./install-font.min')
 }
 
 app.on('ready', createWindow) 

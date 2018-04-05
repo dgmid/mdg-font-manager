@@ -4,58 +4,69 @@ const 	gulp 			= require('gulp'),
 		autoprefixer 	= require('gulp-autoprefixer'),
 		sourcemaps 		= require('gulp-sourcemaps'),
 		cssnano 		= require('gulp-cssnano'),
-		iconutil 		= require('gulp-iconutil')
+		uglify 			= require('gulp-uglify-es').default,
+		pump 			= require('pump'),
+		iconutil 		= require('gulp-iconutil'),
 		sequence 		= require('run-sequence'),
 		exec 			= require('child_process').exec
 
 
 
-const	appCss 			= 'app/scss/*.scss',
-		cssDest 		= 'dist/css',
-		appJs 			= 'app/js/*.js',
-		jsDest 			= 'dist/js',
-		appHtml 		= 'app/html/*.html',
-		htmlDest 		= 'dist/html',
-		appSvg 			= 'app/assets/svg/*.svg',
-		svgDest 		= 'dist/assets/svg'
+const	sourceCss 		= 'app/scss/*.scss',
+		destCss 		= 'dist/css',
+		sourceJs 		= 'app/js/*.js',
+		destJs 			= 'dist/js',
+		sourceHtml 		= 'app/html/*.html',
+		destHtml 		= 'dist/html',
+		sourceSvg 		= 'app/assets/svg/*.svg',
+		destSvg 		= 'dist/assets/svg'
 
 
 
 gulp.task('sass', () => {
 
-	return gulp.src(appCss)
+	return gulp.src(sourceCss)
 		.pipe(sourcemaps.init())
 		.pipe(sass({ outputStyle: 'expanded' }).on('error', sass.logError))
 		.pipe(autoprefixer())
 		.pipe(cssnano())
 		.pipe(rename({ suffix: '.min' }))
-		.pipe(gulp.dest(cssDest))
+		.pipe(gulp.dest(destCss))
 		.pipe(sourcemaps.write('./maps'))
-		.pipe(gulp.dest(cssDest))
+		.pipe(gulp.dest(destCss))
 })
 
 
 
 gulp.task('html', () => {
 	
-	return gulp.src(appHtml)
-		.pipe(gulp.dest(htmlDest));
+	return gulp.src(sourceHtml)
+		.pipe(gulp.dest(destHtml))
 })
 
 
 
-gulp.task('js', () => {
+gulp.task('js', (cb) => {
 	
-	return gulp.src(appJs)
-		.pipe(gulp.dest(jsDest));
+	pump([
+			gulp.src(sourceJs),
+			sourcemaps.init(),
+			uglify(),
+			rename({suffix: '.min'}),
+			sourcemaps.write('./maps'),
+			gulp.dest(destJs)
+		],
+		
+		cb()
+	)
 })
 
 
 
 gulp.task('svg', () => {
 	
-	return gulp.src(appSvg)
-		.pipe(gulp.dest(svgDest));
+	return gulp.src(sourceSvg)
+		.pipe(gulp.dest(destSvg))
 })
 
 
@@ -63,8 +74,8 @@ gulp.task('svg', () => {
 gulp.task('icns', () => {
 
 	return gulp.src('./app/assets/Icon.iconset/icon_*.png')
-	.pipe(iconutil('icon.icns'))
-	.pipe(gulp.dest('./dist/assets/icon/'))
+		.pipe(iconutil('icon.icns'))
+		.pipe(gulp.dest('./dist/assets/icon/'))
 })
 
 
@@ -72,8 +83,8 @@ gulp.task('icns', () => {
 gulp.task('icon', () => {	
 	
 	return gulp.src('./app/assets/Icon.iconset/icon_128x128@2x.png')
-	.pipe(rename('icon.png'))
-	.pipe(gulp.dest('./dist/assets/icon/'))
+		.pipe(rename('icon.png'))
+		.pipe(gulp.dest('./dist/assets/icon/'))
 })
 
 
@@ -91,7 +102,7 @@ gulp.task('json', (cb) => {
 
 gulp.task('package', (cb) => {
 	
-	exec('electron-packager . --electron-version=1.6.2 --overwrite --platform=darwin --arch=x64 --icon=dist/assets/icon/icon.icns --prune=true --out=release-builds', (err, stdout, stderr) => {
+	exec('electron-packager . --electron-version=1.6.2 --overwrite --platform=darwin --arch=x64 --icon=dist/assets/icon/icon.icns --ignore="app/*|gulpfile\.js|README\.md" --prune=true --out=release-builds', (err, stdout, stderr) => {
 		
 		if (err) throw err
 		else cb()

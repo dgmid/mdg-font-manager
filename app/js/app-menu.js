@@ -7,7 +7,7 @@ const BrowserWindow = electron.BrowserWindow
 const path = require('path')
 const loadJsonFile = require('load-json-file')
 const name = app.getName()
-var about = require('./about')
+var about = require('./about.min')
 
 
 

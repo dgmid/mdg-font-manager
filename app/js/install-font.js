@@ -11,7 +11,7 @@ const store = new Store()
 const tempPath = app.getPath('temp')
 var Download, dl
 
-Download = require('./download').Download
+Download = require('./download.min').Download
 
 
 
