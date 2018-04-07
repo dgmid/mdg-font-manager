@@ -5,14 +5,14 @@
   "description": "A simple font manager for Mac. For activating and disabling fonts and installing Google Fonts.",
   "main": "dist/js/main.min.js",
   "scripts": {
-	  "package": "npm prune -production; electron-packager . --electron-version=1.8.4 --overwrite --platform=darwin --arch=x64 --icon=dist/assets/icon/icon.icns --ignore=\"app-source|gulpfile\\.js|README\\.md\" --prune=false --out=build"
+    "package": "npm prune -production; electron-packager . --electron-version=1.8.4 --overwrite --platform=darwin --arch=x64 --icon=dist/assets/icon/icon.icns --ignore=\"app-source|gulpfile\\.js|README\\.md\" --prune=false --out=build"
   },
   "author": {
     "name": "D.G. Midwinter",
     "email": "duncan@midwinter-dg.com",
     "url": "https://www.midwinter-dg.com"
   },
-  "homepage": "https://www.midwinter-dg.com",
+  "homepage": "http://midwinter-dg.com/mac-apps/mdg-font-manager.html",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -31,13 +31,12 @@
     "gulp-autoprefixer": "^4.0.0",
     "gulp-cssnano": "^2.1.2",
     "gulp-iconutil": "^1.2.0",
-    "gulp-if": "^2.0.2",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^2.6.0",
     "gulp-uglify-es": "^1.0.1",
     "pump": "^3.0.0",
-    "reset-css": "^2.2.0",
+    "reset-css": "^3.0.0",
     "run-sequence": "^2.2.1"
   }
 }
