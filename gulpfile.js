@@ -3,6 +3,7 @@ const 	gulp 			= require('gulp'),
 		rename 			= require('gulp-rename'),
 		autoprefixer 	= require('gulp-autoprefixer'),
 		sourcemaps 		= require('gulp-sourcemaps'),
+		htmlmin 		= require('gulp-htmlmin')
 		cssnano 		= require('gulp-cssnano'),
 		uglify 			= require('gulp-uglify-es').default,
 		pump 			= require('pump'),
@@ -41,6 +42,7 @@ gulp.task('sass', () => {
 gulp.task('html', () => {
 	
 	return gulp.src(sourceHtml)
+		.pipe(htmlmin({collapseWhitespace: true}))
 		.pipe(gulp.dest(destHtml))
 })
 
