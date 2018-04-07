@@ -155,7 +155,7 @@ const template = [
 				type: 'separator'
 			},
 			{
-				label: 'Install Google Font',
+				label: 'Install Google Font…',
 				accelerator: 'Cmd+G',
 				submenu: [], 
 			},
