@@ -7,6 +7,7 @@ A simple font manager for Mac. For activating and disabling fonts and installing
 ## Requirements
 
 [node.js / npm](https://www.npmjs.com/get-npm)
+
 To modify a/o build this project you will need to install electron and electron packager
 
 ```shell
@@ -16,7 +17,7 @@ npm install electron-packager -g
 
 ## Usage
 
-`cd` to the root directory and run:
+`cd` to the project directory and run:
 ```shell
 npm install
 ```
@@ -24,6 +25,11 @@ npm install
 To modify the `html` / `css` / `js` run:
 ```shell
 gulp watch
+```
+
+To test the app run:
+```shell
+electron .
 ```
 
 To update all files prior to packaging run:
@@ -35,6 +41,7 @@ To package the final app run:
 ```shell
 npm run package
 ```
+The packaged app will be written to `build/MDG Font Manager-darwin-x64/` in the project directory.
 
 **Note**: packaging the app runs `npm prune -production` and so you will need to run `npm install` again before making any further modifications.
 
