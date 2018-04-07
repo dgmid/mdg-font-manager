@@ -1,11 +1,11 @@
 {
   "name": "mdg-font-manager",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "productName": "MDG Font Manager",
   "description": "A simple font manager for Mac. For activating and disabling fonts and installing Google Fonts.",
   "main": "dist/js/main.min.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+	  "package": "npm prune -production; electron-packager . --electron-version=1.8.4 --overwrite --platform=darwin --arch=x64 --icon=dist/assets/icon/icon.icns --ignore=\"app-source|gulpfile\\.js|README\\.md\" --prune=false --out=build"
   },
   "author": {
     "name": "D.G. Midwinter",

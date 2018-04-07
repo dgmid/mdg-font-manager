@@ -12,13 +12,13 @@ const 	gulp 			= require('gulp'),
 
 
 
-const	sourceCss 		= 'app/scss/*.scss',
+const	sourceCss 		= 'app-source/scss/*.scss',
 		destCss 		= 'dist/css',
-		sourceJs 		= 'app/js/*.js',
+		sourceJs 		= 'app-source/js/*.js',
 		destJs 			= 'dist/js',
-		sourceHtml 		= 'app/html/*.html',
+		sourceHtml 		= 'app-source/html/*.html',
 		destHtml 		= 'dist/html',
-		sourceSvg 		= 'app/assets/svg/*.svg',
+		sourceSvg 		= 'app-source/assets/svg/*.svg',
 		destSvg 		= 'dist/assets/svg'
 
 
@@ -73,7 +73,7 @@ gulp.task('svg', () => {
 
 gulp.task('icns', () => {
 
-	return gulp.src('./app/assets/Icon.iconset/icon_*.png')
+	return gulp.src('./app-source/assets/Icon.iconset/icon_*.png')
 		.pipe(iconutil('icon.icns'))
 		.pipe(gulp.dest('./dist/assets/icon/'))
 })
@@ -82,7 +82,7 @@ gulp.task('icns', () => {
 
 gulp.task('icon', () => {	
 	
-	return gulp.src('./app/assets/Icon.iconset/icon_128x128@2x.png')
+	return gulp.src('./app-source/assets/Icon.iconset/icon_128x128@2x.png')
 		.pipe(rename('icon.png'))
 		.pipe(gulp.dest('./dist/assets/icon/'))
 })
@@ -91,18 +91,7 @@ gulp.task('icon', () => {
 
 gulp.task('json', (cb) => {
 	
-	exec('php ./app/json/generate-json.php', (err, stdout, stderr) => {
-		
-		if (err) throw err
-		else cb()
-	})
-})
-
-
-
-gulp.task('package', (cb) => {
-	
-	exec('electron-packager . --electron-version=1.6.2 --overwrite --platform=darwin --arch=x64 --icon=dist/assets/icon/icon.icns --ignore="app/*|gulpfile\.js|README\.md" --prune=true --out=release-builds', (err, stdout, stderr) => {
+	exec('php ./app-source/json/generate-json.php', (err, stdout, stderr) => {
 		
 		if (err) throw err
 		else cb()
@@ -118,17 +107,15 @@ gulp.task('build', () => {
 		['html', 'js', 'svg'],
 		'json',
 		'icns',
-		'icon',
-		'package'
+		'icon'
 	)
 })
 
 
 
-gulp.task('watch', ['html', 'js', 'svg', 'sass'], () => {
+gulp.task('watch', ['html', 'js', 'sass'], () => {
 	
-	gulp.watch('app/html/**/*.html', ['html'])
-	gulp.watch('app/js/**/*.js', ['js'])
-	gulp.watch('app/assets/svg/**/*.svg', ['svg'])
-	gulp.watch('app/scss/**/*.scss', ['sass'])
+	gulp.watch('app-source/html/**/*.html', ['html'])
+	gulp.watch('app-source/js/**/*.js', ['js'])
+	gulp.watch('app-source/scss/**/*.scss', ['sass'])
 })

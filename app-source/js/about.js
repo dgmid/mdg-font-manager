@@ -22,7 +22,7 @@ exports.createAbout = () => {
 			minimizable: false,
 			maximizable: false,
 			alwaysOnTop: true,
-			backgroundColor: '#132635',
+			backgroundColor: '#031320',
 			webPreferences: { devTools: true }
 		})
 		

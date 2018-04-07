@@ -5,4 +5,7 @@
 node_modules/
 
 # Release
-release-builds
+build
+
+# NPM debug
+npm-debug.log
