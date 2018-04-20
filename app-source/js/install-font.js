@@ -19,7 +19,7 @@ Download = require('./download.min').Download
 
 function downloadFont(id, name, zip) {
 	
-	dl = new Download('https://google-webfonts-helper.herokuapp.com/api/fonts/' + id + '?download=zip&subsets=latin&formats=ttf', zip)
+	dl = new Download(`https://google-webfonts-helper.herokuapp.com/api/fonts/${id}?download=zip&subsets=latin&formats=ttf`, zip)
 	
 	dl.on('progress', (progress) => {
 		
@@ -32,19 +32,19 @@ function downloadFont(id, name, zip) {
 			
 			console.log("finished successfully")
 			
-			extract( zip , {dir: tempPath + '/com.midwinter-dg.mdg-font-manager/' + name + '/'}, function (err) {
+			extract( zip , {dir: `${tempPath}/com.midwinter-dg.mdg-font-manager/${name}/`}, function (err) {
 				
 				if( err ) {
 					
 					dialog.showErrorBox(
-						'An error occured whilst extracting: ' + name, err.code
+						`An error occured whilst extracting: ${name}`, err.code
 					)
 				
 				} else {
 					
 					fs.removeSync( zip )
 					
-					fs.moveSync( tempPath + '/com.midwinter-dg.mdg-font-manager/' + name, store.get('fontDirectories.activePath') + name)
+					fs.moveSync( `${tempPath}/com.midwinter-dg.mdg-font-manager/${name}`, store.get('fontDirectories.activePath') + name)
 					
 					BrowserWindow.getFocusedWindow().webContents.send('remove-bezel', name)
 				}
@@ -53,8 +53,8 @@ function downloadFont(id, name, zip) {
 		} else {
 			
 			dialog.showErrorBox(
-				'An error occured whilst downloading',
-				'The font ' + name + ' was not downloaded'
+				`An error occured whilst downloading`,
+				`The font ${name} was not downloaded`
 			)
 			
 			BrowserWindow.getFocusedWindow().webContents.send('remove-bezel', 'font-not-installed')
@@ -69,7 +69,7 @@ function downloadFont(id, name, zip) {
 app.on('install-font', (event) => {
 	
 	var { id, name } = event
-	var zip = tempPath + '/com.midwinter-dg.mdg-font-manager/' + id + '.zip'
+	var zip = `${tempPath}/com.midwinter-dg.mdg-font-manager/${id}.zip`
 	
 	BrowserWindow.getFocusedWindow().webContents.send('display-bezel', name)
 	downloadFont( id, name, zip )

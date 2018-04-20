@@ -17,7 +17,7 @@ populateFontLists()
 
 function populateFontLists() {
 	
-	var {activePath, disabledPath} = store.get('fontDirectories')
+	let {activePath, disabledPath} = store.get('fontDirectories')
 	
 		$('#active-menu').html(activePath)
 		$('#disabled-menu').html(disabledPath)
@@ -79,7 +79,7 @@ function addItemsToList( oldPath, newPath, list) {
 				
 				if( !file.startsWith('.') ) {
 						
-					$('#' + list + '-list').append('<li class="' + item + '" data-name="' + file + '" data-oldpath="' + oldPath + file + '" data-newpath="' + newPath + file + '"><div>' + file + '</div></li>')
+					$(`#${list}-list`).append(`<li class="${item}" data-name="${file}" data-oldpath="${oldPath}${file}" data-newpath="${newPath}${file}" data-type="${item}" title="${file}"><div>${file}</div></li>`)
 				}
 			})
 		}
@@ -179,6 +179,7 @@ function updateButtonState() {
 $('body').on('mouseup', '#active-list li, #disabled-list li', function(event) {
 	
 	if( event.which === 3 ) {
+
 		
 		var name = $(this).data('name'),
 			path = $(this).data('oldpath')
@@ -369,7 +370,7 @@ ipcRenderer.on('update-path', () => {
 
 ipcRenderer.on('display-bezel', (event, message) => {
 	
-	$('#overlay').html('<div class="bezel"><div class="inner"><img src="../assets/svg/loader.svg" width="75" height="75"><span>installing</span><span>' + message + '</span></div></div>').fadeIn('fast')
+	$('#overlay').html(`<div class="bezel"><div class="inner"><img src="../assets/svg/loader.svg" width="75" height="75"><span>installing</span><span>${message}</span></div></div>`).fadeIn('fast')
 })
 
 ipcRenderer.on('remove-bezel', (event, message) => {
@@ -384,7 +385,7 @@ ipcRenderer.on('remove-bezel', (event, message) => {
 		let dir = store.get('fontDirectories.activePath')
 		
 		let fontInstalled = new Notification('Installation Complete', {
-			body: 'The font '+ message + ' has been installed to ' + dir
+			body: `The font ${message} has been installed to ${dir}`
 		})
 	
 	} else {

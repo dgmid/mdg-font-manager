@@ -20,7 +20,9 @@ const	sourceCss 		= 'app-source/scss/*.scss',
 		sourceHtml 		= 'app-source/html/*.html',
 		destHtml 		= 'dist/html',
 		sourceSvg 		= 'app-source/assets/svg/*.svg',
-		destSvg 		= 'dist/assets/svg'
+		destSvg 		= 'dist/assets/svg',
+		sourceJson 		= 'app-source/json/*.json',
+		destJson 		= 'dist/json'
 
 
 
@@ -91,7 +93,15 @@ gulp.task('icon', () => {
 
 
 
-gulp.task('json', (cb) => {
+gulp.task('json', () => {
+	
+	return gulp.src(sourceJson)
+		.pipe(gulp.dest(destJson))
+})
+
+
+
+gulp.task('google-fonts', (cb) => {
 	
 	exec('php ./app-source/json/generate-json.php', (err, stdout, stderr) => {
 		
@@ -106,8 +116,8 @@ gulp.task('build', () => {
 	
 	sequence(
 		'sass',
-		['html', 'js', 'svg'],
-		'json',
+		['html', 'js', 'svg', 'json'],
+		'google-fonts',
 		'icns',
 		'icon'
 	)

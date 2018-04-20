@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Preview MDG Font Manager</title>
+	<link rel="stylesheet" type="text/css" href="../css/preview.min.css" media="all">
+</head>
+<body>
+	<section id="font-col">
+		<header></header>
+		
+		<div id="font-list">
+			<ul>
+			</ul>
+		</div>
+	</section>
+	
+	<section id="preview-col">
+		<header>
+			<button id="show-fonts" type="button"></button>
+			<button id="show-glyphs" type="button"></button>
+			<label id="font-color-swatch">
+				<input id="font-color" type="color" value="#000000" />
+			</label>
+		</header>
+		
+		<main>
+			<div id="preview-list"></div>
+			<div id="glyph-list"></div>
+		</main>
+		
+		<footer>
+			<input id="font-size" type="range" min="9" max="144" value="" /> <span><span id="font-size-val"></span>px</span>
+		</footer>
+	</section>
+	<script>
+		require( '../js/app-preview.min' )
+	</script>
+	</body>
+</html>

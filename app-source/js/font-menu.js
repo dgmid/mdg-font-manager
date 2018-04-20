@@ -6,25 +6,26 @@ const BrowserWindow = electron.BrowserWindow
 const Menu = electron.Menu
 const MenuItem = electron.MenuItem
 const ipc = electron.ipcMain
+var preview = require('./preview.min')
 
 
 
 ipc.on('show-font-menu', (event, message) => {
 	
 	const fontMenuTemplate = [
-		/* {
-			label: 'Preview ' + message[0],
-			click() { console.log(message[1]) }
+		{
+			label: `Preview ${message[0]}…`,
+			click() { preview.createPreview( message ) }
 		},
 		{
 			type: 'separator'
-		}, */
+		},
 		{
-			label: 'Export ' + message[0],
+			label: `Export ${message[0]}…`,
 			click() { app.emit('export-single', message)  }
 		},
 		{
-			label: 'Delete ' + message[0],
+			label: `Delete ${message[0]}`,
 			click (item, focusedWindow) { if(focusedWindow) focusedWindow.webContents.send('delete-single', message[1]) }
 		},
 	]

@@ -24,6 +24,11 @@ let store = new Store({
 		fontDirectories: {
 			activePath: app.getPath('home') + '/Library/Fonts/',
 			disabledPath: app.getPath('home') + '/Library/Fonts Disabled/'
+		},
+		
+		fontPreview: {
+			size: 26,
+			color: '#000000'
 		}
 	}
 })
@@ -143,11 +148,11 @@ function exportFonts(fonts) {
 		
 		} else {
 			
-			for(i = 0; i < fonts.length; i++ ) {
+			for(let i = 0, length = fonts.length; i < length; i++ ) {
 				
 				fs.copy( fonts[i][1], filename + '/' + fonts[i][0], err => {
 					
-					if (err.code) {
+					if (err) {
 						
 						dialog.showErrorBox(
 							'An error occured whilst exporting the fonts', err.code

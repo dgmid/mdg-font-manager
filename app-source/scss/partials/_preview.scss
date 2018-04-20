@@ -1,0 +1,297 @@
+
+#font-col {
+	
+	width: percentage(3/8);
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+}
+
+#preview-col {
+	
+	background-color: #fff;
+	position: absolute;
+	top: 0;
+	left: percentage(3/8);
+	right: 0;
+	bottom: 0;
+	
+	color: $preview;
+	text-align: center;
+}
+
+#font-col,
+#preview-col {
+	
+	header {
+		
+		-webkit-app-region: drag;
+		height: 40px;		
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		
+		font-size: 12px;
+	}
+}
+
+#preview-col {
+	
+	header {
+		
+		#show-fonts,
+		#show-glyphs {
+			
+			appearance: none;
+			border: 0;
+			width: 22px;
+			height: 18px;
+			margin: 0 5px;
+			background-color: transparent;
+			background-repeat: no-repeat;
+			background-position: center top;
+			outline: none;
+		}
+		
+		#show-fonts 	{ background-image: url('#{$sample}'); }
+		#show-glyphs	{ background-image: url('#{$glyphs}'); }
+		
+		#font-color-swatch {
+			
+			display: inline-block;
+			margin: 8px 5px 0;
+			width: 24px;
+			height: 24px;
+			border-radius: 50%;
+			border: 3px solid #fff; 
+			box-shadow: 0 0 0 1px rgba($preview,.3);
+			
+			#font-color {
+				
+				visibility: hidden;
+			}
+		}
+	}
+	
+	footer {
+		
+		height: 40px;		
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		
+		font-size: 12px;
+		line-height: 40px;
+		
+		#font-size {
+			
+			width: 240px;
+			vertical-align: middle;
+			margin-right: 10px;
+		}
+	}
+}
+
+main {
+	
+	position: absolute;
+	top: 40px;
+	left: 0;
+	right: 0;
+	bottom: 40px;
+	
+	padding: 0 10%;
+	overflow: auto;
+	
+	/* note(@duncanmid): scroll shadows by @kizmarh and @leaverou */
+	
+	background:
+		linear-gradient(white 30%, rgba(255,255,255,0)),
+		linear-gradient(rgba(255,255,255,0), white 70%) 0 100%,
+		radial-gradient(farthest-side at 50% 0, rgba(0,0,0,.2), rgba(0,0,0,0)),
+		radial-gradient(farthest-side at 50% 100%, rgba(0,0,0,.2), rgba(0,0,0,0)) 0 100%;
+	
+	background:
+		linear-gradient(white 30%, rgba(255,255,255,0)),
+		linear-gradient(rgba(255,255,255,0), white 70%) 0 100%,
+		radial-gradient(farthest-side at 50% 0, rgba(0,0,0,.2), rgba(0,0,0,0)),
+		radial-gradient(farthest-side at 50% 100%, rgba(0,0,0,.2), rgba(0,0,0,0)) 0 100%;
+	
+	background-repeat: no-repeat;
+	background-size: 100% 40px, 100% 40px, 100% 14px, 100% 14px;
+	
+	background-attachment: local, local, scroll, scroll;
+	
+	&::-webkit-scrollbar {
+		
+		width: 8px;
+	}
+
+	&::-webkit-scrollbar-thumb {
+		background-color: rgba($background, .4);
+		border-radius: 4px;
+	}
+}
+
+#font-list {
+	
+	position: absolute;
+	top: 40px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	
+	overflow-y: scroll;
+	
+	padding: 0 12px 0 20px;
+	
+	&::-webkit-scrollbar {
+		
+		width: 8px;
+	}
+
+	&::-webkit-scrollbar-thumb {
+		background-color: rgba($text, .4);
+		border-radius: 4px;
+	}
+	
+	ul {
+		
+		li {
+			
+			font-size: 15px;
+			line-height: 26px;
+			margin-bottom: 2px;
+			position: relative;
+			padding: 0 32px 0 40px;
+			font-weight: 300;
+			
+			cursor: default;
+			transition: background-color .15s ease-in-out;
+			border-radius: 13px;
+			
+			&::before {
+				
+				content: '';
+				display: block;
+				width: 18px;
+				height: 16px;
+				position: absolute;
+				left: 10px;
+				top: 5px;
+				background: url('#{$folder}') no-repeat center top;
+				opacity: .5;
+				transition: opacity .15s ease-in-out;
+			}
+			
+			&.file {
+				
+				margin-left: 20px;
+				
+				&::before {
+					
+					background: url('#{$font}') no-repeat center top;
+				}
+			}
+			
+			&::after {
+				
+				content: '';
+				display: block;
+				width: 20px;
+				height: 20px;
+				position: absolute;
+				right: 3px;
+				top: 3px;
+				background-position: center center;
+				background-repeat: no-repeat;
+				background-size: contain;
+				opacity: 0;
+				transition: opacity .15s ease-in-out;
+			}
+			
+			&:hover {
+				
+				background-color: rgba($text, .15);
+				
+				&::after {
+					
+					opacity: .2;
+				}
+			}
+			
+			div {
+				
+				overflow: hidden;
+				white-space: nowrap;
+				text-overflow: ellipsis;
+			}
+		}
+			
+		li {
+			
+			&::after {
+				
+				background-image: url('#{$selected-icon}');
+			}
+			
+			&.selected {
+				
+				background-color: $link;
+				
+				&::before,
+				&::after {
+					
+					opacity: 1;
+				}
+			}
+		}
+	}
+}
+
+#preview-list,
+#glyph-list {
+	
+	padding-top: 1.8em;
+}
+
+#glyph-list {
+	
+	display: none;
+	text-align: center;
+	
+	h2 {
+		
+		color: rgba($preview,.3);
+		font-weight: 600;
+		padding-bottom: .8em;
+	}
+}
+
+.preview-item {
+	
+	padding-bottom: 1.8em;
+	
+	h2 {
+		
+		color: rgba($preview,.3);
+		font-weight: 600;
+		padding-bottom: .8em;
+	}
+	
+	div {
+		
+		word-break: break-all;
+	}
+}
+
+.glyph-item {
+	
+	padding: .5ch;
+	margin: 4px;
+	border-radius: .125ch;
+	display: inline-block;
+}
