@@ -2,7 +2,10 @@
 
 A simple font manager for Mac. For activating and disabling fonts and installing Google Fonts.
 
+### main window
 ![mdg-font-manager](https://user-images.githubusercontent.com/1267580/38451938-ab277e1a-3a39-11e8-8cb0-6af6c8e96ab9.png)
+### preview window
+![mdg-font-manager-preview](https://user-images.githubusercontent.com/1267580/39080394-83af0fde-452d-11e8-9685-c8b4fc33bd4e.png)
 
 ## Requirements
 
