@@ -1,0 +1,970 @@
+[
+	{
+	    "n": "Exclamation Mark",
+		"s": "exclamation-mark",
+		"u": "U+00021",
+		"x": "#x21;",
+		"h": "#33;",
+		"e": "excl;"
+	},
+	{
+	    "n": "Quotation Mark",
+		"s": "quotation-mark",
+		"u": "U+00022",
+		"x": "#x22;",
+		"h": "#34;",
+		"e": "quot;"
+	},
+	{
+	    "n": "Number Sign",
+		"s": "number-sign",
+		"u": "U+00023",
+		"x": "#x23;",
+		"h": "#35;",
+		"e": "num;"
+	},
+	{
+	    "n": "Percent Sign",
+		"s": "percent-sign",
+		"u": "U+00025",
+		"x": "#x25;",
+		"h": "#37;",
+		"e": "percnt;"
+	},
+	{
+	    "n": "Ampersand",
+		"s": "ampersand",
+		"u": "U+00026",
+		"x": "#x26;",
+		"h": "#38;",
+		"e": "amp;"
+	},
+	{
+	    "n": "Apostrophe",
+		"s": "apostrophe",
+		"u": "U+00027",
+		"x": "#x27;",
+		"h": "#39;",
+		"e": "apos;"
+	},
+	{
+	    "n": "Left Parenthesis",
+		"s": "left-parenthesis",
+		"u": "U+00028",
+		"x": "#x28;",
+		"h": "#40;",
+		"e": "lpar;"
+	},
+	{
+	    "n": "Right Parenthesis",
+		"s": "right-parenthesis",
+		"u": "U+00029",
+		"x": "#x29;",
+		"h": "#41;",
+		"e": "rpar;"
+	},
+	{
+	    "n": "Asterisk",
+		"s": "asterisk",
+		"u": "U+0002A",
+		"x": "#x2a;",
+		"h": "#42;",
+		"e": "ast;"
+	},
+	{
+	    "n": "Comma",
+		"s": "comma",
+		"u": "U+0002C",
+		"x": "#x2c;",
+		"h": "#44;",
+		"e": "comma;"
+	},
+	{
+	    "n": "Period",
+		"s": "period",
+		"u": "U+0002E",
+		"x": "#x2e;",
+		"h": "#46;",
+		"e": "period;"
+	},
+	{
+	    "n": "Slash",
+		"s": "slash",
+		"u": "U+0002F",
+		"x": "#x2f;",
+		"h": "#47;",
+		"e": "sol;"
+	},
+	{
+	    "n": "Colon",
+		"s": "colon",
+		"u": "U+0003A",
+		"x": "#x3a;",
+		"h": "#58;",
+		"e": "colon;"
+	},
+	{
+	    "n": "Semicolon",
+		"s": "semicolon",
+		"u": "U+0003B",
+		"x": "#x3b;",
+		"h": "#59;",
+		"e": "semi;"
+	},
+	{
+	    "n": "Question Mark",
+		"s": "question-mark",
+		"u": "U+0003F",
+		"x": "#x3f;",
+		"h": "#63;",
+		"e": "quest;"
+	},
+	{
+	    "n": "At Symbol",
+		"s": "at-symbol",
+		"u": "U+00040",
+		"x": "#x40;",
+		"h": "#64;",
+		"e": "commat;"
+	},
+	{
+	    "n": "Left Bracket",
+		"s": "left-bracket",
+		"u": "U+0005B",
+		"x": "#x5b;",
+		"h": "#91;",
+		"e": "lbrack;"
+	},
+	{
+	    "n": "Backslash",
+		"s": "backslash",
+		"u": "U+0005C",
+		"x": "#x5c;",
+		"h": "#92;",
+		"e": "bsol;"
+	},
+	{
+	    "n": "Right Bracket",
+		"s": "right-bracket",
+		"u": "U+0005D",
+		"x": "#x5d;",
+		"h": "#93;",
+		"e": "rbrack;"
+	},
+	{
+	    "n": "Caret",
+		"s": "caret",
+		"u": "U+0005E",
+		"x": "#x5e;",
+		"h": "#94;",
+		"e": "Hat"
+	},
+	{
+	    "n": "Underscore",
+		"s": "underscore",
+		"u": "U+0005F",
+		"x": "#x5f;",
+		"h": "#95;",
+		"e": "lowbar;"
+	},
+	{
+	    "n": "Grave Accent",
+		"s": "grave-accent",
+		"u": "U+00060",
+		"x": "#x60;",
+		"h": "#96;",
+		"e": "grave;"
+	},
+	{
+	    "n": "Left Brace",
+		"s": "left-brace",
+		"u": "U+0007B",
+		"x": "#x7b;",
+		"h": "#123;",
+		"e": "lbrace;"
+	},
+	{
+	    "n": "Vertical Bar",
+		"s": "vertical-bar",
+		"u": "U+0007C",
+		"x": "#x7c;",
+		"h": "#124;",
+		"e": "vert;"
+	},
+	{
+	    "n": "Right Brace",
+		"s": "right-brace",
+		"u": "U+0007D",
+		"x": "#x7d;",
+		"h": "#125;",
+		"e": "rbrace;"
+	},
+	{
+	    "n": "Tilde",
+		"s": "tilde",
+		"u": "U+0007E",
+		"x": "#x7e;",
+		"h": "#126;",
+		"e": "tilde;"
+	},
+	{
+	    "n": "Non-breaking Space",
+		"s": "non-breaking-space",
+		"u": "U+000A0",
+		"x": "#xa0;",
+		"h": "#160;",
+		"e": ""
+	},
+	{
+	    "n": "Inverted Exclamation Mark",
+		"s": "inverted-exclamation-mark",
+		"u": "U+000A1",
+		"x": "#xa1;",
+		"h": "#161;",
+		"e": "iexcl;"
+	},
+	{
+	    "n": "Broken Vertical Bar",
+		"s": "broken-vertical-bar",
+		"u": "U+000A6",
+		"x": "#xa6;",
+		"h": "#166;",
+		"e": "brvbar;"
+	},
+	{
+	    "n": "Section Sign",
+		"s": "section-sign",
+		"u": "U+000A7",
+		"x": "#xa7;",
+		"h": "#167;",
+		"e": "sect;"
+	},
+	{
+	    "n": "Umlaut",
+		"s": "umlaut",
+		"u": "U+000A8",
+		"x": "#xa8;",
+		"h": "#168;",
+		"e": "uml;"
+	},
+	{
+	    "n": "Copyright Sign",
+		"s": "copyright-sign",
+		"u": "U+000A9",
+		"x": "#xa9;",
+		"h": "#169;",
+		"e": "copy;"
+	},
+	{
+	    "n": "Feminine Ordinal Indicator",
+		"s": "feminine-ordinal-indicator",
+		"u": "U+000AA",
+		"x": "#xaa;",
+		"h": "#170;",
+		"e": "ordf;"
+	},
+	{
+	    "n": "Double Left-Pointing Angle Quotation Mark",
+		"s": "double-left-pointing-angle-quotation-mark",
+		"u": "U+000AB",
+		"x": "#xab;",
+		"h": "#171;",
+		"e": "laquo;"
+	},
+	{
+	    "n": "Not Sign",
+		"s": "not-sign",
+		"u": "U+000AC",
+		"x": "#xac;",
+		"h": "#172;",
+		"e": "not;"
+	},
+	{
+	    "n": "Soft Hyphen",
+		"s": "soft-hyphen",
+		"u": "U+000AD",
+		"x": "#xad;",
+		"h": "#173;",
+		"e": "shy;"
+	},
+	{
+	    "n": "Registered Trade Mark Sign",
+		"s": "registered-trade-mark-sign",
+		"u": "U+000AE",
+		"x": "#xae;",
+		"h": "#174;",
+		"e": "reg;"
+	},
+	{
+	    "n": "Spacing Macron",
+		"s": "spacing-macron",
+		"u": "U+000AF",
+		"x": "#xaf;",
+		"h": "#175;",
+		"e": "macr;"
+	},
+	{
+	    "n": "Superscript Two",
+		"s": "superscript-two",
+		"u": "U+000B2",
+		"x": "#xb2;",
+		"h": "#178;",
+		"e": "sup2;"
+	},
+	{
+	    "n": "Superscript Three",
+		"s": "superscript-three",
+		"u": "U+000B3",
+		"x": "#xb3;",
+		"h": "#179;",
+		"e": "sup3;"
+	},
+	{
+	    "n": "Acute Accent",
+		"s": "acute-accent",
+		"u": "U+000B4",
+		"x": "#xb4;",
+		"h": "#180;",
+		"e": "acute;"
+	},
+	{
+	    "n": "Micro Sign",
+		"s": "micro-sign",
+		"u": "U+000B5",
+		"x": "#xb5;",
+		"h": "#181;",
+		"e": "micro;"
+	},
+	{
+	    "n": "Paragraph Sign",
+		"s": "paragraph-sign",
+		"u": "U+000B6",
+		"x": "#xb6;",
+		"h": "#182;",
+		"e": "para;"
+	},
+	{
+	    "n": "Middle Dot",
+		"s": "middle-dot",
+		"u": "U+000B7",
+		"x": "#xb7;",
+		"h": "#183;",
+		"e": "middot;"
+	},
+	{
+	    "n": "Spacing Cedilla",
+		"s": "spacing-cedilla",
+		"u": "U+000B8",
+		"x": "#xb8;",
+		"h": "#184;",
+		"e": "cedil;"
+	},
+	{
+	    "n": "Superscript One",
+		"s": "superscript-one",
+		"u": "U+000B9",
+		"x": "#xb9;",
+		"h": "#185;",
+		"e": "sup1;"
+	},
+	{
+	    "n": "Masculine Ordinal Indicator",
+		"s": "masculine-ordinal-indicator",
+		"u": "U+000BA",
+		"x": "#xba;",
+		"h": "#186;",
+		"e": "ordm;"
+	},
+	{
+	    "n": "Double Right-Pointing Angle Quotation Mark",
+		"s": "double-right-pointing-angle-quotation-mark",
+		"u": "U+000BB",
+		"x": "#xbb;",
+		"h": "#187;",
+		"e": "raquo;"
+	},
+	{
+	    "n": "Inverted Question Mark",
+		"s": "inverted-question-mark",
+		"u": "U+000BF",
+		"x": "#xbf;",
+		"h": "#191;",
+		"e": "iquest;"
+	},
+	{
+	    "n": "Hyphen",
+		"s": "hyphen",
+		"u": "U+02010",
+		"x": "#x2010;",
+		"h": "#8208;",
+		"e": "hyphen;"
+	},
+	{
+	    "n": "Non-Breaking Hyphen",
+		"s": "non-breaking-hyphen",
+		"u": "U+02011",
+		"x": "#x2011;",
+		"h": "#8209;",
+		"e": ""
+	},
+	{
+	    "n": "Figure Dash",
+		"s": "figure-dash",
+		"u": "U+02012",
+		"x": "#x2012;",
+		"h": "#8210;",
+		"e": ""
+	},
+	{
+	    "n": "En Dash",
+		"s": "en-dash",
+		"u": "U+02013",
+		"x": "#x2013;",
+		"h": "#8211;",
+		"e": "ndash;"
+	},
+	{
+	    "n": "Em Dash",
+		"s": "em-dash",
+		"u": "U+02014",
+		"x": "#x2014;",
+		"h": "#8212;",
+		"e": "mdash;"
+	},
+	{
+	    "n": "Horizontal Bar",
+		"s": "horizontal-bar",
+		"u": "U+02015",
+		"x": "#x2015;",
+		"h": "#8213;",
+		"e": "horbar;"
+	},
+	{
+	    "n": "Double Vertical Line",
+		"s": "double-vertical-line",
+		"u": "U+02016",
+		"x": "#x2016;",
+		"h": "#8214;",
+		"e": "Vert;"
+	},
+	{
+	    "n": "Double Low Line",
+		"s": "double-low-line",
+		"u": "U+02017",
+		"x": "#x2017;",
+		"h": "#8215;",
+		"e": ""
+	},
+	{
+	    "n": "Left Single Quotation Mark",
+		"s": "left-single-quotation-mark",
+		"u": "U+02018",
+		"x": "#x2018;",
+		"h": "#8216;",
+		"e": "lsquo;"
+	},
+	{
+	    "n": "Right Single Quotation Mark",
+		"s": "right-single-quotation-mark",
+		"u": "U+02019",
+		"x": "#x2019;",
+		"h": "#8217;",
+		"e": "rsquo;"
+	},
+	{
+	    "n": "Single Low-9 Quotation Mark",
+		"s": "single-low-9-quotation-mark",
+		"u": "U+0201A",
+		"x": "#x201A;",
+		"h": "#8218;",
+		"e": "sbquo;"
+	},
+	{
+	    "n": "Single High-Reversed-9 Quotation Mark",
+		"s": "single-high-reversed-9-quotation-mark",
+		"u": "U+0201B",
+		"x": "#x201B;",
+		"h": "#8219;",
+		"e": ""
+	},
+	{
+	    "n": "Left Double Quotation Mark",
+		"s": "left-double-quotation-mark",
+		"u": "U+0201C",
+		"x": "#x201C;",
+		"h": "#8220;",
+		"e": "ldquo;"
+	},
+	{
+	    "n": "Right Double Quotation Mark",
+		"s": "right-double-quotation-mark",
+		"u": "U+0201D",
+		"x": "#x201D;",
+		"h": "#8221;",
+		"e": "rdquo;"
+	},
+	{
+	    "n": "Double Low-9 Quotation Mark",
+		"s": "double-low-9-quotation-mark",
+		"u": "U+0201E",
+		"x": "#x201E;",
+		"h": "#8222;",
+		"e": "bdquo;"
+	},
+	{
+	    "n": "Double High-Reversed-9 Quotation Mark",
+		"s": "double-high-reversed-9-quotation-mark",
+		"u": "U+0201F",
+		"x": "#x201F;",
+		"h": "#8223;",
+		"e": ""
+	},
+	{
+	    "n": "Dagger",
+		"s": "dagger",
+		"u": "U+02020",
+		"x": "#x2020;",
+		"h": "#8224;",
+		"e": "dagger;"
+	},
+	{
+	    "n": "Double Dagger",
+		"s": "double-dagger",
+		"u": "U+02021",
+		"x": "#x2021;",
+		"h": "#8225;",
+		"e": "Dagger;"
+	},
+	{
+	    "n": "Bullet",
+		"s": "bullet",
+		"u": "U+02022",
+		"x": "#x2022;",
+		"h": "#8226;",
+		"e": "bull;"
+	},
+	{
+	    "n": "Triangular Bullet",
+		"s": "triangular-bullet",
+		"u": "U+02023",
+		"x": "#x2023;",
+		"h": "#8227;",
+		"e": ""
+	},
+	{
+	    "n": "One Dot Leader",
+		"s": "one-dot-leader",
+		"u": "U+02024",
+		"x": "#x2024;",
+		"h": "#8228;",
+		"e": ""
+	},
+	{
+	    "n": "Two Dot Leader",
+		"s": "two-dot-leader",
+		"u": "U+02025",
+		"x": "#x2025;",
+		"h": "#8229;",
+		"e": "nldr;"
+	},
+	{
+	    "n": "Horizontal Ellipsis",
+		"s": "horizontal-ellipsis",
+		"u": "U+02026",
+		"x": "#x2026;",
+		"h": "#8230;",
+		"e": "hellip;"
+	},
+	{
+	    "n": "Hyphenation Point",
+		"s": "hyphenation-point",
+		"u": "U+02027",
+		"x": "#x2027;",
+		"h": "#8231;",
+		"e": ""
+	},
+	{
+	    "n": "Per Mille Sign",
+		"s": "per-mille-sign",
+		"u": "U+02030",
+		"x": "#x2030;",
+		"h": "#8240;",
+		"e": "permil;"
+	},
+	{
+	    "n": "Per Ten Thousand Sign",
+		"s": "per-ten-thousand-sign",
+		"u": "U+02031",
+		"x": "#x2031;",
+		"h": "#8241;",
+		"e": "pertenk;"
+	},
+	{
+	    "n": "Prime",
+		"s": "prime",
+		"u": "U+02032",
+		"x": "#x2032;",
+		"h": "#8242;",
+		"e": "prime;"
+	},
+	{
+	    "n": "Double Prime",
+		"s": "double-prime",
+		"u": "U+02033",
+		"x": "#x2033;",
+		"h": "#8243;",
+		"e": "Prime;"
+	},
+	{
+	    "n": "Triple Prime",
+		"s": "triple-prime",
+		"u": "U+02034",
+		"x": "#x2034;",
+		"h": "#8244;",
+		"e": "tprime;"
+	},
+	{
+	    "n": "Reversed Prime",
+		"s": "reversed-prime",
+		"u": "U+02035",
+		"x": "#x2035;",
+		"h": "#8245;",
+		"e": "bprime;"
+	},
+	{
+	    "n": "Reversed Double Prime",
+		"s": "reversed-double-prime",
+		"u": "U+02036",
+		"x": "#x2036;",
+		"h": "#8246;",
+		"e": ""
+	},
+	{
+	    "n": "Reversed Triple Prime",
+		"s": "reversed-triple-prime",
+		"u": "U+02037",
+		"x": "#x2037;",
+		"h": "#8247;",
+		"e": ""
+	},
+	{
+	    "n": "Caret",
+		"s": "caret",
+		"u": "U+02038",
+		"x": "#x2038;",
+		"h": "#8248;",
+		"e": ""
+	},
+	{
+	    "n": "Single Left-Pointing Angle Quotation Mark",
+		"s": "single-left-pointing-angle-quotation-mark",
+		"u": "U+02039",
+		"x": "#x2039;",
+		"h": "#8249;",
+		"e": "lsaquo;"
+	},
+	{
+	    "n": "Single Right-Pointing Angle Quotation Mark",
+		"s": "single-right-pointing-angle-quotation-mark",
+		"u": "U+0203A",
+		"x": "#x203A;",
+		"h": "#8250;",
+		"e": "rsaquo;"
+	},
+	{
+	    "n": "Reference Mark",
+		"s": "reference-mark",
+		"u": "U+0203B",
+		"x": "#x203B;",
+		"h": "#8251;",
+		"e": ""
+	},
+	{
+	    "n": "Double Exclamation Mark",
+		"s": "double-exclamation-mark",
+		"u": "U+0203C",
+		"x": "#x203C;",
+		"h": "#8252;",
+		"e": ""
+	},
+	{
+	    "n": "Interrobang",
+		"s": "interrobang",
+		"u": "U+0203D",
+		"x": "#x203D;",
+		"h": "#8253;",
+		"e": ""
+	},
+	{
+	    "n": "Overline",
+		"s": "overline",
+		"u": "U+0203E",
+		"x": "#x203E;",
+		"h": "#8254;",
+		"e": "oline;"
+	},
+	{
+	    "n": "Undertie",
+		"s": "undertie",
+		"u": "U+0203F",
+		"x": "#x203F;",
+		"h": "#8255;",
+		"e": ""
+	},
+	{
+	    "n": "Character Tie",
+		"s": "character-tie",
+		"u": "U+02040",
+		"x": "#x2040;",
+		"h": "#8256;",
+		"e": ""
+	},
+	{
+	    "n": "Caret Insertion Point",
+		"s": "caret-insertion-point",
+		"u": "U+02041",
+		"x": "#x2041;",
+		"h": "#8257;",
+		"e": "caret;"
+	},
+	{
+	    "n": "Asterism",
+		"s": "asterism",
+		"u": "U+02042",
+		"x": "#x2042;",
+		"h": "#8258;",
+		"e": ""
+	},
+	{
+	    "n": "Hyphen Bullet",
+		"s": "hyphen-bullet",
+		"u": "U+02043",
+		"x": "#x2043;",
+		"h": "#8259;",
+		"e": "hybull;"
+	},
+	{
+	    "n": "Fraction Slash",
+		"s": "fraction-slash",
+		"u": "U+02044",
+		"x": "#x2044;",
+		"h": "#8260;",
+		"e": "frasl;"
+	},
+	{
+	    "n": "Left Square Bracket With Quill",
+		"s": "left-square-bracket-with-quill",
+		"u": "U+02045",
+		"x": "#x2045;",
+		"h": "#8261;",
+		"e": ""
+	},
+	{
+	    "n": "Right Square Bracket With Quill",
+		"s": "right-square-bracket-with-quill",
+		"u": "U+02046",
+		"x": "#x2046;",
+		"h": "#8262;",
+		"e": ""
+	},
+	{
+	    "n": "Double Question Mark",
+		"s": "double-question-mark",
+		"u": "U+02047",
+		"x": "#x2047;",
+		"h": "#8263;",
+		"e": ""
+	},
+	{
+	    "n": "Question Exclamation Mark",
+		"s": "question-exclamation-mark",
+		"u": "U+02048",
+		"x": "#x2048;",
+		"h": "#8264;",
+		"e": ""
+	},
+	{
+	    "n": "Exclamation Question Mark",
+		"s": "exclamation-question-mark",
+		"u": "U+02049",
+		"x": "#x2049;",
+		"h": "#8265;",
+		"e": ""
+	},
+	{
+	    "n": "Tironian Sign Et",
+		"s": "tironian-sign-et",
+		"u": "U+0204A",
+		"x": "#x204A;",
+		"h": "#8266;",
+		"e": ""
+	},
+	{
+	    "n": "Reversed Pilcrow Sign",
+		"s": "reversed-pilcrow-sign",
+		"u": "U+0204B",
+		"x": "#x204B;",
+		"h": "#8267;",
+		"e": ""
+	},
+	{
+	    "n": "Black Left Bullet",
+		"s": "black-left-bullet",
+		"u": "U+0204C",
+		"x": "#x204C;",
+		"h": "#8268;",
+		"e": ""
+	},
+	{
+	    "n": "Black Right Bullet",
+		"s": "black-right-bullet",
+		"u": "U+0204D",
+		"x": "#x204D;",
+		"h": "#8269;",
+		"e": ""
+	},
+	{
+	    "n": "Low Asterisk",
+		"s": "low-asterisk",
+		"u": "U+0204E",
+		"x": "#x204E;",
+		"h": "#8270;",
+		"e": ""
+	},
+	{
+	    "n": "Reversed Semicolon",
+		"s": "reversed-semicolon",
+		"u": "U+0204F",
+		"x": "#x204F;",
+		"h": "#8271;",
+		"e": "bsemi;"
+	},
+	{
+	    "n": "Close Up",
+		"s": "close-up",
+		"u": "U+02050",
+		"x": "#x2050;",
+		"h": "#8272;",
+		"e": ""
+	},
+	{
+	    "n": "Two Asterisks Aligned Vertically",
+		"s": "two-asterisks-aligned-vertically",
+		"u": "U+02051",
+		"x": "#x2051;",
+		"h": "#8273;",
+		"e": ""
+	},
+	{
+	    "n": "Commercial Minus Sign",
+		"s": "commercial-minus-sign",
+		"u": "U+02052",
+		"x": "#x2052;",
+		"h": "#8274;",
+		"e": ""
+	},
+	{
+	    "n": "Swung Dash",
+		"s": "swung-dash",
+		"u": "U+02053",
+		"x": "#x2053;",
+		"h": "#8275;",
+		"e": ""
+	},
+	{
+	    "n": "Inverted Undertie",
+		"s": "inverted-undertie",
+		"u": "U+02054",
+		"x": "#x2054;",
+		"h": "#8276;",
+		"e": ""
+	},
+	{
+	    "n": "Flower Punctuation Mark",
+		"s": "flower-punctuation-mark",
+		"u": "U+02055",
+		"x": "#x2055;",
+		"h": "#8277;",
+		"e": ""
+	},
+	{
+	    "n": "Three Dot Punctuation",
+		"s": "three-dot-punctuation",
+		"u": "U+02056",
+		"x": "#x2056;",
+		"h": "#8278;",
+		"e": ""
+	},
+	{
+	    "n": "Quadruple Prime",
+		"s": "quadruple-prime",
+		"u": "U+02057",
+		"x": "#x2057;",
+		"h": "#8279;",
+		"e": "qprime;"
+	},
+	{
+	    "n": "Four Dot Punctuation",
+		"s": "four-dot-punctuation",
+		"u": "U+02058",
+		"x": "#x2058;",
+		"h": "#8280;",
+		"e": ""
+	},
+	{
+	    "n": "Five Dot Punctuation",
+		"s": "five-dot-punctuation",
+		"u": "U+02059",
+		"x": "#x2059;",
+		"h": "#8281;",
+		"e": ""
+	},
+	{
+	    "n": "Two Dot Punctuation",
+		"s": "two-dot-punctuation",
+		"u": "U+0205A",
+		"x": "#x205A;",
+		"h": "#8282;",
+		"e": ""
+	},
+	{
+	    "n": "Four Dot Mark",
+		"s": "four-dot-mark",
+		"u": "U+0205B",
+		"x": "#x205B;",
+		"h": "#8283;",
+		"e": ""
+	},
+	{
+	    "n": "Dotted Cross",
+		"s": "dotted-cross",
+		"u": "U+0205C",
+		"x": "#x205C;",
+		"h": "#8284;",
+		"e": ""
+	},
+	{
+	    "n": "Tricolon",
+		"s": "tricolon",
+		"u": "U+0205D",
+		"x": "#x205D;",
+		"h": "#8285;",
+		"e": ""
+	},
+	{
+	    "n": "Vertical Four Dots",
+		"s": "vertical-four-dots",
+		"u": "U+0205E",
+		"x": "#x205E;",
+		"h": "#8286;",
+		"e": ""
+	},
+	{
+	    "n": "Trade Mark Sign",
+		"s": "trade-mark-sign",
+		"u": "U+02122",
+		"x": "#x2122;",
+		"h": "#8482;",
+		"e": "trade;"
+	}
+]

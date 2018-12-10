@@ -50,18 +50,21 @@ gulp.task('html', () => {
 
 
 
-gulp.task('js', (cb) => {
+gulp.task('js', () => {
 	
 	pump([
 			gulp.src(sourceJs),
 			sourcemaps.init(),
-			uglify(),
+			uglify().on('error', function(uglify) {
+				console.error(`ERROR: ${uglify.name}, in: ${uglify.filename}`)
+				console.error(`line: ${uglify.line}, col: ${uglify.col}`)
+				console.error(uglify.message)
+				this.emit('end')
+			}),
 			rename({suffix: '.min'}),
 			sourcemaps.write('./maps'),
 			gulp.dest(destJs)
-		],
-		
-		cb()
+		]
 	)
 })
 
@@ -101,12 +104,11 @@ gulp.task('json', () => {
 
 
 
-gulp.task('google-fonts', (cb) => {
+gulp.task('google-fonts', () => {
 	
 	exec('php ./app-source/json/generate-json.php', (err, stdout, stderr) => {
 		
 		if (err) throw err
-		else cb()
 	})
 })
 

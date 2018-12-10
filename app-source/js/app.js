@@ -19,13 +19,13 @@ function populateFontLists() {
 	
 	let {activePath, disabledPath} = store.get('fontDirectories')
 	
-		$('#active-menu').html(activePath)
-		$('#disabled-menu').html(disabledPath)
+	$('#active-menu').html(activePath)
+	$('#disabled-menu').html(disabledPath)
 	
 	addItemsToList(	activePath, disabledPath, 'active' )
 	addItemsToList( disabledPath, activePath, 'disabled' )
 	
-	$('.left-panel ul, .right-panel ul').fadeIn('fast')
+	$('#left-panel ul, #right-panel ul').fadeIn('fast')
 }
 
 
@@ -33,11 +33,13 @@ function populateFontLists() {
 //note(@duncanmid): update lists
 
 function updateLists() {
-
+		
+	$('#active-count, #disabled-count').html('').hide()
 	$('#active-list li, #disabled-list li').remove()
 	$('#update-all').prop('disabled', true)
 	
 	populateFontLists()
+	
 }
 
 
@@ -47,28 +49,17 @@ function updateLists() {
 function addItemsToList( oldPath, newPath, list) {
 	
 	fs.readdir( oldPath, ( err, files ) => {
-
+		
 		if ( err ) throw  err
-
+		
+		let total = 0
+		
 		for ( let file of files ) {
 			
-			var item
+			let item
+			let stats = fs.statSync( oldPath + file )
 			
-			fs.stat( oldPath + file,( err,stats ) => {
-				
-				if( err ) {
-
-					if( err.code ) {
-											
-						dialog.showErrorBox(
-							'An error occured whilst updating the font lists', err.code
-						)
-					}
-					
-					return
-				}
-				
-				if( stats.isDirectory() ) {
+			if( stats.isDirectory() ) {
 					
 					item = 'folder'
 					
@@ -80,9 +71,13 @@ function addItemsToList( oldPath, newPath, list) {
 				if( !file.startsWith('.') ) {
 						
 					$(`#${list}-list`).append(`<li class="${item}" data-name="${file}" data-oldpath="${oldPath}${file}" data-newpath="${newPath}${file}" data-type="${item}" title="${file}"><div>${file}</div></li>`)
+					
+					total++
 				}
-			})
 		}
+		
+		$(`#${list}-total`).html( total )
+		
 	})
 }
 
@@ -90,7 +85,7 @@ function addItemsToList( oldPath, newPath, list) {
 
 //note(@duncanmid): move selected files or folders
 
-function move( oldPath, newPath, count, total, callback ) {
+function move( oldPath, newPath, count, total, callback ) {	
 	
 	fs.rename(oldPath, newPath, function (err) {
 		
@@ -125,7 +120,7 @@ function move( oldPath, newPath, count, total, callback ) {
 		}
 		
 		if( (count + 1) === total ) {
-		
+			
 			callback()
 		}
 	})
@@ -161,14 +156,38 @@ function deleteItems( oldPath, count, total, callback ) {
 //note(@duncanmid): update fonts button state
 
 function updateButtonState() {
-
-	if( $('#active-list li.selected, #disabled-list li.selected').length > 0 ) {
+	
+	$('#search').val('')
+	$('ul li').show()
+	
+	let active		= $('#active-list li.selected').length,
+		disabled 	= $('#disabled-list li.selected').length
+	
+	if( active + disabled > 0 ) {
 		
 		$('#update-all').prop('disabled', false)
 	
 	} else {
 		
 		$('#update-all').prop('disabled', true)
+	}
+	
+	if( active > 0 ) {
+		
+		$('#active-count').html( active ).show()
+	
+	} else {
+		
+		$('#active-count').html('').hide()
+	}
+	
+	if( disabled > 0 ) {
+		
+		$('#disabled-count').html( disabled ).show()
+	
+	} else {
+		
+		$('#disabled-count').html('').hide()
 	}
 }
 
@@ -187,7 +206,7 @@ $('body').on('mouseup', '#active-list li, #disabled-list li', function(event) {
 		ipcRenderer.send('show-font-menu', [name, path] )
 		
 	} else {
-			
+		
 		$(this).toggleClass('selected')
 		updateButtonState()
 	}
@@ -199,7 +218,7 @@ $('body').on('mouseup', '#active-list li, #disabled-list li', function(event) {
 
 function deleteSelected() {
 	
-	$('.left-panel ul, .right-panel ul').fadeOut('fast')
+	$('#left-panel ul, #right-panel ul').fadeOut('fast')
 	
 	var counter = 0,
 		items = $('#active-list li.selected, #disabled-list li.selected')
@@ -236,11 +255,11 @@ function exportSelected() {
 
 function updateAll() {
 	
-	$('.left-panel ul, .right-panel ul').fadeOut('fast')
+	$('#left-panel ul, #right-panel ul').fadeOut('fast')
 	
 	var counter = 0,
 		items = $('#active-list li.selected, #disabled-list li.selected')
-	
+		
 	items.each(function (index, value) {
 		
 		var oldPath = $(this).data('oldpath'),
@@ -260,13 +279,13 @@ $('#update-all').click( () => {
 
 //note(@duncanmid): open font folder menus
 
-$('#active-menu').click( (e) => {
+$('#active-menu').mouseup( (e) => {
 	
 	e.preventDefault()
 	ipcRenderer.send('show-folder-menu', 'active')
 })
 
-$('#disabled-menu').click( (e) => {
+$('#disabled-menu').mouseup( (e) => {
 	
 	e.preventDefault()
 	ipcRenderer.send('show-folder-menu', 'disabled')
@@ -292,6 +311,11 @@ ipcRenderer.on('toggle-selection', (event, message) => {
 	
 	$('#' + message + '-list li').toggleClass('selected')
 	updateButtonState()
+})
+
+ipcRenderer.on('find', () => {
+	
+	$('#search').focus()
 })
 
 ipcRenderer.on('update-lists', () => {
@@ -357,6 +381,40 @@ ipcRenderer.on('export-fonts', () => {
 	}
 })
 
+ipcRenderer.on('export-ok', (event, message) => {
+	
+	let fontExportOk = new Notification('MDG Font Manager', {
+		body: `The selected fonts have been exported to: ${message}`
+	})
+})
+
+
+ipcRenderer.on('export-failed', () => {
+	
+	let fontExportError = new Notification('MDG Font Manager', {
+		body: `An error occured whilst exporting the fonts.`
+	})
+})
+
+ipcRenderer.on('import-ok', (event, message) => {
+	
+	updateLists()
+	
+	let fontExportOk = new Notification('MDG Font Manager', {
+		body: `The fonts have been installed to: ${message}`
+	})
+})
+
+
+ipcRenderer.on('import-failed', () => {
+	
+	updateLists()
+	
+	let fontExportError = new Notification('MDG Font Manager', {
+		body: `An error occured whilst importing the fonts.`
+	})
+})
+
 ipcRenderer.on('update-path', () => {
 	
 	$('#active-list li, #disabled-list li').remove()
@@ -364,6 +422,10 @@ ipcRenderer.on('update-path', () => {
 	populateFontLists()
 })
 
+ipcRenderer.on('reload', () => {
+	
+	updateLists()
+})
 
 
 //note(@duncanmid): show / hide bezel
@@ -384,7 +446,7 @@ ipcRenderer.on('remove-bezel', (event, message) => {
 			
 		let dir = store.get('fontDirectories.activePath')
 		
-		let fontInstalled = new Notification('Installation Complete', {
+		let fontInstalled = new Notification('MDG Font Manager', {
 			body: `The font ${message} has been installed to ${dir}`
 		})
 	
@@ -392,4 +454,82 @@ ipcRenderer.on('remove-bezel', (event, message) => {
 		
 		$('#overlay').fadeOut('fast').empty()
 	}
+})
+
+
+
+//note(@duncanmid): drag items in to window
+
+function setDragArea( id ) {
+
+	let dragArea = document.getElementById( id )
+	
+	let draggedItems = {
+		'location': id,
+		'list': []
+	}
+	
+	dragArea.ondragover = () => {
+		
+		$( dragArea ).addClass('dragover')
+		return false
+	}
+	
+	dragArea.ondragleave = () => {
+		
+		$( dragArea ).removeClass('dragover')
+		return false
+	}
+	
+	dragArea.ondragend = () => {
+		
+		$( dragArea ).removeClass('dragover')
+		return false
+	}
+	
+	dragArea.ondrop = (event) => {
+		
+		event.preventDefault()
+		$( dragArea ).removeClass('dragover')
+		
+		let files = []
+		
+		for (let item of event.dataTransfer.files) {
+			
+			draggedItems.list.push( item.path )
+		}
+		
+		ipcRenderer.send('import', draggedItems )
+		draggedItems.list = []
+	}
+}
+
+setDragArea( 'left-panel' )
+setDragArea( 'right-panel' )
+
+
+
+//note(@duncanmid): search field
+
+// based on https://gist.github.com/dennysfredericci/ca99b08648649b545dfd
+
+$('#search').bind('keyup', function() {
+
+	let searchString = $(this).val()
+	
+	$('ul li').each(function(index, value) {
+	
+		let currentName = $(value).text()
+	if( currentName.toUpperCase().indexOf(searchString.toUpperCase()) > -1) {
+			
+			$(value).show()
+	
+		} else {
+			
+			if(!$(value).hasClass('selected')) {
+					
+				$(value).hide()
+			}
+		}
+	})
 })

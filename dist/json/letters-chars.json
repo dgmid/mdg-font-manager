@@ -1,0 +1,5266 @@
+[
+	{
+	    "n": "Uppercase A",
+		"s": "uppercase-a",
+		"u": "U+00041",
+		"x": "#x41;",
+		"h": "#65;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase B",
+		"s": "uppercase-b",
+		"u": "U+00042",
+		"x": "#x42;",
+		"h": "#66;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase C",
+		"s": "uppercase-c",
+		"u": "U+00043",
+		"x": "#x43;",
+		"h": "#67;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase D",
+		"s": "uppercase-d",
+		"u": "U+00044",
+		"x": "#x44;",
+		"h": "#68;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase E",
+		"s": "uppercase-e",
+		"u": "U+00045",
+		"x": "#x45;",
+		"h": "#69;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase F",
+		"s": "uppercase-f",
+		"u": "U+00046",
+		"x": "#x46;",
+		"h": "#70;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase G",
+		"s": "uppercase-g",
+		"u": "U+00047",
+		"x": "#x47;",
+		"h": "#71;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase H",
+		"s": "uppercase-h",
+		"u": "U+00048",
+		"x": "#x48;",
+		"h": "#72;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase I",
+		"s": "uppercase-i",
+		"u": "U+00049",
+		"x": "#x49;",
+		"h": "#73;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase J",
+		"s": "uppercase-j",
+		"u": "U+0004A",
+		"x": "#x4a;",
+		"h": "#74;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase K",
+		"s": "uppercase-k",
+		"u": "U+0004B",
+		"x": "#x4b;",
+		"h": "#75;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase L",
+		"s": "uppercase-l",
+		"u": "U+0004C",
+		"x": "#x4c;",
+		"h": "#76;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase M",
+		"s": "uppercase-m",
+		"u": "U+0004D",
+		"x": "#x4d;",
+		"h": "#77;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase N",
+		"s": "uppercase-n",
+		"u": "U+0004E",
+		"x": "#x4e;",
+		"h": "#78;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase O",
+		"s": "uppercase-o",
+		"u": "U+0004F",
+		"x": "#x4f;",
+		"h": "#79;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase P",
+		"s": "uppercase-p",
+		"u": "U+00050",
+		"x": "#x50;",
+		"h": "#80;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase Q",
+		"s": "uppercase-q",
+		"u": "U+00051",
+		"x": "#x51;",
+		"h": "#81;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase R",
+		"s": "uppercase-r",
+		"u": "U+00052",
+		"x": "#x52;",
+		"h": "#82;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase S",
+		"s": "uppercase-s",
+		"u": "U+00053",
+		"x": "#x53;",
+		"h": "#83;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase T",
+		"s": "uppercase-t",
+		"u": "U+00054",
+		"x": "#x54;",
+		"h": "#84;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase U",
+		"s": "uppercase-u",
+		"u": "U+00055",
+		"x": "#x55;",
+		"h": "#85;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase V",
+		"s": "uppercase-v",
+		"u": "U+00056",
+		"x": "#x56;",
+		"h": "#86;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase W",
+		"s": "uppercase-w",
+		"u": "U+00057",
+		"x": "#x57;",
+		"h": "#87;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase X",
+		"s": "uppercase-x",
+		"u": "U+00058",
+		"x": "#x58;",
+		"h": "#88;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase Y",
+		"s": "uppercase-y",
+		"u": "U+00059",
+		"x": "#x59;",
+		"h": "#89;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase Z",
+		"s": "uppercase-z",
+		"u": "U+0005A",
+		"x": "#x5a;",
+		"h": "#90;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase a",
+		"s": "lowercase-a",
+		"u": "U+00061",
+		"x": "#x61;",
+		"h": "#97;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase b",
+		"s": "lowercase-b",
+		"u": "U+00062",
+		"x": "#x62;",
+		"h": "#98;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase c",
+		"s": "lowercase-c",
+		"u": "U+00063",
+		"x": "#x63;",
+		"h": "#99;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase d",
+		"s": "lowercase-d",
+		"u": "U+00064",
+		"x": "#x64;",
+		"h": "#100;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase e",
+		"s": "lowercase-e",
+		"u": "U+00065",
+		"x": "#x65;",
+		"h": "#101;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase f",
+		"s": "lowercase-f",
+		"u": "U+00066",
+		"x": "#x66;",
+		"h": "#102;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase g",
+		"s": "lowercase-g",
+		"u": "U+00067",
+		"x": "#x67;",
+		"h": "#103;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase h",
+		"s": "lowercase-h",
+		"u": "U+00068",
+		"x": "#x68;",
+		"h": "#104;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase i",
+		"s": "lowercase-i",
+		"u": "U+00069",
+		"x": "#x69;",
+		"h": "#105;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase j",
+		"s": "lowercase-j",
+		"u": "U+0006A",
+		"x": "#x6a;",
+		"h": "#106;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase k",
+		"s": "lowercase-k",
+		"u": "U+0006B",
+		"x": "#x6b;",
+		"h": "#107;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase l",
+		"s": "lowercase-l",
+		"u": "U+0006C",
+		"x": "#x6c;",
+		"h": "#108;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase m",
+		"s": "lowercase-m",
+		"u": "U+0006D",
+		"x": "#x6d;",
+		"h": "#109;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase n",
+		"s": "lowercase-n",
+		"u": "U+0006E",
+		"x": "#x6e;",
+		"h": "#110;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase o",
+		"s": "lowercase-o",
+		"u": "U+0006F",
+		"x": "#x6f;",
+		"h": "#111;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase p",
+		"s": "lowercase-p",
+		"u": "U+00070",
+		"x": "#x70;",
+		"h": "#112;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase q",
+		"s": "lowercase-q",
+		"u": "U+00071",
+		"x": "#x71;",
+		"h": "#113;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase r",
+		"s": "lowercase-r",
+		"u": "U+00072",
+		"x": "#x72;",
+		"h": "#114;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase s",
+		"s": "lowercase-s",
+		"u": "U+00073",
+		"x": "#x73;",
+		"h": "#115;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase t",
+		"s": "lowercase-t",
+		"u": "U+00074",
+		"x": "#x74;",
+		"h": "#116;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase u",
+		"s": "lowercase-u",
+		"u": "U+00075",
+		"x": "#x75;",
+		"h": "#117;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase v",
+		"s": "lowercase-v",
+		"u": "U+00076",
+		"x": "#x76;",
+		"h": "#118;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase w",
+		"s": "lowercase-w",
+		"u": "U+00077",
+		"x": "#x77;",
+		"h": "#119;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase x",
+		"s": "lowercase-x",
+		"u": "U+00078",
+		"x": "#x78;",
+		"h": "#120;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase y",
+		"s": "lowercase-y",
+		"u": "U+00079",
+		"x": "#x79;",
+		"h": "#121;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase z",
+		"s": "lowercase-z",
+		"u": "U+0007A",
+		"x": "#x7a;",
+		"h": "#122;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase A with Grave",
+		"s": "uppercase-a-with-grave",
+		"u": "U+000C0",
+		"x": "#xc0;",
+		"h": "#192;",
+		"e": "Agrave;"
+	},
+	{
+	    "n": "Uppercase A with Acute",
+		"s": "uppercase-a-with-acute",
+		"u": "U+000C1",
+		"x": "#xc1;",
+		"h": "#193;",
+		"e": "Aacute;"
+	},
+	{
+	    "n": "Uppercase A with Circumflex",
+		"s": "uppercase-a-with-circumflex",
+		"u": "U+000C2",
+		"x": "#xc2;",
+		"h": "#194;",
+		"e": "Acirc;"
+	},
+	{
+	    "n": "Uppercase A with Tilde",
+		"s": "uppercase-a-with-tilde",
+		"u": "U+000C3",
+		"x": "#xc3;",
+		"h": "#195;",
+		"e": "Atilde;"
+	},
+	{
+	    "n": "Uppercase A with Umlaut",
+		"s": "uppercase-a-with-umlaut",
+		"u": "U+000C4",
+		"x": "#xc4;",
+		"h": "#196;",
+		"e": "Auml;"
+	},
+	{
+	    "n": "Uppercase A with Ring",
+		"s": "uppercase-a-with-ring",
+		"u": "U+000C5",
+		"x": "#xc5;",
+		"h": "#197;",
+		"e": "Aring;"
+	},
+	{
+	    "n": "Uppercase AE",
+		"s": "uppercase-ae",
+		"u": "U+000C6",
+		"x": "#xc6;",
+		"h": "#198;",
+		"e": "AElig;"
+	},
+	{
+	    "n": "Uppercase C with Cedilla",
+		"s": "uppercase-c-with-cedilla",
+		"u": "U+000C7",
+		"x": "#xc7;",
+		"h": "#199;",
+		"e": "Ccedil;"
+	},
+	{
+	    "n": "Uppercase E with Grave",
+		"s": "uppercase-e-with-grave",
+		"u": "U+000C8",
+		"x": "#xc8;",
+		"h": "#200;",
+		"e": "Egrave;"
+	},
+	{
+	    "n": "Uppercase E with Acute",
+		"s": "uppercase-e-with-acute",
+		"u": "U+000C9",
+		"x": "#xc9;",
+		"h": "#201;",
+		"e": "Eacute;"
+	},
+	{
+	    "n": "Uppercase E with Circumflex",
+		"s": "uppercase-e-with-circumflex",
+		"u": "U+000CA",
+		"x": "#xca;",
+		"h": "#202;",
+		"e": "Ecirc;"
+	},
+	{
+	    "n": "Uppercase E with Umlaut",
+		"s": "uppercase-e-with-umlaut",
+		"u": "U+000CB",
+		"x": "#xcb;",
+		"h": "#203;",
+		"e": "Euml;"
+	},
+	{
+	    "n": "Uppercase L with Grave",
+		"s": "uppercase-l-with-grave",
+		"u": "U+000CC",
+		"x": "#xcc;",
+		"h": "#204;",
+		"e": "Lgrave;"
+	},
+	{
+	    "n": "Uppercase L with Acute",
+		"s": "uppercase-l-with-acute",
+		"u": "U+000CD",
+		"x": "#xcd;",
+		"h": "#205;",
+		"e": "Lacute;"
+	},
+	{
+	    "n": "Uppercase L with Circumflex",
+		"s": "uppercase-l-with-circumflex",
+		"u": "U+000CE",
+		"x": "#xce;",
+		"h": "#206;",
+		"e": "Lcirc;"
+	},
+	{
+	    "n": "Uppercase L with Umlaut",
+		"s": "uppercase-l-with-umlaut",
+		"u": "U+000CF",
+		"x": "#xcf;",
+		"h": "#207;",
+		"e": "Luml;"
+	},
+	{
+	    "n": "Uppercase ETH",
+		"s": "uppercase-eth",
+		"u": "U+000D0",
+		"x": "#xd0;",
+		"h": "#208;",
+		"e": "ETH;"
+	},
+	{
+	    "n": "Uppercase N with Tilde",
+		"s": "uppercase-n-with-tilde",
+		"u": "U+000D1",
+		"x": "#xd1;",
+		"h": "#209;",
+		"e": "Ntilde;"
+	},
+	{
+	    "n": "Uppercase O with Grave",
+		"s": "uppercase-o-with-grave",
+		"u": "U+000D2",
+		"x": "#xd2;",
+		"h": "#210;",
+		"e": "Ograve;"
+	},
+	{
+	    "n": "Uppercase O with Acute",
+		"s": "uppercase-o-with-acute",
+		"u": "U+000D3",
+		"x": "#xd3;",
+		"h": "#211;",
+		"e": "Oacute;"
+	},
+	{
+	    "n": "Uppercase O with Circumflex",
+		"s": "uppercase-o-with-circumflex",
+		"u": "U+000D4",
+		"x": "#xd4;",
+		"h": "#212;",
+		"e": "Ocirc;"
+	},
+	{
+	    "n": "Uppercase O with Tilde",
+		"s": "uppercase-o-with-tilde",
+		"u": "U+000D5",
+		"x": "#xd5;",
+		"h": "#213;",
+		"e": "Otilde;"
+	},
+	{
+	    "n": "Uppercase O with Umlaut",
+		"s": "uppercase-o-with-umlaut",
+		"u": "U+000D6",
+		"x": "#xd6;",
+		"h": "#214;",
+		"e": "Ouml;"
+	},
+	{
+	    "n": "Uppercase O with Slash",
+		"s": "uppercase-o-with-slash",
+		"u": "U+000D8",
+		"x": "#xd8;",
+		"h": "#216;",
+		"e": "Oslash;"
+	},
+	{
+	    "n": "Uppercase U with Grave",
+		"s": "uppercase-u-with-grave",
+		"u": "U+000D9",
+		"x": "#xd9;",
+		"h": "#217;",
+		"e": "Ugrave;"
+	},
+	{
+	    "n": "Uppercase U with Acute",
+		"s": "uppercase-u-with-acute",
+		"u": "U+000DA",
+		"x": "#xda;",
+		"h": "#218;",
+		"e": "Uacute;"
+	},
+	{
+	    "n": "Uppercase U with Circumflex",
+		"s": "uppercase-u-with-circumflex",
+		"u": "U+000DB",
+		"x": "#xdb;",
+		"h": "#219;",
+		"e": "Ucirc;"
+	},
+	{
+	    "n": "Uppercase U with Umlaut",
+		"s": "uppercase-u-with-umlaut",
+		"u": "U+000DC",
+		"x": "#xdc;",
+		"h": "#220;",
+		"e": "Uuml;"
+	},
+	{
+	    "n": "Uppercase Y with Acute",
+		"s": "uppercase-y-with-acute",
+		"u": "U+000DD",
+		"x": "#xdd;",
+		"h": "#221;",
+		"e": "Yacute;"
+	},
+	{
+	    "n": "Uppercase THORN",
+		"s": "uppercase-thorn",
+		"u": "U+000DE",
+		"x": "#xde;",
+		"h": "#222;",
+		"e": "THORN;"
+	},
+	{
+	    "n": "Lowercase ess-zed",
+		"s": "lowercase-ess-zed",
+		"u": "U+000DF",
+		"x": "#xdf;",
+		"h": "#223;",
+		"e": "szlig;"
+	},
+	{
+	    "n": "Lowercase a with Grave",
+		"s": "lowercase-a-with-grave",
+		"u": "U+000E0",
+		"x": "#xe0;",
+		"h": "#224;",
+		"e": "agrave;"
+	},
+	{
+	    "n": "Lowercase a with Acute",
+		"s": "lowercase-a-with-acute",
+		"u": "U+000E1",
+		"x": "#xe1;",
+		"h": "#225;",
+		"e": "aacute;"
+	},
+	{
+	    "n": "Lowercase a with Circumflex",
+		"s": "lowercase-a-with-circumflex",
+		"u": "U+000E2",
+		"x": "#xe2;",
+		"h": "#226;",
+		"e": "acirc;"
+	},
+	{
+	    "n": "Lowercase a with Tilde",
+		"s": "lowercase-a-with-tilde",
+		"u": "U+000E3",
+		"x": "#xe3;",
+		"h": "#227;",
+		"e": "atilde;"
+	},
+	{
+	    "n": "Lowercase a with Umlaut",
+		"s": "lowercase-a-with-umlaut",
+		"u": "U+000E4",
+		"x": "#xe4;",
+		"h": "#228;",
+		"e": "auml;"
+	},
+	{
+	    "n": "Lowercase a with Ring",
+		"s": "lowercase-a-with-ring",
+		"u": "U+000E5",
+		"x": "#xe5;",
+		"h": "#229;",
+		"e": "aring;"
+	},
+	{
+	    "n": "Lowercase ae",
+		"s": "lowercase-ae",
+		"u": "U+000E6",
+		"x": "#xe6;",
+		"h": "#230;",
+		"e": "aelig;"
+	},
+	{
+	    "n": "Lowercase c with Cedilla",
+		"s": "lowercase-c-with-cedilla",
+		"u": "U+000E7",
+		"x": "#xe7;",
+		"h": "#231;",
+		"e": "ccedil;"
+	},
+	{
+	    "n": "Lowercase e with Grave",
+		"s": "lowercase-e-with-grave",
+		"u": "U+000E8",
+		"x": "#xe8;",
+		"h": "#232;",
+		"e": "egrave;"
+	},
+	{
+	    "n": "Lowercase e with Acute",
+		"s": "lowercase-e-with-acute",
+		"u": "U+000E9",
+		"x": "#xe9;",
+		"h": "#233;",
+		"e": "eacute;"
+	},
+	{
+	    "n": "Lowercase e with Circumflex",
+		"s": "lowercase-e-with-circumflex",
+		"u": "U+000EA",
+		"x": "#xea;",
+		"h": "#234;",
+		"e": "ecirc;"
+	},
+	{
+	    "n": "Lowercase e with Umlaut",
+		"s": "lowercase-e-with-umlaut",
+		"u": "U+000EB",
+		"x": "#xeb;",
+		"h": "#235;",
+		"e": "euml;"
+	},
+	{
+	    "n": "Lowercase i with Grave",
+		"s": "lowercase-i-with-grave",
+		"u": "U+000EC",
+		"x": "#xec;",
+		"h": "#236;",
+		"e": "igrave;"
+	},
+	{
+	    "n": "Lowercase i with Acute",
+		"s": "lowercase-i-with-acute",
+		"u": "U+000ED",
+		"x": "#xed;",
+		"h": "#237;",
+		"e": "iacute;"
+	},
+	{
+	    "n": "Lowercase i with Circumflex",
+		"s": "lowercase-i-with-circumflex",
+		"u": "U+000EE",
+		"x": "#xee;",
+		"h": "#238;",
+		"e": "icirc;"
+	},
+	{
+	    "n": "Lowercase i with Umlaut",
+		"s": "lowercase-i-with-umlaut",
+		"u": "U+000EF",
+		"x": "#xef;",
+		"h": "#239;",
+		"e": "iuml;"
+	},
+	{
+	    "n": "Lowercase eth",
+		"s": "lowercase-eth",
+		"u": "U+000F0",
+		"x": "#xf0;",
+		"h": "#240;",
+		"e": "eth;"
+	},
+	{
+	    "n": "Lowercase n with Tilde",
+		"s": "lowercase-n-with-tilde",
+		"u": "U+000F1",
+		"x": "#xf1;",
+		"h": "#241;",
+		"e": "ntilde;"
+	},
+	{
+	    "n": "Lowercase o with Grave",
+		"s": "lowercase-o-with-grave",
+		"u": "U+000F2",
+		"x": "#xf2;",
+		"h": "#242;",
+		"e": "ograve;"
+	},
+	{
+	    "n": "Lowercase o with Acute",
+		"s": "lowercase-o-with-acute",
+		"u": "U+000F3",
+		"x": "#xf3;",
+		"h": "#243;",
+		"e": "oacute;"
+	},
+	{
+	    "n": "Lowercase o with Circumflex",
+		"s": "lowercase-o-with-circumflex",
+		"u": "U+000F4",
+		"x": "#xf4;",
+		"h": "#244;",
+		"e": "ocirc;"
+	},
+	{
+	    "n": "Lowercase o with Tilde",
+		"s": "lowercase-o-with-tilde",
+		"u": "U+000F5",
+		"x": "#xf5;",
+		"h": "#245;",
+		"e": "otilde;"
+	},
+	{
+	    "n": "Lowercase o with Umlaut",
+		"s": "lowercase-o-with-umlaut",
+		"u": "U+000F6",
+		"x": "#xf6;",
+		"h": "#246;",
+		"e": "ouml;"
+	},
+	{
+	    "n": "Lowercase o with Slash",
+		"s": "lowercase-o-with-slash",
+		"u": "U+000F8",
+		"x": "#xf8;",
+		"h": "#248;",
+		"e": "oslash;"
+	},
+	{
+	    "n": "Lowercase u with Grave",
+		"s": "lowercase-u-with-grave",
+		"u": "U+000F9",
+		"x": "#xf9;",
+		"h": "#249;",
+		"e": "ugrave;"
+	},
+	{
+	    "n": "Lowercase u with Acute",
+		"s": "lowercase-u-with-acute",
+		"u": "U+000FA",
+		"x": "#xfa;",
+		"h": "#250;",
+		"e": "uacute;"
+	},
+	{
+	    "n": "Lowercase u with Circumflex",
+		"s": "lowercase-u-with-circumflex",
+		"u": "U+000FB",
+		"x": "#xfb;",
+		"h": "#251;",
+		"e": "ucirc;"
+	},
+	{
+	    "n": "Lowercase u with Umlaut",
+		"s": "lowercase-u-with-umlaut",
+		"u": "U+000FC",
+		"x": "#xfc;",
+		"h": "#252;",
+		"e": "uuml;"
+	},
+	{
+	    "n": "Lowercase y with Acute",
+		"s": "lowercase-y-with-acute",
+		"u": "U+000FD",
+		"x": "#xfd;",
+		"h": "#253;",
+		"e": "yacute;"
+	},
+	{
+	    "n": "Lowercase thorn",
+		"s": "lowercase-thorn",
+		"u": "U+000FE",
+		"x": "#xfe;",
+		"h": "#254;",
+		"e": "thorn;"
+	},
+	{
+	    "n": "Lowercase y with Umlaut",
+		"s": "lowercase-y-with-umlaut",
+		"u": "U+000FF",
+		"x": "#xff;",
+		"h": "#255;",
+		"e": "yuml;"
+	},
+	{
+	    "n": "Uppercase a With Macron",
+		"s": "uppercase-a-with-macron",
+		"u": "U+00100",
+		"x": "#x0100;",
+		"h": "#256;",
+		"e": "Amacr;"
+	},
+	{
+	    "n": "Lowercase a With Macron",
+		"s": "lowercase-a-with-macron",
+		"u": "U+00101",
+		"x": "#x0101;",
+		"h": "#257;",
+		"e": "amacr;"
+	},
+	{
+	    "n": "Uppercase a With Breve",
+		"s": "uppercase-a-with-breve",
+		"u": "U+00102",
+		"x": "#x0102;",
+		"h": "#258;",
+		"e": "Abreve;"
+	},
+	{
+	    "n": "Lowercase a With Breve",
+		"s": "lowercase-a-with-breve",
+		"u": "U+00103",
+		"x": "#x0103;",
+		"h": "#259;",
+		"e": "abreve;"
+	},
+	{
+	    "n": "Uppercase a With Ogonek",
+		"s": "uppercase-a-with-ogonek",
+		"u": "U+00104",
+		"x": "#x0104;",
+		"h": "#260;",
+		"e": "Aogon;"
+	},
+	{
+	    "n": "Lowercase a With Ogonek",
+		"s": "lowercase-a-with-ogonek",
+		"u": "U+00105",
+		"x": "#x0105;",
+		"h": "#261;",
+		"e": "aogon;"
+	},
+	{
+	    "n": "Uppercase C With Acute",
+		"s": "uppercase-c-with-acute",
+		"u": "U+00106",
+		"x": "#x0106;",
+		"h": "#262;",
+		"e": "Cacute;"
+	},
+	{
+	    "n": "Lowercase C With Acute",
+		"s": "lowercase-c-with-acute",
+		"u": "U+00107",
+		"x": "#x0107;",
+		"h": "#263;",
+		"e": "cacute;"
+	},
+	{
+	    "n": "Uppercase C With Circumflex",
+		"s": "uppercase-c-with-circumflex",
+		"u": "U+00108",
+		"x": "#x0108;",
+		"h": "#264;",
+		"e": "Ccirc;"
+	},
+	{
+	    "n": "Lowercase C With Circumflex",
+		"s": "lowercase-c-with-circumflex",
+		"u": "U+00109",
+		"x": "#x0109;",
+		"h": "#265;",
+		"e": "ccirc;"
+	},
+	{
+	    "n": "Uppercase C With Dot Above",
+		"s": "uppercase-c-with-dot-above",
+		"u": "U+0010A",
+		"x": "#x010A;",
+		"h": "#266;",
+		"e": "Cdot;"
+	},
+	{
+	    "n": "Lowercase C With Dot Above",
+		"s": "lowercase-c-with-dot-above",
+		"u": "U+0010B",
+		"x": "#x010B;",
+		"h": "#267;",
+		"e": "cdot;"
+	},
+	{
+	    "n": "Uppercase C With Caron",
+		"s": "uppercase-c-with-caron",
+		"u": "U+0010C",
+		"x": "#x010C;",
+		"h": "#268;",
+		"e": "Ccaron;"
+	},
+	{
+	    "n": "Lowercase C With Caron",
+		"s": "lowercase-c-with-caron",
+		"u": "U+0010D",
+		"x": "#x010D;",
+		"h": "#269;",
+		"e": "ccaron;"
+	},
+	{
+	    "n": "Uppercase D With Caron",
+		"s": "uppercase-d-with-caron",
+		"u": "U+0010E",
+		"x": "#x010E;",
+		"h": "#270;",
+		"e": "Dcaron;"
+	},
+	{
+	    "n": "Lowercase D With Caron",
+		"s": "lowercase-d-with-caron",
+		"u": "U+0010F",
+		"x": "#x010F;",
+		"h": "#271;",
+		"e": "dcaron;"
+	},
+	{
+	    "n": "Uppercase D With Stroke",
+		"s": "uppercase-d-with-stroke",
+		"u": "U+00110",
+		"x": "#x0110;",
+		"h": "#272;",
+		"e": "Dstrok;"
+	},
+	{
+	    "n": "Lowercase D With Stroke",
+		"s": "lowercase-d-with-stroke",
+		"u": "U+00111",
+		"x": "#x0111;",
+		"h": "#273;",
+		"e": "dstrok;"
+	},
+	{
+	    "n": "Uppercase E With Macron",
+		"s": "uppercase-e-with-macron",
+		"u": "U+00112",
+		"x": "#x0112;",
+		"h": "#274;",
+		"e": "Emacr;"
+	},
+	{
+	    "n": "Lowercase E With Macron",
+		"s": "lowercase-e-with-macron",
+		"u": "U+00113",
+		"x": "#x0113;",
+		"h": "#275;",
+		"e": "emacr;"
+	},
+	{
+	    "n": "Uppercase E With Breve",
+		"s": "uppercase-e-with-breve",
+		"u": "U+00114",
+		"x": "#x0114;",
+		"h": "#276;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase E With Breve",
+		"s": "lowercase-e-with-breve",
+		"u": "U+00115",
+		"x": "#x0115;",
+		"h": "#277;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase E With Dot Above",
+		"s": "uppercase-e-with-dot-above",
+		"u": "U+00116",
+		"x": "#x0116;",
+		"h": "#278;",
+		"e": "Edot;"
+	},
+	{
+	    "n": "Lowercase E With Dot Above",
+		"s": "lowercase-e-with-dot-above",
+		"u": "U+00117",
+		"x": "#x0117;",
+		"h": "#279;",
+		"e": "edot;"
+	},
+	{
+	    "n": "Uppercase E With Ogonek",
+		"s": "uppercase-e-with-ogonek",
+		"u": "U+00118",
+		"x": "#x0118;",
+		"h": "#280;",
+		"e": "Eogon;"
+	},
+	{
+	    "n": "Lowercase E With Ogonek",
+		"s": "lowercase-e-with-ogonek",
+		"u": "U+00119",
+		"x": "#x0119;",
+		"h": "#281;",
+		"e": "eogon;"
+	},
+	{
+	    "n": "Uppercase E With Caron",
+		"s": "uppercase-e-with-caron",
+		"u": "U+0011A",
+		"x": "#x011A;",
+		"h": "#282;",
+		"e": "Ecaron;"
+	},
+	{
+	    "n": "Lowercase E With Caron",
+		"s": "lowercase-e-with-caron",
+		"u": "U+0011B",
+		"x": "#x011B;",
+		"h": "#283;",
+		"e": "ecaron;"
+	},
+	{
+	    "n": "Uppercase G With Circumflex",
+		"s": "uppercase-g-with-circumflex",
+		"u": "U+0011C",
+		"x": "#x011C;",
+		"h": "#284;",
+		"e": "Gcirc;"
+	},
+	{
+	    "n": "Lowercase G With Circumflex",
+		"s": "lowercase-g-with-circumflex",
+		"u": "U+0011D",
+		"x": "#x011D;",
+		"h": "#285;",
+		"e": "gcirc;"
+	},
+	{
+	    "n": "Uppercase G With Breve",
+		"s": "uppercase-g-with-breve",
+		"u": "U+0011E",
+		"x": "#x011E;",
+		"h": "#286;",
+		"e": "Gbreve;"
+	},
+	{
+	    "n": "Lowercase G With Breve",
+		"s": "lowercase-g-with-breve",
+		"u": "U+0011F",
+		"x": "#x011F;",
+		"h": "#287;",
+		"e": "gbreve;"
+	},
+	{
+	    "n": "Uppercase G With Dot Above",
+		"s": "uppercase-g-with-dot-above",
+		"u": "U+00120",
+		"x": "#x0120;",
+		"h": "#288;",
+		"e": "Gdot;"
+	},
+	{
+	    "n": "Lowercase G With Dot Above",
+		"s": "lowercase-g-with-dot-above",
+		"u": "U+00121",
+		"x": "#x0121;",
+		"h": "#289;",
+		"e": "gdot;"
+	},
+	{
+	    "n": "Uppercase G With Cedilla",
+		"s": "uppercase-g-with-cedilla",
+		"u": "U+00122",
+		"x": "#x0122;",
+		"h": "#290;",
+		"e": "Gcedil;"
+	},
+	{
+	    "n": "Lowercase G With Cedilla",
+		"s": "lowercase-g-with-cedilla",
+		"u": "U+00123",
+		"x": "#x0123;",
+		"h": "#291;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase H With Circumflex",
+		"s": "uppercase-h-with-circumflex",
+		"u": "U+00124",
+		"x": "#x0124;",
+		"h": "#292;",
+		"e": "Hcirc;"
+	},
+	{
+	    "n": "Lowercase H With Circumflex",
+		"s": "lowercase-h-with-circumflex",
+		"u": "U+00125",
+		"x": "#x0125;",
+		"h": "#293;",
+		"e": "hcirc;"
+	},
+	{
+	    "n": "Uppercase H With Stroke",
+		"s": "uppercase-h-with-stroke",
+		"u": "U+00126",
+		"x": "#x0126;",
+		"h": "#294;",
+		"e": "Hstrok;"
+	},
+	{
+	    "n": "Lowercase H With Stroke",
+		"s": "lowercase-h-with-stroke",
+		"u": "U+00127",
+		"x": "#x0127;",
+		"h": "#295;",
+		"e": "hstrok;"
+	},
+	{
+	    "n": "Uppercase I With Tilde",
+		"s": "uppercase-i-with-tilde",
+		"u": "U+00128",
+		"x": "#x0128;",
+		"h": "#296;",
+		"e": "Itilde;"
+	},
+	{
+	    "n": "Lowercase I With Tilde",
+		"s": "lowercase-i-with-tilde",
+		"u": "U+00129",
+		"x": "#x0129;",
+		"h": "#297;",
+		"e": "itilde;"
+	},
+	{
+	    "n": "Uppercase I With Macron",
+		"s": "uppercase-i-with-macron",
+		"u": "U+0012A",
+		"x": "#x012A;",
+		"h": "#298;",
+		"e": "Imacr;"
+	},
+	{
+	    "n": "Lowercase I With Macron",
+		"s": "lowercase-i-with-macron",
+		"u": "U+0012B",
+		"x": "#x012B;",
+		"h": "#299;",
+		"e": "imacr;"
+	},
+	{
+	    "n": "Uppercase I With Breve",
+		"s": "uppercase-i-with-breve",
+		"u": "U+0012C",
+		"x": "#x012C;",
+		"h": "#300;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase I With Breve",
+		"s": "lowercase-i-with-breve",
+		"u": "U+0012D",
+		"x": "#x012D;",
+		"h": "#301;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase I With Ogonek",
+		"s": "uppercase-i-with-ogonek",
+		"u": "U+0012E",
+		"x": "#x012E;",
+		"h": "#302;",
+		"e": "Iogon;"
+	},
+	{
+	    "n": "Lowercase I With Ogonek",
+		"s": "lowercase-i-with-ogonek",
+		"u": "U+0012F",
+		"x": "#x012F;",
+		"h": "#303;",
+		"e": "iogon;"
+	},
+	{
+	    "n": "Uppercase I With Dot Above",
+		"s": "uppercase-i-with-dot-above",
+		"u": "U+00130",
+		"x": "#x0130;",
+		"h": "#304;",
+		"e": "Idot;"
+	},
+	{
+	    "n": "Lowercase Dotless I",
+		"s": "lowercase-dotless-i",
+		"u": "U+00131",
+		"x": "#x0131;",
+		"h": "#305;",
+		"e": "imath;"
+	},
+	{
+	    "n": "Latin Capital Ligature Ij",
+		"s": "latin-capital-ligature-ij",
+		"u": "U+00132",
+		"x": "#x0132;",
+		"h": "#306;",
+		"e": "IJlig;"
+	},
+	{
+	    "n": "Latin Small Ligature Ij",
+		"s": "latin-small-ligature-ij",
+		"u": "U+00133",
+		"x": "#x0133;",
+		"h": "#307;",
+		"e": "ijlig;"
+	},
+	{
+	    "n": "Uppercase J With Circumflex",
+		"s": "uppercase-j-with-circumflex",
+		"u": "U+00134",
+		"x": "#x0134;",
+		"h": "#308;",
+		"e": "Jcirc;"
+	},
+	{
+	    "n": "Lowercase J With Circumflex",
+		"s": "lowercase-j-with-circumflex",
+		"u": "U+00135",
+		"x": "#x0135;",
+		"h": "#309;",
+		"e": "jcirc;"
+	},
+	{
+	    "n": "Uppercase K With Cedilla",
+		"s": "uppercase-k-with-cedilla",
+		"u": "U+00136",
+		"x": "#x0136;",
+		"h": "#310;",
+		"e": "Kcedil;"
+	},
+	{
+	    "n": "Lowercase K With Cedilla",
+		"s": "lowercase-k-with-cedilla",
+		"u": "U+00137",
+		"x": "#x0137;",
+		"h": "#311;",
+		"e": "kcedil;"
+	},
+	{
+	    "n": "Lowercase Kra",
+		"s": "lowercase-kra",
+		"u": "U+00138",
+		"x": "#x0138;",
+		"h": "#312;",
+		"e": "kgreen;"
+	},
+	{
+	    "n": "Uppercase L With Acute",
+		"s": "uppercase-l-with-acute",
+		"u": "U+00139",
+		"x": "#x0139;",
+		"h": "#313;",
+		"e": "Lacute;"
+	},
+	{
+	    "n": "Lowercase L With Acute",
+		"s": "lowercase-l-with-acute",
+		"u": "U+0013A",
+		"x": "#x013A;",
+		"h": "#314;",
+		"e": "lacute;"
+	},
+	{
+	    "n": "Uppercase L With Cedilla",
+		"s": "uppercase-l-with-cedilla",
+		"u": "U+0013B",
+		"x": "#x013B;",
+		"h": "#315;",
+		"e": "Lcedil;"
+	},
+	{
+	    "n": "Lowercase L With Cedilla",
+		"s": "lowercase-l-with-cedilla",
+		"u": "U+0013C",
+		"x": "#x013C;",
+		"h": "#316;",
+		"e": "lcedil;"
+	},
+	{
+	    "n": "Uppercase L With Caron",
+		"s": "uppercase-l-with-caron",
+		"u": "U+0013D",
+		"x": "#x013D;",
+		"h": "#317;",
+		"e": "Lcaron;"
+	},
+	{
+	    "n": "Lowercase L With Caron",
+		"s": "lowercase-l-with-caron",
+		"u": "U+0013E",
+		"x": "#x013E;",
+		"h": "#318;",
+		"e": "lcaron;"
+	},
+	{
+	    "n": "Uppercase L With Middle Dot",
+		"s": "uppercase-l-with-middle-dot",
+		"u": "U+0013F",
+		"x": "#x013F;",
+		"h": "#319;",
+		"e": "Lmidot;"
+	},
+	{
+	    "n": "Lowercase L With Middle Dot",
+		"s": "lowercase-l-with-middle-dot",
+		"u": "U+00140",
+		"x": "#x0140;",
+		"h": "#320;",
+		"e": "lmidot;"
+	},
+	{
+	    "n": "Uppercase L With Stroke",
+		"s": "uppercase-l-with-stroke",
+		"u": "U+00141",
+		"x": "#x0141;",
+		"h": "#321;",
+		"e": "Lstrok;"
+	},
+	{
+	    "n": "Lowercase L With Stroke",
+		"s": "lowercase-l-with-stroke",
+		"u": "U+00142",
+		"x": "#x0142;",
+		"h": "#322;",
+		"e": "lstrok;"
+	},
+	{
+	    "n": "Uppercase N With Acute",
+		"s": "uppercase-n-with-acute",
+		"u": "U+00143",
+		"x": "#x0143;",
+		"h": "#323;",
+		"e": "Nacute;"
+	},
+	{
+	    "n": "Lowercase N With Acute",
+		"s": "lowercase-n-with-acute",
+		"u": "U+00144",
+		"x": "#x0144;",
+		"h": "#324;",
+		"e": "nacute;"
+	},
+	{
+	    "n": "Uppercase N With Cedilla",
+		"s": "uppercase-n-with-cedilla",
+		"u": "U+00145",
+		"x": "#x0145;",
+		"h": "#325;",
+		"e": "Ncedil;"
+	},
+	{
+	    "n": "Lowercase N With Cedilla",
+		"s": "lowercase-n-with-cedilla",
+		"u": "U+00146",
+		"x": "#x0146;",
+		"h": "#326;",
+		"e": "ncedil;"
+	},
+	{
+	    "n": "Uppercase N With Caron",
+		"s": "uppercase-n-with-caron",
+		"u": "U+00147",
+		"x": "#x0147;",
+		"h": "#327;",
+		"e": "Ncaron;"
+	},
+	{
+	    "n": "Lowercase N With Caron",
+		"s": "lowercase-n-with-caron",
+		"u": "U+00148",
+		"x": "#x0148;",
+		"h": "#328;",
+		"e": "ncaron;"
+	},
+	{
+	    "n": "Lowercase N Preceded by Apostrophe",
+		"s": "lowercase-n-preceded-by-apostrophe",
+		"u": "U+00149",
+		"x": "#x0149;",
+		"h": "#329;",
+		"e": "napos;"
+	},
+	{
+	    "n": "Uppercase Eng",
+		"s": "uppercase-eng",
+		"u": "U+0014A",
+		"x": "#x014A;",
+		"h": "#330;",
+		"e": "ENG;"
+	},
+	{
+	    "n": "Lowercase Eng",
+		"s": "lowercase-eng",
+		"u": "U+0014B",
+		"x": "#x014B;",
+		"h": "#331;",
+		"e": "eng;"
+	},
+	{
+	    "n": "Uppercase O With Macron",
+		"s": "uppercase-o-with-macron",
+		"u": "U+0014C",
+		"x": "#x014C;",
+		"h": "#332;",
+		"e": "Omacr;"
+	},
+	{
+	    "n": "Lowercase O With Macron",
+		"s": "lowercase-o-with-macron",
+		"u": "U+0014D",
+		"x": "#x014D;",
+		"h": "#333;",
+		"e": "omacr;"
+	},
+	{
+	    "n": "Uppercase O With Breve",
+		"s": "uppercase-o-with-breve",
+		"u": "U+0014E",
+		"x": "#x014E;",
+		"h": "#334;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase O With Breve",
+		"s": "lowercase-o-with-breve",
+		"u": "U+0014F",
+		"x": "#x014F;",
+		"h": "#335;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase O With Double Acute",
+		"s": "uppercase-o-with-double-acute",
+		"u": "U+00150",
+		"x": "#x0150;",
+		"h": "#336;",
+		"e": "Odblac;"
+	},
+	{
+	    "n": "Lowercase O With Double Acute",
+		"s": "lowercase-o-with-double-acute",
+		"u": "U+00151",
+		"x": "#x0151;",
+		"h": "#337;",
+		"e": "odblac;"
+	},
+	{
+	    "n": "Uppercase Ligature OE",
+		"s": "uppercase-ligature-oe",
+		"u": "U+00152",
+		"x": "#x0152;",
+		"h": "#338;",
+		"e": "OElig;"
+	},
+	{
+	    "n": "Lowercase Ligature oe",
+		"s": "lowercase-ligature-oe",
+		"u": "U+00153",
+		"x": "#x0153;",
+		"h": "#339;",
+		"e": "oelig;"
+	},
+	{
+	    "n": "Uppercase R With Acute",
+		"s": "uppercase-r-with-acute",
+		"u": "U+00154",
+		"x": "#x0154;",
+		"h": "#340;",
+		"e": "Racute;"
+	},
+	{
+	    "n": "Lowercase R With Acute",
+		"s": "lowercase-r-with-acute",
+		"u": "U+00155",
+		"x": "#x0155;",
+		"h": "#341;",
+		"e": "racute;"
+	},
+	{
+	    "n": "Uppercase R With Cedilla",
+		"s": "uppercase-r-with-cedilla",
+		"u": "U+00156",
+		"x": "#x0156;",
+		"h": "#342;",
+		"e": "Rcedil;"
+	},
+	{
+	    "n": "Lowercase R With Cedilla",
+		"s": "lowercase-r-with-cedilla",
+		"u": "U+00157",
+		"x": "#x0157;",
+		"h": "#343;",
+		"e": "rcedil;"
+	},
+	{
+	    "n": "Uppercase R With Caron",
+		"s": "uppercase-r-with-caron",
+		"u": "U+00158",
+		"x": "#x0158;",
+		"h": "#344;",
+		"e": "Rcaron;"
+	},
+	{
+	    "n": "Lowercase R With Caron",
+		"s": "lowercase-r-with-caron",
+		"u": "U+00159",
+		"x": "#x0159;",
+		"h": "#345;",
+		"e": "rcaron;"
+	},
+	{
+	    "n": "Uppercase S With Acute",
+		"s": "uppercase-s-with-acute",
+		"u": "U+0015A",
+		"x": "#x015A;",
+		"h": "#346;",
+		"e": "Sacute;"
+	},
+	{
+	    "n": "Lowercase S With Acute",
+		"s": "lowercase-s-with-acute",
+		"u": "U+0015B",
+		"x": "#x015B;",
+		"h": "#347;",
+		"e": "sacute;"
+	},
+	{
+	    "n": "Uppercase S With Circumflex",
+		"s": "uppercase-s-with-circumflex",
+		"u": "U+0015C",
+		"x": "#x015C;",
+		"h": "#348;",
+		"e": "Scirc;"
+	},
+	{
+	    "n": "Lowercase S With Circumflex",
+		"s": "lowercase-s-with-circumflex",
+		"u": "U+0015D",
+		"x": "#x015D;",
+		"h": "#349;",
+		"e": "scirc;"
+	},
+	{
+	    "n": "Uppercase S With Cedilla",
+		"s": "uppercase-s-with-cedilla",
+		"u": "U+0015E",
+		"x": "#x015E;",
+		"h": "#350;",
+		"e": "Scedil;"
+	},
+	{
+	    "n": "Lowercase S With Cedilla",
+		"s": "lowercase-s-with-cedilla",
+		"u": "U+0015F",
+		"x": "#x015F;",
+		"h": "#351;",
+		"e": "scedil;"
+	},
+	{
+	    "n": "Uppercase S With Caron",
+		"s": "uppercase-s-with-caron",
+		"u": "U+00160",
+		"x": "#x0160;",
+		"h": "#352;",
+		"e": "Scaron;"
+	},
+	{
+	    "n": "Lowercase S With Caron",
+		"s": "lowercase-s-with-caron",
+		"u": "U+00161",
+		"x": "#x0161;",
+		"h": "#353;",
+		"e": "scaron;"
+	},
+	{
+	    "n": "Uppercase T With Cedilla",
+		"s": "uppercase-t-with-cedilla",
+		"u": "U+00162",
+		"x": "#x0162;",
+		"h": "#354;",
+		"e": "Tcedil;"
+	},
+	{
+	    "n": "Lowercase T With Cedilla",
+		"s": "lowercase-t-with-cedilla",
+		"u": "U+00163",
+		"x": "#x0163;",
+		"h": "#355;",
+		"e": "tcedil;"
+	},
+	{
+	    "n": "Uppercase T With Caron",
+		"s": "uppercase-t-with-caron",
+		"u": "U+00164",
+		"x": "#x0164;",
+		"h": "#356;",
+		"e": "Tcaron;"
+	},
+	{
+	    "n": "Lowercase T With Caron",
+		"s": "lowercase-t-with-caron",
+		"u": "U+00165",
+		"x": "#x0165;",
+		"h": "#357;",
+		"e": "tcaron;"
+	},
+	{
+	    "n": "Uppercase T With Stroke",
+		"s": "uppercase-t-with-stroke",
+		"u": "U+00166",
+		"x": "#x0166;",
+		"h": "#358;",
+		"e": "Tstrok;"
+	},
+	{
+	    "n": "Lowercase T With Stroke",
+		"s": "lowercase-t-with-stroke",
+		"u": "U+00167",
+		"x": "#x0167;",
+		"h": "#359;",
+		"e": "tstrok;"
+	},
+	{
+	    "n": "Uppercase U With Tilde",
+		"s": "uppercase-u-with-tilde",
+		"u": "U+00168",
+		"x": "#x0168;",
+		"h": "#360;",
+		"e": "Utilde;"
+	},
+	{
+	    "n": "Lowercase U With Tilde",
+		"s": "lowercase-u-with-tilde",
+		"u": "U+00169",
+		"x": "#x0169;",
+		"h": "#361;",
+		"e": "utilde;"
+	},
+	{
+	    "n": "Uppercase U With Macron",
+		"s": "uppercase-u-with-macron",
+		"u": "U+0016A",
+		"x": "#x016A;",
+		"h": "#362;",
+		"e": "Umacr;"
+	},
+	{
+	    "n": "Lowercase U With Macron",
+		"s": "lowercase-u-with-macron",
+		"u": "U+0016B",
+		"x": "#x016B;",
+		"h": "#363;",
+		"e": "umacr;"
+	},
+	{
+	    "n": "Uppercase U With Breve",
+		"s": "uppercase-u-with-breve",
+		"u": "U+0016C",
+		"x": "#x016C;",
+		"h": "#364;",
+		"e": "Ubreve;"
+	},
+	{
+	    "n": "Lowercase U With Breve",
+		"s": "lowercase-u-with-breve",
+		"u": "U+0016D",
+		"x": "#x016D;",
+		"h": "#365;",
+		"e": "ubreve;"
+	},
+	{
+	    "n": "Uppercase U With Ring Above",
+		"s": "uppercase-u-with-ring-above",
+		"u": "U+0016E",
+		"x": "#x016E;",
+		"h": "#366;",
+		"e": "Uring;"
+	},
+	{
+	    "n": "Lowercase U With Ring Above",
+		"s": "lowercase-u-with-ring-above",
+		"u": "U+0016F",
+		"x": "#x016F;",
+		"h": "#367;",
+		"e": "uring;"
+	},
+	{
+	    "n": "Uppercase U With Double Acute",
+		"s": "uppercase-u-with-double-acute",
+		"u": "U+00170",
+		"x": "#x0170;",
+		"h": "#368;",
+		"e": "Udblac;"
+	},
+	{
+	    "n": "Lowercase U With Double Acute",
+		"s": "lowercase-u-with-double-acute",
+		"u": "U+00171",
+		"x": "#x0171;",
+		"h": "#369;",
+		"e": "udblac;"
+	},
+	{
+	    "n": "Uppercase U With Ogonek",
+		"s": "uppercase-u-with-ogonek",
+		"u": "U+00172",
+		"x": "#x0172;",
+		"h": "#370;",
+		"e": "Uogon;"
+	},
+	{
+	    "n": "Lowercase U With Ogonek",
+		"s": "lowercase-u-with-ogonek",
+		"u": "U+00173",
+		"x": "#x0173;",
+		"h": "#371;",
+		"e": "uogon;"
+	},
+	{
+	    "n": "Uppercase W With Circumflex",
+		"s": "uppercase-w-with-circumflex",
+		"u": "U+00174",
+		"x": "#x0174;",
+		"h": "#372;",
+		"e": "Wcirc;"
+	},
+	{
+	    "n": "Lowercase W With Circumflex",
+		"s": "lowercase-w-with-circumflex",
+		"u": "U+00175",
+		"x": "#x0175;",
+		"h": "#373;",
+		"e": "wcirc;"
+	},
+	{
+	    "n": "Uppercase Y With Circumflex",
+		"s": "uppercase-y-with-circumflex",
+		"u": "U+00176",
+		"x": "#x0176;",
+		"h": "#374;",
+		"e": "Ycirc;"
+	},
+	{
+	    "n": "Lowercase Y With Circumflex",
+		"s": "lowercase-y-with-circumflex",
+		"u": "U+00177",
+		"x": "#x0177;",
+		"h": "#375;",
+		"e": "ycirc;"
+	},
+	{
+	    "n": "Uppercase Y With Diaeresis",
+		"s": "uppercase-y-with-diaeresis",
+		"u": "U+00178",
+		"x": "#x0178;",
+		"h": "#376;",
+		"e": "Yuml;"
+	},
+	{
+	    "n": "Uppercase Z With Acute",
+		"s": "uppercase-z-with-acute",
+		"u": "U+00179",
+		"x": "#x0179;",
+		"h": "#377;",
+		"e": "Zacute;"
+	},
+	{
+	    "n": "Lowercase Z With Acute",
+		"s": "lowercase-z-with-acute",
+		"u": "U+0017A",
+		"x": "#x017A;",
+		"h": "#378;",
+		"e": "zacute;"
+	},
+	{
+	    "n": "Uppercase Z With Dot Above",
+		"s": "uppercase-z-with-dot-above",
+		"u": "U+0017B",
+		"x": "#x017B;",
+		"h": "#379;",
+		"e": "Zdot;"
+	},
+	{
+	    "n": "Lowercase Z With Dot Above",
+		"s": "lowercase-z-with-dot-above",
+		"u": "U+0017C",
+		"x": "#x017C;",
+		"h": "#380;",
+		"e": "zdot;"
+	},
+	{
+	    "n": "Uppercase Z With Caron",
+		"s": "uppercase-z-with-caron",
+		"u": "U+0017D",
+		"x": "#x017D;",
+		"h": "#381;",
+		"e": "Zcaron;"
+	},
+	{
+	    "n": "Lowercase Z With Caron",
+		"s": "lowercase-z-with-caron",
+		"u": "U+0017E",
+		"x": "#x017E;",
+		"h": "#382;",
+		"e": "zcaron;"
+	},
+	{
+	    "n": "Lowercase Long S",
+		"s": "lowercase-long-s",
+		"u": "U+0017F",
+		"x": "#x017F;",
+		"h": "#383;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase B With Stroke",
+		"s": "lowercase-b-with-stroke",
+		"u": "U+00180",
+		"x": "#x0180;",
+		"h": "#384;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase B With Hook",
+		"s": "uppercase-b-with-hook",
+		"u": "U+00181",
+		"x": "#x0181;",
+		"h": "#385;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase B With Topbar",
+		"s": "uppercase-b-with-topbar",
+		"u": "U+00182",
+		"x": "#x0182;",
+		"h": "#386;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase B With Topbar",
+		"s": "lowercase-b-with-topbar",
+		"u": "U+00183",
+		"x": "#x0183;",
+		"h": "#387;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase Tone Six",
+		"s": "uppercase-tone-six",
+		"u": "U+00184",
+		"x": "#x0184;",
+		"h": "#388;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Tone Six",
+		"s": "lowercase-tone-six",
+		"u": "U+00185",
+		"x": "#x0185;",
+		"h": "#389;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase Open O",
+		"s": "uppercase-open-o",
+		"u": "U+00186",
+		"x": "#x0186;",
+		"h": "#390;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase C With Hook",
+		"s": "uppercase-c-with-hook",
+		"u": "U+00187",
+		"x": "#x0187;",
+		"h": "#391;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase C With Hook",
+		"s": "lowercase-c-with-hook",
+		"u": "U+00188",
+		"x": "#x0188;",
+		"h": "#392;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase African D",
+		"s": "uppercase-african-d",
+		"u": "U+00189",
+		"x": "#x0189;",
+		"h": "#393;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase D With Hook",
+		"s": "uppercase-d-with-hook",
+		"u": "U+0018A",
+		"x": "#x018A;",
+		"h": "#394;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase D With Topbar",
+		"s": "uppercase-d-with-topbar",
+		"u": "U+0018B",
+		"x": "#x018B;",
+		"h": "#395;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase D With Topbar",
+		"s": "lowercase-d-with-topbar",
+		"u": "U+0018C",
+		"x": "#x018C;",
+		"h": "#396;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Turned Delta",
+		"s": "lowercase-turned-delta",
+		"u": "U+0018D",
+		"x": "#x018D;",
+		"h": "#397;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase Reversed E",
+		"s": "uppercase-reversed-e",
+		"u": "U+0018E",
+		"x": "#x018E;",
+		"h": "#398;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase Schwa",
+		"s": "uppercase-schwa",
+		"u": "U+0018F",
+		"x": "#x018F;",
+		"h": "#399;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase Open E",
+		"s": "uppercase-open-e",
+		"u": "U+00190",
+		"x": "#x0190;",
+		"h": "#400;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase F With Hook",
+		"s": "uppercase-f-with-hook",
+		"u": "U+00191",
+		"x": "#x0191;",
+		"h": "#401;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase F With Hook",
+		"s": "lowercase-f-with-hook",
+		"u": "U+00192",
+		"x": "#x0192;",
+		"h": "#402;",
+		"e": "fnof;"
+	},
+	{
+	    "n": "Uppercase G With Hook",
+		"s": "uppercase-g-with-hook",
+		"u": "U+00193",
+		"x": "#x0193;",
+		"h": "#403;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase Gamma",
+		"s": "uppercase-gamma",
+		"u": "U+00194",
+		"x": "#x0194;",
+		"h": "#404;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Hv",
+		"s": "lowercase-hv",
+		"u": "U+00195",
+		"x": "#x0195;",
+		"h": "#405;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase Iota",
+		"s": "uppercase-iota",
+		"u": "U+00196",
+		"x": "#x0196;",
+		"h": "#406;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase I With Stroke",
+		"s": "uppercase-i-with-stroke",
+		"u": "U+00197",
+		"x": "#x0197;",
+		"h": "#407;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase K With Hook",
+		"s": "uppercase-k-with-hook",
+		"u": "U+00198",
+		"x": "#x0198;",
+		"h": "#408;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase K With Hook",
+		"s": "lowercase-k-with-hook",
+		"u": "U+00199",
+		"x": "#x0199;",
+		"h": "#409;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase L With Bar",
+		"s": "lowercase-l-with-bar",
+		"u": "U+0019A",
+		"x": "#x019A;",
+		"h": "#410;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Lambda With Stroke",
+		"s": "lowercase-lambda-with-stroke",
+		"u": "U+0019B",
+		"x": "#x019B;",
+		"h": "#411;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase Turned M",
+		"s": "uppercase-turned-m",
+		"u": "U+0019C",
+		"x": "#x019C;",
+		"h": "#412;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase N With Left Hook",
+		"s": "uppercase-n-with-left-hook",
+		"u": "U+0019D",
+		"x": "#x019D;",
+		"h": "#413;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase N With Long Right Leg",
+		"s": "lowercase-n-with-long-right-leg",
+		"u": "U+0019E",
+		"x": "#x019E;",
+		"h": "#414;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase O With Middle Tilde",
+		"s": "uppercase-o-with-middle-tilde",
+		"u": "U+0019F",
+		"x": "#x019F;",
+		"h": "#415;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase O With Horn",
+		"s": "uppercase-o-with-horn",
+		"u": "U+001A0",
+		"x": "#x01A0;",
+		"h": "#416;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase O With Horn",
+		"s": "lowercase-o-with-horn",
+		"u": "U+001A1",
+		"x": "#x01A1;",
+		"h": "#417;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase Oi",
+		"s": "uppercase-oi",
+		"u": "U+001A2",
+		"x": "#x01A2;",
+		"h": "#418;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Oi",
+		"s": "lowercase-oi",
+		"u": "U+001A3",
+		"x": "#x01A3;",
+		"h": "#419;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase P With Hook",
+		"s": "uppercase-p-with-hook",
+		"u": "U+001A4",
+		"x": "#x01A4;",
+		"h": "#420;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase P With Hook",
+		"s": "lowercase-p-with-hook",
+		"u": "U+001A5",
+		"x": "#x01A5;",
+		"h": "#421;",
+		"e": ""
+	},
+	{
+	    "n": "Latin Letter Yr",
+		"s": "latin-letter-yr",
+		"u": "U+001A6",
+		"x": "#x01A6;",
+		"h": "#422;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase Tone Two",
+		"s": "uppercase-tone-two",
+		"u": "U+001A7",
+		"x": "#x01A7;",
+		"h": "#423;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Tone Two",
+		"s": "lowercase-tone-two",
+		"u": "U+001A8",
+		"x": "#x01A8;",
+		"h": "#424;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase Esh",
+		"s": "uppercase-esh",
+		"u": "U+001A9",
+		"x": "#x01A9;",
+		"h": "#425;",
+		"e": ""
+	},
+	{
+	    "n": "Latin Letter Reversed Esh Loop",
+		"s": "latin-letter-reversed-esh-loop",
+		"u": "U+001AA",
+		"x": "#x01AA;",
+		"h": "#426;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase T With Palatal Hook",
+		"s": "lowercase-t-with-palatal-hook",
+		"u": "U+001AB",
+		"x": "#x01AB;",
+		"h": "#427;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase T With Hook",
+		"s": "uppercase-t-with-hook",
+		"u": "U+001AC",
+		"x": "#x01AC;",
+		"h": "#428;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase T With Hook",
+		"s": "lowercase-t-with-hook",
+		"u": "U+001AD",
+		"x": "#x01AD;",
+		"h": "#429;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase T With Retroflex Hook",
+		"s": "uppercase-t-with-retroflex-hook",
+		"u": "U+001AE",
+		"x": "#x01AE;",
+		"h": "#430;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase U With Horn",
+		"s": "uppercase-u-with-horn",
+		"u": "U+001AF",
+		"x": "#x01AF;",
+		"h": "#431;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase U With Horn",
+		"s": "lowercase-u-with-horn",
+		"u": "U+001B0",
+		"x": "#x01B0;",
+		"h": "#432;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase Upsilon",
+		"s": "uppercase-upsilon",
+		"u": "U+001B1",
+		"x": "#x01B1;",
+		"h": "#433;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase v With Hook",
+		"s": "uppercase-v-with-hook",
+		"u": "U+001B2",
+		"x": "#x01B2;",
+		"h": "#434;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase Y With Hook",
+		"s": "uppercase-y-with-hook",
+		"u": "U+001B3",
+		"x": "#x01B3;",
+		"h": "#435;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Y With Hook",
+		"s": "lowercase-y-with-hook",
+		"u": "U+001B4",
+		"x": "#x01B4;",
+		"h": "#436;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase Z With Stroke",
+		"s": "uppercase-z-with-stroke",
+		"u": "U+001B5",
+		"x": "#x01B5;",
+		"h": "#437;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Z With Stroke",
+		"s": "lowercase-z-with-stroke",
+		"u": "U+001B6",
+		"x": "#x01B6;",
+		"h": "#438;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase Ezh",
+		"s": "uppercase-ezh",
+		"u": "U+001B7",
+		"x": "#x01B7;",
+		"h": "#439;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase Ezh Reversed",
+		"s": "uppercase-ezh-reversed",
+		"u": "U+001B8",
+		"x": "#x01B8;",
+		"h": "#440;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Ezh Reversed",
+		"s": "lowercase-ezh-reversed",
+		"u": "U+001B9",
+		"x": "#x01B9;",
+		"h": "#441;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Ezh With Tail",
+		"s": "lowercase-ezh-with-tail",
+		"u": "U+001BA",
+		"x": "#x01BA;",
+		"h": "#442;",
+		"e": ""
+	},
+	{
+	    "n": "Latin Letter Two With Stroke",
+		"s": "latin-letter-two-with-stroke",
+		"u": "U+001BB",
+		"x": "#x01BB;",
+		"h": "#443;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase Tone Five",
+		"s": "uppercase-tone-five",
+		"u": "U+001BC",
+		"x": "#x01BC;",
+		"h": "#444;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Tone Five",
+		"s": "lowercase-tone-five",
+		"u": "U+001BD",
+		"x": "#x01BD;",
+		"h": "#445;",
+		"e": ""
+	},
+	{
+	    "n": "Latin Letter Inverted Glottal Stop With Stroke",
+		"s": "latin-letter-inverted-glottal-stop-with-stroke",
+		"u": "U+001BE",
+		"x": "#x01BE;",
+		"h": "#446;",
+		"e": ""
+	},
+	{
+	    "n": "Latin Letter Wynn",
+		"s": "latin-letter-wynn",
+		"u": "U+001BF",
+		"x": "#x01BF;",
+		"h": "#447;",
+		"e": ""
+	},
+	{
+	    "n": "Latin Letter Dental Click",
+		"s": "latin-letter-dental-click",
+		"u": "U+001C0",
+		"x": "#x01C0;",
+		"h": "#448;",
+		"e": ""
+	},
+	{
+	    "n": "Latin Letter Lateral Click",
+		"s": "latin-letter-lateral-click",
+		"u": "U+001C1",
+		"x": "#x01C1;",
+		"h": "#449;",
+		"e": ""
+	},
+	{
+	    "n": "Latin Letter Alveolar Click",
+		"s": "latin-letter-alveolar-click",
+		"u": "U+001C2",
+		"x": "#x01C2;",
+		"h": "#450;",
+		"e": ""
+	},
+	{
+	    "n": "Latin Letter Retroflex Click",
+		"s": "latin-letter-retroflex-click",
+		"u": "U+001C3",
+		"x": "#x01C3;",
+		"h": "#451;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase Dz With Caron",
+		"s": "uppercase-dz-with-caron",
+		"u": "U+001C4",
+		"x": "#x01C4;",
+		"h": "#452;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase D With Small Letter Z With Caron",
+		"s": "uppercase-d-with-small-letter-z-with-caron",
+		"u": "U+001C5",
+		"x": "#x01C5;",
+		"h": "#453;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Dz With Caron",
+		"s": "lowercase-dz-with-caron",
+		"u": "U+001C6",
+		"x": "#x01C6;",
+		"h": "#454;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase Lj",
+		"s": "uppercase-lj",
+		"u": "U+001C7",
+		"x": "#x01C7;",
+		"h": "#455;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase L With Small Letter J",
+		"s": "uppercase-l-with-small-letter-j",
+		"u": "U+001C8",
+		"x": "#x01C8;",
+		"h": "#456;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Lj",
+		"s": "lowercase-lj",
+		"u": "U+001C9",
+		"x": "#x01C9;",
+		"h": "#457;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase Nj",
+		"s": "uppercase-nj",
+		"u": "U+001CA",
+		"x": "#x01CA;",
+		"h": "#458;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase N With Small Letter J",
+		"s": "uppercase-n-with-small-letter-j",
+		"u": "U+001CB",
+		"x": "#x01CB;",
+		"h": "#459;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Nj",
+		"s": "lowercase-nj",
+		"u": "U+001CC",
+		"x": "#x01CC;",
+		"h": "#460;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase a With Caron",
+		"s": "uppercase-a-with-caron",
+		"u": "U+001CD",
+		"x": "#x01CD;",
+		"h": "#461;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase a With Caron",
+		"s": "lowercase-a-with-caron",
+		"u": "U+001CE",
+		"x": "#x01CE;",
+		"h": "#462;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase I With Caron",
+		"s": "uppercase-i-with-caron",
+		"u": "U+001CF",
+		"x": "#x01CF;",
+		"h": "#463;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase I With Caron",
+		"s": "lowercase-i-with-caron",
+		"u": "U+001D0",
+		"x": "#x01D0;",
+		"h": "#464;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase O With Caron",
+		"s": "uppercase-o-with-caron",
+		"u": "U+001D1",
+		"x": "#x01D1;",
+		"h": "#465;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase O With Caron",
+		"s": "lowercase-o-with-caron",
+		"u": "U+001D2",
+		"x": "#x01D2;",
+		"h": "#466;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase U With Caron",
+		"s": "uppercase-u-with-caron",
+		"u": "U+001D3",
+		"x": "#x01D3;",
+		"h": "#467;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase U With Caron",
+		"s": "lowercase-u-with-caron",
+		"u": "U+001D4",
+		"x": "#x01D4;",
+		"h": "#468;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase U With Diaeresis and Macron",
+		"s": "uppercase-u-with-diaeresis-and-macron",
+		"u": "U+001D5",
+		"x": "#x01D5;",
+		"h": "#469;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase U With Diaeresis and Macron",
+		"s": "lowercase-u-with-diaeresis-and-macron",
+		"u": "U+001D6",
+		"x": "#x01D6;",
+		"h": "#470;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase U With Diaeresis and Acute",
+		"s": "uppercase-u-with-diaeresis-and-acute",
+		"u": "U+001D7",
+		"x": "#x01D7;",
+		"h": "#471;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase U With Diaeresis and Acute",
+		"s": "lowercase-u-with-diaeresis-and-acute",
+		"u": "U+001D8",
+		"x": "#x01D8;",
+		"h": "#472;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase U With Diaeresis and Caron",
+		"s": "uppercase-u-with-diaeresis-and-caron",
+		"u": "U+001D9",
+		"x": "#x01D9;",
+		"h": "#473;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase U With Diaeresis and Caron",
+		"s": "lowercase-u-with-diaeresis-and-caron",
+		"u": "U+001DA",
+		"x": "#x01DA;",
+		"h": "#474;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase U With Diaeresis and Grave",
+		"s": "uppercase-u-with-diaeresis-and-grave",
+		"u": "U+001DB",
+		"x": "#x01DB;",
+		"h": "#475;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase U With Diaeresis and Grave",
+		"s": "lowercase-u-with-diaeresis-and-grave",
+		"u": "U+001DC",
+		"x": "#x01DC;",
+		"h": "#476;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Turned E",
+		"s": "lowercase-turned-e",
+		"u": "U+001DD",
+		"x": "#x01DD;",
+		"h": "#477;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase a With Diaeresis and Macron",
+		"s": "uppercase-a-with-diaeresis-and-macron",
+		"u": "U+001DE",
+		"x": "#x01DE;",
+		"h": "#478;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase a With Diaeresis and Macron",
+		"s": "lowercase-a-with-diaeresis-and-macron",
+		"u": "U+001DF",
+		"x": "#x01DF;",
+		"h": "#479;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase a With Dot Above and Macron",
+		"s": "uppercase-a-with-dot-above-and-macron",
+		"u": "U+001E0",
+		"x": "#x01E0;",
+		"h": "#480;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase a With Dot Above and Macron",
+		"s": "lowercase-a-with-dot-above-and-macron",
+		"u": "U+001E1",
+		"x": "#x01E1;",
+		"h": "#481;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase Ae With Macron",
+		"s": "uppercase-ae-with-macron",
+		"u": "U+001E2",
+		"x": "#x01E2;",
+		"h": "#482;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Ae With Macron",
+		"s": "lowercase-ae-with-macron",
+		"u": "U+001E3",
+		"x": "#x01E3;",
+		"h": "#483;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase G With Stroke",
+		"s": "uppercase-g-with-stroke",
+		"u": "U+001E4",
+		"x": "#x01E4;",
+		"h": "#484;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase G With Stroke",
+		"s": "lowercase-g-with-stroke",
+		"u": "U+001E5",
+		"x": "#x01E5;",
+		"h": "#485;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase G With Caron",
+		"s": "uppercase-g-with-caron",
+		"u": "U+001E6",
+		"x": "#x01E6;",
+		"h": "#486;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase G With Caron",
+		"s": "lowercase-g-with-caron",
+		"u": "U+001E7",
+		"x": "#x01E7;",
+		"h": "#487;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase K With Caron",
+		"s": "uppercase-k-with-caron",
+		"u": "U+001E8",
+		"x": "#x01E8;",
+		"h": "#488;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase K With Caron",
+		"s": "lowercase-k-with-caron",
+		"u": "U+001E9",
+		"x": "#x01E9;",
+		"h": "#489;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase O With Ogonek",
+		"s": "uppercase-o-with-ogonek",
+		"u": "U+001EA",
+		"x": "#x01EA;",
+		"h": "#490;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase O With Ogonek",
+		"s": "lowercase-o-with-ogonek",
+		"u": "U+001EB",
+		"x": "#x01EB;",
+		"h": "#491;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase O With Ogonek and Macron",
+		"s": "uppercase-o-with-ogonek-and-macron",
+		"u": "U+001EC",
+		"x": "#x01EC;",
+		"h": "#492;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase O With Ogonek and Macron",
+		"s": "lowercase-o-with-ogonek-and-macron",
+		"u": "U+001ED",
+		"x": "#x01ED;",
+		"h": "#493;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase Ezh With Caron",
+		"s": "uppercase-ezh-with-caron",
+		"u": "U+001EE",
+		"x": "#x01EE;",
+		"h": "#494;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Ezh With Caron",
+		"s": "lowercase-ezh-with-caron",
+		"u": "U+001EF",
+		"x": "#x01EF;",
+		"h": "#495;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase J With Caron",
+		"s": "lowercase-j-with-caron",
+		"u": "U+001F0",
+		"x": "#x01F0;",
+		"h": "#496;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase Dz",
+		"s": "uppercase-dz",
+		"u": "U+001F1",
+		"x": "#x01F1;",
+		"h": "#497;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase D With Small Letter Z",
+		"s": "uppercase-d-with-small-letter-z",
+		"u": "U+001F2",
+		"x": "#x01F2;",
+		"h": "#498;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Dz",
+		"s": "lowercase-dz",
+		"u": "U+001F3",
+		"x": "#x01F3;",
+		"h": "#499;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase G With Acute",
+		"s": "uppercase-g-with-acute",
+		"u": "U+001F4",
+		"x": "#x01F4;",
+		"h": "#500;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase G With Acute",
+		"s": "lowercase-g-with-acute",
+		"u": "U+001F5",
+		"x": "#x01F5;",
+		"h": "#501;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase Hwair",
+		"s": "uppercase-hwair",
+		"u": "U+001F6",
+		"x": "#x01F6;",
+		"h": "#502;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase Wynn",
+		"s": "uppercase-wynn",
+		"u": "U+001F7",
+		"x": "#x01F7;",
+		"h": "#503;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase N With Grave",
+		"s": "uppercase-n-with-grave",
+		"u": "U+001F8",
+		"x": "#x01F8;",
+		"h": "#504;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase N With Grave",
+		"s": "lowercase-n-with-grave",
+		"u": "U+001F9",
+		"x": "#x01F9;",
+		"h": "#505;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase a With Ring Above and Acute",
+		"s": "uppercase-a-with-ring-above-and-acute",
+		"u": "U+001FA",
+		"x": "#x01FA;",
+		"h": "#506;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase a With Ring Above and Acute",
+		"s": "lowercase-a-with-ring-above-and-acute",
+		"u": "U+001FB",
+		"x": "#x01FB;",
+		"h": "#507;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase Ae With Acute",
+		"s": "uppercase-ae-with-acute",
+		"u": "U+001FC",
+		"x": "#x01FC;",
+		"h": "#508;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Ae With Acute",
+		"s": "lowercase-ae-with-acute",
+		"u": "U+001FD",
+		"x": "#x01FD;",
+		"h": "#509;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase O With Stroke and Acute",
+		"s": "uppercase-o-with-stroke-and-acute",
+		"u": "U+001FE",
+		"x": "#x01FE;",
+		"h": "#510;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase O With Stroke and Acute",
+		"s": "lowercase-o-with-stroke-and-acute",
+		"u": "U+001FF",
+		"x": "#x01FF;",
+		"h": "#511;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase a With Double Grave",
+		"s": "uppercase-a-with-double-grave",
+		"u": "U+00200",
+		"x": "#x0200;",
+		"h": "#512;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase a With Double Grave",
+		"s": "lowercase-a-with-double-grave",
+		"u": "U+00201",
+		"x": "#x0201;",
+		"h": "#513;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase a With Inverted Breve",
+		"s": "uppercase-a-with-inverted-breve",
+		"u": "U+00202",
+		"x": "#x0202;",
+		"h": "#514;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase a With Inverted Breve",
+		"s": "lowercase-a-with-inverted-breve",
+		"u": "U+00203",
+		"x": "#x0203;",
+		"h": "#515;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase E With Double Grave",
+		"s": "uppercase-e-with-double-grave",
+		"u": "U+00204",
+		"x": "#x0204;",
+		"h": "#516;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase E With Double Grave",
+		"s": "lowercase-e-with-double-grave",
+		"u": "U+00205",
+		"x": "#x0205;",
+		"h": "#517;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase E With Inverted Breve",
+		"s": "uppercase-e-with-inverted-breve",
+		"u": "U+00206",
+		"x": "#x0206;",
+		"h": "#518;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase E With Inverted Breve",
+		"s": "lowercase-e-with-inverted-breve",
+		"u": "U+00207",
+		"x": "#x0207;",
+		"h": "#519;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase I With Double Grave",
+		"s": "uppercase-i-with-double-grave",
+		"u": "U+00208",
+		"x": "#x0208;",
+		"h": "#520;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase I With Double Grave",
+		"s": "lowercase-i-with-double-grave",
+		"u": "U+00209",
+		"x": "#x0209;",
+		"h": "#521;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase I With Inverted Breve",
+		"s": "uppercase-i-with-inverted-breve",
+		"u": "U+0020A",
+		"x": "#x020A;",
+		"h": "#522;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase I With Inverted Breve",
+		"s": "lowercase-i-with-inverted-breve",
+		"u": "U+0020B",
+		"x": "#x020B;",
+		"h": "#523;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase O With Double Grave",
+		"s": "uppercase-o-with-double-grave",
+		"u": "U+0020C",
+		"x": "#x020C;",
+		"h": "#524;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase O With Double Grave",
+		"s": "lowercase-o-with-double-grave",
+		"u": "U+0020D",
+		"x": "#x020D;",
+		"h": "#525;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase O With Inverted Breve",
+		"s": "uppercase-o-with-inverted-breve",
+		"u": "U+0020E",
+		"x": "#x020E;",
+		"h": "#526;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase O With Inverted Breve",
+		"s": "lowercase-o-with-inverted-breve",
+		"u": "U+0020F",
+		"x": "#x020F;",
+		"h": "#527;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase R With Double Grave",
+		"s": "uppercase-r-with-double-grave",
+		"u": "U+00210",
+		"x": "#x0210;",
+		"h": "#528;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase R With Double Grave",
+		"s": "lowercase-r-with-double-grave",
+		"u": "U+00211",
+		"x": "#x0211;",
+		"h": "#529;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase R With Inverted Breve",
+		"s": "uppercase-r-with-inverted-breve",
+		"u": "U+00212",
+		"x": "#x0212;",
+		"h": "#530;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase R With Inverted Breve",
+		"s": "lowercase-r-with-inverted-breve",
+		"u": "U+00213",
+		"x": "#x0213;",
+		"h": "#531;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase U With Double Grave",
+		"s": "uppercase-u-with-double-grave",
+		"u": "U+00214",
+		"x": "#x0214;",
+		"h": "#532;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase U With Double Grave",
+		"s": "lowercase-u-with-double-grave",
+		"u": "U+00215",
+		"x": "#x0215;",
+		"h": "#533;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase U With Inverted Breve",
+		"s": "uppercase-u-with-inverted-breve",
+		"u": "U+00216",
+		"x": "#x0216;",
+		"h": "#534;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase U With Inverted Breve",
+		"s": "lowercase-u-with-inverted-breve",
+		"u": "U+00217",
+		"x": "#x0217;",
+		"h": "#535;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase S With Comma Below",
+		"s": "uppercase-s-with-comma-below",
+		"u": "U+00218",
+		"x": "#x0218;",
+		"h": "#536;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase S With Comma Below",
+		"s": "lowercase-s-with-comma-below",
+		"u": "U+00219",
+		"x": "#x0219;",
+		"h": "#537;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase T With Comma Below",
+		"s": "uppercase-t-with-comma-below",
+		"u": "U+0021A",
+		"x": "#x021A;",
+		"h": "#538;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase T With Comma Below",
+		"s": "lowercase-t-with-comma-below",
+		"u": "U+0021B",
+		"x": "#x021B;",
+		"h": "#539;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase Yogh",
+		"s": "uppercase-yogh",
+		"u": "U+0021C",
+		"x": "#x021C;",
+		"h": "#540;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Yogh",
+		"s": "lowercase-yogh",
+		"u": "U+0021D",
+		"x": "#x021D;",
+		"h": "#541;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase H With Caron",
+		"s": "uppercase-h-with-caron",
+		"u": "U+0021E",
+		"x": "#x021E;",
+		"h": "#542;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase H With Caron",
+		"s": "lowercase-h-with-caron",
+		"u": "U+0021F",
+		"x": "#x021F;",
+		"h": "#543;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase N With Long Right Leg",
+		"s": "uppercase-n-with-long-right-leg",
+		"u": "U+00220",
+		"x": "#x0220;",
+		"h": "#544;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase D With Curl",
+		"s": "lowercase-d-with-curl",
+		"u": "U+00221",
+		"x": "#x0221;",
+		"h": "#545;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase Ou",
+		"s": "uppercase-ou",
+		"u": "U+00222",
+		"x": "#x0222;",
+		"h": "#546;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Ou",
+		"s": "lowercase-ou",
+		"u": "U+00223",
+		"x": "#x0223;",
+		"h": "#547;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase Z With Hook",
+		"s": "uppercase-z-with-hook",
+		"u": "U+00224",
+		"x": "#x0224;",
+		"h": "#548;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Z With Hook",
+		"s": "lowercase-z-with-hook",
+		"u": "U+00225",
+		"x": "#x0225;",
+		"h": "#549;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase a With Dot Above",
+		"s": "uppercase-a-with-dot-above",
+		"u": "U+00226",
+		"x": "#x0226;",
+		"h": "#550;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase a With Dot Above",
+		"s": "lowercase-a-with-dot-above",
+		"u": "U+00227",
+		"x": "#x0227;",
+		"h": "#551;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase E With Cedilla",
+		"s": "uppercase-e-with-cedilla",
+		"u": "U+00228",
+		"x": "#x0228;",
+		"h": "#552;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase E With Cedilla",
+		"s": "lowercase-e-with-cedilla",
+		"u": "U+00229",
+		"x": "#x0229;",
+		"h": "#553;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase O With Diaeresis and Macron",
+		"s": "uppercase-o-with-diaeresis-and-macron",
+		"u": "U+0022A",
+		"x": "#x022A;",
+		"h": "#554;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase O With Diaeresis and Macron",
+		"s": "lowercase-o-with-diaeresis-and-macron",
+		"u": "U+0022B",
+		"x": "#x022B;",
+		"h": "#555;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase O With Tilde and Macron",
+		"s": "uppercase-o-with-tilde-and-macron",
+		"u": "U+0022C",
+		"x": "#x022C;",
+		"h": "#556;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase O With Tilde and Macron",
+		"s": "lowercase-o-with-tilde-and-macron",
+		"u": "U+0022D",
+		"x": "#x022D;",
+		"h": "#557;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase O With Dot Above",
+		"s": "uppercase-o-with-dot-above",
+		"u": "U+0022E",
+		"x": "#x022E;",
+		"h": "#558;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase O With Dot Above",
+		"s": "lowercase-o-with-dot-above",
+		"u": "U+0022F",
+		"x": "#x022F;",
+		"h": "#559;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase O With Dot Above and Macron",
+		"s": "uppercase-o-with-dot-above-and-macron",
+		"u": "U+00230",
+		"x": "#x0230;",
+		"h": "#560;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase O With Dot Above and Macron",
+		"s": "lowercase-o-with-dot-above-and-macron",
+		"u": "U+00231",
+		"x": "#x0231;",
+		"h": "#561;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase Y With Macron",
+		"s": "uppercase-y-with-macron",
+		"u": "U+00232",
+		"x": "#x0232;",
+		"h": "#562;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Y With Macron",
+		"s": "lowercase-y-with-macron",
+		"u": "U+00233",
+		"x": "#x0233;",
+		"h": "#563;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase L With Curl",
+		"s": "lowercase-l-with-curl",
+		"u": "U+00234",
+		"x": "#x0234;",
+		"h": "#564;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase N With Curl",
+		"s": "lowercase-n-with-curl",
+		"u": "U+00235",
+		"x": "#x0235;",
+		"h": "#565;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase T With Curl",
+		"s": "lowercase-t-with-curl",
+		"u": "U+00236",
+		"x": "#x0236;",
+		"h": "#566;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Dotless J",
+		"s": "lowercase-dotless-j",
+		"u": "U+00237",
+		"x": "#x0237;",
+		"h": "#567;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Db Digraph",
+		"s": "lowercase-db-digraph",
+		"u": "U+00238",
+		"x": "#x0238;",
+		"h": "#568;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Qp Digraph",
+		"s": "lowercase-qp-digraph",
+		"u": "U+00239",
+		"x": "#x0239;",
+		"h": "#569;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase a With Stroke",
+		"s": "uppercase-a-with-stroke",
+		"u": "U+0023A",
+		"x": "#x023A;",
+		"h": "#570;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase C With Stroke",
+		"s": "uppercase-c-with-stroke",
+		"u": "U+0023B",
+		"x": "#x023B;",
+		"h": "#571;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase C With Stroke",
+		"s": "lowercase-c-with-stroke",
+		"u": "U+0023C",
+		"x": "#x023C;",
+		"h": "#572;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase L With Bar",
+		"s": "uppercase-l-with-bar",
+		"u": "U+0023D",
+		"x": "#x023D;",
+		"h": "#573;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase T With Diagonal Stroke",
+		"s": "uppercase-t-with-diagonal-stroke",
+		"u": "U+0023E",
+		"x": "#x023E;",
+		"h": "#574;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase S With Swash Tail",
+		"s": "lowercase-s-with-swash-tail",
+		"u": "U+0023F",
+		"x": "#x023F;",
+		"h": "#575;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Z With Swash Tail",
+		"s": "lowercase-z-with-swash-tail",
+		"u": "U+00240",
+		"x": "#x0240;",
+		"h": "#576;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase Glottal Stop",
+		"s": "uppercase-glottal-stop",
+		"u": "U+00241",
+		"x": "#x0241;",
+		"h": "#577;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Glottal Stop",
+		"s": "lowercase-glottal-stop",
+		"u": "U+00242",
+		"x": "#x0242;",
+		"h": "#578;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase B With Stroke",
+		"s": "uppercase-b-with-stroke",
+		"u": "U+00243",
+		"x": "#x0243;",
+		"h": "#579;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase U Bar",
+		"s": "uppercase-u-bar",
+		"u": "U+00244",
+		"x": "#x0244;",
+		"h": "#580;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase Turned V",
+		"s": "uppercase-turned-v",
+		"u": "U+00245",
+		"x": "#x0245;",
+		"h": "#581;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase E With Stroke",
+		"s": "uppercase-e-with-stroke",
+		"u": "U+00246",
+		"x": "#x0246;",
+		"h": "#582;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase E With Stroke",
+		"s": "lowercase-e-with-stroke",
+		"u": "U+00247",
+		"x": "#x0247;",
+		"h": "#583;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase J With Stroke",
+		"s": "uppercase-j-with-stroke",
+		"u": "U+00248",
+		"x": "#x0248;",
+		"h": "#584;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase J With Stroke",
+		"s": "lowercase-j-with-stroke",
+		"u": "U+00249",
+		"x": "#x0249;",
+		"h": "#585;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase Small Q With Hook Tail",
+		"s": "uppercase-small-q-with-hook-tail",
+		"u": "U+0024A",
+		"x": "#x024A;",
+		"h": "#586;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Q With Hook Tail",
+		"s": "lowercase-q-with-hook-tail",
+		"u": "U+0024B",
+		"x": "#x024B;",
+		"h": "#587;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase R With Stroke",
+		"s": "uppercase-r-with-stroke",
+		"u": "U+0024C",
+		"x": "#x024C;",
+		"h": "#588;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase R With Stroke",
+		"s": "lowercase-r-with-stroke",
+		"u": "U+0024D",
+		"x": "#x024D;",
+		"h": "#589;",
+		"e": ""
+	},
+	{
+	    "n": "Uppercase Y With Stroke",
+		"s": "uppercase-y-with-stroke",
+		"u": "U+0024E",
+		"x": "#x024E;",
+		"h": "#590;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Y With Stroke",
+		"s": "lowercase-y-with-stroke",
+		"u": "U+0024F",
+		"x": "#x024F;",
+		"h": "#591;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Turned A",
+		"s": "lowercase-turned-a",
+		"u": "U+00250",
+		"x": "#x0250;",
+		"h": "#592;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Alpha",
+		"s": "lowercase-alpha",
+		"u": "U+00251",
+		"x": "#x0251;",
+		"h": "#593;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Turned Alpha",
+		"s": "lowercase-turned-alpha",
+		"u": "U+00252",
+		"x": "#x0252;",
+		"h": "#594;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase B With Hook",
+		"s": "lowercase-b-with-hook",
+		"u": "U+00253",
+		"x": "#x0253;",
+		"h": "#595;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Open O",
+		"s": "lowercase-open-o",
+		"u": "U+00254",
+		"x": "#x0254;",
+		"h": "#596;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase C With Curl",
+		"s": "lowercase-c-with-curl",
+		"u": "U+00255",
+		"x": "#x0255;",
+		"h": "#597;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase D With Tail",
+		"s": "lowercase-d-with-tail",
+		"u": "U+00256",
+		"x": "#x0256;",
+		"h": "#598;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase D With Hook",
+		"s": "lowercase-d-with-hook",
+		"u": "U+00257",
+		"x": "#x0257;",
+		"h": "#599;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Reversed E",
+		"s": "lowercase-reversed-e",
+		"u": "U+00258",
+		"x": "#x0258;",
+		"h": "#600;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Schwa",
+		"s": "lowercase-schwa",
+		"u": "U+00259",
+		"x": "#x0259;",
+		"h": "#601;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Schwa With Hook",
+		"s": "lowercase-schwa-with-hook",
+		"u": "U+0025A",
+		"x": "#x025A;",
+		"h": "#602;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Open E",
+		"s": "lowercase-open-e",
+		"u": "U+0025B",
+		"x": "#x025B;",
+		"h": "#603;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Reversed Open E",
+		"s": "lowercase-reversed-open-e",
+		"u": "U+0025C",
+		"x": "#x025C;",
+		"h": "#604;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Reversed Open E With Hook",
+		"s": "lowercase-reversed-open-e-with-hook",
+		"u": "U+0025D",
+		"x": "#x025D;",
+		"h": "#605;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Closed Reversed Open E",
+		"s": "lowercase-closed-reversed-open-e",
+		"u": "U+0025E",
+		"x": "#x025E;",
+		"h": "#606;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Dotless J With Stroke",
+		"s": "lowercase-dotless-j-with-stroke",
+		"u": "U+0025F",
+		"x": "#x025F;",
+		"h": "#607;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase G With Hook",
+		"s": "lowercase-g-with-hook",
+		"u": "U+00260",
+		"x": "#x0260;",
+		"h": "#608;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Script G",
+		"s": "lowercase-script-g",
+		"u": "U+00261",
+		"x": "#x0261;",
+		"h": "#609;",
+		"e": ""
+	},
+	{
+	    "n": "Latin Letter Small Capital G",
+		"s": "latin-letter-small-capital-g",
+		"u": "U+00262",
+		"x": "#x0262;",
+		"h": "#610;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Gamma",
+		"s": "lowercase-gamma",
+		"u": "U+00263",
+		"x": "#x0263;",
+		"h": "#611;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Rams Horn",
+		"s": "lowercase-rams-horn",
+		"u": "U+00264",
+		"x": "#x0264;",
+		"h": "#612;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Turned H",
+		"s": "lowercase-turned-h",
+		"u": "U+00265",
+		"x": "#x0265;",
+		"h": "#613;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase H With Hook",
+		"s": "lowercase-h-with-hook",
+		"u": "U+00266",
+		"x": "#x0266;",
+		"h": "#614;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Heng With Hook",
+		"s": "lowercase-heng-with-hook",
+		"u": "U+00267",
+		"x": "#x0267;",
+		"h": "#615;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase I With Stroke",
+		"s": "lowercase-i-with-stroke",
+		"u": "U+00268",
+		"x": "#x0268;",
+		"h": "#616;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Iota",
+		"s": "lowercase-iota",
+		"u": "U+00269",
+		"x": "#x0269;",
+		"h": "#617;",
+		"e": ""
+	},
+	{
+	    "n": "Latin Letter Small Capital I",
+		"s": "latin-letter-small-capital-i",
+		"u": "U+0026A",
+		"x": "#x026A;",
+		"h": "#618;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase L With Middle Tilde",
+		"s": "lowercase-l-with-middle-tilde",
+		"u": "U+0026B",
+		"x": "#x026B;",
+		"h": "#619;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase L With Belt",
+		"s": "lowercase-l-with-belt",
+		"u": "U+0026C",
+		"x": "#x026C;",
+		"h": "#620;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase L With Retroflex Hook",
+		"s": "lowercase-l-with-retroflex-hook",
+		"u": "U+0026D",
+		"x": "#x026D;",
+		"h": "#621;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Lezh",
+		"s": "lowercase-lezh",
+		"u": "U+0026E",
+		"x": "#x026E;",
+		"h": "#622;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Turned M",
+		"s": "lowercase-turned-m",
+		"u": "U+0026F",
+		"x": "#x026F;",
+		"h": "#623;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Turned M With Long Leg",
+		"s": "lowercase-turned-m-with-long-leg",
+		"u": "U+00270",
+		"x": "#x0270;",
+		"h": "#624;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase M With Hook",
+		"s": "lowercase-m-with-hook",
+		"u": "U+00271",
+		"x": "#x0271;",
+		"h": "#625;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase N With Left Hook",
+		"s": "lowercase-n-with-left-hook",
+		"u": "U+00272",
+		"x": "#x0272;",
+		"h": "#626;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase N With Retroflex Hook",
+		"s": "lowercase-n-with-retroflex-hook",
+		"u": "U+00273",
+		"x": "#x0273;",
+		"h": "#627;",
+		"e": ""
+	},
+	{
+	    "n": "Latin Letter Small Capital N",
+		"s": "latin-letter-small-capital-n",
+		"u": "U+00274",
+		"x": "#x0274;",
+		"h": "#628;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Barred O",
+		"s": "lowercase-barred-o",
+		"u": "U+00275",
+		"x": "#x0275;",
+		"h": "#629;",
+		"e": ""
+	},
+	{
+	    "n": "Latin Letter Small Capital Oe",
+		"s": "latin-letter-small-capital-oe",
+		"u": "U+00276",
+		"x": "#x0276;",
+		"h": "#630;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Closed Omega",
+		"s": "lowercase-closed-omega",
+		"u": "U+00277",
+		"x": "#x0277;",
+		"h": "#631;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Phi",
+		"s": "lowercase-phi",
+		"u": "U+00278",
+		"x": "#x0278;",
+		"h": "#632;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Turned R",
+		"s": "lowercase-turned-r",
+		"u": "U+00279",
+		"x": "#x0279;",
+		"h": "#633;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Turned R With Long Leg",
+		"s": "lowercase-turned-r-with-long-leg",
+		"u": "U+0027A",
+		"x": "#x027A;",
+		"h": "#634;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Turned R With Hook",
+		"s": "lowercase-turned-r-with-hook",
+		"u": "U+0027B",
+		"x": "#x027B;",
+		"h": "#635;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase R With Long Leg",
+		"s": "lowercase-r-with-long-leg",
+		"u": "U+0027C",
+		"x": "#x027C;",
+		"h": "#636;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase R With Tail",
+		"s": "lowercase-r-with-tail",
+		"u": "U+0027D",
+		"x": "#x027D;",
+		"h": "#637;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase R With Fishhook",
+		"s": "lowercase-r-with-fishhook",
+		"u": "U+0027E",
+		"x": "#x027E;",
+		"h": "#638;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Reversed R With Fishhook",
+		"s": "lowercase-reversed-r-with-fishhook",
+		"u": "U+0027F",
+		"x": "#x027F;",
+		"h": "#639;",
+		"e": ""
+	},
+	{
+	    "n": "Latin Letter Small Capital R",
+		"s": "latin-letter-small-capital-r",
+		"u": "U+00280",
+		"x": "#x0280;",
+		"h": "#640;",
+		"e": ""
+	},
+	{
+	    "n": "Latin Letter Small Capital Inverted R",
+		"s": "latin-letter-small-capital-inverted-r",
+		"u": "U+00281",
+		"x": "#x0281;",
+		"h": "#641;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase S With Hook",
+		"s": "lowercase-s-with-hook",
+		"u": "U+00282",
+		"x": "#x0282;",
+		"h": "#642;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Esh",
+		"s": "lowercase-esh",
+		"u": "U+00283",
+		"x": "#x0283;",
+		"h": "#643;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Dotless J With Stroke and Hook",
+		"s": "lowercase-dotless-j-with-stroke-and-hook",
+		"u": "U+00284",
+		"x": "#x0284;",
+		"h": "#644;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Squat Reversed Esh",
+		"s": "lowercase-squat-reversed-esh",
+		"u": "U+00285",
+		"x": "#x0285;",
+		"h": "#645;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Esh With Curl",
+		"s": "lowercase-esh-with-curl",
+		"u": "U+00286",
+		"x": "#x0286;",
+		"h": "#646;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Turned T",
+		"s": "lowercase-turned-t",
+		"u": "U+00287",
+		"x": "#x0287;",
+		"h": "#647;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase T With Retroflex Hook",
+		"s": "lowercase-t-with-retroflex-hook",
+		"u": "U+00288",
+		"x": "#x0288;",
+		"h": "#648;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase U Bar",
+		"s": "lowercase-u-bar",
+		"u": "U+00289",
+		"x": "#x0289;",
+		"h": "#649;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Upsilon",
+		"s": "lowercase-upsilon",
+		"u": "U+0028A",
+		"x": "#x028A;",
+		"h": "#650;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase v With Hook",
+		"s": "lowercase-v-with-hook",
+		"u": "U+0028B",
+		"x": "#x028B;",
+		"h": "#651;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Turned V",
+		"s": "lowercase-turned-v",
+		"u": "U+0028C",
+		"x": "#x028C;",
+		"h": "#652;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Turned W",
+		"s": "lowercase-turned-w",
+		"u": "U+0028D",
+		"x": "#x028D;",
+		"h": "#653;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Turned Y",
+		"s": "lowercase-turned-y",
+		"u": "U+0028E",
+		"x": "#x028E;",
+		"h": "#654;",
+		"e": ""
+	},
+	{
+	    "n": "Latin Letter Small Capital Y",
+		"s": "latin-letter-small-capital-y",
+		"u": "U+0028F",
+		"x": "#x028F;",
+		"h": "#655;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Z With Retroflex Hook",
+		"s": "lowercase-z-with-retroflex-hook",
+		"u": "U+00290",
+		"x": "#x0290;",
+		"h": "#656;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Z With Curl",
+		"s": "lowercase-z-with-curl",
+		"u": "U+00291",
+		"x": "#x0291;",
+		"h": "#657;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Ezh",
+		"s": "lowercase-ezh",
+		"u": "U+00292",
+		"x": "#x0292;",
+		"h": "#658;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Ezh With Curl",
+		"s": "lowercase-ezh-with-curl",
+		"u": "U+00293",
+		"x": "#x0293;",
+		"h": "#659;",
+		"e": ""
+	},
+	{
+	    "n": "Latin Letter Glottal Stop",
+		"s": "latin-letter-glottal-stop",
+		"u": "U+00294",
+		"x": "#x0294;",
+		"h": "#660;",
+		"e": ""
+	},
+	{
+	    "n": "Latin Letter Pharyngeal Voiced Fricative",
+		"s": "latin-letter-pharyngeal-voiced-fricative",
+		"u": "U+00295",
+		"x": "#x0295;",
+		"h": "#661;",
+		"e": ""
+	},
+	{
+	    "n": "Latin Letter Inverted Glottal Stop",
+		"s": "latin-letter-inverted-glottal-stop",
+		"u": "U+00296",
+		"x": "#x0296;",
+		"h": "#662;",
+		"e": ""
+	},
+	{
+	    "n": "Latin Letter Stretched C",
+		"s": "latin-letter-stretched-c",
+		"u": "U+00297",
+		"x": "#x0297;",
+		"h": "#663;",
+		"e": ""
+	},
+	{
+	    "n": "Latin Letter Bilabial Click",
+		"s": "latin-letter-bilabial-click",
+		"u": "U+00298",
+		"x": "#x0298;",
+		"h": "#664;",
+		"e": ""
+	},
+	{
+	    "n": "Latin Letter Small Capital B",
+		"s": "latin-letter-small-capital-b",
+		"u": "U+00299",
+		"x": "#x0299;",
+		"h": "#665;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Closed Open E",
+		"s": "lowercase-closed-open-e",
+		"u": "U+0029A",
+		"x": "#x029A;",
+		"h": "#666;",
+		"e": ""
+	},
+	{
+	    "n": "Latin Letter Small Capital G With Hook",
+		"s": "latin-letter-small-capital-g-with-hook",
+		"u": "U+0029B",
+		"x": "#x029B;",
+		"h": "#667;",
+		"e": ""
+	},
+	{
+	    "n": "Latin Letter Small Capital H",
+		"s": "latin-letter-small-capital-h",
+		"u": "U+0029C",
+		"x": "#x029C;",
+		"h": "#668;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase J With Crossed-Tail",
+		"s": "lowercase-j-with-crossed-tail",
+		"u": "U+0029D",
+		"x": "#x029D;",
+		"h": "#669;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Turned K",
+		"s": "lowercase-turned-k",
+		"u": "U+0029E",
+		"x": "#x029E;",
+		"h": "#670;",
+		"e": ""
+	},
+	{
+	    "n": "Latin Letter Small Capital L",
+		"s": "latin-letter-small-capital-l",
+		"u": "U+0029F",
+		"x": "#x029F;",
+		"h": "#671;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Q With Hook",
+		"s": "lowercase-q-with-hook",
+		"u": "U+002A0",
+		"x": "#x02A0;",
+		"h": "#672;",
+		"e": ""
+	},
+	{
+	    "n": "Latin Letter Glottal Stop With Stroke",
+		"s": "latin-letter-glottal-stop-with-stroke",
+		"u": "U+002A1",
+		"x": "#x02A1;",
+		"h": "#673;",
+		"e": ""
+	},
+	{
+	    "n": "Latin Letter Reversed Glottal Stop With Stroke",
+		"s": "latin-letter-reversed-glottal-stop-with-stroke",
+		"u": "U+002A2",
+		"x": "#x02A2;",
+		"h": "#674;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Dz Digraph",
+		"s": "lowercase-dz-digraph",
+		"u": "U+002A3",
+		"x": "#x02A3;",
+		"h": "#675;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Dezh Digraph",
+		"s": "lowercase-dezh-digraph",
+		"u": "U+002A4",
+		"x": "#x02A4;",
+		"h": "#676;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Dz Digraph With Curl",
+		"s": "lowercase-dz-digraph-with-curl",
+		"u": "U+002A5",
+		"x": "#x02A5;",
+		"h": "#677;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Ts Digraph",
+		"s": "lowercase-ts-digraph",
+		"u": "U+002A6",
+		"x": "#x02A6;",
+		"h": "#678;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Tesh Digraph",
+		"s": "lowercase-tesh-digraph",
+		"u": "U+002A7",
+		"x": "#x02A7;",
+		"h": "#679;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Tc Digraph With Curl",
+		"s": "lowercase-tc-digraph-with-curl",
+		"u": "U+002A8",
+		"x": "#x02A8;",
+		"h": "#680;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Feng Digraph",
+		"s": "lowercase-feng-digraph",
+		"u": "U+002A9",
+		"x": "#x02A9;",
+		"h": "#681;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Ls Digraph",
+		"s": "lowercase-ls-digraph",
+		"u": "U+002AA",
+		"x": "#x02AA;",
+		"h": "#682;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Lz Digraph",
+		"s": "lowercase-lz-digraph",
+		"u": "U+002AB",
+		"x": "#x02AB;",
+		"h": "#683;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Bilabial Percussive",
+		"s": "lowercase-bilabial-percussive",
+		"u": "U+002AC",
+		"x": "#x02AC;",
+		"h": "#684;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Bidental Percussive",
+		"s": "lowercase-bidental-percussive",
+		"u": "U+002AD",
+		"x": "#x02AD;",
+		"h": "#685;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Turned H With Fishhook",
+		"s": "lowercase-turned-h-with-fishhook",
+		"u": "U+002AE",
+		"x": "#x02AE;",
+		"h": "#686;",
+		"e": ""
+	},
+	{
+	    "n": "Lowercase Turned H With Fishhook and Tail",
+		"s": "lowercase-turned-h-with-fishhook-and-tail",
+		"u": "U+002AF",
+		"x": "#x02AF;",
+		"h": "#687;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Grave Accent",
+		"s": "combining-grave-accent",
+		"u": "U+00300",
+		"x": "#x0300;",
+		"h": "#768;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Acute Accent",
+		"s": "combining-acute-accent",
+		"u": "U+00301",
+		"x": "#x0301;",
+		"h": "#769;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Circumflex Accent",
+		"s": "combining-circumflex-accent",
+		"u": "U+00302",
+		"x": "#x0302;",
+		"h": "#770;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Tilde",
+		"s": "combining-tilde",
+		"u": "U+00303",
+		"x": "#x0303;",
+		"h": "#771;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Macron",
+		"s": "combining-macron",
+		"u": "U+00304",
+		"x": "#x0304;",
+		"h": "#772;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Overline",
+		"s": "combining-overline",
+		"u": "U+00305",
+		"x": "#x0305;",
+		"h": "#773;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Breve",
+		"s": "combining-breve",
+		"u": "U+00306",
+		"x": "#x0306;",
+		"h": "#774;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Dot Above",
+		"s": "combining-dot-above",
+		"u": "U+00307",
+		"x": "#x0307;",
+		"h": "#775;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Diaeresis",
+		"s": "combining-diaeresis",
+		"u": "U+00308",
+		"x": "#x0308;",
+		"h": "#776;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Hook Above",
+		"s": "combining-hook-above",
+		"u": "U+00309",
+		"x": "#x0309;",
+		"h": "#777;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Ring Above",
+		"s": "combining-ring-above",
+		"u": "U+0030A",
+		"x": "#x030A;",
+		"h": "#778;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Double Acute Accent",
+		"s": "combining-double-acute-accent",
+		"u": "U+0030B",
+		"x": "#x030B;",
+		"h": "#779;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Caron",
+		"s": "combining-caron",
+		"u": "U+0030C",
+		"x": "#x030C;",
+		"h": "#780;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Vertical Line Above",
+		"s": "combining-vertical-line-above",
+		"u": "U+0030D",
+		"x": "#x030D;",
+		"h": "#781;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Double Vertical Line Above",
+		"s": "combining-double-vertical-line-above",
+		"u": "U+0030E",
+		"x": "#x030E;",
+		"h": "#782;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Double Grave Accent",
+		"s": "combining-double-grave-accent",
+		"u": "U+0030F",
+		"x": "#x030F;",
+		"h": "#783;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Candrabindu",
+		"s": "combining-candrabindu",
+		"u": "U+00310",
+		"x": "#x0310;",
+		"h": "#784;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Inverted Breve",
+		"s": "combining-inverted-breve",
+		"u": "U+00311",
+		"x": "#x0311;",
+		"h": "#785;",
+		"e": "DownBreve;"
+	},
+	{
+	    "n": "Combining Turned Comma Above",
+		"s": "combining-turned-comma-above",
+		"u": "U+00312",
+		"x": "#x0312;",
+		"h": "#786;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Comma Above",
+		"s": "combining-comma-above",
+		"u": "U+00313",
+		"x": "#x0313;",
+		"h": "#787;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Reversed Comma Above",
+		"s": "combining-reversed-comma-above",
+		"u": "U+00314",
+		"x": "#x0314;",
+		"h": "#788;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Comma Above Right",
+		"s": "combining-comma-above-right",
+		"u": "U+00315",
+		"x": "#x0315;",
+		"h": "#789;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Grave Accent Below",
+		"s": "combining-grave-accent-below",
+		"u": "U+00316",
+		"x": "#x0316;",
+		"h": "#790;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Acute Accent Below",
+		"s": "combining-acute-accent-below",
+		"u": "U+00317",
+		"x": "#x0317;",
+		"h": "#791;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Left Tack Below",
+		"s": "combining-left-tack-below",
+		"u": "U+00318",
+		"x": "#x0318;",
+		"h": "#792;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Right Tack Below",
+		"s": "combining-right-tack-below",
+		"u": "U+00319",
+		"x": "#x0319;",
+		"h": "#793;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Left Angle Above",
+		"s": "combining-left-angle-above",
+		"u": "U+0031A",
+		"x": "#x031A;",
+		"h": "#794;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Horn",
+		"s": "combining-horn",
+		"u": "U+0031B",
+		"x": "#x031B;",
+		"h": "#795;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Left Half Ring Below",
+		"s": "combining-left-half-ring-below",
+		"u": "U+0031C",
+		"x": "#x031C;",
+		"h": "#796;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Up Tack Below",
+		"s": "combining-up-tack-below",
+		"u": "U+0031D",
+		"x": "#x031D;",
+		"h": "#797;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Down Tack Below",
+		"s": "combining-down-tack-below",
+		"u": "U+0031E",
+		"x": "#x031E;",
+		"h": "#798;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Plus Sign Below",
+		"s": "combining-plus-sign-below",
+		"u": "U+0031F",
+		"x": "#x031F;",
+		"h": "#799;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Minus Sign Below",
+		"s": "combining-minus-sign-below",
+		"u": "U+00320",
+		"x": "#x0320;",
+		"h": "#800;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Palatalized Hook Below",
+		"s": "combining-palatalized-hook-below",
+		"u": "U+00321",
+		"x": "#x0321;",
+		"h": "#801;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Retroflex Hook Below",
+		"s": "combining-retroflex-hook-below",
+		"u": "U+00322",
+		"x": "#x0322;",
+		"h": "#802;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Dot Below",
+		"s": "combining-dot-below",
+		"u": "U+00323",
+		"x": "#x0323;",
+		"h": "#803;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Diaeresis Below",
+		"s": "combining-diaeresis-below",
+		"u": "U+00324",
+		"x": "#x0324;",
+		"h": "#804;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Ring Below",
+		"s": "combining-ring-below",
+		"u": "U+00325",
+		"x": "#x0325;",
+		"h": "#805;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Comma Below",
+		"s": "combining-comma-below",
+		"u": "U+00326",
+		"x": "#x0326;",
+		"h": "#806;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Cedilla",
+		"s": "combining-cedilla",
+		"u": "U+00327",
+		"x": "#x0327;",
+		"h": "#807;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Ogonek",
+		"s": "combining-ogonek",
+		"u": "U+00328",
+		"x": "#x0328;",
+		"h": "#808;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Vertical Line Below",
+		"s": "combining-vertical-line-below",
+		"u": "U+00329",
+		"x": "#x0329;",
+		"h": "#809;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Bridge Below",
+		"s": "combining-bridge-below",
+		"u": "U+0032A",
+		"x": "#x032A;",
+		"h": "#810;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Inverted Double Arch Below",
+		"s": "combining-inverted-double-arch-below",
+		"u": "U+0032B",
+		"x": "#x032B;",
+		"h": "#811;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Caron Below",
+		"s": "combining-caron-below",
+		"u": "U+0032C",
+		"x": "#x032C;",
+		"h": "#812;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Circumflex Accent Below",
+		"s": "combining-circumflex-accent-below",
+		"u": "U+0032D",
+		"x": "#x032D;",
+		"h": "#813;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Breve Below",
+		"s": "combining-breve-below",
+		"u": "U+0032E",
+		"x": "#x032E;",
+		"h": "#814;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Inverted Breve Below",
+		"s": "combining-inverted-breve-below",
+		"u": "U+0032F",
+		"x": "#x032F;",
+		"h": "#815;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Tilde Below",
+		"s": "combining-tilde-below",
+		"u": "U+00330",
+		"x": "#x0330;",
+		"h": "#816;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Macron Below",
+		"s": "combining-macron-below",
+		"u": "U+00331",
+		"x": "#x0331;",
+		"h": "#817;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Low Line",
+		"s": "combining-low-line",
+		"u": "U+00332",
+		"x": "#x0332;",
+		"h": "#818;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Double Low Line",
+		"s": "combining-double-low-line",
+		"u": "U+00333",
+		"x": "#x0333;",
+		"h": "#819;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Tilde Overlay",
+		"s": "combining-tilde-overlay",
+		"u": "U+00334",
+		"x": "#x0334;",
+		"h": "#820;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Short Stroke Overlay",
+		"s": "combining-short-stroke-overlay",
+		"u": "U+00335",
+		"x": "#x0335;",
+		"h": "#821;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Long Stroke Overlay",
+		"s": "combining-long-stroke-overlay",
+		"u": "U+00336",
+		"x": "#x0336;",
+		"h": "#822;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Short Solidus Overlay",
+		"s": "combining-short-solidus-overlay",
+		"u": "U+00337",
+		"x": "#x0337;",
+		"h": "#823;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Long Solidus Overlay",
+		"s": "combining-long-solidus-overlay",
+		"u": "U+00338",
+		"x": "#x0338;",
+		"h": "#824;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Right Half Ring Below",
+		"s": "combining-right-half-ring-below",
+		"u": "U+00339",
+		"x": "#x0339;",
+		"h": "#825;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Inverted Bridge Below",
+		"s": "combining-inverted-bridge-below",
+		"u": "U+0033A",
+		"x": "#x033A;",
+		"h": "#826;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Square Below",
+		"s": "combining-square-below",
+		"u": "U+0033B",
+		"x": "#x033B;",
+		"h": "#827;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Seagull Below",
+		"s": "combining-seagull-below",
+		"u": "U+0033C",
+		"x": "#x033C;",
+		"h": "#828;",
+		"e": ""
+	},
+	{
+	    "n": "Combining X Above",
+		"s": "combining-x-above",
+		"u": "U+0033D",
+		"x": "#x033D;",
+		"h": "#829;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Vertical Tilde",
+		"s": "combining-vertical-tilde",
+		"u": "U+0033E",
+		"x": "#x033E;",
+		"h": "#830;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Double Overline",
+		"s": "combining-double-overline",
+		"u": "U+0033F",
+		"x": "#x033F;",
+		"h": "#831;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Grave Tone Mark",
+		"s": "combining-grave-tone-mark",
+		"u": "U+00340",
+		"x": "#x0340;",
+		"h": "#832;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Acute Tone Mark",
+		"s": "combining-acute-tone-mark",
+		"u": "U+00341",
+		"x": "#x0341;",
+		"h": "#833;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Greek Perispomeni",
+		"s": "combining-greek-perispomeni",
+		"u": "U+00342",
+		"x": "#x0342;",
+		"h": "#834;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Greek Koronis",
+		"s": "combining-greek-koronis",
+		"u": "U+00343",
+		"x": "#x0343;",
+		"h": "#835;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Greek Dialytika Tonos",
+		"s": "combining-greek-dialytika-tonos",
+		"u": "U+00344",
+		"x": "#x0344;",
+		"h": "#836;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Greek Ypogegrammeni",
+		"s": "combining-greek-ypogegrammeni",
+		"u": "U+00345",
+		"x": "#x0345;",
+		"h": "#837;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Bridge Above",
+		"s": "combining-bridge-above",
+		"u": "U+00346",
+		"x": "#x0346;",
+		"h": "#838;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Equals Sign Below",
+		"s": "combining-equals-sign-below",
+		"u": "U+00347",
+		"x": "#x0347;",
+		"h": "#839;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Double Vertical Line Below",
+		"s": "combining-double-vertical-line-below",
+		"u": "U+00348",
+		"x": "#x0348;",
+		"h": "#840;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Left Angle Below",
+		"s": "combining-left-angle-below",
+		"u": "U+00349",
+		"x": "#x0349;",
+		"h": "#841;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Not Tilde Above",
+		"s": "combining-not-tilde-above",
+		"u": "U+0034A",
+		"x": "#x034A;",
+		"h": "#842;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Homothetic Above",
+		"s": "combining-homothetic-above",
+		"u": "U+0034B",
+		"x": "#x034B;",
+		"h": "#843;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Almost Equal to Above",
+		"s": "combining-almost-equal-to-above",
+		"u": "U+0034C",
+		"x": "#x034C;",
+		"h": "#844;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Left Right Arrow Below",
+		"s": "combining-left-right-arrow-below",
+		"u": "U+0034D",
+		"x": "#x034D;",
+		"h": "#845;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Up Arrow Below",
+		"s": "combining-up-arrow-below",
+		"u": "U+0034E",
+		"x": "#x034E;",
+		"h": "#846;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Grapheme Joiner",
+		"s": "combining-grapheme-joiner",
+		"u": "U+0034F",
+		"x": "#x034F;",
+		"h": "#847;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Right Arrowhead Above",
+		"s": "combining-right-arrowhead-above",
+		"u": "U+00350",
+		"x": "#x0350;",
+		"h": "#848;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Left Half Ring Above",
+		"s": "combining-left-half-ring-above",
+		"u": "U+00351",
+		"x": "#x0351;",
+		"h": "#849;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Fermata",
+		"s": "combining-fermata",
+		"u": "U+00352",
+		"x": "#x0352;",
+		"h": "#850;",
+		"e": ""
+	},
+	{
+	    "n": "Combining X Below",
+		"s": "combining-x-below",
+		"u": "U+00353",
+		"x": "#x0353;",
+		"h": "#851;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Left Arrowhead Below",
+		"s": "combining-left-arrowhead-below",
+		"u": "U+00354",
+		"x": "#x0354;",
+		"h": "#852;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Right Arrowhead Below",
+		"s": "combining-right-arrowhead-below",
+		"u": "U+00355",
+		"x": "#x0355;",
+		"h": "#853;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Right Arrowhead and Up Arrowhead Below",
+		"s": "combining-right-arrowhead-and-up-arrowhead-below",
+		"u": "U+00356",
+		"x": "#x0356;",
+		"h": "#854;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Right Half Ring Above",
+		"s": "combining-right-half-ring-above",
+		"u": "U+00357",
+		"x": "#x0357;",
+		"h": "#855;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Dot Above Right",
+		"s": "combining-dot-above-right",
+		"u": "U+00358",
+		"x": "#x0358;",
+		"h": "#856;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Asterisk Below",
+		"s": "combining-asterisk-below",
+		"u": "U+00359",
+		"x": "#x0359;",
+		"h": "#857;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Double Ring Below",
+		"s": "combining-double-ring-below",
+		"u": "U+0035A",
+		"x": "#x035A;",
+		"h": "#858;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Zigzag Above",
+		"s": "combining-zigzag-above",
+		"u": "U+0035B",
+		"x": "#x035B;",
+		"h": "#859;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Double Breve Below",
+		"s": "combining-double-breve-below",
+		"u": "U+0035C",
+		"x": "#x035C;",
+		"h": "#860;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Double Breve",
+		"s": "combining-double-breve",
+		"u": "U+0035D",
+		"x": "#x035D;",
+		"h": "#861;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Double Macron",
+		"s": "combining-double-macron",
+		"u": "U+0035E",
+		"x": "#x035E;",
+		"h": "#862;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Double Macron Below",
+		"s": "combining-double-macron-below",
+		"u": "U+0035F",
+		"x": "#x035F;",
+		"h": "#863;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Double Tilde",
+		"s": "combining-double-tilde",
+		"u": "U+00360",
+		"x": "#x0360;",
+		"h": "#864;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Double Inverted Breve",
+		"s": "combining-double-inverted-breve",
+		"u": "U+00361",
+		"x": "#x0361;",
+		"h": "#865;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Double Right Arrow Below",
+		"s": "combining-double-right-arrow-below",
+		"u": "U+00362",
+		"x": "#x0362;",
+		"h": "#866;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Latin Small Letter A",
+		"s": "combining-latin-small-letter-a",
+		"u": "U+00363",
+		"x": "#x0363;",
+		"h": "#867;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Latin Small Letter E",
+		"s": "combining-latin-small-letter-e",
+		"u": "U+00364",
+		"x": "#x0364;",
+		"h": "#868;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Latin Small Letter I",
+		"s": "combining-latin-small-letter-i",
+		"u": "U+00365",
+		"x": "#x0365;",
+		"h": "#869;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Latin Small Letter O",
+		"s": "combining-latin-small-letter-o",
+		"u": "U+00366",
+		"x": "#x0366;",
+		"h": "#870;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Latin Small Letter U",
+		"s": "combining-latin-small-letter-u",
+		"u": "U+00367",
+		"x": "#x0367;",
+		"h": "#871;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Latin Small Letter C",
+		"s": "combining-latin-small-letter-c",
+		"u": "U+00368",
+		"x": "#x0368;",
+		"h": "#872;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Latin Small Letter D",
+		"s": "combining-latin-small-letter-d",
+		"u": "U+00369",
+		"x": "#x0369;",
+		"h": "#873;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Latin Small Letter H",
+		"s": "combining-latin-small-letter-h",
+		"u": "U+0036A",
+		"x": "#x036A;",
+		"h": "#874;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Latin Small Letter M",
+		"s": "combining-latin-small-letter-m",
+		"u": "U+0036B",
+		"x": "#x036B;",
+		"h": "#875;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Latin Small Letter R",
+		"s": "combining-latin-small-letter-r",
+		"u": "U+0036C",
+		"x": "#x036C;",
+		"h": "#876;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Latin Small Letter T",
+		"s": "combining-latin-small-letter-t",
+		"u": "U+0036D",
+		"x": "#x036D;",
+		"h": "#877;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Latin Small Letter V",
+		"s": "combining-latin-small-letter-v",
+		"u": "U+0036E",
+		"x": "#x036E;",
+		"h": "#878;",
+		"e": ""
+	},
+	{
+	    "n": "Combining Latin Small Letter X",
+		"s": "combining-latin-small-letter-x",
+		"u": "U+0036F",
+		"x": "#x036F;",
+		"h": "#879;",
+		"e": ""
+	}
+]

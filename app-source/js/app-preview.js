@@ -11,14 +11,14 @@ const loadJsonFile = require('load-json-file')
 const Store = require( 'electron-store' )
 const store = new Store()
 
+const fontSizes = [9,10,11,12,13,14,18,24,36,48,64,72,96,144]
+
 
 
 ipcRenderer.on('selected-font', (event, message) => {
 	
 	let name = message[0],
-		path = message[1]	
-	
-	injectGlyphs()
+		path = message[1]
 	
 	fs.stat( path, ( err,stats ) => {
 		
@@ -52,7 +52,10 @@ ipcRenderer.on('selected-font', (event, message) => {
 						listItem( 'file', '', fontName( file, 1 ), file, fontName( file, 0 ) )
 						addPreview( file )
 						
-						if( count == 0 ) { styleGlyphs( fontName( file, 1 ) ) }
+						if( count == 0 ) {
+							
+							injectGlyphs( fontName( file, 1 ), 'letters' )
+						}
 						
 						count++
 					}
@@ -64,24 +67,11 @@ ipcRenderer.on('selected-font', (event, message) => {
 			injectCSS( fontName( name, 1 ), name, path, 1 )
 			listItem( 'file', 'selected', fontName( name, 1 ), name, fontName( name, 0 ) )
 			addPreview( name )
-			styleGlyphs( fontName( name, 1 ) )
+			injectGlyphs( name, 'letters' )
 		}
 	})
 })
 
-
-
-function listItem( type, selected, data, name, font ) {
-	
-	
-	
-	$('#font-list ul').append(
-		
-		`<li class="${type} ${selected}" data-font="${data}" title="${name}">
-			<div>${font}</div>
-		</li>`
-	)
-}
 
 
 function injectCSS( family, name, path, type ) {
@@ -113,24 +103,42 @@ function injectCSS( family, name, path, type ) {
 
 
 
+function listItem( type, selected, data, name, font ) {
+		
+	$('#font-list ul').append(
+		
+		`<li class="${type} ${selected}" data-font="${data}" title="${name}">
+			<div>${font}</div>
+		</li>`
+	)
+}
+
+
+
 function addPreview( name ) {
 	
 	let font 	= fontName( name, 0 ),
 		family 	= fontName( name, 1 ),
 		color 	= store.get('fontPreview.color'),
-		size 	= store.get('fontPreview.size')
+		val 	= store.get('fontPreview.size'),
+		size 	= fontSizes[val]
 	
 	$('#preview-list').append(
 	
 	`<article class="preview-item" data-target="${family}">
 		<h2>${font}</h2>
 		<div class="preview-text" style="font-family: \'${family}\'; color: ${color}; font-size: ${size}px;">
-			<p>ABCDEFGHIJKLM<br>NOPQRSTUVWXYZ<br>
-			abcdefghijklm<br>nopqrstuvwxyz<br>
+			<p>ABCDEFGHIJKLM<br class="break">NOPQRSTUVWXYZ<br>
+			abcdefghijklm<br class="break">nopqrstuvwxyz<br>
 			1234567890</p>
 		</div>
 	</article>`
 	)
+	
+	if( val > 8 ) {
+		
+		$('.break').hide()
+	}
 }
 
 
@@ -156,19 +164,65 @@ function fontName( name, type ) {
 
 
 
-function injectGlyphs() {
+function injectGlyphs( name, set ) {
 	
+	$('#glyph-list').empty()
 	
-	
-	loadJsonFile( path.join(__dirname, '../json/unicode-chars.json') ).then(json => {
-    
-		for (let i = 0, len = json.length; i < len; i++) {
+	loadJsonFile( path.join(__dirname, `../json/${set}-chars.json`) ).then(json => {
+		
+		let category = 'maths'
+		
+		$('#glyph-list').append(`<div id="${category}"><h2>${category}</h2>`)
+		
+		json.forEach(function(glyph) {
+			
+			let entity = ''
+			
+			if( glyph.e ) {
+				
+				entity = `<tr>
+				<th>html entity</th>
+				<td>&amp;${glyph.e}</td>
+			</tr>
+			`		
+			}
 			
 			$('#glyph-list').append(
 				
-				`<div class="glyph-item" title="${json[i]['n']}">&${json[i]['h']}</div>`
-			);
-		}
+`<div class="glyph">
+	<figure class="glyph-sample" title="${glyph.n}" data-glyph='${JSON.stringify(glyph)}'>
+		&${glyph.x}
+	</figure>
+	
+	<table>
+		<tbody>
+			<tr>
+				<th>description</th>
+				<td><span>${glyph.n}</span></td>
+			</tr>
+			<tr>
+				<th>unicode</th>
+				<td>${glyph.u}</td>
+			</tr>
+			<tr>
+				<th>hex code</th>
+				<td>&amp;${glyph.x}</td>
+			</tr>
+			<tr>
+				<th>html code</th>
+				<td>&amp;${glyph.h}</td>
+			</tr>
+			${entity}
+		</tbody>
+	</table>
+</div>
+`
+			)
+		})
+		
+		$('#glyph-list').append(`</div>`)
+		
+		styleGlyphs( name )
 	})	
 }
 
@@ -176,12 +230,17 @@ function injectGlyphs() {
 
 function styleGlyphs( name ) {
 	
-	let {size, color} = store.get('fontPreview')
+	console.log('name: ' + name)
 	
-	$('#glyph-list').css({	'font-family': name,
-							'color': color,
-							'font-size': size + 'px'
-						})
+	let family 	= fontName( name, 1 ),
+		color 	= store.get('fontPreview.color'),
+		size 	= fontSizes[store.get('fontPreview.size')]
+	
+	console.log('family: ' + family)
+	
+	$('.glyph-sample').css({	'font-family': family })
+	$('.glyph-sample').css({	'font-size': `${size}px`})
+	$('.glyph-sample').css({	'color': color })
 }
 
 
@@ -206,10 +265,21 @@ $('body').on('click', '#font-list ul li', function(event) {
 
 
 
+$('body').on('mouseup', '.glyph-sample', function() {
+	
+	let glyph = $(this).data('glyph')
+	ipcRenderer.send('show-glyph-menu', glyph )
+})
+
+
+
 $('#show-fonts').click( function() {
 	
-	$('#glyph-list').fadeOut().promise().done( function() {
+	$('#show-glyphs').removeClass('selected')
+	
+	$('#glyph-list, #glyph-types').fadeOut().promise().done( function() {
 		
+		$('#show-fonts').addClass('selected')
 		$('#preview-list').fadeIn('fast')
 	})
 })
@@ -218,9 +288,12 @@ $('#show-fonts').click( function() {
 
 $('#show-glyphs').click( function() {
 	
+	$('#show-fonts').removeClass('selected')
+	
 	$('#preview-list').fadeOut().promise().done( function() {
 		
-		$('#glyph-list').fadeIn('fast')
+		$('#show-glyphs').addClass('selected')
+		$('#glyph-list, #glyph-types').fadeIn('fast')
 	})
 })
 
@@ -228,10 +301,20 @@ $('#show-glyphs').click( function() {
 
 $('#font-size').change( function() {
 	
-	let val = $(this).val()
+	let val		= parseInt( $(this).val() ),
+		size 	= fontSizes[val]
 	
-	$('.preview-text, #glyph-list').css({'font-size': `${val}px`})
-	$('#font-size-val').html(val)
+	if( val > 8 ) {
+		
+		$('.break').hide()
+	
+	} else {
+		
+		$('.break').show()
+	}
+	
+	$('.preview-text, .glyph-sample').css({'font-size': `${size}px`})
+	$('#font-size-val').html(size)
 	store.set('fontPreview.size', val)
 })
 
@@ -241,11 +324,25 @@ $('#font-color').change( function() {
 	
 	let val = $(this).val()
 	
-	$('.preview-text, #glyph-list').css({'color': val})
+	$('.preview-text, .glyph-sample').css({'color': val})
 	$('#font-color-swatch').css({'background-color': val})
 	store.set('fontPreview.color', val)
 })
 
+
+
+$('#glyph-types').change( function() {
+	
+	let name 	= $('#font-list li.selected').data('font'),
+		set 	= $('#glyph-types').val()
+	
+	if( name == 'show-all' ) {
+		
+		name = $('#font-list li.selected').next().data('font')
+	}
+	
+	injectGlyphs( name, set )
+})
 
 
 function setPrefs() {
@@ -253,7 +350,7 @@ function setPrefs() {
 	let {size, color} = store.get('fontPreview')
 	
 	$('#font-size').val(size)
-	$('#font-size-val').html(size)
+	$('#font-size-val').html(fontSizes[size])
 	$('#font-color').val(color)
 	$('#font-color-swatch').css({'background-color': color})
 }

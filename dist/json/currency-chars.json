@@ -1,0 +1,426 @@
+[
+	{
+	    "n": "Dollar Sign",
+		"s": "dollar-sign",
+		"u": "U+00024",
+		"x": "#x24;",
+		"h": "#36;",
+		"e": "dollar;"
+	},
+	{
+	    "n": "Cent Sign",
+		"s": "cent-sign",
+		"u": "U+000A2",
+		"x": "#xa2;",
+		"h": "#162;",
+		"e": "cent;"
+	},
+	{
+	    "n": "Pound Sign",
+		"s": "pound-sign",
+		"u": "U+000A3",
+		"x": "#xa3;",
+		"h": "#163;",
+		"e": "pound;"
+	},
+	{
+	    "n": "Euro Sign",
+		"s": "euro-sign",
+		"u": "U+020AC",
+		"x": "#x20AC;",
+		"h": "#8364;",
+		"e": "euro;"
+	},
+	{
+	    "n": "Yen Sign",
+		"s": "yen-sign",
+		"u": "U+000A5",
+		"x": "#xa5;",
+		"h": "#165;",
+		"e": "yen;"
+	},
+	{
+	    "n": "Indian Rupee Sign",
+		"s": "indian-rupee-sign",
+		"u": "U+020B9",
+		"x": "#x20B9;",
+		"h": "#8377;",
+		"e": ""
+	},
+	{
+	    "n": "Ruble Sign",
+		"s": "ruble-sign",
+		"u": "U+020BD",
+		"x": "#x20BD;",
+		"h": "#8381;",
+		"e": ""
+	},
+	{
+	    "n": "Yuan Character, in China",
+		"s": "yuan-character-in-china",
+		"u": "U+05143",
+		"x": "#x5143;",
+		"h": "#20803;",
+		"e": ""
+	},
+	{
+	    "n": "Currency Sign",
+		"s": "currency-sign",
+		"u": "U+000A4",
+		"x": "#xa4;",
+		"h": "#164;",
+		"e": "curren;"
+	},
+	{
+	    "n": "Euro-Currency Sign",
+		"s": "euro-currency-sign",
+		"u": "U+020A0",
+		"x": "#x20A0;",
+		"h": "#8352;",
+		"e": ""
+	},
+	{
+	    "n": "Colon Sign",
+		"s": "colon-sign",
+		"u": "U+020A1",
+		"x": "#x20A1;",
+		"h": "#8353;",
+		"e": ""
+	},
+	{
+	    "n": "Cruzeiro Sign",
+		"s": "cruzeiro-sign",
+		"u": "U+020A2",
+		"x": "#x20A2;",
+		"h": "#8354;",
+		"e": ""
+	},
+	{
+	    "n": "French Franc Sign",
+		"s": "french-franc-sign",
+		"u": "U+020A3",
+		"x": "#x20A3;",
+		"h": "#8355;",
+		"e": ""
+	},
+	{
+	    "n": "Lira Sign",
+		"s": "lira-sign",
+		"u": "U+020A4",
+		"x": "#x20A4;",
+		"h": "#8356;",
+		"e": ""
+	},
+	{
+	    "n": "Mill Sign",
+		"s": "mill-sign",
+		"u": "U+020A5",
+		"x": "#x20A5;",
+		"h": "#8357;",
+		"e": ""
+	},
+	{
+	    "n": "Naira Sign",
+		"s": "naira-sign",
+		"u": "U+020A6",
+		"x": "#x20A6;",
+		"h": "#8358;",
+		"e": ""
+	},
+	{
+	    "n": "Peseta Sign",
+		"s": "peseta-sign",
+		"u": "U+020A7",
+		"x": "#x20A7;",
+		"h": "#8359;",
+		"e": ""
+	},
+	{
+	    "n": "Rupee Sign",
+		"s": "rupee-sign",
+		"u": "U+020A8",
+		"x": "#x20A8;",
+		"h": "#8360;",
+		"e": ""
+	},
+	{
+	    "n": "Won Sign",
+		"s": "won-sign",
+		"u": "U+020A9",
+		"x": "#x20A9;",
+		"h": "#8361;",
+		"e": ""
+	},
+	{
+	    "n": "New Sheqel Sign",
+		"s": "new-sheqel-sign",
+		"u": "U+020AA",
+		"x": "#x20AA;",
+		"h": "#8362;",
+		"e": ""
+	},
+	{
+	    "n": "Dong Sign",
+		"s": "dong-sign",
+		"u": "U+020AB",
+		"x": "#x20AB;",
+		"h": "#8363;",
+		"e": ""
+	},
+	{
+	    "n": "Kip Sign",
+		"s": "kip-sign",
+		"u": "U+020AD",
+		"x": "#x20AD;",
+		"h": "#8365;",
+		"e": ""
+	},
+	{
+	    "n": "Tugrik Sign",
+		"s": "tugrik-sign",
+		"u": "U+020AE",
+		"x": "#x20AE;",
+		"h": "#8366;",
+		"e": ""
+	},
+	{
+	    "n": "Drachma Sign",
+		"s": "drachma-sign",
+		"u": "U+020AF",
+		"x": "#x20AF;",
+		"h": "#8367;",
+		"e": ""
+	},
+	{
+	    "n": "German Penny Symbol",
+		"s": "german-penny-symbol",
+		"u": "U+020B0",
+		"x": "#x20B0;",
+		"h": "#8368;",
+		"e": ""
+	},
+	{
+	    "n": "Peso Sign",
+		"s": "peso-sign",
+		"u": "U+020B1",
+		"x": "#x20B1;",
+		"h": "#8369;",
+		"e": ""
+	},
+	{
+	    "n": "Guarani Sign",
+		"s": "guarani-sign",
+		"u": "U+020B2",
+		"x": "#x20B2;",
+		"h": "#8370;",
+		"e": ""
+	},
+	{
+	    "n": "Austral Sign",
+		"s": "austral-sign",
+		"u": "U+020B3",
+		"x": "#x20B3;",
+		"h": "#8371;",
+		"e": ""
+	},
+	{
+	    "n": "Hryvnia Sign",
+		"s": "hryvnia-sign",
+		"u": "U+020B4",
+		"x": "#x20B4;",
+		"h": "#8372;",
+		"e": ""
+	},
+	{
+	    "n": "Cedi Sign",
+		"s": "cedi-sign",
+		"u": "U+020B5",
+		"x": "#x20B5;",
+		"h": "#8373;",
+		"e": ""
+	},
+	{
+	    "n": "Livre Tournois Sign",
+		"s": "livre-tournois-sign",
+		"u": "U+020B6",
+		"x": "#x20B6;",
+		"h": "#8374;",
+		"e": ""
+	},
+	{
+	    "n": "Tenge Sign",
+		"s": "tenge-sign",
+		"u": "U+020B8",
+		"x": "#x20B8;",
+		"h": "#8376;",
+		"e": ""
+	},
+	{
+	    "n": "Turkish Lira Sign",
+		"s": "turkish-lira-sign",
+		"u": "U+020BA",
+		"x": "#x20BA;",
+		"h": "#8378;",
+		"e": ""
+	},
+	{
+	    "n": "Manat Sign",
+		"s": "manat-sign",
+		"u": "U+020BC",
+		"x": "#x20BC;",
+		"h": "#8380;",
+		"e": ""
+	},
+	{
+	    "n": "Bengali Rupee Mark",
+		"s": "bengali-rupee-mark",
+		"u": "U+009F2",
+		"x": "#x09F2;",
+		"h": "#2546;",
+		"e": ""
+	},
+	{
+	    "n": "Bengali Rupee Sign",
+		"s": "bengali-rupee-sign",
+		"u": "U+009F3",
+		"x": "#x09F3;",
+		"h": "#2547;",
+		"e": ""
+	},
+	{
+	    "n": "Gujarati Rupee Sign",
+		"s": "gujarati-rupee-sign",
+		"u": "U+00AF1",
+		"x": "#x0AF1;",
+		"h": "#2801;",
+		"e": ""
+	},
+	{
+	    "n": "Tamil Rupee Sign",
+		"s": "tamil-rupee-sign",
+		"u": "U+00BF9",
+		"x": "#x0BF9;",
+		"h": "#3065;",
+		"e": ""
+	},
+	{
+	    "n": "Thai Currency Symbol Baht",
+		"s": "thai-currency-symbol-baht",
+		"u": "U+00E3F",
+		"x": "#x0E3F;",
+		"h": "#3647;",
+		"e": ""
+	},
+	{
+	    "n": "Khmer Currency Symbol Riel",
+		"s": "khmer-currency-symbol-riel",
+		"u": "U+017DB",
+		"x": "#x17DB;",
+		"h": "#6107;",
+		"e": ""
+	},
+	{
+	    "n": "Square Yuan",
+		"s": "square-yuan",
+		"u": "U+03350",
+		"x": "#x3350;",
+		"h": "#13136;",
+		"e": ""
+	},
+	{
+	    "n": "Yen Character",
+		"s": "yen-character",
+		"u": "U+05186",
+		"x": "#x5186;",
+		"h": "#20870;",
+		"e": ""
+	},
+	{
+	    "n": "Yen/Yuan Character Variant One",
+		"s": "yen-yuan-character-variant-one",
+		"u": "U+05706",
+		"x": "#x5706;",
+		"h": "#22278;",
+		"e": ""
+	},
+	{
+	    "n": "Yen/Yuan Character Variant Two",
+		"s": "yen-yuan-character-variant-two",
+		"u": "U+0570E",
+		"x": "#x570E;",
+		"h": "#22286;",
+		"e": ""
+	},
+	{
+	    "n": "Yuan Character, in Hong Kong and Taiwan",
+		"s": "yuan-character-in-hong-kong-and-taiwan",
+		"u": "U+05713",
+		"x": "#x5713;",
+		"h": "#22291;",
+		"e": ""
+	},
+	{
+	    "n": "Yen/Yuan Character Variant Three",
+		"s": "yen-yuan-character-variant-three",
+		"u": "U+0571C",
+		"x": "#x571C;",
+		"h": "#22300;",
+		"e": ""
+	},
+	{
+	    "n": "Won Character",
+		"s": "won-character",
+		"u": "U+0C6D0",
+		"x": "#xC6D0;",
+		"h": "#50896;",
+		"e": ""
+	},
+	{
+	    "n": "Rial Sign",
+		"s": "rial-sign",
+		"u": "U+0FDFC",
+		"x": "#xFDFC;",
+		"h": "#65020;",
+		"e": ""
+	},
+	{
+	    "n": "Fullwidth Dollar Sign",
+		"s": "fullwidth-dollar-sign",
+		"u": "U+0FF04",
+		"x": "#xFF04;",
+		"h": "#65284;",
+		"e": ""
+	},
+	{
+	    "n": "Fullwidth Cent Sign",
+		"s": "fullwidth-cent-sign",
+		"u": "U+0FFE0",
+		"x": "#xFFE0;",
+		"h": "#65504;",
+		"e": ""
+	},
+	{
+	    "n": "Fullwidth Pound Sign",
+		"s": "fullwidth-pound-sign",
+		"u": "U+0FFE1",
+		"x": "#xFFE1;",
+		"h": "#65505;",
+		"e": ""
+	},
+	{
+	    "n": "Fullwidth Yen Sign",
+		"s": "fullwidth-yen-sign",
+		"u": "U+0FFE5",
+		"x": "#xFFE5;",
+		"h": "#65509;",
+		"e": ""
+	},
+	{
+	    "n": "Fullwidth Won Sign",
+		"s": "fullwidth-won-sign",
+		"u": "U+0FFE6",
+		"x": "#xFFE6;",
+		"h": "#65510;",
+		"e": ""
+	}
+]

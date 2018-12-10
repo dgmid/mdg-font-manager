@@ -87,6 +87,11 @@ const template = [
 				type: 'separator'
 			},
 			{
+				label: 'Find…',
+				accelerator: 'Command+F',
+				click (item, focusedWindow) { if(focusedWindow) focusedWindow.webContents.send('find') }
+			},
+			{
 				label: 'Update Font Lists',
 				accelerator: 'Command+U',
 				click (item, focusedWindow) { if(focusedWindow) focusedWindow.webContents.send('update-lists') }
@@ -168,9 +173,7 @@ const template = [
 			{
 				label: 'Reload',
 				accelerator: 'CmdOrCtrl+R',
-				click (item, focusedWindow) {
-					if (focusedWindow) focusedWindow.reload()
-				}
+				click (item, focusedWindow) { if(focusedWindow) focusedWindow.webContents.send('reload') }
 			},
 			{
 				label: 'Toggle Developer Tools',

@@ -12,31 +12,34 @@
 		
 		<div class="tab">
 			<div class="active-tab">
-				<h2>Active Fonts</h2>
-				<a id="active-menu" href="#"></a>
+				<h2>Active Fonts <span id="active-total"></span></h2>
+				<a id="active-menu" href="#" tabindex="3"></a>
+				<span id="active-count"></span>
 			</div>
 		</div>
 		
 		<div class="tab">
 			<div class="disabled-tab">
-				<h2>Disabled Fonts</h2>
-				<a id="disabled-menu" href="#"></a>
+				<h2>Disabled Fonts <span id="disabled-total"></span></h2>
+				<a id="disabled-menu" href="#" tabindex="4"></a>
+				<span id="disabled-count"></span>
 			</div>
 		</div>
 	</header>
 
 	<main>
-		<div class="left-panel">
+		<div id="left-panel">
 			<ul id="active-list"></ul>
 		</div>
 		
-		<div class="right-panel">
+		<div id="right-panel">
 			<ul id="disabled-list"></ul>
 		</div>
 	</main>
 	
 	<footer>
-		<button type="button" id="update-all" disabled>Update Font Lists</button>
+		<input id="search" placeholder="search" tabindex="1" />
+		<button type="button" id="update-all" tabindex="2" disabled>Update Font Lists</button>
 	</footer>
 	
 	<div id="overlay"></div>
@@ -44,5 +47,5 @@
 	<script>
 		require( '../js/app.min' )
 	</script>
-</body>
+	</body>
 </html>

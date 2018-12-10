@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Preview MDG Font Manager</title>
 	<link rel="stylesheet" type="text/css" href="../css/preview.min.css" media="all">
 </head>
 <body>
@@ -17,11 +16,21 @@
 	
 	<section id="preview-col">
 		<header>
-			<button id="show-fonts" type="button"></button>
+			<button id="show-fonts" class="selected" type="button"></button>
 			<button id="show-glyphs" type="button"></button>
 			<label id="font-color-swatch">
 				<input id="font-color" type="color" value="#000000" />
 			</label>
+			
+			<select id="glyph-types">
+				<option value="arrows">arrows</option>
+				<option value="currency">currency</option>
+				<option value="letters" selected>letters</option>
+				<option value="maths">maths</option>
+				<option value="numbers">numbers</option>
+				<option value="punctuation">punctuation</option>
+				<option value="symbols">symbols</option>
+			</select>
 		</header>
 		
 		<main>
@@ -30,7 +39,23 @@
 		</main>
 		
 		<footer>
-			<input id="font-size" type="range" min="9" max="144" value="" /> <span><span id="font-size-val"></span>px</span>
+			<datalist id="marks">
+				<option value="0"></option>
+				<option value="1"></option>
+				<option value="2"></option>
+				<option value="3"></option>
+				<option value="4"></option>
+				<option value="5"></option>
+				<option value="6"></option>
+				<option value="7"></option>
+				<option value="8"></option>
+				<option value="9"></option>
+				<option value="10"></option>
+				<option value="11"></option>
+				<option value="12"></option>
+				<option value="13"></option>
+			</datalist>
+			<input id="font-size" type="range" list="marks" min="0" max="13" value="" /> <span class="slider-label"><span id="font-size-val"></span>px</span>
 		</footer>
 	</section>
 	<script>

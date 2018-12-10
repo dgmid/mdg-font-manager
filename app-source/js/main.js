@@ -27,7 +27,7 @@ let store = new Store({
 		},
 		
 		fontPreview: {
-			size: 26,
+			size: 8,
 			color: '#000000'
 		}
 	}
@@ -79,6 +79,7 @@ function createWindow() {
 	require('./app-menu.min')
 	require('./list-menus.min')
 	require('./font-menu.min')
+	require('./glyph-menu.min')
 	require('./install-font.min')
 }
 
@@ -148,18 +149,73 @@ function exportFonts(fonts) {
 		
 		} else {
 			
-			for(let i = 0, length = fonts.length; i < length; i++ ) {
+			let error = 0
+			
+			for( let i = 0, length = fonts.length; i < length; i++ ) {
 				
-				fs.copy( fonts[i][1], filename + '/' + fonts[i][0], err => {
+				try {
 					
-					if (err) {
+					fs.copySync( fonts[i][1], filename + '/' + fonts[i][0] )
+					
+				} catch (err) {
+					
+					error++
+					console.log( err )	
+				
+				} finally {
+					
+					if( i+1 == length ) {
 						
-						dialog.showErrorBox(
-							'An error occured whilst exporting the fonts', err.code
-						)
+						if( error > 1 ) {
+							
+							win.webContents.send('export-failed')
+							
+						} else {
+							
+							win.webContents.send('export-ok', filename)
+						}
 					}
-				})
-			}	
+				}
+			}		
 		}
 	}
 }
+
+
+
+ipcMain.on('import', (event, message) => {
+	
+	let installPath = ( message.location == 'left-panel' )? store.get('fontDirectories.activePath') : store.get('fontDirectories.disabledPath')
+	
+	let error = 0
+	
+	for( let i = 0, length = message.list.length; i < length; i++ ) {
+		
+		let file = message.list[i].split('/').pop()
+		
+		try {
+			
+			fs.moveSync(message.list[i], installPath + file, { overwrite: true })
+		
+		} catch (err) {
+			
+			error++
+			console.log( err )
+			
+		} finally {
+			
+			if( i+1 == length ) {
+				
+				if( error > 1 ) {
+					
+					win.webContents.send('import-failed')
+					
+				} else {
+					
+					win.webContents.send('import-ok', installPath)
+				}
+			}			
+		}
+	}
+})
+

@@ -1,0 +1,554 @@
+[
+	{
+	    "n": "Zero",
+		"s": "zero",
+		"u": "U+00030",
+		"x": "#x30;",
+		"h": "#48;",
+		"e": ""
+	},
+	{
+	    "n": "One",
+		"s": "one",
+		"u": "U+00031",
+		"x": "#x31;",
+		"h": "#49;",
+		"e": ""
+	},
+	{
+	    "n": "Two",
+		"s": "two",
+		"u": "U+00032",
+		"x": "#x32;",
+		"h": "#50;",
+		"e": ""
+	},
+	{
+	    "n": "Three",
+		"s": "three",
+		"u": "U+00033",
+		"x": "#x33;",
+		"h": "#51;",
+		"e": ""
+	},
+	{
+	    "n": "Four",
+		"s": "four",
+		"u": "U+00034",
+		"x": "#x34;",
+		"h": "#52;",
+		"e": ""
+	},
+	{
+	    "n": "Five",
+		"s": "five",
+		"u": "U+00035",
+		"x": "#x35;",
+		"h": "#53;",
+		"e": ""
+	},
+	{
+	    "n": "Six",
+		"s": "six",
+		"u": "U+00036",
+		"x": "#x36;",
+		"h": "#54;",
+		"e": ""
+	},
+	{
+	    "n": "Seven",
+		"s": "seven",
+		"u": "U+00037",
+		"x": "#x37;",
+		"h": "#55;",
+		"e": ""
+	},
+	{
+	    "n": "Eight",
+		"s": "eight",
+		"u": "U+00038",
+		"x": "#x38;",
+		"h": "#56;",
+		"e": ""
+	},
+	{
+	    "n": "Nine",
+		"s": "nine",
+		"u": "U+00039",
+		"x": "#x39;",
+		"h": "#57;",
+		"e": ""
+	},
+	{
+	    "n": "Fraction One Quarter",
+		"s": "fraction-one-quarter",
+		"u": "U+000BC",
+		"x": "#xbc;",
+		"h": "#188;",
+		"e": "frac14;"
+	},
+	{
+	    "n": "Fraction One Half",
+		"s": "fraction-one-half",
+		"u": "U+000BD",
+		"x": "#xbd;",
+		"h": "#189;",
+		"e": "frac12;"
+	},
+	{
+	    "n": "Fraction Three Quarters",
+		"s": "fraction-three-quarters",
+		"u": "U+000BE",
+		"x": "#xbe;",
+		"h": "#190;",
+		"e": "frac34;"
+	},
+	{
+	    "n": "Vulgar Fraction One Seventh",
+		"s": "vulgar-fraction-one-seventh",
+		"u": "U+02150",
+		"x": "#x2150;",
+		"h": "#8528;",
+		"e": ""
+	},
+	{
+	    "n": "Vulgar Fraction One Ninth",
+		"s": "vulgar-fraction-one-ninth",
+		"u": "U+02151",
+		"x": "#x2151;",
+		"h": "#8529;",
+		"e": ""
+	},
+	{
+	    "n": "Vulgar Fraction One Tenth",
+		"s": "vulgar-fraction-one-tenth",
+		"u": "U+02152",
+		"x": "#x2152;",
+		"h": "#8530;",
+		"e": ""
+	},
+	{
+	    "n": "Vulgar Fraction One Third",
+		"s": "vulgar-fraction-one-third",
+		"u": "U+02153",
+		"x": "#x2153;",
+		"h": "#8531;",
+		"e": "frac13;"
+	},
+	{
+	    "n": "Vulgar Fraction Two Thirds",
+		"s": "vulgar-fraction-two-thirds",
+		"u": "U+02154",
+		"x": "#x2154;",
+		"h": "#8532;",
+		"e": "frac23;"
+	},
+	{
+	    "n": "Vulgar Fraction One Fifth",
+		"s": "vulgar-fraction-one-fifth",
+		"u": "U+02155",
+		"x": "#x2155;",
+		"h": "#8533;",
+		"e": "frac15;"
+	},
+	{
+	    "n": "Vulgar Fraction Two Fifths",
+		"s": "vulgar-fraction-two-fifths",
+		"u": "U+02156",
+		"x": "#x2156;",
+		"h": "#8534;",
+		"e": "frac25;"
+	},
+	{
+	    "n": "Vulgar Fraction Three Fifths",
+		"s": "vulgar-fraction-three-fifths",
+		"u": "U+02157",
+		"x": "#x2157;",
+		"h": "#8535;",
+		"e": "frac35;"
+	},
+	{
+	    "n": "Vulgar Fraction Four Fifths",
+		"s": "vulgar-fraction-four-fifths",
+		"u": "U+02158",
+		"x": "#x2158;",
+		"h": "#8536;",
+		"e": "frac45;"
+	},
+	{
+	    "n": "Vulgar Fraction One Sixth",
+		"s": "vulgar-fraction-one-sixth",
+		"u": "U+02159",
+		"x": "#x2159;",
+		"h": "#8537;",
+		"e": "frac16;"
+	},
+	{
+	    "n": "Vulgar Fraction Five Sixths",
+		"s": "vulgar-fraction-five-sixths",
+		"u": "U+0215A",
+		"x": "#x215A;",
+		"h": "#8538;",
+		"e": "frac56;"
+	},
+	{
+	    "n": "Vulgar Fraction One Eighth",
+		"s": "vulgar-fraction-one-eighth",
+		"u": "U+0215B",
+		"x": "#x215B;",
+		"h": "#8539;",
+		"e": "frac18;"
+	},
+	{
+	    "n": "Vulgar Fraction Three Eighths",
+		"s": "vulgar-fraction-three-eighths",
+		"u": "U+0215C",
+		"x": "#x215C;",
+		"h": "#8540;",
+		"e": "frac38;"
+	},
+	{
+	    "n": "Vulgar Fraction Five Eighths",
+		"s": "vulgar-fraction-five-eighths",
+		"u": "U+0215D",
+		"x": "#x215D;",
+		"h": "#8541;",
+		"e": "frac58;"
+	},
+	{
+	    "n": "Vulgar Fraction Seven Eighths",
+		"s": "vulgar-fraction-seven-eighths",
+		"u": "U+0215E",
+		"x": "#x215E;",
+		"h": "#8542;",
+		"e": "frac78;"
+	},
+	{
+	    "n": "Fraction Numerator One",
+		"s": "fraction-numerator-one",
+		"u": "U+0215F",
+		"x": "#x215F;",
+		"h": "#8543;",
+		"e": ""
+	},
+	{
+	    "n": "Roman Numeral One",
+		"s": "roman-numeral-one",
+		"u": "U+02160",
+		"x": "#x2160;",
+		"h": "#8544;",
+		"e": ""
+	},
+	{
+	    "n": "Roman Numeral Two",
+		"s": "roman-numeral-two",
+		"u": "U+02161",
+		"x": "#x2161;",
+		"h": "#8545;",
+		"e": ""
+	},
+	{
+	    "n": "Roman Numeral Three",
+		"s": "roman-numeral-three",
+		"u": "U+02162",
+		"x": "#x2162;",
+		"h": "#8546;",
+		"e": ""
+	},
+	{
+	    "n": "Roman Numeral Four",
+		"s": "roman-numeral-four",
+		"u": "U+02163",
+		"x": "#x2163;",
+		"h": "#8547;",
+		"e": ""
+	},
+	{
+	    "n": "Roman Numeral Five",
+		"s": "roman-numeral-five",
+		"u": "U+02164",
+		"x": "#x2164;",
+		"h": "#8548;",
+		"e": ""
+	},
+	{
+	    "n": "Roman Numeral Six",
+		"s": "roman-numeral-six",
+		"u": "U+02165",
+		"x": "#x2165;",
+		"h": "#8549;",
+		"e": ""
+	},
+	{
+	    "n": "Roman Numeral Seven",
+		"s": "roman-numeral-seven",
+		"u": "U+02166",
+		"x": "#x2166;",
+		"h": "#8550;",
+		"e": ""
+	},
+	{
+	    "n": "Roman Numeral Eight",
+		"s": "roman-numeral-eight",
+		"u": "U+02167",
+		"x": "#x2167;",
+		"h": "#8551;",
+		"e": ""
+	},
+	{
+	    "n": "Roman Numeral Nine",
+		"s": "roman-numeral-nine",
+		"u": "U+02168",
+		"x": "#x2168;",
+		"h": "#8552;",
+		"e": ""
+	},
+	{
+	    "n": "Roman Numeral Ten",
+		"s": "roman-numeral-ten",
+		"u": "U+02169",
+		"x": "#x2169;",
+		"h": "#8553;",
+		"e": ""
+	},
+	{
+	    "n": "Roman Numeral Eleven",
+		"s": "roman-numeral-eleven",
+		"u": "U+0216A",
+		"x": "#x216A;",
+		"h": "#8554;",
+		"e": ""
+	},
+	{
+	    "n": "Roman Numeral Twelve",
+		"s": "roman-numeral-twelve",
+		"u": "U+0216B",
+		"x": "#x216B;",
+		"h": "#8555;",
+		"e": ""
+	},
+	{
+	    "n": "Roman Numeral Fifty",
+		"s": "roman-numeral-fifty",
+		"u": "U+0216C",
+		"x": "#x216C;",
+		"h": "#8556;",
+		"e": ""
+	},
+	{
+	    "n": "Roman Numeral One Hundred",
+		"s": "roman-numeral-one-hundred",
+		"u": "U+0216D",
+		"x": "#x216D;",
+		"h": "#8557;",
+		"e": ""
+	},
+	{
+	    "n": "Roman Numeral Five Hundred",
+		"s": "roman-numeral-five-hundred",
+		"u": "U+0216E",
+		"x": "#x216E;",
+		"h": "#8558;",
+		"e": ""
+	},
+	{
+	    "n": "Roman Numeral One Thousand",
+		"s": "roman-numeral-one-thousand",
+		"u": "U+0216F",
+		"x": "#x216F;",
+		"h": "#8559;",
+		"e": ""
+	},
+	{
+	    "n": "Small Roman Numeral One",
+		"s": "small-roman-numeral-one",
+		"u": "U+02170",
+		"x": "#x2170;",
+		"h": "#8560;",
+		"e": ""
+	},
+	{
+	    "n": "Small Roman Numeral Two",
+		"s": "small-roman-numeral-two",
+		"u": "U+02171",
+		"x": "#x2171;",
+		"h": "#8561;",
+		"e": ""
+	},
+	{
+	    "n": "Small Roman Numeral Three",
+		"s": "small-roman-numeral-three",
+		"u": "U+02172",
+		"x": "#x2172;",
+		"h": "#8562;",
+		"e": ""
+	},
+	{
+	    "n": "Small Roman Numeral Four",
+		"s": "small-roman-numeral-four",
+		"u": "U+02173",
+		"x": "#x2173;",
+		"h": "#8563;",
+		"e": ""
+	},
+	{
+	    "n": "Small Roman Numeral Five",
+		"s": "small-roman-numeral-five",
+		"u": "U+02174",
+		"x": "#x2174;",
+		"h": "#8564;",
+		"e": ""
+	},
+	{
+	    "n": "Small Roman Numeral Six",
+		"s": "small-roman-numeral-six",
+		"u": "U+02175",
+		"x": "#x2175;",
+		"h": "#8565;",
+		"e": ""
+	},
+	{
+	    "n": "Small Roman Numeral Seven",
+		"s": "small-roman-numeral-seven",
+		"u": "U+02176",
+		"x": "#x2176;",
+		"h": "#8566;",
+		"e": ""
+	},
+	{
+	    "n": "Small Roman Numeral Eight",
+		"s": "small-roman-numeral-eight",
+		"u": "U+02177",
+		"x": "#x2177;",
+		"h": "#8567;",
+		"e": ""
+	},
+	{
+	    "n": "Small Roman Numeral Nine",
+		"s": "small-roman-numeral-nine",
+		"u": "U+02178",
+		"x": "#x2178;",
+		"h": "#8568;",
+		"e": ""
+	},
+	{
+	    "n": "Small Roman Numeral Ten",
+		"s": "small-roman-numeral-ten",
+		"u": "U+02179",
+		"x": "#x2179;",
+		"h": "#8569;",
+		"e": ""
+	},
+	{
+	    "n": "Small Roman Numeral Eleven",
+		"s": "small-roman-numeral-eleven",
+		"u": "U+0217A",
+		"x": "#x217A;",
+		"h": "#8570;",
+		"e": ""
+	},
+	{
+	    "n": "Small Roman Numeral Twelve",
+		"s": "small-roman-numeral-twelve",
+		"u": "U+0217B",
+		"x": "#x217B;",
+		"h": "#8571;",
+		"e": ""
+	},
+	{
+	    "n": "Small Roman Numeral Fifty",
+		"s": "small-roman-numeral-fifty",
+		"u": "U+0217C",
+		"x": "#x217C;",
+		"h": "#8572;",
+		"e": ""
+	},
+	{
+	    "n": "Small Roman Numeral One Hundred",
+		"s": "small-roman-numeral-one-hundred",
+		"u": "U+0217D",
+		"x": "#x217D;",
+		"h": "#8573;",
+		"e": ""
+	},
+	{
+	    "n": "Small Roman Numeral Five Hundred",
+		"s": "small-roman-numeral-five-hundred",
+		"u": "U+0217E",
+		"x": "#x217E;",
+		"h": "#8574;",
+		"e": ""
+	},
+	{
+	    "n": "Small Roman Numeral One Thousand",
+		"s": "small-roman-numeral-one-thousand",
+		"u": "U+0217F",
+		"x": "#x217F;",
+		"h": "#8575;",
+		"e": ""
+	},
+	{
+	    "n": "Roman Numeral One Thousand C D",
+		"s": "roman-numeral-one-thousand-c-d",
+		"u": "U+02180",
+		"x": "#x2180;",
+		"h": "#8576;",
+		"e": ""
+	},
+	{
+	    "n": "Roman Numeral Five Thousand",
+		"s": "roman-numeral-five-thousand",
+		"u": "U+02181",
+		"x": "#x2181;",
+		"h": "#8577;",
+		"e": ""
+	},
+	{
+	    "n": "Roman Numeral Ten Thousand",
+		"s": "roman-numeral-ten-thousand",
+		"u": "U+02182",
+		"x": "#x2182;",
+		"h": "#8578;",
+		"e": ""
+	},
+	{
+	    "n": "Roman Numeral Reversed One Hundred",
+		"s": "roman-numeral-reversed-one-hundred",
+		"u": "U+02183",
+		"x": "#x2183;",
+		"h": "#8579;",
+		"e": ""
+	},
+	{
+	    "n": "Latin Small Letter Reversed C",
+		"s": "latin-small-letter-reversed-c",
+		"u": "U+02184",
+		"x": "#x2184;",
+		"h": "#8580;",
+		"e": ""
+	},
+	{
+	    "n": "Roman Numeral Six Late Form",
+		"s": "roman-numeral-six-late-form",
+		"u": "U+02185",
+		"x": "#x2185;",
+		"h": "#8581;",
+		"e": ""
+	},
+	{
+	    "n": "Roman Numeral Fifty Early Form",
+		"s": "roman-numeral-fifty-early-form",
+		"u": "U+02186",
+		"x": "#x2186;",
+		"h": "#8582;",
+		"e": ""
+	},
+	{
+	    "n": "Vulgar Fraction Zero Thirds",
+		"s": "vulgar-fraction-zero-thirds",
+		"u": "U+02189",
+		"x": "#x2189;",
+		"h": "#8585;",
+		"e": ""
+	}
+]

@@ -15,6 +15,7 @@ exports.createPreview = ( message ) => {
 	preview = new BrowserWindow({
 		show: false,
 		titleBarStyle: 'hidden',
+		title: `Preview: ${message[0]}`,
 		width: 800,
 		height: 600,
 		minWidth: 800,

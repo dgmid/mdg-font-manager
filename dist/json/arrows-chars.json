@@ -1,0 +1,2370 @@
+[
+	{
+	    "n": "Left Arrow",
+		"s": "left-arrow",
+		"u": "U+02190",
+		"x": "#x2190;",
+		"h": "#8592;",
+		"e": "larr;"
+	},
+	{
+	    "n": "Up Arrow",
+		"s": "up-arrow",
+		"u": "U+02191",
+		"x": "#x2191;",
+		"h": "#8593;",
+		"e": "uarr;"
+	},
+	{
+	    "n": "Right Arrow",
+		"s": "right-arrow",
+		"u": "U+02192",
+		"x": "#x2192;",
+		"h": "#8594;",
+		"e": "rarr;"
+	},
+	{
+	    "n": "Down Arrow",
+		"s": "down-arrow",
+		"u": "U+02193",
+		"x": "#x2193;",
+		"h": "#8595;",
+		"e": "darr;"
+	},
+	{
+	    "n": "Left Right Arrow",
+		"s": "left-right-arrow",
+		"u": "U+02194",
+		"x": "#x2194;",
+		"h": "#8596;",
+		"e": "harr;"
+	},
+	{
+	    "n": "Up Down Arrow",
+		"s": "up-down-arrow",
+		"u": "U+02195",
+		"x": "#x2195;",
+		"h": "#8597;",
+		"e": "varr;"
+	},
+	{
+	    "n": "North West Arrow",
+		"s": "north-west-arrow",
+		"u": "U+02196",
+		"x": "#x2196;",
+		"h": "#8598;",
+		"e": "nwarr;"
+	},
+	{
+	    "n": "North East Arrow",
+		"s": "north-east-arrow",
+		"u": "U+02197",
+		"x": "#x2197;",
+		"h": "#8599;",
+		"e": "nearr;"
+	},
+	{
+	    "n": "South East Arrow",
+		"s": "south-east-arrow",
+		"u": "U+02198",
+		"x": "#x2198;",
+		"h": "#8600;",
+		"e": "searr;"
+	},
+	{
+	    "n": "South West Arrow",
+		"s": "south-west-arrow",
+		"u": "U+02199",
+		"x": "#x2199;",
+		"h": "#8601;",
+		"e": "swarr;"
+	},
+	{
+	    "n": "Left Arrow with Stroke",
+		"s": "left-arrow-with-stroke",
+		"u": "U+0219A",
+		"x": "#x219a;",
+		"h": "#8602;",
+		"e": "nlarr;"
+	},
+	{
+	    "n": "Right Arrow with Stroke",
+		"s": "right-arrow-with-stroke",
+		"u": "U+0219B",
+		"x": "#x219b;",
+		"h": "#8603;",
+		"e": "nrarr;"
+	},
+	{
+	    "n": "Left Wave Arrow",
+		"s": "left-wave-arrow",
+		"u": "U+0219C",
+		"x": "#x219c;",
+		"h": "#8604;",
+		"e": "larrw;"
+	},
+	{
+	    "n": "Right Wave Arrow",
+		"s": "right-wave-arrow",
+		"u": "U+0219D",
+		"x": "#x219d;",
+		"h": "#8605;",
+		"e": "rarrw;"
+	},
+	{
+	    "n": "Left Two Headed Arrow",
+		"s": "left-two-headed-arrow",
+		"u": "U+0219E",
+		"x": "#x219e;",
+		"h": "#8606;",
+		"e": "Larr;"
+	},
+	{
+	    "n": "Up Two Headed Arrow",
+		"s": "up-two-headed-arrow",
+		"u": "U+0219F",
+		"x": "#x219f;",
+		"h": "#8607;",
+		"e": "Uarr;"
+	},
+	{
+	    "n": "Right Two Headed Arrow",
+		"s": "right-two-headed-arrow",
+		"u": "U+021A0",
+		"x": "#x21a0;",
+		"h": "#8608;",
+		"e": "Rarr;"
+	},
+	{
+	    "n": "Down Two Headed Arrow",
+		"s": "down-two-headed-arrow",
+		"u": "U+021A1",
+		"x": "#x21a1;",
+		"h": "#8609;",
+		"e": "Darr;"
+	},
+	{
+	    "n": "Left Arrow with Tail",
+		"s": "left-arrow-with-tail",
+		"u": "U+021A2",
+		"x": "#x21a2;",
+		"h": "#8610;",
+		"e": "larrtl;"
+	},
+	{
+	    "n": "Right Arrow with Tail",
+		"s": "right-arrow-with-tail",
+		"u": "U+021A3",
+		"x": "#x21a3;",
+		"h": "#8611;",
+		"e": "rarrtl;"
+	},
+	{
+	    "n": "Left Arrow from Bar",
+		"s": "left-arrow-from-bar",
+		"u": "U+021A4",
+		"x": "#x21a4;",
+		"h": "#8612;",
+		"e": "mapstoleft;"
+	},
+	{
+	    "n": "Up Arrow from Bar",
+		"s": "up-arrow-from-bar",
+		"u": "U+021A5",
+		"x": "#x21a5;",
+		"h": "#8613;",
+		"e": "mapstoup;"
+	},
+	{
+	    "n": "Right Arrow from Bar",
+		"s": "right-arrow-from-bar",
+		"u": "U+021A6",
+		"x": "#x21a6;",
+		"h": "#8614;",
+		"e": "mapstoright;"
+	},
+	{
+	    "n": "Down Arrow from Bar",
+		"s": "down-arrow-from-bar",
+		"u": "U+021A7",
+		"x": "#x21a7;",
+		"h": "#8615;",
+		"e": "mapstodown;"
+	},
+	{
+	    "n": "Up Down Arrow with Base",
+		"s": "up-down-arrow-with-base",
+		"u": "U+021A8",
+		"x": "#x21a8;",
+		"h": "#8616;",
+		"e": ""
+	},
+	{
+	    "n": "Left Arrow with Hook",
+		"s": "left-arrow-with-hook",
+		"u": "U+021A9",
+		"x": "#x21a9;",
+		"h": "#8617;",
+		"e": "larrhk;"
+	},
+	{
+	    "n": "Right Arrow with Hook",
+		"s": "right-arrow-with-hook",
+		"u": "U+021AA",
+		"x": "#x21aa;",
+		"h": "#8618;",
+		"e": "rarrhk;"
+	},
+	{
+	    "n": "Left Arrow with Loop",
+		"s": "left-arrow-with-loop",
+		"u": "U+021AB",
+		"x": "#x21ab;",
+		"h": "#8619;",
+		"e": "larrlp;"
+	},
+	{
+	    "n": "Right Arrow with Loop",
+		"s": "right-arrow-with-loop",
+		"u": "U+021AC",
+		"x": "#x21ac;",
+		"h": "#8620;",
+		"e": "rarrlp;"
+	},
+	{
+	    "n": "Left Right Wave Arrow",
+		"s": "left-right-wave-arrow",
+		"u": "U+021AD",
+		"x": "#x21ad;",
+		"h": "#8621;",
+		"e": "harrw;"
+	},
+	{
+	    "n": "Left Right Arrow with Stroke",
+		"s": "left-right-arrow-with-stroke",
+		"u": "U+021AE",
+		"x": "#x21ae;",
+		"h": "#8622;",
+		"e": "nharr;"
+	},
+	{
+	    "n": "Down Zigzag Arrow",
+		"s": "down-zigzag-arrow",
+		"u": "U+021AF",
+		"x": "#x21af;",
+		"h": "#8623;",
+		"e": ""
+	},
+	{
+	    "n": "Up Arrow with Tip Left",
+		"s": "up-arrow-with-tip-left",
+		"u": "U+021B0",
+		"x": "#x21b0;",
+		"h": "#8624;",
+		"e": "lsh;"
+	},
+	{
+	    "n": "Up Arrow with Tip Right",
+		"s": "up-arrow-with-tip-right",
+		"u": "U+021B1",
+		"x": "#x21b1;",
+		"h": "#8625;",
+		"e": "rsh;"
+	},
+	{
+	    "n": "Down Arrow with Tip Left",
+		"s": "down-arrow-with-tip-left",
+		"u": "U+021B2",
+		"x": "#x21b2;",
+		"h": "#8626;",
+		"e": "ldsh;"
+	},
+	{
+	    "n": "Down Arrow with Tip Right",
+		"s": "down-arrow-with-tip-right",
+		"u": "U+021B3",
+		"x": "#x21b3;",
+		"h": "#8627;",
+		"e": "rdsh;"
+	},
+	{
+	    "n": "Right Arrow with Corner Down",
+		"s": "right-arrow-with-corner-down",
+		"u": "U+021B4",
+		"x": "#x21b4;",
+		"h": "#8628;",
+		"e": ""
+	},
+	{
+	    "n": "Down Arrow with Corner Left",
+		"s": "down-arrow-with-corner-left",
+		"u": "U+021B5",
+		"x": "#x21b5;",
+		"h": "#8629;",
+		"e": "crarr;"
+	},
+	{
+	    "n": "Anticlockwise Top Semicircle Arrow",
+		"s": "anticlockwise-top-semicircle-arrow",
+		"u": "U+021B6",
+		"x": "#x21b6;",
+		"h": "#8630;",
+		"e": "cularr;"
+	},
+	{
+	    "n": "Clockwise Top Semicircle Arrow",
+		"s": "clockwise-top-semicircle-arrow",
+		"u": "U+021B7",
+		"x": "#x21b7;",
+		"h": "#8631;",
+		"e": "curarr;"
+	},
+	{
+	    "n": "North West Arrow to Long Bar",
+		"s": "north-west-arrow-to-long-bar",
+		"u": "U+021B8",
+		"x": "#x21b8;",
+		"h": "#8632;",
+		"e": ""
+	},
+	{
+	    "n": "Left Arrow to Bar over Right Arrow to bar",
+		"s": "left-arrow-to-bar-over-right-arrow-to-bar",
+		"u": "U+021B9",
+		"x": "#x21b9;",
+		"h": "#8633;",
+		"e": ""
+	},
+	{
+	    "n": "Anticlockwise Open Circle Arrow",
+		"s": "anticlockwise-open-circle-arrow",
+		"u": "U+021BA",
+		"x": "#x21ba;",
+		"h": "#8634;",
+		"e": "olarr;"
+	},
+	{
+	    "n": "Clockwise Open Circle Arrow",
+		"s": "clockwise-open-circle-arrow",
+		"u": "U+021BB",
+		"x": "#x21bb;",
+		"h": "#8635;",
+		"e": "orarr;"
+	},
+	{
+	    "n": "Left Harpoon with Barb Up",
+		"s": "left-harpoon-with-barb-up",
+		"u": "U+021BC",
+		"x": "#x21bc;",
+		"h": "#8636;",
+		"e": "lharu;"
+	},
+	{
+	    "n": "Left Harpoon with Barb Down",
+		"s": "left-harpoon-with-barb-down",
+		"u": "U+021BD",
+		"x": "#x21bd;",
+		"h": "#8637;",
+		"e": "lhard;"
+	},
+	{
+	    "n": "Up Harpoon with Barb Right",
+		"s": "up-harpoon-with-barb-right",
+		"u": "U+021BE",
+		"x": "#x21be;",
+		"h": "#8638;",
+		"e": "uharr;"
+	},
+	{
+	    "n": "Up Harpoon with Barb Left",
+		"s": "up-harpoon-with-barb-left",
+		"u": "U+021BF",
+		"x": "#x21bf;",
+		"h": "#8639;",
+		"e": "uharl;"
+	},
+	{
+	    "n": "Right Harpoon with Barb Up",
+		"s": "right-harpoon-with-barb-up",
+		"u": "U+021C0",
+		"x": "#x21c0;",
+		"h": "#8640;",
+		"e": "rharu;"
+	},
+	{
+	    "n": "Right Harpoon with Barb Down",
+		"s": "right-harpoon-with-barb-down",
+		"u": "U+021C1",
+		"x": "#x21c1;",
+		"h": "#8641;",
+		"e": "rhard;"
+	},
+	{
+	    "n": "Down Harpoon with Barb Right",
+		"s": "down-harpoon-with-barb-right",
+		"u": "U+021C2",
+		"x": "#x21c2;",
+		"h": "#8642;",
+		"e": "dharr;"
+	},
+	{
+	    "n": "Down Harpoon with Barb Left",
+		"s": "down-harpoon-with-barb-left",
+		"u": "U+021C3",
+		"x": "#x21c3;",
+		"h": "#8643;",
+		"e": "dharl;"
+	},
+	{
+	    "n": "Right Arrow over Left Arrow",
+		"s": "right-arrow-over-left-arrow",
+		"u": "U+021C4",
+		"x": "#x21c4;",
+		"h": "#8644;",
+		"e": "rlarr;"
+	},
+	{
+	    "n": "Up Arrow Left of Down Arrow",
+		"s": "up-arrow-left-of-down-arrow",
+		"u": "U+021C5",
+		"x": "#x21c5;",
+		"h": "#8645;",
+		"e": "udarr;"
+	},
+	{
+	    "n": "Left Arrow over Right Arrow",
+		"s": "left-arrow-over-right-arrow",
+		"u": "U+021C6",
+		"x": "#x21c6;",
+		"h": "#8646;",
+		"e": "lrarr;"
+	},
+	{
+	    "n": "Left Paired Arrows",
+		"s": "left-paired-arrows",
+		"u": "U+021C7",
+		"x": "#x21c7;",
+		"h": "#8647;",
+		"e": "llarr;"
+	},
+	{
+	    "n": "Up Paired Arrows",
+		"s": "up-paired-arrows",
+		"u": "U+021C8",
+		"x": "#x21c8;",
+		"h": "#8648;",
+		"e": "uuarr;"
+	},
+	{
+	    "n": "Right Paired Arrows",
+		"s": "right-paired-arrows",
+		"u": "U+021C9",
+		"x": "#x21c9;",
+		"h": "#8649;",
+		"e": "rrarr;"
+	},
+	{
+	    "n": "Downards Paired Arrows",
+		"s": "down-paired-arrows",
+		"u": "U+021CA",
+		"x": "#x21cA;",
+		"h": "#8650;",
+		"e": "ddarr;"
+	},
+	{
+	    "n": "Left Harpoon over Right Harpoon",
+		"s": "left-harpoon-over-right-harpoon",
+		"u": "U+021CB",
+		"x": "#x21cb;",
+		"h": "#8651;",
+		"e": "lrhar;"
+	},
+	{
+	    "n": "Right Harpoon over Left Harpoon",
+		"s": "right-harpoon-over-left-harpoon",
+		"u": "U+021CC",
+		"x": "#x21cc;",
+		"h": "#8652;",
+		"e": "rlhar;"
+	},
+	{
+	    "n": "Left Double Arrow with Stroke",
+		"s": "left-double-arrow-with-stroke",
+		"u": "U+021CD",
+		"x": "#x21cd;",
+		"h": "#8653;",
+		"e": "nlArr;"
+	},
+	{
+	    "n": "Left Right Double Arrow with Stroke",
+		"s": "left-right-double-arrow-with-stroke",
+		"u": "U+021CE",
+		"x": "#x21ce;",
+		"h": "#8654;",
+		"e": "nhArr;"
+	},
+	{
+	    "n": "Right Double Arrow with Stroke",
+		"s": "right-double-arrow-with-stroke",
+		"u": "U+021CF",
+		"x": "#x21cf;",
+		"h": "#8655;",
+		"e": "nrArr;"
+	},
+	{
+	    "n": "Left Double Arrow",
+		"s": "left-double-arrow",
+		"u": "U+021D0",
+		"x": "#x21d0;",
+		"h": "#8656;",
+		"e": "lArr;"
+	},
+	{
+	    "n": "Up Double Arrow",
+		"s": "up-double-arrow",
+		"u": "U+021D1",
+		"x": "#x21d1;",
+		"h": "#8657;",
+		"e": "uArr;"
+	},
+	{
+	    "n": "Right Double Arrow",
+		"s": "right-double-arrow",
+		"u": "U+021D2",
+		"x": "#x21d2;",
+		"h": "#8658;",
+		"e": "rArr;"
+	},
+	{
+	    "n": "Down Double Arrow",
+		"s": "down-double-arrow",
+		"u": "U+021D3",
+		"x": "#x21d3;",
+		"h": "#8659;",
+		"e": "dArr;"
+	},
+	{
+	    "n": "Left Right Double Arrow",
+		"s": "left-right-double-arrow",
+		"u": "U+021D4",
+		"x": "#x21d4;",
+		"h": "#8660;",
+		"e": "hArr;"
+	},
+	{
+	    "n": "Up Down Double Arrow",
+		"s": "up-down-double-arrow",
+		"u": "U+021D5",
+		"x": "#x21d5;",
+		"h": "#8661;",
+		"e": "vArr;"
+	},
+	{
+	    "n": "North West Double Arrow",
+		"s": "north-west-double-arrow",
+		"u": "U+021D6",
+		"x": "#x21d6;",
+		"h": "#8662;",
+		"e": "nwArr;"
+	},
+	{
+	    "n": "North East Double Arrow",
+		"s": "north-east-double-arrow",
+		"u": "U+021D7",
+		"x": "#x21d7;",
+		"h": "#8663;",
+		"e": "neArr;"
+	},
+	{
+	    "n": "South East Double Arrow",
+		"s": "south-east-double-arrow",
+		"u": "U+021D8",
+		"x": "#x21d8;",
+		"h": "#8664;",
+		"e": "seArr;"
+	},
+	{
+	    "n": "South West Double Arrow",
+		"s": "south-west-double-arrow",
+		"u": "U+021D9",
+		"x": "#x21d9;",
+		"h": "#8665;",
+		"e": "swArr;"
+	},
+	{
+	    "n": "Left Triple Arrow",
+		"s": "left-triple-arrow",
+		"u": "U+021DA",
+		"x": "#x21da;",
+		"h": "#8666;",
+		"e": "lAarr;"
+	},
+	{
+	    "n": "Right Triple Arrow",
+		"s": "right-triple-arrow",
+		"u": "U+021DB",
+		"x": "#x21db;",
+		"h": "#8667;",
+		"e": "rAarr;"
+	},
+	{
+	    "n": "Left Squiggle Arrow",
+		"s": "left-squiggle-arrow",
+		"u": "U+021DC",
+		"x": "#x21dc;",
+		"h": "#8668;",
+		"e": "ziglarr;"
+	},
+	{
+	    "n": "Right Squiggle Arrow",
+		"s": "right-squiggle-arrow",
+		"u": "U+021DD",
+		"x": "#x21dd;",
+		"h": "#8669;",
+		"e": "zigrarr;"
+	},
+	{
+	    "n": "Up Arrow with Double Stroke",
+		"s": "up-arrow-with-double-stroke",
+		"u": "U+021DE",
+		"x": "#x21de;",
+		"h": "#8670;",
+		"e": ""
+	},
+	{
+	    "n": "Down Arrow with Double Stroke",
+		"s": "down-arrow-with-double-stroke",
+		"u": "U+021DF",
+		"x": "#x21df;",
+		"h": "#8671;",
+		"e": ""
+	},
+	{
+	    "n": "Left Dashed Arrow",
+		"s": "left-dashed-arrow",
+		"u": "U+021E0",
+		"x": "#x21e0;",
+		"h": "#8672;",
+		"e": ""
+	},
+	{
+	    "n": "Up Dashed Arrow",
+		"s": "up-dashed-arrow",
+		"u": "U+021E1",
+		"x": "#x21e1;",
+		"h": "#8673;",
+		"e": ""
+	},
+	{
+	    "n": "Right Dashed Arrow",
+		"s": "right-dashed-arrow",
+		"u": "U+021E2",
+		"x": "#x21e2;",
+		"h": "#8674;",
+		"e": ""
+	},
+	{
+	    "n": "Down Dashed Arrow",
+		"s": "down-dashed-arrow",
+		"u": "U+021E3",
+		"x": "#x21e3;",
+		"h": "#8675;",
+		"e": ""
+	},
+	{
+	    "n": "Left Arrow to Bar",
+		"s": "left-arrow-to-bar",
+		"u": "U+021E4",
+		"x": "#x21e4;",
+		"h": "#8676;",
+		"e": "larrb;"
+	},
+	{
+	    "n": "Right Arrow to Bar",
+		"s": "right-arrow-to-bar",
+		"u": "U+021E5",
+		"x": "#x21e5;",
+		"h": "#8677;",
+		"e": "rarrb;"
+	},
+	{
+	    "n": "Right Arrow to Bar",
+		"s": "right-arrow-to-bar",
+		"u": "U+021E5",
+		"x": "#x21e5;",
+		"h": "#8677;",
+		"e": "rarrb;"
+	},
+	{
+	    "n": "Left White Arrow",
+		"s": "left-white-arrow",
+		"u": "U+021E6",
+		"x": "#x21e6;",
+		"h": "#8678;",
+		"e": ""
+	},
+	{
+	    "n": "Up White Arrow",
+		"s": "up-white-arrow",
+		"u": "U+021E7",
+		"x": "#x21e7;",
+		"h": "#8679;",
+		"e": ""
+	},
+	{
+	    "n": "Right White Arrow",
+		"s": "right-white-arrow",
+		"u": "U+021E8",
+		"x": "#x21e8;",
+		"h": "#8680;",
+		"e": ""
+	},
+	{
+	    "n": "Down White Arrow",
+		"s": "down-white-arrow",
+		"u": "U+021E9",
+		"x": "#x21e9;",
+		"h": "#8681;",
+		"e": ""
+	},
+	{
+	    "n": "Up White Arrow from Bar",
+		"s": "up-white-arrow-from-bar",
+		"u": "U+021EA",
+		"x": "#x21ea;",
+		"h": "#8682;",
+		"e": ""
+	},
+	{
+	    "n": "Up White Arrow on Pedestal",
+		"s": "up-white-arrow-on-pedestal",
+		"u": "U+021EB",
+		"x": "#x21eb;",
+		"h": "#8683;",
+		"e": ""
+	},
+	{
+	    "n": "Up White Arrow on Pedestal with Horizontal Bar",
+		"s": "up-white-arrow-on-pedestal-with-horizontal-bar",
+		"u": "U+021EC",
+		"x": "#x21ec;",
+		"h": "#8684;",
+		"e": ""
+	},
+	{
+	    "n": "Up White Arrow on Pedestal with Vertical Bar",
+		"s": "up-white-arrow-on-pedestal-with-vertical-bar",
+		"u": "U+021ED",
+		"x": "#x21ed;",
+		"h": "#8685;",
+		"e": ""
+	},
+	{
+	    "n": "Up White Double Arrow",
+		"s": "up-white-double-arrow",
+		"u": "U+021EE",
+		"x": "#x21ee;",
+		"h": "#8686;",
+		"e": ""
+	},
+	{
+	    "n": "Up White Double Arrow on Pedestal",
+		"s": "up-white-double-arrow-on-pedestal",
+		"u": "U+021EF",
+		"x": "#x21ef;",
+		"h": "#8687;",
+		"e": ""
+	},
+	{
+	    "n": "Right White Arrow from Wall",
+		"s": "right-white-arrow-from-wall",
+		"u": "U+021F0",
+		"x": "#x21f0;",
+		"h": "#8688;",
+		"e": ""
+	},
+	{
+	    "n": "North West Arrow to Corner",
+		"s": "north-west-arrow-to-corner",
+		"u": "U+021F1",
+		"x": "#x21f1;",
+		"h": "#8689;",
+		"e": ""
+	},
+	{
+	    "n": "South East Arrow to Corner",
+		"s": "south-east-arrow-to-corner",
+		"u": "U+021F2",
+		"x": "#x21f2;",
+		"h": "#8690;",
+		"e": ""
+	},
+	{
+	    "n": "Up Down White Arrow",
+		"s": "up-down-white-arrow",
+		"u": "U+021F3",
+		"x": "#x21f3;",
+		"h": "#8691;",
+		"e": ""
+	},
+	{
+	    "n": "Right Arrow with Small Circle",
+		"s": "right-arrow-with-small-circle",
+		"u": "U+021F4",
+		"x": "#x21f4;",
+		"h": "#8692;",
+		"e": ""
+	},
+	{
+	    "n": "Down Arrow Left of Up Arrow",
+		"s": "down-arrow-left-of-up-arrow",
+		"u": "U+021F5",
+		"x": "#x21f5;",
+		"h": "#8693;",
+		"e": "duarr;"
+	},
+	{
+	    "n": "Three Right Arrows",
+		"s": "three-right-arrows",
+		"u": "U+021F6",
+		"x": "#x21f6;",
+		"h": "#8694;",
+		"e": ""
+	},
+	{
+	    "n": "Left Arrow with Vertical Stroke",
+		"s": "left-arrow-with-vertical-stroke",
+		"u": "U+021F7",
+		"x": "#x21f7;",
+		"h": "#8695;",
+		"e": ""
+	},
+	{
+	    "n": "Right Arrow with Vertical Stroke",
+		"s": "right-arrow-with-vertical-stroke",
+		"u": "U+021F8",
+		"x": "#x21f8;",
+		"h": "#8696;",
+		"e": ""
+	},
+	{
+	    "n": "Left Right Arrow with Vertical Stroke",
+		"s": "left-right-arrow-with-vertical-stroke",
+		"u": "U+021F9",
+		"x": "#x21f9;",
+		"h": "#8697;",
+		"e": ""
+	},
+	{
+	    "n": "Left Arrow with Double Vertical Stroke",
+		"s": "left-arrow-with-double-vertical-stroke",
+		"u": "U+021FA",
+		"x": "#x21fa;",
+		"h": "#8698;",
+		"e": ""
+	},
+	{
+	    "n": "Right Arrow with Double Vertical Stroke",
+		"s": "right-arrow-with-double-vertical-stroke",
+		"u": "U+021FB",
+		"x": "#x21fb;",
+		"h": "#8699;",
+		"e": ""
+	},
+	{
+	    "n": "Left Right Arrow with Double Vertical Stroke",
+		"s": "left-right-arrow-with-double-vertical-stroke",
+		"u": "U+021FC",
+		"x": "#x21fc;",
+		"h": "#8700;",
+		"e": ""
+	},
+	{
+	    "n": "Left Open-headed Arrow",
+		"s": "left-open-headed-arrow",
+		"u": "U+021FD",
+		"x": "#x21fd;",
+		"h": "#8701;",
+		"e": "loarr;"
+	},
+	{
+	    "n": "Right Open-headed Arrow",
+		"s": "right-open-headed-arrow",
+		"u": "U+021FE",
+		"x": "#x21fe;",
+		"h": "#8702;",
+		"e": "roarr;"
+	},
+	{
+	    "n": "Left Right Open-headed Arrow",
+		"s": "left-right-open-headed-arrow",
+		"u": "U+021FF",
+		"x": "#x21ff;",
+		"h": "#8703;",
+		"e": "hoarr;"
+	},
+	{
+	    "n": "Up Quadruple Arrow",
+		"s": "up-quadruple-arrow",
+		"u": "U+027F0",
+		"x": "#x27F0;",
+		"h": "#10224;",
+		"e": ""
+	},
+	{
+	    "n": "Down Quadruple Arrow",
+		"s": "down-quadruple-arrow",
+		"u": "U+027F1",
+		"x": "#x27F1;",
+		"h": "#10225;",
+		"e": ""
+	},
+	{
+	    "n": "Anticlockwise Gapped Circle Arrow",
+		"s": "anticlockwise-gapped-circle-arrow",
+		"u": "U+027F2",
+		"x": "#x27F2;",
+		"h": "#10226;",
+		"e": ""
+	},
+	{
+	    "n": "Clockwise Gapped Circle Arrow",
+		"s": "clockwise-gapped-circle-arrow",
+		"u": "U+027F3",
+		"x": "#x27F3;",
+		"h": "#10227;",
+		"e": ""
+	},
+	{
+	    "n": "Right Arrow With Circled Plus",
+		"s": "right-arrow-with-circled-plus",
+		"u": "U+027F4",
+		"x": "#x27F4;",
+		"h": "#10228;",
+		"e": ""
+	},
+	{
+	    "n": "Long Left Arrow",
+		"s": "long-left-arrow",
+		"u": "U+027F5",
+		"x": "#x27F5;",
+		"h": "#10229;",
+		"e": "xlarr;"
+	},
+	{
+	    "n": "Long Right Arrow",
+		"s": "long-right-arrow",
+		"u": "U+027F6",
+		"x": "#x27F6;",
+		"h": "#10230;",
+		"e": "xrarr;"
+	},
+	{
+	    "n": "Long Left Right Arrow",
+		"s": "long-left-right-arrow",
+		"u": "U+027F7",
+		"x": "#x27F7;",
+		"h": "#10231;",
+		"e": "xharr;"
+	},
+	{
+	    "n": "Long Left Double Arrow",
+		"s": "long-left-double-arrow",
+		"u": "U+027F8",
+		"x": "#x27F8;",
+		"h": "#10232;",
+		"e": "xlArr;"
+	},
+	{
+	    "n": "Long Right Double Arrow",
+		"s": "long-right-double-arrow",
+		"u": "U+027F9",
+		"x": "#x27F9;",
+		"h": "#10233;",
+		"e": "xrArr;"
+	},
+	{
+	    "n": "Long Left Right Double Arrow",
+		"s": "long-left-right-double-arrow",
+		"u": "U+027FA",
+		"x": "#x27FA;",
+		"h": "#10234;",
+		"e": "xhArr;"
+	},
+	{
+	    "n": "Long Left Arrow From Bar",
+		"s": "long-left-arrow-from-bar",
+		"u": "U+027FB",
+		"x": "#x27FB;",
+		"h": "#10235;",
+		"e": ""
+	},
+	{
+	    "n": "Long Right Arrow From Bar",
+		"s": "long-right-arrow-from-bar",
+		"u": "U+027FC",
+		"x": "#x27FC;",
+		"h": "#10236;",
+		"e": "xmap;"
+	},
+	{
+	    "n": "Long Left Double Arrow From Bar",
+		"s": "long-left-double-arrow-from-bar",
+		"u": "U+027FD",
+		"x": "#x27FD;",
+		"h": "#10237;",
+		"e": ""
+	},
+	{
+	    "n": "Long Right Double Arrow From Bar",
+		"s": "long-right-double-arrow-from-bar",
+		"u": "U+027FE",
+		"x": "#x27FE;",
+		"h": "#10238;",
+		"e": ""
+	},
+	{
+	    "n": "Long Right Squiggle Arrow",
+		"s": "long-right-squiggle-arrow",
+		"u": "U+027FF",
+		"x": "#x27FF;",
+		"h": "#10239;",
+		"e": "dzigrarr;"
+	},
+	{
+	    "n": "Right Two-Headed Arrow With Vertical Stroke",
+		"s": "right-two-headed-arrow-with-vertical-stroke",
+		"u": "U+02900",
+		"x": "#x2900;",
+		"h": "#10496;",
+		"e": ""
+	},
+	{
+	    "n": "Right Two-Headed Arrow With Double Vertical Stroke",
+		"s": "right-two-headed-arrow-with-double-vertical-stroke",
+		"u": "U+02901",
+		"x": "#x2901;",
+		"h": "#10497;",
+		"e": ""
+	},
+	{
+	    "n": "Left Double Arrow With Vertical Stroke",
+		"s": "left-double-arrow-with-vertical-stroke",
+		"u": "U+02902",
+		"x": "#x2902;",
+		"h": "#10498;",
+		"e": "nvlArr;"
+	},
+	{
+	    "n": "Right Double Arrow With Vertical Stroke",
+		"s": "right-double-arrow-with-vertical-stroke",
+		"u": "U+02903",
+		"x": "#x2903;",
+		"h": "#10499;",
+		"e": "nvrArr;"
+	},
+	{
+	    "n": "Left Right Double Arrow With Vertical Stroke",
+		"s": "left-right-double-arrow-with-vertical-stroke",
+		"u": "U+02904",
+		"x": "#x2904;",
+		"h": "#10500;",
+		"e": "nvHarr;"
+	},
+	{
+	    "n": "Right Two-Headed Arrow From Bar",
+		"s": "right-two-headed-arrow-from-bar",
+		"u": "U+02905",
+		"x": "#x2905;",
+		"h": "#10501;",
+		"e": "Map;"
+	},
+	{
+	    "n": "Left Double Arrow From Bar",
+		"s": "left-double-arrow-from-bar",
+		"u": "U+02906",
+		"x": "#x2906;",
+		"h": "#10502;",
+		"e": ""
+	},
+	{
+	    "n": "Right Double Arrow From Bar",
+		"s": "right-double-arrow-from-bar",
+		"u": "U+02907",
+		"x": "#x2907;",
+		"h": "#10503;",
+		"e": ""
+	},
+	{
+	    "n": "Down Arrow With Horizontal Stroke",
+		"s": "down-arrow-with-horizontal-stroke",
+		"u": "U+02908",
+		"x": "#x2908;",
+		"h": "#10504;",
+		"e": ""
+	},
+	{
+	    "n": "Up Arrow With Horizontal Stroke",
+		"s": "up-arrow-with-horizontal-stroke",
+		"u": "U+02909",
+		"x": "#x2909;",
+		"h": "#10505;",
+		"e": ""
+	},
+	{
+	    "n": "Up Triple Arrow",
+		"s": "up-triple-arrow",
+		"u": "U+0290A",
+		"x": "#x290A;",
+		"h": "#10506;",
+		"e": ""
+	},
+	{
+	    "n": "Down Triple Arrow",
+		"s": "down-triple-arrow",
+		"u": "U+0290B",
+		"x": "#x290B;",
+		"h": "#10507;",
+		"e": ""
+	},
+	{
+	    "n": "Left Double Dash Arrow",
+		"s": "left-double-dash-arrow",
+		"u": "U+0290C",
+		"x": "#x290C;",
+		"h": "#10508;",
+		"e": "lbarr;"
+	},
+	{
+	    "n": "Right Double Dash Arrow",
+		"s": "right-double-dash-arrow",
+		"u": "U+0290D",
+		"x": "#x290D;",
+		"h": "#10509;",
+		"e": "rbarr;"
+	},
+	{
+	    "n": "Left Triple Dash Arrow",
+		"s": "left-triple-dash-arrow",
+		"u": "U+0290E",
+		"x": "#x290E;",
+		"h": "#10510;",
+		"e": "lBarr;"
+	},
+	{
+	    "n": "Right Triple Dash Arrow",
+		"s": "right-triple-dash-arrow",
+		"u": "U+0290F",
+		"x": "#x290F;",
+		"h": "#10511;",
+		"e": "rBarr;"
+	},
+	{
+	    "n": "Right Two-Headed Triple Dash Arrow",
+		"s": "right-two-headed-triple-dash-arrow",
+		"u": "U+02910",
+		"x": "#x2910;",
+		"h": "#10512;",
+		"e": "RBarr;"
+	},
+	{
+	    "n": "Right Arrow With Dotted Stem",
+		"s": "right-arrow-with-dotted-stem",
+		"u": "U+02911",
+		"x": "#x2911;",
+		"h": "#10513;",
+		"e": "DDotrahd;"
+	},
+	{
+	    "n": "Up Arrow to Bar",
+		"s": "up-arrow-to-bar",
+		"u": "U+02912",
+		"x": "#x2912;",
+		"h": "#10514;",
+		"e": "UpArrowBar;"
+	},
+	{
+	    "n": "Down Arrow to Bar",
+		"s": "down-arrow-to-bar",
+		"u": "U+02913",
+		"x": "#x2913;",
+		"h": "#10515;",
+		"e": "DownArrowBar;"
+	},
+	{
+	    "n": "Right Arrow With Tail With Vertical Stroke",
+		"s": "right-arrow-with-tail-with-vertical-stroke",
+		"u": "U+02914",
+		"x": "#x2914;",
+		"h": "#10516;",
+		"e": ""
+	},
+	{
+	    "n": "Right Arrow With Tail With Double Vertical Stroke",
+		"s": "right-arrow-with-tail-with-double-vertical-stroke",
+		"u": "U+02915",
+		"x": "#x2915;",
+		"h": "#10517;",
+		"e": ""
+	},
+	{
+	    "n": "Right Two-Headed Arrow With Tail",
+		"s": "right-two-headed-arrow-with-tail",
+		"u": "U+02916",
+		"x": "#x2916;",
+		"h": "#10518;",
+		"e": "Rarrtl;"
+	},
+	{
+	    "n": "Right Two-Headed Arrow With Tail With Vertical Stroke",
+		"s": "right-two-headed-arrow-with-tail-with-vertical-stroke",
+		"u": "U+02917",
+		"x": "#x2917;",
+		"h": "#10519;",
+		"e": ""
+	},
+	{
+	    "n": "Right Two-Headed Arrow With Tail With Double Vertical Stroke",
+		"s": "right-two-headed-arrow-with-tail-with-double-vertical-stroke",
+		"u": "U+02918",
+		"x": "#x2918;",
+		"h": "#10520;",
+		"e": ""
+	},
+	{
+	    "n": "Left Arrow-Tail",
+		"s": "left-arrow-tail",
+		"u": "U+02919",
+		"x": "#x2919;",
+		"h": "#10521;",
+		"e": "latail;"
+	},
+	{
+	    "n": "Right Arrow-Tail",
+		"s": "right-arrow-tail",
+		"u": "U+0291A",
+		"x": "#x291A;",
+		"h": "#10522;",
+		"e": "ratail;"
+	},
+	{
+	    "n": "Left Double Arrow-Tail",
+		"s": "left-double-arrow-tail",
+		"u": "U+0291B",
+		"x": "#x291B;",
+		"h": "#10523;",
+		"e": "lAtail;"
+	},
+	{
+	    "n": "Right Double Arrow-Tail",
+		"s": "right-double-arrow-tail",
+		"u": "U+0291C",
+		"x": "#x291C;",
+		"h": "#10524;",
+		"e": "rAtail;"
+	},
+	{
+	    "n": "Left Arrow to Black Diamond",
+		"s": "left-arrow-to-black-diamond",
+		"u": "U+0291D",
+		"x": "#x291D;",
+		"h": "#10525;",
+		"e": "larrfs;"
+	},
+	{
+	    "n": "Right Arrow to Black Diamond",
+		"s": "right-arrow-to-black-diamond",
+		"u": "U+0291E",
+		"x": "#x291E;",
+		"h": "#10526;",
+		"e": "rarrfs;"
+	},
+	{
+	    "n": "Left Arrow From Bar to Black Diamond",
+		"s": "left-arrow-from-bar-to-black-diamond",
+		"u": "U+0291F",
+		"x": "#x291F;",
+		"h": "#10527;",
+		"e": "larrbfs;"
+	},
+	{
+	    "n": "Right Arrow From Bar to Black Diamond",
+		"s": "right-arrow-from-bar-to-black-diamond",
+		"u": "U+02920",
+		"x": "#x2920;",
+		"h": "#10528;",
+		"e": "rarrbfs;"
+	},
+	{
+	    "n": "North West and South East Arrow",
+		"s": "north-west-and-south-east-arrow",
+		"u": "U+02921",
+		"x": "#x2921;",
+		"h": "#10529;",
+		"e": ""
+	},
+	{
+	    "n": "North East and South West Arrow",
+		"s": "north-east-and-south-west-arrow",
+		"u": "U+02922",
+		"x": "#x2922;",
+		"h": "#10530;",
+		"e": ""
+	},
+	{
+	    "n": "North West Arrow With Hook",
+		"s": "north-west-arrow-with-hook",
+		"u": "U+02923",
+		"x": "#x2923;",
+		"h": "#10531;",
+		"e": "nwarhk;"
+	},
+	{
+	    "n": "North East Arrow With Hook",
+		"s": "north-east-arrow-with-hook",
+		"u": "U+02924",
+		"x": "#x2924;",
+		"h": "#10532;",
+		"e": "nearhk;"
+	},
+	{
+	    "n": "South East Arrow With Hook",
+		"s": "south-east-arrow-with-hook",
+		"u": "U+02925",
+		"x": "#x2925;",
+		"h": "#10533;",
+		"e": "searhk;"
+	},
+	{
+	    "n": "South West Arrow With Hook",
+		"s": "south-west-arrow-with-hook",
+		"u": "U+02926",
+		"x": "#x2926;",
+		"h": "#10534;",
+		"e": "swarhk;"
+	},
+	{
+	    "n": "North West Arrow and North East Arrow",
+		"s": "north-west-arrow-and-north-east-arrow",
+		"u": "U+02927",
+		"x": "#x2927;",
+		"h": "#10535;",
+		"e": "nwnear;"
+	},
+	{
+	    "n": "North East Arrow and South East Arrow",
+		"s": "north-east-arrow-and-south-east-arrow",
+		"u": "U+02928",
+		"x": "#x2928;",
+		"h": "#10536;",
+		"e": "nesear;"
+	},
+	{
+	    "n": "South East Arrow and South West Arrow",
+		"s": "south-east-arrow-and-south-west-arrow",
+		"u": "U+02929",
+		"x": "#x2929;",
+		"h": "#10537;",
+		"e": "seswar;"
+	},
+	{
+	    "n": "South West Arrow and North West Arrow",
+		"s": "south-west-arrow-and-north-west-arrow",
+		"u": "U+0292A",
+		"x": "#x292A;",
+		"h": "#10538;",
+		"e": "swnwar;"
+	},
+	{
+	    "n": "Rising Diagonal Crossing Falling Diagonal",
+		"s": "rising-diagonal-crossing-falling-diagonal",
+		"u": "U+0292B",
+		"x": "#x292B;",
+		"h": "#10539;",
+		"e": ""
+	},
+	{
+	    "n": "Falling Diagonal Crossing Rising Diagonal",
+		"s": "falling-diagonal-crossing-rising-diagonal",
+		"u": "U+0292C",
+		"x": "#x292C;",
+		"h": "#10540;",
+		"e": ""
+	},
+	{
+	    "n": "South East Arrow Crossing North East Arrow",
+		"s": "south-east-arrow-crossing-north-east-arrow",
+		"u": "U+0292D",
+		"x": "#x292D;",
+		"h": "#10541;",
+		"e": ""
+	},
+	{
+	    "n": "North East Arrow Crossing South East Arrow",
+		"s": "north-east-arrow-crossing-south-east-arrow",
+		"u": "U+0292E",
+		"x": "#x292E;",
+		"h": "#10542;",
+		"e": ""
+	},
+	{
+	    "n": "Falling Diagonal Crossing North East Arrow",
+		"s": "falling-diagonal-crossing-north-east-arrow",
+		"u": "U+0292F",
+		"x": "#x292F;",
+		"h": "#10543;",
+		"e": ""
+	},
+	{
+	    "n": "Rising Diagonal Crossing South East Arrow",
+		"s": "rising-diagonal-crossing-south-east-arrow",
+		"u": "U+02930",
+		"x": "#x2930;",
+		"h": "#10544;",
+		"e": ""
+	},
+	{
+	    "n": "North East Arrow Crossing North West Arrow",
+		"s": "north-east-arrow-crossing-north-west-arrow",
+		"u": "U+02931",
+		"x": "#x2931;",
+		"h": "#10545;",
+		"e": ""
+	},
+	{
+	    "n": "North West Arrow Crossing North East Arrow",
+		"s": "north-west-arrow-crossing-north-east-arrow",
+		"u": "U+02932",
+		"x": "#x2932;",
+		"h": "#10546;",
+		"e": ""
+	},
+	{
+	    "n": "Wave Arrow Pointing Directly Right",
+		"s": "wave-arrow-pointing-directly-right",
+		"u": "U+02933",
+		"x": "#x2933;",
+		"h": "#10547;",
+		"e": "rarrc;"
+	},
+	{
+	    "n": "Arrow Pointing Right Then Curving Up",
+		"s": "arrow-pointing-right-then-curving-up",
+		"u": "U+02934",
+		"x": "#x2934;",
+		"h": "#10548;",
+		"e": ""
+	},
+	{
+	    "n": "Arrow Pointing Right Then Curving Down",
+		"s": "arrow-pointing-right-then-curving-down",
+		"u": "U+02935",
+		"x": "#x2935;",
+		"h": "#10549;",
+		"e": "cudarrr;"
+	},
+	{
+	    "n": "Arrow Pointing Down Then Curving Left",
+		"s": "arrow-pointing-down-then-curving-left",
+		"u": "U+02936",
+		"x": "#x2936;",
+		"h": "#10550;",
+		"e": "ldca;"
+	},
+	{
+	    "n": "Arrow Pointing Down Then Curving Right",
+		"s": "arrow-pointing-down-then-curving-right",
+		"u": "U+02937",
+		"x": "#x2937;",
+		"h": "#10551;",
+		"e": "rdca;"
+	},
+	{
+	    "n": "Right-Side Arc Clockwise Arrow",
+		"s": "right-side-arc-clockwise-arrow",
+		"u": "U+02938",
+		"x": "#x2938;",
+		"h": "#10552;",
+		"e": "cudarrl;"
+	},
+	{
+	    "n": "Left-Side Arc Anticlockwise Arrow",
+		"s": "left-side-arc-anticlockwise-arrow",
+		"u": "U+02939",
+		"x": "#x2939;",
+		"h": "#10553;",
+		"e": "larrpl;"
+	},
+	{
+	    "n": "Top Arc Anticlockwise Arrow",
+		"s": "top-arc-anticlockwise-arrow",
+		"u": "U+0293A",
+		"x": "#x293A;",
+		"h": "#10554;",
+		"e": ""
+	},
+	{
+	    "n": "Bottom Arc Anticlockwise Arrow",
+		"s": "bottom-arc-anticlockwise-arrow",
+		"u": "U+0293B",
+		"x": "#x293B;",
+		"h": "#10555;",
+		"e": ""
+	},
+	{
+	    "n": "Top Arc Clockwise Arrow With Minus",
+		"s": "top-arc-clockwise-arrow-with-minus",
+		"u": "U+0293C",
+		"x": "#x293C;",
+		"h": "#10556;",
+		"e": "curarrm;"
+	},
+	{
+	    "n": "Top Arc Anticlockwise Arrow With Plus",
+		"s": "top-arc-anticlockwise-arrow-with-plus",
+		"u": "U+0293D",
+		"x": "#x293D;",
+		"h": "#10557;",
+		"e": "cularrp;"
+	},
+	{
+	    "n": "Lower Right Semicircular Clockwise Arrow",
+		"s": "lower-right-semicircular-clockwise-arrow",
+		"u": "U+0293E",
+		"x": "#x293E;",
+		"h": "#10558;",
+		"e": ""
+	},
+	{
+	    "n": "Lower Left Semicircular Anticlockwise Arrow",
+		"s": "lower-left-semicircular-anticlockwise-arrow",
+		"u": "U+0293F",
+		"x": "#x293F;",
+		"h": "#10559;",
+		"e": ""
+	},
+	{
+	    "n": "Anticlockwise Closed Circle Arrow",
+		"s": "anticlockwise-closed-circle-arrow",
+		"u": "U+02940",
+		"x": "#x2940;",
+		"h": "#10560;",
+		"e": ""
+	},
+	{
+	    "n": "Clockwise Closed Circle Arrow",
+		"s": "clockwise-closed-circle-arrow",
+		"u": "U+02941",
+		"x": "#x2941;",
+		"h": "#10561;",
+		"e": ""
+	},
+	{
+	    "n": "Right Arrow Above Short Left Arrow",
+		"s": "right-arrow-above-short-left-arrow",
+		"u": "U+02942",
+		"x": "#x2942;",
+		"h": "#10562;",
+		"e": ""
+	},
+	{
+	    "n": "Left Arrow Above Short Right Arrow",
+		"s": "left-arrow-above-short-right-arrow",
+		"u": "U+02943",
+		"x": "#x2943;",
+		"h": "#10563;",
+		"e": ""
+	},
+	{
+	    "n": "Short Right Arrow Above Left Arrow",
+		"s": "short-right-arrow-above-left-arrow",
+		"u": "U+02944",
+		"x": "#x2944;",
+		"h": "#10564;",
+		"e": ""
+	},
+	{
+	    "n": "Right Arrow With Plus Below",
+		"s": "right-arrow-with-plus-below",
+		"u": "U+02945",
+		"x": "#x2945;",
+		"h": "#10565;",
+		"e": "rarrpl;"
+	},
+	{
+	    "n": "Left Arrow With Plus Below",
+		"s": "left-arrow-with-plus-below",
+		"u": "U+02946",
+		"x": "#x2946;",
+		"h": "#10566;",
+		"e": ""
+	},
+	{
+	    "n": "Right Arrow Through X",
+		"s": "right-arrow-through-x",
+		"u": "U+02947",
+		"x": "#x2947;",
+		"h": "#10567;",
+		"e": ""
+	},
+	{
+	    "n": "Left Right Arrow Through Small Circle",
+		"s": "left-right-arrow-through-small-circle",
+		"u": "U+02948",
+		"x": "#x2948;",
+		"h": "#10568;",
+		"e": "harrcir;"
+	},
+	{
+	    "n": "Up Two-Headed Arrow From Small Circle",
+		"s": "up-two-headed-arrow-from-small-circle",
+		"u": "U+02949",
+		"x": "#x2949;",
+		"h": "#10569;",
+		"e": "Uarrocir;"
+	},
+	{
+	    "n": "Left Barb Up Right Barb Down Harpoon",
+		"s": "left-barb-up-right-barb-down-harpoon",
+		"u": "U+0294A",
+		"x": "#x294A;",
+		"h": "#10570;",
+		"e": "lurdshar;"
+	},
+	{
+	    "n": "Left Barb Down Right Barb Up Harpoon",
+		"s": "left-barb-down-right-barb-up-harpoon",
+		"u": "U+0294B",
+		"x": "#x294B;",
+		"h": "#10571;",
+		"e": "ldrushar;"
+	},
+	{
+	    "n": "Up Barb Right Down Barb Left Harpoon",
+		"s": "up-barb-right-down-barb-left-harpoon",
+		"u": "U+0294C",
+		"x": "#x294C;",
+		"h": "#10572;",
+		"e": ""
+	},
+	{
+	    "n": "Up Barb Left Down Barb Right Harpoon",
+		"s": "up-barb-left-down-barb-right-harpoon",
+		"u": "U+0294D",
+		"x": "#x294D;",
+		"h": "#10573;",
+		"e": ""
+	},
+	{
+	    "n": "Left Barb Up Right Barb Up Harpoon",
+		"s": "left-barb-up-right-barb-up-harpoon",
+		"u": "U+0294E",
+		"x": "#x294E;",
+		"h": "#10574;",
+		"e": "LeftRightVector;"
+	},
+	{
+	    "n": "Up Barb Right Down Barb Right Harpoon",
+		"s": "up-barb-right-down-barb-right-harpoon",
+		"u": "U+0294F",
+		"x": "#x294F;",
+		"h": "#10575;",
+		"e": "RightUpDownVector;"
+	},
+	{
+	    "n": "Left Barb Down Right Barb Down Harpoon",
+		"s": "left-barb-down-right-barb-down-harpoon",
+		"u": "U+02950",
+		"x": "#x2950;",
+		"h": "#10576;",
+		"e": "DownLeftRightVector;"
+	},
+	{
+	    "n": "Up Barb Left Down Barb Left Harpoon",
+		"s": "up-barb-left-down-barb-left-harpoon",
+		"u": "U+02951",
+		"x": "#x2951;",
+		"h": "#10577;",
+		"e": "LeftUpDownVector;"
+	},
+	{
+	    "n": "Left Harpoon With Barb Up to Bar",
+		"s": "left-harpoon-with-barb-up-to-bar",
+		"u": "U+02952",
+		"x": "#x2952;",
+		"h": "#10578;",
+		"e": "LeftVectorBar;"
+	},
+	{
+	    "n": "Right Harpoon With Barb Up to Bar",
+		"s": "right-harpoon-with-barb-up-to-bar",
+		"u": "U+02953",
+		"x": "#x2953;",
+		"h": "#10579;",
+		"e": "RightVectorBar;"
+	},
+	{
+	    "n": "Up Harpoon With Barb Right to Bar",
+		"s": "up-harpoon-with-barb-right-to-bar",
+		"u": "U+02954",
+		"x": "#x2954;",
+		"h": "#10580;",
+		"e": "RightUpVectorBar;"
+	},
+	{
+	    "n": "Down Harpoon With Barb Right to Bar",
+		"s": "down-harpoon-with-barb-right-to-bar",
+		"u": "U+02955",
+		"x": "#x2955;",
+		"h": "#10581;",
+		"e": "RightDownVectorBar;"
+	},
+	{
+	    "n": "Left Harpoon With Barb Down to Bar",
+		"s": "left-harpoon-with-barb-down-to-bar",
+		"u": "U+02956",
+		"x": "#x2956;",
+		"h": "#10582;",
+		"e": "DownLeftVectorBar;"
+	},
+	{
+	    "n": "Right Harpoon With Barb Down to Bar",
+		"s": "right-harpoon-with-barb-down-to-bar",
+		"u": "U+02957",
+		"x": "#x2957;",
+		"h": "#10583;",
+		"e": "DownRightVectorBar;"
+	},
+	{
+	    "n": "Up Harpoon With Barb Left to Bar",
+		"s": "up-harpoon-with-barb-left-to-bar",
+		"u": "U+02958",
+		"x": "#x2958;",
+		"h": "#10584;",
+		"e": "LeftUpVectorBar;"
+	},
+	{
+	    "n": "Down Harpoon With Barb Left to Bar",
+		"s": "down-harpoon-with-barb-left-to-bar",
+		"u": "U+02959",
+		"x": "#x2959;",
+		"h": "#10585;",
+		"e": "LeftDownVectorBar;"
+	},
+	{
+	    "n": "Left Harpoon With Barb Up From Bar",
+		"s": "left-harpoon-with-barb-up-from-bar",
+		"u": "U+0295A",
+		"x": "#x295A;",
+		"h": "#10586;",
+		"e": "LeftTeeVector;"
+	},
+	{
+	    "n": "Right Harpoon With Barb Up From Bar",
+		"s": "right-harpoon-with-barb-up-from-bar",
+		"u": "U+0295B",
+		"x": "#x295B;",
+		"h": "#10587;",
+		"e": "RightTeeVector;"
+	},
+	{
+	    "n": "Up Harpoon With Barb Right From Bar",
+		"s": "up-harpoon-with-barb-right-from-bar",
+		"u": "U+0295C",
+		"x": "#x295C;",
+		"h": "#10588;",
+		"e": "RightUpTeeVector;"
+	},
+	{
+	    "n": "Down Harpoon With Barb Right From Bar",
+		"s": "down-harpoon-with-barb-right-from-bar",
+		"u": "U+0295D",
+		"x": "#x295D;",
+		"h": "#10589;",
+		"e": "RightDownTeeVector;"
+	},
+	{
+	    "n": "Left Harpoon With Barb Down From Bar",
+		"s": "left-harpoon-with-barb-down-from-bar",
+		"u": "U+0295E",
+		"x": "#x295E;",
+		"h": "#10590;",
+		"e": "DownLeftTeeVector;"
+	},
+	{
+	    "n": "Right Harpoon With Barb Down From Bar",
+		"s": "right-harpoon-with-barb-down-from-bar",
+		"u": "U+0295F",
+		"x": "#x295F;",
+		"h": "#10591;",
+		"e": "DownRightTeeVector;"
+	},
+	{
+	    "n": "Up Harpoon With Barb Left From Bar",
+		"s": "up-harpoon-with-barb-left-from-bar",
+		"u": "U+02960",
+		"x": "#x2960;",
+		"h": "#10592;",
+		"e": "LeftUpTeeVector;"
+	},
+	{
+	    "n": "Down Harpoon With Barb Left From Bar",
+		"s": "down-harpoon-with-barb-left-from-bar",
+		"u": "U+02961",
+		"x": "#x2961;",
+		"h": "#10593;",
+		"e": "LeftDownTeeVector;"
+	},
+	{
+	    "n": "Left Harpoon With Barb Up Above Left Harpoon With Barb Down",
+		"s": "left-harpoon-with-barb-up-above-left-harpoon-with-barb-down",
+		"u": "U+02962",
+		"x": "#x2962;",
+		"h": "#10594;",
+		"e": "lHar;"
+	},
+	{
+	    "n": "Up Harpoon With Barb Left Beside Up Harpoon With Barb Right",
+		"s": "up-harpoon-with-barb-left-beside-up-harpoon-with-barb-right",
+		"u": "U+02963",
+		"x": "#x2963;",
+		"h": "#10595;",
+		"e": "uHar;"
+	},
+	{
+	    "n": "Right Harpoon With Barb Up Above Right Harpoon With Barb Down",
+		"s": "right-harpoon-with-barb-up-above-right-harpoon-with-barb-down",
+		"u": "U+02964",
+		"x": "#x2964;",
+		"h": "#10596;",
+		"e": "rHar;"
+	},
+	{
+	    "n": "Down Harpoon With Barb Left Beside Down Harpoon With Barb Right",
+		"s": "down-harpoon-with-barb-left-beside-down-harpoon-with-barb-right",
+		"u": "U+02965",
+		"x": "#x2965;",
+		"h": "#10597;",
+		"e": "dHar;"
+	},
+	{
+	    "n": "Left Harpoon With Barb Up Above Right Harpoon With Barb Up",
+		"s": "left-harpoon-with-barb-up-above-right-harpoon-with-barb-up",
+		"u": "U+02966",
+		"x": "#x2966;",
+		"h": "#10598;",
+		"e": "luruhar;"
+	},
+	{
+	    "n": "Left Harpoon With Barb Down Above Right Harpoon With Barb Down",
+		"s": "left-harpoon-with-barb-down-above-right-harpoon-with-barb-down",
+		"u": "U+02967",
+		"x": "#x2967;",
+		"h": "#10599;",
+		"e": "ldrdhar;"
+	},
+	{
+	    "n": "Right Harpoon With Barb Up Above Left Harpoon With Barb Up",
+		"s": "right-harpoon-with-barb-up-above-left-harpoon-with-barb-up",
+		"u": "U+02968",
+		"x": "#x2968;",
+		"h": "#10600;",
+		"e": "ruluhar;"
+	},
+	{
+	    "n": "Right Harpoon With Barb Down Above Left Harpoon With Barb Down",
+		"s": "right-harpoon-with-barb-down-above-left-harpoon-with-barb-down",
+		"u": "U+02969",
+		"x": "#x2969;",
+		"h": "#10601;",
+		"e": "rdldhar;"
+	},
+	{
+	    "n": "Left Harpoon With Barb Up Above Long Dash",
+		"s": "left-harpoon-with-barb-up-above-long-dash",
+		"u": "U+0296A",
+		"x": "#x296A;",
+		"h": "#10602;",
+		"e": "lharul;"
+	},
+	{
+	    "n": "Left Harpoon With Barb Down Below Long Dash",
+		"s": "left-harpoon-with-barb-down-below-long-dash",
+		"u": "U+0296B",
+		"x": "#x296B;",
+		"h": "#10603;",
+		"e": "llhard;"
+	},
+	{
+	    "n": "Right Harpoon With Barb Up Above Long Dash",
+		"s": "right-harpoon-with-barb-up-above-long-dash",
+		"u": "U+0296C",
+		"x": "#x296C;",
+		"h": "#10604;",
+		"e": "rharul;"
+	},
+	{
+	    "n": "Right Harpoon With Barb Down Below Long Dash",
+		"s": "right-harpoon-with-barb-down-below-long-dash",
+		"u": "U+0296D",
+		"x": "#x296D;",
+		"h": "#10605;",
+		"e": "lrhard;"
+	},
+	{
+	    "n": "Up Harpoon With Barb Left Beside Down Harpoon With Barb Right",
+		"s": "up-harpoon-with-barb-left-beside-down-harpoon-with-barb-right",
+		"u": "U+0296E",
+		"x": "#x296E;",
+		"h": "#10606;",
+		"e": "udhar;"
+	},
+	{
+	    "n": "Down Harpoon With Barb Left Beside Up Harpoon With Barb Right",
+		"s": "down-harpoon-with-barb-left-beside-up-harpoon-with-barb-right",
+		"u": "U+0296F",
+		"x": "#x296F;",
+		"h": "#10607;",
+		"e": "duhar;"
+	},
+	{
+	    "n": "Right Double Arrow With Rounded Head",
+		"s": "right-double-arrow-with-rounded-head",
+		"u": "U+02970",
+		"x": "#x2970;",
+		"h": "#10608;",
+		"e": "RoundImplies;"
+	},
+	{
+	    "n": "Equals Sign Above Right Arrow",
+		"s": "equals-sign-above-right-arrow",
+		"u": "U+02971",
+		"x": "#x2971;",
+		"h": "#10609;",
+		"e": "erarr;"
+	},
+	{
+	    "n": "Tilde Operator Above Right Arrow",
+		"s": "tilde-operator-above-right-arrow",
+		"u": "U+02972",
+		"x": "#x2972;",
+		"h": "#10610;",
+		"e": "simrarr;"
+	},
+	{
+	    "n": "Left Arrow Above Tilde Operator",
+		"s": "left-arrow-above-tilde-operator",
+		"u": "U+02973",
+		"x": "#x2973;",
+		"h": "#10611;",
+		"e": "larrsim;"
+	},
+	{
+	    "n": "Right Arrow Above Tilde Operator",
+		"s": "right-arrow-above-tilde-operator",
+		"u": "U+02974",
+		"x": "#x2974;",
+		"h": "#10612;",
+		"e": "rarrsim;"
+	},
+	{
+	    "n": "Right Arrow Above Almost Equal To",
+		"s": "right-arrow-above-almost-equal-to",
+		"u": "U+02975",
+		"x": "#x2975;",
+		"h": "#10613;",
+		"e": "rarrap;"
+	},
+	{
+	    "n": "Less-Than Above Left Arrow",
+		"s": "less-than-above-left-arrow",
+		"u": "U+02976",
+		"x": "#x2976;",
+		"h": "#10614;",
+		"e": "ltlarr;"
+	},
+	{
+	    "n": "Left Arrow Through Less-Than",
+		"s": "left-arrow-through-less-than",
+		"u": "U+02977",
+		"x": "#x2977;",
+		"h": "#10615;",
+		"e": ""
+	},
+	{
+	    "n": "Greater-Than Above Right Arrow",
+		"s": "greater-than-above-right-arrow",
+		"u": "U+02978",
+		"x": "#x2978;",
+		"h": "#10616;",
+		"e": "gtrarr;"
+	},
+	{
+	    "n": "Subset Above Right Arrow",
+		"s": "subset-above-right-arrow",
+		"u": "U+02979",
+		"x": "#x2979;",
+		"h": "#10617;",
+		"e": "subrarr;"
+	},
+	{
+	    "n": "Left Arrow Through Subset",
+		"s": "left-arrow-through-subset",
+		"u": "U+0297A",
+		"x": "#x297A;",
+		"h": "#10618;",
+		"e": ""
+	},
+	{
+	    "n": "Superset Above Left Arrow",
+		"s": "superset-above-left-arrow",
+		"u": "U+0297B",
+		"x": "#x297B;",
+		"h": "#10619;",
+		"e": "suplarr;"
+	},
+	{
+	    "n": "Left Fish Tail",
+		"s": "left-fish-tail",
+		"u": "U+0297C",
+		"x": "#x297C;",
+		"h": "#10620;",
+		"e": "lfisht;"
+	},
+	{
+	    "n": "Right Fish Tail",
+		"s": "right-fish-tail",
+		"u": "U+0297D",
+		"x": "#x297D;",
+		"h": "#10621;",
+		"e": "rfisht;"
+	},
+	{
+	    "n": "Up Fish Tail",
+		"s": "up-fish-tail",
+		"u": "U+0297E",
+		"x": "#x297E;",
+		"h": "#10622;",
+		"e": "ufisht;"
+	},
+	{
+	    "n": "Down Fish Tail",
+		"s": "down-fish-tail",
+		"u": "U+0297F",
+		"x": "#x297F;",
+		"h": "#10623;",
+		"e": "dfisht;"
+	},
+	{
+	    "n": "Heavy Wide-Headed Right Arrow",
+		"s": "heavy-wide-headed-right-arrow",
+		"u": "U+02794",
+		"x": "#x2794;",
+		"h": "#10132;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy South East Arrow",
+		"s": "heavy-south-east-arrow",
+		"u": "U+02798",
+		"x": "#x2798;",
+		"h": "#10136;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Right Arrow",
+		"s": "heavy-right-arrow",
+		"u": "U+02799",
+		"x": "#x2799;",
+		"h": "#10137;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy North East Arrow",
+		"s": "heavy-north-east-arrow",
+		"u": "U+0279A",
+		"x": "#x279A;",
+		"h": "#10138;",
+		"e": ""
+	},
+	{
+	    "n": "Drafting Point Right Arrow",
+		"s": "drafting-point-right-arrow",
+		"u": "U+0279B",
+		"x": "#x279B;",
+		"h": "#10139;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Round-Tipped Right Arrow",
+		"s": "heavy-round-tipped-right-arrow",
+		"u": "U+0279C",
+		"x": "#x279C;",
+		"h": "#10140;",
+		"e": ""
+	},
+	{
+	    "n": "Triangle-Headed Right Arrow",
+		"s": "triangle-headed-right-arrow",
+		"u": "U+0279D",
+		"x": "#x279D;",
+		"h": "#10141;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Triangle-Headed Right Arrow",
+		"s": "heavy-triangle-headed-right-arrow",
+		"u": "U+0279E",
+		"x": "#x279E;",
+		"h": "#10142;",
+		"e": ""
+	},
+	{
+	    "n": "Dashed Triangle-Headed Right Arrow",
+		"s": "dashed-triangle-headed-right-arrow",
+		"u": "U+0279F",
+		"x": "#x279F;",
+		"h": "#10143;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Dashed Triangle-Headed Right Arrow",
+		"s": "heavy-dashed-triangle-headed-right-arrow",
+		"u": "U+027A0",
+		"x": "#x27A0;",
+		"h": "#10144;",
+		"e": ""
+	},
+	{
+	    "n": "Black Right Arrow",
+		"s": "black-right-arrow",
+		"u": "U+027A1",
+		"x": "#x27A1;",
+		"h": "#10145;",
+		"e": ""
+	},
+	{
+	    "n": "Three-D Top-Lighted Right Arrowhead",
+		"s": "three-d-top-lighted-right-arrowhead",
+		"u": "U+027A2",
+		"x": "#x27A2;",
+		"h": "#10146;",
+		"e": ""
+	},
+	{
+	    "n": "Three-D Bottom-Lighted Right Arrowhead",
+		"s": "three-d-bottom-lighted-right-arrowhead",
+		"u": "U+027A3",
+		"x": "#x27A3;",
+		"h": "#10147;",
+		"e": ""
+	},
+	{
+	    "n": "Black Right Arrowhead",
+		"s": "black-right-arrowhead",
+		"u": "U+027A4",
+		"x": "#x27A4;",
+		"h": "#10148;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Black Curved Down and Right Arrow",
+		"s": "heavy-black-curved-down-and-right-arrow",
+		"u": "U+027A5",
+		"x": "#x27A5;",
+		"h": "#10149;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Black Curved Up and Right Arrow",
+		"s": "heavy-black-curved-up-and-right-arrow",
+		"u": "U+027A6",
+		"x": "#x27A6;",
+		"h": "#10150;",
+		"e": ""
+	},
+	{
+	    "n": "Squat Black Right Arrow",
+		"s": "squat-black-right-arrow",
+		"u": "U+027A7",
+		"x": "#x27A7;",
+		"h": "#10151;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Concave-Pointed Black Right Arrow",
+		"s": "heavy-concave-pointed-black-right-arrow",
+		"u": "U+027A8",
+		"x": "#x27A8;",
+		"h": "#10152;",
+		"e": ""
+	},
+	{
+	    "n": "Right-Shaded White Right Arrow",
+		"s": "right-shaded-white-right-arrow",
+		"u": "U+027A9",
+		"x": "#x27A9;",
+		"h": "#10153;",
+		"e": ""
+	},
+	{
+	    "n": "Left-Shaded White Right Arrow",
+		"s": "left-shaded-white-right-arrow",
+		"u": "U+027AA",
+		"x": "#x27AA;",
+		"h": "#10154;",
+		"e": ""
+	},
+	{
+	    "n": "Back-Tilted Shadowed White Right Arrow",
+		"s": "back-tilted-shadowed-white-right-arrow",
+		"u": "U+027AB",
+		"x": "#x27AB;",
+		"h": "#10155;",
+		"e": ""
+	},
+	{
+	    "n": "Front-Tilted Shadowed White Right Arrow",
+		"s": "front-tilted-shadowed-white-right-arrow",
+		"u": "U+027AC",
+		"x": "#x27AC;",
+		"h": "#10156;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Lower Right-Shadowed White Right Arrow",
+		"s": "heavy-lower-right-shadowed-white-right-arrow",
+		"u": "U+027AD",
+		"x": "#x27AD;",
+		"h": "#10157;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Upper Right-Shadowed White Right Arrow",
+		"s": "heavy-upper-right-shadowed-white-right-arrow",
+		"u": "U+027AE",
+		"x": "#x27AE;",
+		"h": "#10158;",
+		"e": ""
+	},
+	{
+	    "n": "Notched Lower Right-Shadowed White Right Arrow",
+		"s": "notched-lower-right-shadowed-white-right-arrow",
+		"u": "U+027AF",
+		"x": "#x27AF;",
+		"h": "#10159;",
+		"e": ""
+	},
+	{
+	    "n": "Notched Upper Right-Shadowed White Right Arrow",
+		"s": "notched-upper-right-shadowed-white-right-arrow",
+		"u": "U+027B1",
+		"x": "#x27B1;",
+		"h": "#10161;",
+		"e": ""
+	},
+	{
+	    "n": "Circled Heavy White Right Arrow",
+		"s": "circled-heavy-white-right-arrow",
+		"u": "U+027B2",
+		"x": "#x27B2;",
+		"h": "#10162;",
+		"e": ""
+	},
+	{
+	    "n": "White-Feathered Right Arrow",
+		"s": "white-feathered-right-arrow",
+		"u": "U+027B3",
+		"x": "#x27B3;",
+		"h": "#10163;",
+		"e": ""
+	},
+	{
+	    "n": "Black-Feathered South East Arrow",
+		"s": "black-feathered-south-east-arrow",
+		"u": "U+027B4",
+		"x": "#x27B4;",
+		"h": "#10164;",
+		"e": ""
+	},
+	{
+	    "n": "Black-Feathered Right Arrow",
+		"s": "black-feathered-right-arrow",
+		"u": "U+027B5",
+		"x": "#x27B5;",
+		"h": "#10165;",
+		"e": ""
+	},
+	{
+	    "n": "Black-Feathered North East Arrow",
+		"s": "black-feathered-north-east-arrow",
+		"u": "U+027B6",
+		"x": "#x27B6;",
+		"h": "#10166;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Black-Feathered South East Arrow",
+		"s": "heavy-black-feathered-south-east-arrow",
+		"u": "U+027B7",
+		"x": "#x27B7;",
+		"h": "#10167;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Black-Feathered Right Arrow",
+		"s": "heavy-black-feathered-right-arrow",
+		"u": "U+027B8",
+		"x": "#x27B8;",
+		"h": "#10168;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Black-Feathered North East Arrow",
+		"s": "heavy-black-feathered-north-east-arrow",
+		"u": "U+027B9",
+		"x": "#x27B9;",
+		"h": "#10169;",
+		"e": ""
+	},
+	{
+	    "n": "Teardrop-Barbed Right Arrow",
+		"s": "teardrop-barbed-right-arrow",
+		"u": "U+027BA",
+		"x": "#x27BA;",
+		"h": "#10170;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Teardrop-Shanked Right Arrow",
+		"s": "heavy-teardrop-shanked-right-arrow",
+		"u": "U+027BB",
+		"x": "#x27BB;",
+		"h": "#10171;",
+		"e": ""
+	},
+	{
+	    "n": "Wedge-Tailed Right Arrow",
+		"s": "wedge-tailed-right-arrow",
+		"u": "U+027BC",
+		"x": "#x27BC;",
+		"h": "#10172;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Wedge-Tailed Right Arrow",
+		"s": "heavy-wedge-tailed-right-arrow",
+		"u": "U+027BD",
+		"x": "#x27BD;",
+		"h": "#10173;",
+		"e": ""
+	},
+	{
+	    "n": "Open-Outlined Right Arrow",
+		"s": "open-outlined-right-arrow",
+		"u": "U+027BE",
+		"x": "#x27BE;",
+		"h": "#10174;",
+		"e": ""
+	}
+]

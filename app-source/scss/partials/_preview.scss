@@ -47,12 +47,21 @@
 			appearance: none;
 			border: 0;
 			width: 22px;
-			height: 18px;
+			height: 22px;
 			margin: 0 5px;
 			background-color: transparent;
 			background-repeat: no-repeat;
 			background-position: center top;
 			outline: none;
+			
+			border-bottom: 2px solid #fff;
+			
+			transition: border-bottom-color .2s;
+			
+			&.selected {
+				
+				border-bottom-color: $link;
+			}
 		}
 		
 		#show-fonts 	{ background-image: url('#{$sample}'); }
@@ -73,6 +82,15 @@
 				visibility: hidden;
 			}
 		}
+		
+		#glyph-types {
+			
+			position: absolute;
+			top: 11px;
+			right: 15px;
+			
+			display: none;
+		}
 	}
 	
 	footer {
@@ -91,6 +109,12 @@
 			width: 240px;
 			vertical-align: middle;
 			margin-right: 10px;
+		}
+		
+		.slider-label {
+			
+			display: inline-block;
+			width: 40px;
 		}
 	}
 }
@@ -268,6 +292,68 @@ main {
 		color: rgba($preview,.3);
 		font-weight: 600;
 		padding-bottom: .8em;
+	}
+	
+	.glyph {
+		
+		padding-bottom: 20px;
+		margin-bottom: 20px;
+		border-bottom: 1px solid #d8d8d8;
+		
+		@include clearfix();
+		
+		figure {
+			
+			overflow: hidden;
+			background-color: #f5f5f5;
+			border: 1px solid #e3e3e3;
+			border-radius: 16px;
+			
+			width: 128px;
+			height: 128px;
+			float: left;
+			margin-right: 20px;
+			
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			
+			transition: background-color .25s, color .25s, border-color .25s;
+			
+			&:hover {
+				
+				background-color: $link;
+				color: $text !important;
+				border-color: darken($link, 10%);
+			}
+		}
+		
+		table {
+			
+			line-height: 24px;
+			
+			th {
+				
+				text-align: right;
+				font-size: 12px;
+				text-transform: uppercase;
+				padding-right: 15px;
+			}
+			
+			td {
+				
+				text-align: left;
+				font-size: 14px;
+				font-weight: 900;
+							
+				white-space: nowrap;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				
+				width: 100%;
+				max-width: 0;
+			}
+		}
 	}
 }
 

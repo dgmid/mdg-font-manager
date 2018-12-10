@@ -8,6 +8,27 @@ footer {
 	height: 60px;
 	padding: 15px 10px 0;
 	
+	#search {
+		
+		position: absolute;
+		left: 10px;
+		top: 20px;
+		width: 164px;
+		height: 20px;
+		line-height: 20px;
+		padding: 0 12px;
+		color: $text;
+		border: 0;
+		border-radius: 10px;
+		background-color: rgba(255,255,255,.2);
+		
+		&:focus {
+			
+			outline: none;
+			background-color: rgba(255,255,255,.3);
+		}
+	}
+	
 	#update-all {
 		
 		display: block;

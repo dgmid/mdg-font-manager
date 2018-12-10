@@ -1,0 +1,2450 @@
+[
+	{
+	    "n": "Plus Sign",
+		"s": "plus-sign",
+		"u": "U+0002B",
+		"x": "#x2b;",
+		"h": "#43;",
+		"e": "plus;"
+	},
+	{
+	    "n": "Minus Sign",
+		"s": "minus-sign",
+		"u": "U+02212",
+		"x": "#x2212;",
+		"h": "#8722;",
+		"e": "minus;"
+	},
+	{
+	    "n": "Multiplication Sign",
+		"s": "multiplication-sign",
+		"u": "U+000D7",
+		"x": "#xd7;",
+		"h": "#215;",
+		"e": "times;"
+	},
+	{
+	    "n": "Division Sign",
+		"s": "division-sign",
+		"u": "U+000F7",
+		"x": "#xf7;",
+		"h": "#247;",
+		"e": "divide;"
+	},
+	{
+	    "n": "Equal Sign",
+		"s": "equal-sign",
+		"u": "U+0003D",
+		"x": "#x3d;",
+		"h": "#61;",
+		"e": "equals;"
+	},
+	{
+	    "n": "Not Equal To Sign",
+		"s": "not-equal-to-sign",
+		"u": "U+02260",
+		"x": "#x2260;",
+		"h": "#8800;",
+		"e": "ne;"
+	},
+	{
+	    "n": "Plus or Minus Sign",
+		"s": "plus-or-minus-sign",
+		"u": "U+000B1",
+		"x": "#xb1;",
+		"h": "#177;",
+		"e": "plusmn;"
+	},
+	{
+	    "n": "Not Sign",
+		"s": "not-sign",
+		"u": "U+000AC",
+		"x": "#xac;",
+		"h": "#172;",
+		"e": "not;"
+	},
+	{
+	    "n": "Less-Than Sign",
+		"s": "less-than-sign",
+		"u": "U+0003C",
+		"x": "#x3c;",
+		"h": "#60;",
+		"e": "lt;"
+	},
+	{
+	    "n": "Greater-Than Sign",
+		"s": "greater-than-sign",
+		"u": "U+0003E",
+		"x": "#x3e;",
+		"h": "#62;",
+		"e": "gt;"
+	},
+	{
+	    "n": "Equal to or Less-Than Sign",
+		"s": "equal-to-or-less-than-sign",
+		"u": "U+022DC",
+		"x": "#x22DC;",
+		"h": "#8924;",
+		"e": ""
+	},
+	{
+	    "n": "Equal to or Greater-Than Sign",
+		"s": "equal-to-or-greater-than-sign",
+		"u": "U+022DD",
+		"x": "#x22DD;",
+		"h": "#8925;",
+		"e": ""
+	},
+	{
+	    "n": "Degree Sign",
+		"s": "degree-sign",
+		"u": "U+000B0",
+		"x": "#xb0;",
+		"h": "#176;",
+		"e": "deg;"
+	},
+	{
+	    "n": "Superscript One",
+		"s": "superscript-one",
+		"u": "U+000B9",
+		"x": "#xb9;",
+		"h": "#185;",
+		"e": "sup1;"
+	},
+	{
+	    "n": "Superscript Two",
+		"s": "superscript-two",
+		"u": "U+000B2",
+		"x": "#xb2;",
+		"h": "#178;",
+		"e": "sup2;"
+	},
+	{
+	    "n": "Superscript Three",
+		"s": "superscript-three",
+		"u": "U+000B3",
+		"x": "#xb3;",
+		"h": "#179;",
+		"e": "sup3;"
+	},
+	{
+	    "n": "Function",
+		"s": "function",
+		"u": "U+00192",
+		"x": "#x192;",
+		"h": "#402;",
+		"e": "fnof;"
+	},
+	{
+	    "n": "Percent Sign",
+		"s": "percent-sign",
+		"u": "U+00025",
+		"x": "#x25;",
+		"h": "#37;",
+		"e": "percnt;"
+	},
+	{
+	    "n": "Per Mille Sign",
+		"s": "per-mille-sign",
+		"u": "U+00089",
+		"x": "#x89;",
+		"h": "#137;",
+		"e": "permil;"
+	},
+	{
+	    "n": "Per Ten Thousand Sign",
+		"s": "per-ten-thousand-sign",
+		"u": "U+02031",
+		"x": "#x2031;",
+		"h": "#8241;",
+		"e": "pertenk;"
+	},
+	{
+	    "n": "For All",
+		"s": "for-all",
+		"u": "U+02200",
+		"x": "#x2200;",
+		"h": "#8704;",
+		"e": "forall;"
+	},
+	{
+	    "n": "Complement",
+		"s": "complement",
+		"u": "U+02201",
+		"x": "#x2201;",
+		"h": "#8705;",
+		"e": "comp;"
+	},
+	{
+	    "n": "Partial Differential",
+		"s": "partial-differential",
+		"u": "U+02202",
+		"x": "#x2202;",
+		"h": "#8706;",
+		"e": "part;"
+	},
+	{
+	    "n": "There Exists",
+		"s": "there-exists",
+		"u": "U+02203",
+		"x": "#x2203;",
+		"h": "#8707;",
+		"e": "exist;"
+	},
+	{
+	    "n": "There Does Not Exist",
+		"s": "there-does-not-exist",
+		"u": "U+02204",
+		"x": "#x2204;",
+		"h": "#8708;",
+		"e": "nexist;"
+	},
+	{
+	    "n": "Empty Set",
+		"s": "empty-set",
+		"u": "U+02205",
+		"x": "#x2205;",
+		"h": "#8709;",
+		"e": "empty;"
+	},
+	{
+	    "n": "Increment",
+		"s": "increment",
+		"u": "U+02206",
+		"x": "#x2206;",
+		"h": "#8710;",
+		"e": ""
+	},
+	{
+	    "n": "Nabla",
+		"s": "nabla",
+		"u": "U+02207",
+		"x": "#x2207;",
+		"h": "#8711;",
+		"e": "nabla;"
+	},
+	{
+	    "n": "Element Of",
+		"s": "element-of",
+		"u": "U+02208",
+		"x": "#x2208;",
+		"h": "#8712;",
+		"e": "isin;"
+	},
+	{
+	    "n": "Not an Element Of",
+		"s": "not-an-element-of",
+		"u": "U+02209",
+		"x": "#x2209;",
+		"h": "#8713;",
+		"e": "notin;"
+	},
+	{
+	    "n": "Small Element Of",
+		"s": "small-element-of",
+		"u": "U+0220A",
+		"x": "#x220A;",
+		"h": "#8714;",
+		"e": ""
+	},
+	{
+	    "n": "Contains as Member",
+		"s": "contains-as-member",
+		"u": "U+0220B",
+		"x": "#x220B;",
+		"h": "#8715;",
+		"e": "ni;"
+	},
+	{
+	    "n": "Does Not Contain as Member",
+		"s": "does-not-contain-as-member",
+		"u": "U+0220C",
+		"x": "#x220C;",
+		"h": "#8716;",
+		"e": "notni;"
+	},
+	{
+	    "n": "Small Contains as Member",
+		"s": "small-contains-as-member",
+		"u": "U+0220D",
+		"x": "#x220D;",
+		"h": "#8717;",
+		"e": ""
+	},
+	{
+	    "n": "End of Proof",
+		"s": "end-of-proof",
+		"u": "U+0220E",
+		"x": "#x220E;",
+		"h": "#8718;",
+		"e": ""
+	},
+	{
+	    "n": "N-Ary Product",
+		"s": "n-ary-product",
+		"u": "U+0220F",
+		"x": "#x220F;",
+		"h": "#8719;",
+		"e": "prod;"
+	},
+	{
+	    "n": "N-Ary Coproduct",
+		"s": "n-ary-coproduct",
+		"u": "U+02210",
+		"x": "#x2210;",
+		"h": "#8720;",
+		"e": "coprod;"
+	},
+	{
+	    "n": "N-Ary Summation",
+		"s": "n-ary-summation",
+		"u": "U+02211",
+		"x": "#x2211;",
+		"h": "#8721;",
+		"e": "sum;"
+	},
+	{
+	    "n": "Minus-or-Plus Sign",
+		"s": "minus-or-plus-sign",
+		"u": "U+02213",
+		"x": "#x2213;",
+		"h": "#8723;",
+		"e": "mnplus;"
+	},
+	{
+	    "n": "Dot Plus",
+		"s": "dot-plus",
+		"u": "U+02214",
+		"x": "#x2214;",
+		"h": "#8724;",
+		"e": "plusdo;"
+	},
+	{
+	    "n": "Division Slash",
+		"s": "division-slash",
+		"u": "U+02215",
+		"x": "#x2215;",
+		"h": "#8725;",
+		"e": ""
+	},
+	{
+	    "n": "Set Minus",
+		"s": "set-minus",
+		"u": "U+02216",
+		"x": "#x2216;",
+		"h": "#8726;",
+		"e": "setminus;"
+	},
+	{
+	    "n": "Asterisk Operator",
+		"s": "asterisk-operator",
+		"u": "U+02217",
+		"x": "#x2217;",
+		"h": "#8727;",
+		"e": "lowast;"
+	},
+	{
+	    "n": "Ring Operator",
+		"s": "ring-operator",
+		"u": "U+02218",
+		"x": "#x2218;",
+		"h": "#8728;",
+		"e": "compfn;"
+	},
+	{
+	    "n": "Bullet Operator",
+		"s": "bullet-operator",
+		"u": "U+02219",
+		"x": "#x2219;",
+		"h": "#8729;",
+		"e": ""
+	},
+	{
+	    "n": "Square Root",
+		"s": "square-root",
+		"u": "U+0221A",
+		"x": "#x221A;",
+		"h": "#8730;",
+		"e": "radic;"
+	},
+	{
+	    "n": "Cube Root",
+		"s": "cube-root",
+		"u": "U+0221B",
+		"x": "#x221B;",
+		"h": "#8731;",
+		"e": ""
+	},
+	{
+	    "n": "Fourth Root",
+		"s": "fourth-root",
+		"u": "U+0221C",
+		"x": "#x221C;",
+		"h": "#8732;",
+		"e": ""
+	},
+	{
+	    "n": "Proportional To",
+		"s": "proportional-to",
+		"u": "U+0221D",
+		"x": "#x221D;",
+		"h": "#8733;",
+		"e": "prop;"
+	},
+	{
+	    "n": "Infinity",
+		"s": "infinity",
+		"u": "U+0221E",
+		"x": "#x221E;",
+		"h": "#8734;",
+		"e": "infin;"
+	},
+	{
+	    "n": "Right Angle",
+		"s": "right-angle",
+		"u": "U+0221F",
+		"x": "#x221F;",
+		"h": "#8735;",
+		"e": "angrt;"
+	},
+	{
+	    "n": "Angle",
+		"s": "angle",
+		"u": "U+02220",
+		"x": "#x2220;",
+		"h": "#8736;",
+		"e": "ang;"
+	},
+	{
+	    "n": "Measured Angle",
+		"s": "measured-angle",
+		"u": "U+02221",
+		"x": "#x2221;",
+		"h": "#8737;",
+		"e": "angmsd;"
+	},
+	{
+	    "n": "Spherical Angle",
+		"s": "spherical-angle",
+		"u": "U+02222",
+		"x": "#x2222;",
+		"h": "#8738;",
+		"e": "angsph;"
+	},
+	{
+	    "n": "Divides",
+		"s": "divides",
+		"u": "U+02223",
+		"x": "#x2223;",
+		"h": "#8739;",
+		"e": "mid;"
+	},
+	{
+	    "n": "Does Not Divide",
+		"s": "does-not-divide",
+		"u": "U+02224",
+		"x": "#x2224;",
+		"h": "#8740;",
+		"e": "nmid;"
+	},
+	{
+	    "n": "Parallel To",
+		"s": "parallel-to",
+		"u": "U+02225",
+		"x": "#x2225;",
+		"h": "#8741;",
+		"e": "parallel;"
+	},
+	{
+	    "n": "Not Parallel To",
+		"s": "not-parallel-to",
+		"u": "U+02226",
+		"x": "#x2226;",
+		"h": "#8742;",
+		"e": "npar;"
+	},
+	{
+	    "n": "Logical And",
+		"s": "logical-and",
+		"u": "U+02227",
+		"x": "#x2227;",
+		"h": "#8743;",
+		"e": "and;"
+	},
+	{
+	    "n": "Logical Or",
+		"s": "logical-or",
+		"u": "U+02228",
+		"x": "#x2228;",
+		"h": "#8744;",
+		"e": "or;"
+	},
+	{
+	    "n": "Intersection",
+		"s": "intersection",
+		"u": "U+02229",
+		"x": "#x2229;",
+		"h": "#8745;",
+		"e": "cap;"
+	},
+	{
+	    "n": "Union",
+		"s": "union",
+		"u": "U+0222A",
+		"x": "#x222A;",
+		"h": "#8746;",
+		"e": "cup;"
+	},
+	{
+	    "n": "Integral",
+		"s": "integral",
+		"u": "U+0222B",
+		"x": "#x222B;",
+		"h": "#8747;",
+		"e": "int;"
+	},
+	{
+	    "n": "Double Integral",
+		"s": "double-integral",
+		"u": "U+0222C",
+		"x": "#x222C;",
+		"h": "#8748;",
+		"e": "Int;"
+	},
+	{
+	    "n": "Triple Integral",
+		"s": "triple-integral",
+		"u": "U+0222D",
+		"x": "#x222D;",
+		"h": "#8749;",
+		"e": "iiint;"
+	},
+	{
+	    "n": "Contour Integral",
+		"s": "contour-integral",
+		"u": "U+0222E",
+		"x": "#x222E;",
+		"h": "#8750;",
+		"e": "conint;"
+	},
+	{
+	    "n": "Surface Integral",
+		"s": "surface-integral",
+		"u": "U+0222F",
+		"x": "#x222F;",
+		"h": "#8751;",
+		"e": "Conint;"
+	},
+	{
+	    "n": "Volume Integral",
+		"s": "volume-integral",
+		"u": "U+02230",
+		"x": "#x2230;",
+		"h": "#8752;",
+		"e": "Cconint;"
+	},
+	{
+	    "n": "Clockwise Integral",
+		"s": "clockwise-integral",
+		"u": "U+02231",
+		"x": "#x2231;",
+		"h": "#8753;",
+		"e": "cwint;"
+	},
+	{
+	    "n": "Clockwise Contour Integral",
+		"s": "clockwise-contour-integral",
+		"u": "U+02232",
+		"x": "#x2232;",
+		"h": "#8754;",
+		"e": "cwconint;"
+	},
+	{
+	    "n": "Anticlockwise Contour Integral",
+		"s": "anticlockwise-contour-integral",
+		"u": "U+02233",
+		"x": "#x2233;",
+		"h": "#8755;",
+		"e": "awconint;"
+	},
+	{
+	    "n": "Therefore",
+		"s": "therefore",
+		"u": "U+02234",
+		"x": "#x2234;",
+		"h": "#8756;",
+		"e": "there4;"
+	},
+	{
+	    "n": "Because",
+		"s": "because",
+		"u": "U+02235",
+		"x": "#x2235;",
+		"h": "#8757;",
+		"e": "because;"
+	},
+	{
+	    "n": "Ratio",
+		"s": "ratio",
+		"u": "U+02236",
+		"x": "#x2236;",
+		"h": "#8758;",
+		"e": "ratio;"
+	},
+	{
+	    "n": "Proportion",
+		"s": "proportion",
+		"u": "U+02237",
+		"x": "#x2237;",
+		"h": "#8759;",
+		"e": "Colon;"
+	},
+	{
+	    "n": "Dot Minus",
+		"s": "dot-minus",
+		"u": "U+02238",
+		"x": "#x2238;",
+		"h": "#8760;",
+		"e": "minusd;"
+	},
+	{
+	    "n": "Excess",
+		"s": "excess",
+		"u": "U+02239",
+		"x": "#x2239;",
+		"h": "#8761;",
+		"e": ""
+	},
+	{
+	    "n": "Geometric Proportion",
+		"s": "geometric-proportion",
+		"u": "U+0223A",
+		"x": "#x223A;",
+		"h": "#8762;",
+		"e": "mDDot;"
+	},
+	{
+	    "n": "Homothetic",
+		"s": "homothetic",
+		"u": "U+0223B",
+		"x": "#x223B;",
+		"h": "#8763;",
+		"e": "homtht;"
+	},
+	{
+	    "n": "Tilde Operator",
+		"s": "tilde-operator",
+		"u": "U+0223C",
+		"x": "#x223C;",
+		"h": "#8764;",
+		"e": "sim;"
+	},
+	{
+	    "n": "Reversed Tilde",
+		"s": "reversed-tilde",
+		"u": "U+0223D",
+		"x": "#x223D;",
+		"h": "#8765;",
+		"e": "bsim;"
+	},
+	{
+	    "n": "Inverted Lazy S",
+		"s": "inverted-lazy-s",
+		"u": "U+0223E",
+		"x": "#x223E;",
+		"h": "#8766;",
+		"e": "ac;"
+	},
+	{
+	    "n": "Sine Wave",
+		"s": "sine-wave",
+		"u": "U+0223F",
+		"x": "#x223F;",
+		"h": "#8767;",
+		"e": "acd;"
+	},
+	{
+	    "n": "Wreath Product",
+		"s": "wreath-product",
+		"u": "U+02240",
+		"x": "#x2240;",
+		"h": "#8768;",
+		"e": "wreath;"
+	},
+	{
+	    "n": "Not Tilde",
+		"s": "not-tilde",
+		"u": "U+02241",
+		"x": "#x2241;",
+		"h": "#8769;",
+		"e": "nsim;"
+	},
+	{
+	    "n": "Minus Tilde",
+		"s": "minus-tilde",
+		"u": "U+02242",
+		"x": "#x2242;",
+		"h": "#8770;",
+		"e": "esim;"
+	},
+	{
+	    "n": "Asymptotically Equal To",
+		"s": "asymptotically-equal-to",
+		"u": "U+02243",
+		"x": "#x2243;",
+		"h": "#8771;",
+		"e": "sime;"
+	},
+	{
+	    "n": "Not Asymptotically Equal To",
+		"s": "not-asymptotically-equal-to",
+		"u": "U+02244",
+		"x": "#x2244;",
+		"h": "#8772;",
+		"e": "nsime;"
+	},
+	{
+	    "n": "Approximately Equal To",
+		"s": "approximately-equal-to",
+		"u": "U+02245",
+		"x": "#x2245;",
+		"h": "#8773;",
+		"e": "cong;"
+	},
+	{
+	    "n": "Approximately but Not Actually Equal To",
+		"s": "approximately-but-not-actually-equal-to",
+		"u": "U+02246",
+		"x": "#x2246;",
+		"h": "#8774;",
+		"e": "simne;"
+	},
+	{
+	    "n": "Neither Approximately Nor Actually Equal To",
+		"s": "neither-approximately-nor-actually-equal-to",
+		"u": "U+02247",
+		"x": "#x2247;",
+		"h": "#8775;",
+		"e": "ncong;"
+	},
+	{
+	    "n": "Almost Equal To",
+		"s": "almost-equal-to",
+		"u": "U+02248",
+		"x": "#x2248;",
+		"h": "#8776;",
+		"e": "asymp;"
+	},
+	{
+	    "n": "Not Almost Equal To",
+		"s": "not-almost-equal-to",
+		"u": "U+02249",
+		"x": "#x2249;",
+		"h": "#8777;",
+		"e": "nap;"
+	},
+	{
+	    "n": "Almost Equal or Equal To",
+		"s": "almost-equal-or-equal-to",
+		"u": "U+0224A",
+		"x": "#x224A;",
+		"h": "#8778;",
+		"e": "approxeq;"
+	},
+	{
+	    "n": "Triple Tilde",
+		"s": "triple-tilde",
+		"u": "U+0224B",
+		"x": "#x224B;",
+		"h": "#8779;",
+		"e": "apid;"
+	},
+	{
+	    "n": "All Equal To",
+		"s": "all-equal-to",
+		"u": "U+0224C",
+		"x": "#x224C;",
+		"h": "#8780;",
+		"e": "bcong;"
+	},
+	{
+	    "n": "Equivalent To",
+		"s": "equivalent-to",
+		"u": "U+0224D",
+		"x": "#x224D;",
+		"h": "#8781;",
+		"e": "asympeq;"
+	},
+	{
+	    "n": "Geometrically Equivalent To",
+		"s": "geometrically-equivalent-to",
+		"u": "U+0224E",
+		"x": "#x224E;",
+		"h": "#8782;",
+		"e": "bump;"
+	},
+	{
+	    "n": "Difference Between",
+		"s": "difference-between",
+		"u": "U+0224F",
+		"x": "#x224F;",
+		"h": "#8783;",
+		"e": "bumpe;"
+	},
+	{
+	    "n": "Approaches the Limit",
+		"s": "approaches-the-limit",
+		"u": "U+02250",
+		"x": "#x2250;",
+		"h": "#8784;",
+		"e": "esdot;"
+	},
+	{
+	    "n": "Geometrically Equal To",
+		"s": "geometrically-equal-to",
+		"u": "U+02251",
+		"x": "#x2251;",
+		"h": "#8785;",
+		"e": "eDot;"
+	},
+	{
+	    "n": "Approximately Equal to or the Image Of",
+		"s": "approximately-equal-to-or-the-image-of",
+		"u": "U+02252",
+		"x": "#x2252;",
+		"h": "#8786;",
+		"e": "efDot;"
+	},
+	{
+	    "n": "Image of or Approximately Equal To",
+		"s": "image-of-or-approximately-equal-to",
+		"u": "U+02253",
+		"x": "#x2253;",
+		"h": "#8787;",
+		"e": "erDot;"
+	},
+	{
+	    "n": "Colon Equals",
+		"s": "colon-equals",
+		"u": "U+02254",
+		"x": "#x2254;",
+		"h": "#8788;",
+		"e": "colone;"
+	},
+	{
+	    "n": "Equals Colon",
+		"s": "equals-colon",
+		"u": "U+02255",
+		"x": "#x2255;",
+		"h": "#8789;",
+		"e": "ecolon;"
+	},
+	{
+	    "n": "Ring in Equal To",
+		"s": "ring-in-equal-to",
+		"u": "U+02256",
+		"x": "#x2256;",
+		"h": "#8790;",
+		"e": "ecir;"
+	},
+	{
+	    "n": "Ring Equal To",
+		"s": "ring-equal-to",
+		"u": "U+02257",
+		"x": "#x2257;",
+		"h": "#8791;",
+		"e": "cire;"
+	},
+	{
+	    "n": "Corresponds To",
+		"s": "corresponds-to",
+		"u": "U+02258",
+		"x": "#x2258;",
+		"h": "#8792;",
+		"e": ""
+	},
+	{
+	    "n": "Estimates",
+		"s": "estimates",
+		"u": "U+02259",
+		"x": "#x2259;",
+		"h": "#8793;",
+		"e": "wedgeq;"
+	},
+	{
+	    "n": "Equiangular To",
+		"s": "equiangular-to",
+		"u": "U+0225A",
+		"x": "#x225A;",
+		"h": "#8794;",
+		"e": "veeeq;"
+	},
+	{
+	    "n": "Star Equals",
+		"s": "star-equals",
+		"u": "U+0225B",
+		"x": "#x225B;",
+		"h": "#8795;",
+		"e": ""
+	},
+	{
+	    "n": "Delta Equal To",
+		"s": "delta-equal-to",
+		"u": "U+0225C",
+		"x": "#x225C;",
+		"h": "#8796;",
+		"e": "trie;"
+	},
+	{
+	    "n": "Equal to by Definition",
+		"s": "equal-to-by-definition",
+		"u": "U+0225D",
+		"x": "#x225D;",
+		"h": "#8797;",
+		"e": ""
+	},
+	{
+	    "n": "Measured By",
+		"s": "measured-by",
+		"u": "U+0225E",
+		"x": "#x225E;",
+		"h": "#8798;",
+		"e": ""
+	},
+	{
+	    "n": "Questioned Equal To",
+		"s": "questioned-equal-to",
+		"u": "U+0225F",
+		"x": "#x225F;",
+		"h": "#8799;",
+		"e": "equest;"
+	},
+	{
+	    "n": "Identical To",
+		"s": "identical-to",
+		"u": "U+02261",
+		"x": "#x2261;",
+		"h": "#8801;",
+		"e": "equiv;"
+	},
+	{
+	    "n": "Not Identical To",
+		"s": "not-identical-to",
+		"u": "U+02262",
+		"x": "#x2262;",
+		"h": "#8802;",
+		"e": "nequiv;"
+	},
+	{
+	    "n": "Strictly Equivalent To",
+		"s": "strictly-equivalent-to",
+		"u": "U+02263",
+		"x": "#x2263;",
+		"h": "#8803;",
+		"e": ""
+	},
+	{
+	    "n": "Less-Than or Equal To",
+		"s": "less-than-or-equal-to",
+		"u": "U+02264",
+		"x": "#x2264;",
+		"h": "#8804;",
+		"e": "le;"
+	},
+	{
+	    "n": "Greater-Than or Equal To",
+		"s": "greater-than-or-equal-to",
+		"u": "U+02265",
+		"x": "#x2265;",
+		"h": "#8805;",
+		"e": "ge;"
+	},
+	{
+	    "n": "Less-Than Over Equal To",
+		"s": "less-than-over-equal-to",
+		"u": "U+02266",
+		"x": "#x2266;",
+		"h": "#8806;",
+		"e": "lE;"
+	},
+	{
+	    "n": "Greater-Than Over Equal To",
+		"s": "greater-than-over-equal-to",
+		"u": "U+02267",
+		"x": "#x2267;",
+		"h": "#8807;",
+		"e": "gE;"
+	},
+	{
+	    "n": "Less-Than but Not Equal To",
+		"s": "less-than-but-not-equal-to",
+		"u": "U+02268",
+		"x": "#x2268;",
+		"h": "#8808;",
+		"e": "lnE;"
+	},
+	{
+	    "n": "Greater-Than but Not Equal To",
+		"s": "greater-than-but-not-equal-to",
+		"u": "U+02269",
+		"x": "#x2269;",
+		"h": "#8809;",
+		"e": "gnE;"
+	},
+	{
+	    "n": "Much Less-Than",
+		"s": "much-less-than",
+		"u": "U+0226A",
+		"x": "#x226A;",
+		"h": "#8810;",
+		"e": "Lt;"
+	},
+	{
+	    "n": "Much Greater-Than",
+		"s": "much-greater-than",
+		"u": "U+0226B",
+		"x": "#x226B;",
+		"h": "#8811;",
+		"e": "Gt;"
+	},
+	{
+	    "n": "Between",
+		"s": "between",
+		"u": "U+0226C",
+		"x": "#x226C;",
+		"h": "#8812;",
+		"e": "between;"
+	},
+	{
+	    "n": "Not Equivalent To",
+		"s": "not-equivalent-to",
+		"u": "U+0226D",
+		"x": "#x226D;",
+		"h": "#8813;",
+		"e": "NotCupCap;"
+	},
+	{
+	    "n": "Not Less-Than",
+		"s": "not-less-than",
+		"u": "U+0226E",
+		"x": "#x226E;",
+		"h": "#8814;",
+		"e": "nlt;"
+	},
+	{
+	    "n": "Not Greater-Than",
+		"s": "not-greater-than",
+		"u": "U+0226F",
+		"x": "#x226F;",
+		"h": "#8815;",
+		"e": "ngt;"
+	},
+	{
+	    "n": "Neither Less-Than Nor Equal To",
+		"s": "neither-less-than-nor-equal-to",
+		"u": "U+02270",
+		"x": "#x2270;",
+		"h": "#8816;",
+		"e": "nle;"
+	},
+	{
+	    "n": "Neither Greater-Than Nor Equal To",
+		"s": "neither-greater-than-nor-equal-to",
+		"u": "U+02271",
+		"x": "#x2271;",
+		"h": "#8817;",
+		"e": "nge;"
+	},
+	{
+	    "n": "Less-Than or Equivalent To",
+		"s": "less-than-or-equivalent-to",
+		"u": "U+02272",
+		"x": "#x2272;",
+		"h": "#8818;",
+		"e": "lsim;"
+	},
+	{
+	    "n": "Greater-Than or Equivalent To",
+		"s": "greater-than-or-equivalent-to",
+		"u": "U+02273",
+		"x": "#x2273;",
+		"h": "#8819;",
+		"e": "gsim;"
+	},
+	{
+	    "n": "Neither Less-Than Nor Equivalent To",
+		"s": "neither-less-than-nor-equivalent-to",
+		"u": "U+02274",
+		"x": "#x2274;",
+		"h": "#8820;",
+		"e": "nlsim;"
+	},
+	{
+	    "n": "Neither Greater-Than Nor Equivalent To",
+		"s": "neither-greater-than-nor-equivalent-to",
+		"u": "U+02275",
+		"x": "#x2275;",
+		"h": "#8821;",
+		"e": "ngsim;"
+	},
+	{
+	    "n": "Less-Than or Greater-Than",
+		"s": "less-than-or-greater-than",
+		"u": "U+02276",
+		"x": "#x2276;",
+		"h": "#8822;",
+		"e": "lg;"
+	},
+	{
+	    "n": "Greater-Than or Less-Than",
+		"s": "greater-than-or-less-than",
+		"u": "U+02277",
+		"x": "#x2277;",
+		"h": "#8823;",
+		"e": "gl;"
+	},
+	{
+	    "n": "Neither Less-Than Nor Greater-Than",
+		"s": "neither-less-than-nor-greater-than",
+		"u": "U+02278",
+		"x": "#x2278;",
+		"h": "#8824;",
+		"e": "ntlg;"
+	},
+	{
+	    "n": "Neither Greater-Than Nor Less-Than",
+		"s": "neither-greater-than-nor-less-than",
+		"u": "U+02279",
+		"x": "#x2279;",
+		"h": "#8825;",
+		"e": "ntgl;"
+	},
+	{
+	    "n": "Precedes",
+		"s": "precedes",
+		"u": "U+0227A",
+		"x": "#x227A;",
+		"h": "#8826;",
+		"e": "pr;"
+	},
+	{
+	    "n": "Succeeds",
+		"s": "succeeds",
+		"u": "U+0227B",
+		"x": "#x227B;",
+		"h": "#8827;",
+		"e": "sc;"
+	},
+	{
+	    "n": "Precedes or Equal To",
+		"s": "precedes-or-equal-to",
+		"u": "U+0227C",
+		"x": "#x227C;",
+		"h": "#8828;",
+		"e": "prcue;"
+	},
+	{
+	    "n": "Succeeds or Equal To",
+		"s": "succeeds-or-equal-to",
+		"u": "U+0227D",
+		"x": "#x227D;",
+		"h": "#8829;",
+		"e": "sccue;"
+	},
+	{
+	    "n": "Precedes or Equivalent To",
+		"s": "precedes-or-equivalent-to",
+		"u": "U+0227E",
+		"x": "#x227E;",
+		"h": "#8830;",
+		"e": "prsim;"
+	},
+	{
+	    "n": "Succeeds or Equivalent To",
+		"s": "succeeds-or-equivalent-to",
+		"u": "U+0227F",
+		"x": "#x227F;",
+		"h": "#8831;",
+		"e": "scsim;"
+	},
+	{
+	    "n": "Does Not Precede",
+		"s": "does-not-precede",
+		"u": "U+02280",
+		"x": "#x2280;",
+		"h": "#8832;",
+		"e": "npr;"
+	},
+	{
+	    "n": "Does Not Succeed",
+		"s": "does-not-succeed",
+		"u": "U+02281",
+		"x": "#x2281;",
+		"h": "#8833;",
+		"e": "nsc;"
+	},
+	{
+	    "n": "Subset Of",
+		"s": "subset-of",
+		"u": "U+02282",
+		"x": "#x2282;",
+		"h": "#8834;",
+		"e": "sub;"
+	},
+	{
+	    "n": "Superset Of",
+		"s": "superset-of",
+		"u": "U+02283",
+		"x": "#x2283;",
+		"h": "#8835;",
+		"e": "sup;"
+	},
+	{
+	    "n": "Not a Subset Of",
+		"s": "not-a-subset-of",
+		"u": "U+02284",
+		"x": "#x2284;",
+		"h": "#8836;",
+		"e": "nsub;"
+	},
+	{
+	    "n": "Not a Superset Of",
+		"s": "not-a-superset-of",
+		"u": "U+02285",
+		"x": "#x2285;",
+		"h": "#8837;",
+		"e": "nsup;"
+	},
+	{
+	    "n": "Subset of or Equal To",
+		"s": "subset-of-or-equal-to",
+		"u": "U+02286",
+		"x": "#x2286;",
+		"h": "#8838;",
+		"e": "sube;"
+	},
+	{
+	    "n": "Superset of or Equal To",
+		"s": "superset-of-or-equal-to",
+		"u": "U+02287",
+		"x": "#x2287;",
+		"h": "#8839;",
+		"e": "supe;"
+	},
+	{
+	    "n": "Neither a Subset of Nor Equal To",
+		"s": "neither-a-subset-of-nor-equal-to",
+		"u": "U+02288",
+		"x": "#x2288;",
+		"h": "#8840;",
+		"e": "nsube;"
+	},
+	{
+	    "n": "Neither a Superset of Nor Equal To",
+		"s": "neither-a-superset-of-nor-equal-to",
+		"u": "U+02289",
+		"x": "#x2289;",
+		"h": "#8841;",
+		"e": "nsupe;"
+	},
+	{
+	    "n": "Subset of With Not Equal To",
+		"s": "subset-of-with-not-equal-to",
+		"u": "U+0228A",
+		"x": "#x228A;",
+		"h": "#8842;",
+		"e": "subne;"
+	},
+	{
+	    "n": "Superset of With Not Equal To",
+		"s": "superset-of-with-not-equal-to",
+		"u": "U+0228B",
+		"x": "#x228B;",
+		"h": "#8843;",
+		"e": "supne;"
+	},
+	{
+	    "n": "Multiset",
+		"s": "multiset",
+		"u": "U+0228C",
+		"x": "#x228C;",
+		"h": "#8844;",
+		"e": ""
+	},
+	{
+	    "n": "Multiset Multiplication",
+		"s": "multiset-multiplication",
+		"u": "U+0228D",
+		"x": "#x228D;",
+		"h": "#8845;",
+		"e": "cupdot;"
+	},
+	{
+	    "n": "Multiset Union",
+		"s": "multiset-union",
+		"u": "U+0228E",
+		"x": "#x228E;",
+		"h": "#8846;",
+		"e": "uplus;"
+	},
+	{
+	    "n": "Square Image Of",
+		"s": "square-image-of",
+		"u": "U+0228F",
+		"x": "#x228F;",
+		"h": "#8847;",
+		"e": "sqsub;"
+	},
+	{
+	    "n": "Square Original Of",
+		"s": "square-original-of",
+		"u": "U+02290",
+		"x": "#x2290;",
+		"h": "#8848;",
+		"e": "sqsup;"
+	},
+	{
+	    "n": "Square Image of or Equal To",
+		"s": "square-image-of-or-equal-to",
+		"u": "U+02291",
+		"x": "#x2291;",
+		"h": "#8849;",
+		"e": "sqsube;"
+	},
+	{
+	    "n": "Square Original of or Equal To",
+		"s": "square-original-of-or-equal-to",
+		"u": "U+02292",
+		"x": "#x2292;",
+		"h": "#8850;",
+		"e": "sqsupe;"
+	},
+	{
+	    "n": "Square Cap",
+		"s": "square-cap",
+		"u": "U+02293",
+		"x": "#x2293;",
+		"h": "#8851;",
+		"e": "sqcap;"
+	},
+	{
+	    "n": "Square Cup",
+		"s": "square-cup",
+		"u": "U+02294",
+		"x": "#x2294;",
+		"h": "#8852;",
+		"e": "sqcup;"
+	},
+	{
+	    "n": "Circled Plus",
+		"s": "circled-plus",
+		"u": "U+02295",
+		"x": "#x2295;",
+		"h": "#8853;",
+		"e": "oplus;"
+	},
+	{
+	    "n": "Circled Minus",
+		"s": "circled-minus",
+		"u": "U+02296",
+		"x": "#x2296;",
+		"h": "#8854;",
+		"e": "ominus;"
+	},
+	{
+	    "n": "Circled Times",
+		"s": "circled-times",
+		"u": "U+02297",
+		"x": "#x2297;",
+		"h": "#8855;",
+		"e": "otimes;"
+	},
+	{
+	    "n": "Circled Division Slash",
+		"s": "circled-division-slash",
+		"u": "U+02298",
+		"x": "#x2298;",
+		"h": "#8856;",
+		"e": "osol;"
+	},
+	{
+	    "n": "Circled Dot Operator",
+		"s": "circled-dot-operator",
+		"u": "U+02299",
+		"x": "#x2299;",
+		"h": "#8857;",
+		"e": "odot;"
+	},
+	{
+	    "n": "Circled Ring Operator",
+		"s": "circled-ring-operator",
+		"u": "U+0229A",
+		"x": "#x229A;",
+		"h": "#8858;",
+		"e": "ocir;"
+	},
+	{
+	    "n": "Circled Asterisk Operator",
+		"s": "circled-asterisk-operator",
+		"u": "U+0229B",
+		"x": "#x229B;",
+		"h": "#8859;",
+		"e": "oast;"
+	},
+	{
+	    "n": "Circled Equals",
+		"s": "circled-equals",
+		"u": "U+0229C",
+		"x": "#x229C;",
+		"h": "#8860;",
+		"e": ""
+	},
+	{
+	    "n": "Circled Dash",
+		"s": "circled-dash",
+		"u": "U+0229D",
+		"x": "#x229D;",
+		"h": "#8861;",
+		"e": "odash;"
+	},
+	{
+	    "n": "Squared Plus",
+		"s": "squared-plus",
+		"u": "U+0229E",
+		"x": "#x229E;",
+		"h": "#8862;",
+		"e": "plusb;"
+	},
+	{
+	    "n": "Squared Minus",
+		"s": "squared-minus",
+		"u": "U+0229F",
+		"x": "#x229F;",
+		"h": "#8863;",
+		"e": "minusb;"
+	},
+	{
+	    "n": "Squared Times",
+		"s": "squared-times",
+		"u": "U+022A0",
+		"x": "#x22A0;",
+		"h": "#8864;",
+		"e": "timesb;"
+	},
+	{
+	    "n": "Squared Dot Operator",
+		"s": "squared-dot-operator",
+		"u": "U+022A1",
+		"x": "#x22A1;",
+		"h": "#8865;",
+		"e": "sdotb;"
+	},
+	{
+	    "n": "Right Tack",
+		"s": "right-tack",
+		"u": "U+022A2",
+		"x": "#x22A2;",
+		"h": "#8866;",
+		"e": "vdash;"
+	},
+	{
+	    "n": "Left Tack",
+		"s": "left-tack",
+		"u": "U+022A3",
+		"x": "#x22A3;",
+		"h": "#8867;",
+		"e": "dashv;"
+	},
+	{
+	    "n": "Down Tack",
+		"s": "down-tack",
+		"u": "U+022A4",
+		"x": "#x22A4;",
+		"h": "#8868;",
+		"e": "top;"
+	},
+	{
+	    "n": "Up Tack",
+		"s": "up-tack",
+		"u": "U+022A5",
+		"x": "#x22A5;",
+		"h": "#8869;",
+		"e": "perp;"
+	},
+	{
+	    "n": "Assertion",
+		"s": "assertion",
+		"u": "U+022A6",
+		"x": "#x22A6;",
+		"h": "#8870;",
+		"e": ""
+	},
+	{
+	    "n": "Models",
+		"s": "models",
+		"u": "U+022A7",
+		"x": "#x22A7;",
+		"h": "#8871;",
+		"e": "models;"
+	},
+	{
+	    "n": "True",
+		"s": "true",
+		"u": "U+022A8",
+		"x": "#x22A8;",
+		"h": "#8872;",
+		"e": "vDash;"
+	},
+	{
+	    "n": "Forces",
+		"s": "forces",
+		"u": "U+022A9",
+		"x": "#x22A9;",
+		"h": "#8873;",
+		"e": "Vdash;"
+	},
+	{
+	    "n": "Triple Vertical Bar Right Turnstile",
+		"s": "triple-vertical-bar-right-turnstile",
+		"u": "U+022AA",
+		"x": "#x22AA;",
+		"h": "#8874;",
+		"e": "Vvdash;"
+	},
+	{
+	    "n": "Double Vertical Bar Double Right Turnstile",
+		"s": "double-vertical-bar-double-right-turnstile",
+		"u": "U+022AB",
+		"x": "#x22AB;",
+		"h": "#8875;",
+		"e": "VDash;"
+	},
+	{
+	    "n": "Does Not Prove",
+		"s": "does-not-prove",
+		"u": "U+022AC",
+		"x": "#x22AC;",
+		"h": "#8876;",
+		"e": "nvdash;"
+	},
+	{
+	    "n": "Not True",
+		"s": "not-true",
+		"u": "U+022AD",
+		"x": "#x22AD;",
+		"h": "#8877;",
+		"e": "nvDash;"
+	},
+	{
+	    "n": "Does Not Force",
+		"s": "does-not-force",
+		"u": "U+022AE",
+		"x": "#x22AE;",
+		"h": "#8878;",
+		"e": "nVdash;"
+	},
+	{
+	    "n": "Negated Double Vertical Bar Double Right Turnstile",
+		"s": "negated-double-vertical-bar-double-right-turnstile",
+		"u": "U+022AF",
+		"x": "#x22AF;",
+		"h": "#8879;",
+		"e": "nVDash;"
+	},
+	{
+	    "n": "Precedes Under Relation",
+		"s": "precedes-under-relation",
+		"u": "U+022B0",
+		"x": "#x22B0;",
+		"h": "#8880;",
+		"e": "prurel;"
+	},
+	{
+	    "n": "Succeeds Under Relation",
+		"s": "succeeds-under-relation",
+		"u": "U+022B1",
+		"x": "#x22B1;",
+		"h": "#8881;",
+		"e": ""
+	},
+	{
+	    "n": "Normal Subgroup Of",
+		"s": "normal-subgroup-of",
+		"u": "U+022B2",
+		"x": "#x22B2;",
+		"h": "#8882;",
+		"e": "vltri;"
+	},
+	{
+	    "n": "Contains as Normal Subgroup",
+		"s": "contains-as-normal-subgroup",
+		"u": "U+022B3",
+		"x": "#x22B3;",
+		"h": "#8883;",
+		"e": "vrtri;"
+	},
+	{
+	    "n": "Normal Subgroup of or Equal To",
+		"s": "normal-subgroup-of-or-equal-to",
+		"u": "U+022B4",
+		"x": "#x22B4;",
+		"h": "#8884;",
+		"e": "ltrie;"
+	},
+	{
+	    "n": "Contains as Normal Subgroup or Equal To",
+		"s": "contains-as-normal-subgroup-or-equal-to",
+		"u": "U+022B5",
+		"x": "#x22B5;",
+		"h": "#8885;",
+		"e": "rtrie;"
+	},
+	{
+	    "n": "Original Of",
+		"s": "original-of",
+		"u": "U+022B6",
+		"x": "#x22B6;",
+		"h": "#8886;",
+		"e": "origof;"
+	},
+	{
+	    "n": "Image Of",
+		"s": "image-of",
+		"u": "U+022B7",
+		"x": "#x22B7;",
+		"h": "#8887;",
+		"e": "imof;"
+	},
+	{
+	    "n": "Multimap",
+		"s": "multimap",
+		"u": "U+022B8",
+		"x": "#x22B8;",
+		"h": "#8888;",
+		"e": "mumap;"
+	},
+	{
+	    "n": "Hermitian Conjugate Matrix",
+		"s": "hermitian-conjugate-matrix",
+		"u": "U+022B9",
+		"x": "#x22B9;",
+		"h": "#8889;",
+		"e": "hercon;"
+	},
+	{
+	    "n": "Intercalate",
+		"s": "intercalate",
+		"u": "U+022BA",
+		"x": "#x22BA;",
+		"h": "#8890;",
+		"e": "intcal;"
+	},
+	{
+	    "n": "Xor",
+		"s": "xor",
+		"u": "U+022BB",
+		"x": "#x22BB;",
+		"h": "#8891;",
+		"e": "veebar;"
+	},
+	{
+	    "n": "Nand",
+		"s": "nand",
+		"u": "U+022BC",
+		"x": "#x22BC;",
+		"h": "#8892;",
+		"e": ""
+	},
+	{
+	    "n": "Nor",
+		"s": "nor",
+		"u": "U+022BD",
+		"x": "#x22BD;",
+		"h": "#8893;",
+		"e": "barvee;"
+	},
+	{
+	    "n": "Right Angle With Arc",
+		"s": "right-angle-with-arc",
+		"u": "U+022BE",
+		"x": "#x22BE;",
+		"h": "#8894;",
+		"e": "angrtvb;"
+	},
+	{
+	    "n": "Right Triangle",
+		"s": "right-triangle",
+		"u": "U+022BF",
+		"x": "#x22BF;",
+		"h": "#8895;",
+		"e": "lrtri;"
+	},
+	{
+	    "n": "N-Ary Logical And",
+		"s": "n-ary-logical-and",
+		"u": "U+022C0",
+		"x": "#x22C0;",
+		"h": "#8896;",
+		"e": "xwedge;"
+	},
+	{
+	    "n": "N-Ary Logical Or",
+		"s": "n-ary-logical-or",
+		"u": "U+022C1",
+		"x": "#x22C1;",
+		"h": "#8897;",
+		"e": "xvee;"
+	},
+	{
+	    "n": "N-Ary Intersection",
+		"s": "n-ary-intersection",
+		"u": "U+022C2",
+		"x": "#x22C2;",
+		"h": "#8898;",
+		"e": "xcap;"
+	},
+	{
+	    "n": "N-Ary Union",
+		"s": "n-ary-union",
+		"u": "U+022C3",
+		"x": "#x22C3;",
+		"h": "#8899;",
+		"e": "xcup;"
+	},
+	{
+	    "n": "Diamond Operator",
+		"s": "diamond-operator",
+		"u": "U+022C4",
+		"x": "#x22C4;",
+		"h": "#8900;",
+		"e": "diamond;"
+	},
+	{
+	    "n": "Dot Operator",
+		"s": "dot-operator",
+		"u": "U+022C5",
+		"x": "#x22C5;",
+		"h": "#8901;",
+		"e": "sdot;"
+	},
+	{
+	    "n": "Star Operator",
+		"s": "star-operator",
+		"u": "U+022C6",
+		"x": "#x22C6;",
+		"h": "#8902;",
+		"e": "Star;"
+	},
+	{
+	    "n": "Division Times",
+		"s": "division-times",
+		"u": "U+022C7",
+		"x": "#x22C7;",
+		"h": "#8903;",
+		"e": "divonx;"
+	},
+	{
+	    "n": "Bowtie",
+		"s": "bowtie",
+		"u": "U+022C8",
+		"x": "#x22C8;",
+		"h": "#8904;",
+		"e": "bowtie;"
+	},
+	{
+	    "n": "Left Normal Factor Semidirect Product",
+		"s": "left-normal-factor-semidirect-product",
+		"u": "U+022C9",
+		"x": "#x22C9;",
+		"h": "#8905;",
+		"e": "ltimes;"
+	},
+	{
+	    "n": "Right Normal Factor Semidirect Product",
+		"s": "right-normal-factor-semidirect-product",
+		"u": "U+022CA",
+		"x": "#x22CA;",
+		"h": "#8906;",
+		"e": "rtimes;"
+	},
+	{
+	    "n": "Left Semidirect Product",
+		"s": "left-semidirect-product",
+		"u": "U+022CB",
+		"x": "#x22CB;",
+		"h": "#8907;",
+		"e": "lthree;"
+	},
+	{
+	    "n": "Right Semidirect Product",
+		"s": "right-semidirect-product",
+		"u": "U+022CC",
+		"x": "#x22CC;",
+		"h": "#8908;",
+		"e": "rthree;"
+	},
+	{
+	    "n": "Reversed Tilde Equals",
+		"s": "reversed-tilde-equals",
+		"u": "U+022CD",
+		"x": "#x22CD;",
+		"h": "#8909;",
+		"e": "bsime;"
+	},
+	{
+	    "n": "Curly Logical Or",
+		"s": "curly-logical-or",
+		"u": "U+022CE",
+		"x": "#x22CE;",
+		"h": "#8910;",
+		"e": "cuvee;"
+	},
+	{
+	    "n": "Curly Logical And",
+		"s": "curly-logical-and",
+		"u": "U+022CF",
+		"x": "#x22CF;",
+		"h": "#8911;",
+		"e": "cuwed;"
+	},
+	{
+	    "n": "Double Subset",
+		"s": "double-subset",
+		"u": "U+022D0",
+		"x": "#x22D0;",
+		"h": "#8912;",
+		"e": "Sub;"
+	},
+	{
+	    "n": "Double Superset",
+		"s": "double-superset",
+		"u": "U+022D1",
+		"x": "#x22D1;",
+		"h": "#8913;",
+		"e": "Sup;"
+	},
+	{
+	    "n": "Double Intersection",
+		"s": "double-intersection",
+		"u": "U+022D2",
+		"x": "#x22D2;",
+		"h": "#8914;",
+		"e": "Cap;"
+	},
+	{
+	    "n": "Double Union",
+		"s": "double-union",
+		"u": "U+022D3",
+		"x": "#x22D3;",
+		"h": "#8915;",
+		"e": "Cup;"
+	},
+	{
+	    "n": "Pitchfork",
+		"s": "pitchfork",
+		"u": "U+022D4",
+		"x": "#x22D4;",
+		"h": "#8916;",
+		"e": "fork;"
+	},
+	{
+	    "n": "Equal and Parallel To",
+		"s": "equal-and-parallel-to",
+		"u": "U+022D5",
+		"x": "#x22D5;",
+		"h": "#8917;",
+		"e": "epar;"
+	},
+	{
+	    "n": "Less-Than With Dot",
+		"s": "less-than-with-dot",
+		"u": "U+022D6",
+		"x": "#x22D6;",
+		"h": "#8918;",
+		"e": "ltdot;"
+	},
+	{
+	    "n": "Greater-Than With Dot",
+		"s": "greater-than-with-dot",
+		"u": "U+022D7",
+		"x": "#x22D7;",
+		"h": "#8919;",
+		"e": "gtdot;"
+	},
+	{
+	    "n": "Very Much Less-Than",
+		"s": "very-much-less-than",
+		"u": "U+022D8",
+		"x": "#x22D8;",
+		"h": "#8920;",
+		"e": "Ll;"
+	},
+	{
+	    "n": "Very Much Greater-Than",
+		"s": "very-much-greater-than",
+		"u": "U+022D9",
+		"x": "#x22D9;",
+		"h": "#8921;",
+		"e": "Gg;"
+	},
+	{
+	    "n": "Less-Than Equal to or Greater-Than",
+		"s": "less-than-equal-to-or-greater-than",
+		"u": "U+022DA",
+		"x": "#x22DA;",
+		"h": "#8922;",
+		"e": "leg;"
+	},
+	{
+	    "n": "Greater-Than Equal to or Less-Than",
+		"s": "greater-than-equal-to-or-less-than",
+		"u": "U+022DB",
+		"x": "#x22DB;",
+		"h": "#8923;",
+		"e": "gel;"
+	},
+	{
+	    "n": "Equal to or Precedes",
+		"s": "equal-to-or-precedes",
+		"u": "U+022DE",
+		"x": "#x22DE;",
+		"h": "#8926;",
+		"e": "cuepr;"
+	},
+	{
+	    "n": "Equal to or Succeeds",
+		"s": "equal-to-or-succeeds",
+		"u": "U+022DF",
+		"x": "#x22DF;",
+		"h": "#8927;",
+		"e": "cuesc;"
+	},
+	{
+	    "n": "Does Not Precede or Equal",
+		"s": "does-not-precede-or-equal",
+		"u": "U+022E0",
+		"x": "#x22E0;",
+		"h": "#8928;",
+		"e": "nprcue;"
+	},
+	{
+	    "n": "Does Not Succeed or Equal",
+		"s": "does-not-succeed-or-equal",
+		"u": "U+022E1",
+		"x": "#x22E1;",
+		"h": "#8929;",
+		"e": "nsccue;"
+	},
+	{
+	    "n": "Not Square Image of or Equal To",
+		"s": "not-square-image-of-or-equal-to",
+		"u": "U+022E2",
+		"x": "#x22E2;",
+		"h": "#8930;",
+		"e": "nsqsube;"
+	},
+	{
+	    "n": "Not Square Original of or Equal To",
+		"s": "not-square-original-of-or-equal-to",
+		"u": "U+022E3",
+		"x": "#x22E3;",
+		"h": "#8931;",
+		"e": "nsqsupe;"
+	},
+	{
+	    "n": "Square Image of or Not Equal To",
+		"s": "square-image-of-or-not-equal-to",
+		"u": "U+022E4",
+		"x": "#x22E4;",
+		"h": "#8932;",
+		"e": ""
+	},
+	{
+	    "n": "Square Original of or Not Equal To",
+		"s": "square-original-of-or-not-equal-to",
+		"u": "U+022E5",
+		"x": "#x22E5;",
+		"h": "#8933;",
+		"e": ""
+	},
+	{
+	    "n": "Less-Than but Not Equivalent To",
+		"s": "less-than-but-not-equivalent-to",
+		"u": "U+022E6",
+		"x": "#x22E6;",
+		"h": "#8934;",
+		"e": "lnsim;"
+	},
+	{
+	    "n": "Greater-Than but Not Equivalent To",
+		"s": "greater-than-but-not-equivalent-to",
+		"u": "U+022E7",
+		"x": "#x22E7;",
+		"h": "#8935;",
+		"e": "gnsim;"
+	},
+	{
+	    "n": "Precedes but Not Equivalent To",
+		"s": "precedes-but-not-equivalent-to",
+		"u": "U+022E8",
+		"x": "#x22E8;",
+		"h": "#8936;",
+		"e": "prnsim;"
+	},
+	{
+	    "n": "Succeeds but Not Equivalent To",
+		"s": "succeeds-but-not-equivalent-to",
+		"u": "U+022E9",
+		"x": "#x22E9;",
+		"h": "#8937;",
+		"e": "scnsim;"
+	},
+	{
+	    "n": "Not Normal Subgroup Of",
+		"s": "not-normal-subgroup-of",
+		"u": "U+022EA",
+		"x": "#x22EA;",
+		"h": "#8938;",
+		"e": "nltri;"
+	},
+	{
+	    "n": "Does Not Contain as Normal Subgroup",
+		"s": "does-not-contain-as-normal-subgroup",
+		"u": "U+022EB",
+		"x": "#x22EB;",
+		"h": "#8939;",
+		"e": "nrtri;"
+	},
+	{
+	    "n": "Not Normal Subgroup of or Equal To",
+		"s": "not-normal-subgroup-of-or-equal-to",
+		"u": "U+022EC",
+		"x": "#x22EC;",
+		"h": "#8940;",
+		"e": "nltrie;"
+	},
+	{
+	    "n": "Does Not Contain as Normal Subgroup or Equal",
+		"s": "does-not-contain-as-normal-subgroup-or-equal",
+		"u": "U+022ED",
+		"x": "#x22ED;",
+		"h": "#8941;",
+		"e": "nrtrie;"
+	},
+	{
+	    "n": "Vertical Ellipsis",
+		"s": "vertical-ellipsis",
+		"u": "U+022EE",
+		"x": "#x22EE;",
+		"h": "#8942;",
+		"e": "vellip;"
+	},
+	{
+	    "n": "Midline Horizontal Ellipsis",
+		"s": "midline-horizontal-ellipsis",
+		"u": "U+022EF",
+		"x": "#x22EF;",
+		"h": "#8943;",
+		"e": "ctdot;"
+	},
+	{
+	    "n": "Up Right Diagonal Ellipsis",
+		"s": "up-right-diagonal-ellipsis",
+		"u": "U+022F0",
+		"x": "#x22F0;",
+		"h": "#8944;",
+		"e": "utdot;"
+	},
+	{
+	    "n": "Down Right Diagonal Ellipsis",
+		"s": "down-right-diagonal-ellipsis",
+		"u": "U+022F1",
+		"x": "#x22F1;",
+		"h": "#8945;",
+		"e": "dtdot;"
+	},
+	{
+	    "n": "Element of With Long Horizontal Stroke",
+		"s": "element-of-with-long-horizontal-stroke",
+		"u": "U+022F2",
+		"x": "#x22F2;",
+		"h": "#8946;",
+		"e": "disin;"
+	},
+	{
+	    "n": "Element of With Vertical Bar at End of Horizontal Stroke",
+		"s": "element-of-with-vertical-bar-at-end-of-horizontal-stroke",
+		"u": "U+022F3",
+		"x": "#x22F3;",
+		"h": "#8947;",
+		"e": "isinsv;"
+	},
+	{
+	    "n": "Small Element of With Vertical Bar at End of Horizontal Stroke",
+		"s": "small-element-of-with-vertical-bar-at-end-of-horizontal-stroke",
+		"u": "U+022F4",
+		"x": "#x22F4;",
+		"h": "#8948;",
+		"e": "isins;"
+	},
+	{
+	    "n": "Element of With Dot Above",
+		"s": "element-of-with-dot-above",
+		"u": "U+022F5",
+		"x": "#x22F5;",
+		"h": "#8949;",
+		"e": "isindot;"
+	},
+	{
+	    "n": "Element of With Overbar",
+		"s": "element-of-with-overbar",
+		"u": "U+022F6",
+		"x": "#x22F6;",
+		"h": "#8950;",
+		"e": "notinvc;"
+	},
+	{
+	    "n": "Small Element of With Overbar",
+		"s": "small-element-of-with-overbar",
+		"u": "U+022F7",
+		"x": "#x22F7;",
+		"h": "#8951;",
+		"e": "notinvb;"
+	},
+	{
+	    "n": "Element of With Underbar",
+		"s": "element-of-with-underbar",
+		"u": "U+022F8",
+		"x": "#x22F8;",
+		"h": "#8952;",
+		"e": ""
+	},
+	{
+	    "n": "Element of With Two Horizontal Strokes",
+		"s": "element-of-with-two-horizontal-strokes",
+		"u": "U+022F9",
+		"x": "#x22F9;",
+		"h": "#8953;",
+		"e": "isinE;"
+	},
+	{
+	    "n": "Contains With Long Horizontal Stroke",
+		"s": "contains-with-long-horizontal-stroke",
+		"u": "U+022FA",
+		"x": "#x22FA;",
+		"h": "#8954;",
+		"e": "nisd;"
+	},
+	{
+	    "n": "Contains With Vertical Bar at End of Horizontal Stroke",
+		"s": "contains-with-vertical-bar-at-end-of-horizontal-stroke",
+		"u": "U+022FB",
+		"x": "#x22FB;",
+		"h": "#8955;",
+		"e": "xnis;"
+	},
+	{
+	    "n": "Small Contains With Vertical Bar at End of Horizontal Stroke",
+		"s": "small-contains-with-vertical-bar-at-end-of-horizontal-stroke",
+		"u": "U+022FC",
+		"x": "#x22FC;",
+		"h": "#8956;",
+		"e": "nis;"
+	},
+	{
+	    "n": "Contains With Overbar",
+		"s": "contains-with-overbar",
+		"u": "U+022FD",
+		"x": "#x22FD;",
+		"h": "#8957;",
+		"e": "notnivc;"
+	},
+	{
+	    "n": "Small Contains With Overbar",
+		"s": "small-contains-with-overbar",
+		"u": "U+022FE",
+		"x": "#x22FE;",
+		"h": "#8958;",
+		"e": "notnivb;"
+	},
+	{
+	    "n": "Z Notation Bag Membership",
+		"s": "z-notation-bag-membership",
+		"u": "U+022FF",
+		"x": "#x22FF;",
+		"h": "#8959;",
+		"e": ""
+	},
+	{
+	    "n": "Superscript Zero",
+		"s": "superscript-zero",
+		"u": "U+02070",
+		"x": "#x2070;",
+		"h": "#8304;",
+		"e": ""
+	},
+	{
+	    "n": "Superscript Latin Small Letter I",
+		"s": "superscript-latin-small-letter-i",
+		"u": "U+02071",
+		"x": "#x2071;",
+		"h": "#8305;",
+		"e": ""
+	},
+	{
+	    "n": "Superscript Four",
+		"s": "superscript-four",
+		"u": "U+02074",
+		"x": "#x2074;",
+		"h": "#8308;",
+		"e": ""
+	},
+	{
+	    "n": "Superscript Five",
+		"s": "superscript-five",
+		"u": "U+02075",
+		"x": "#x2075;",
+		"h": "#8309;",
+		"e": ""
+	},
+	{
+	    "n": "Superscript Six",
+		"s": "superscript-six",
+		"u": "U+02076",
+		"x": "#x2076;",
+		"h": "#8310;",
+		"e": ""
+	},
+	{
+	    "n": "Superscript Seven",
+		"s": "superscript-seven",
+		"u": "U+02077",
+		"x": "#x2077;",
+		"h": "#8311;",
+		"e": ""
+	},
+	{
+	    "n": "Superscript Eight",
+		"s": "superscript-eight",
+		"u": "U+02078",
+		"x": "#x2078;",
+		"h": "#8312;",
+		"e": ""
+	},
+	{
+	    "n": "Superscript Nine",
+		"s": "superscript-nine",
+		"u": "U+02079",
+		"x": "#x2079;",
+		"h": "#8313;",
+		"e": ""
+	},
+	{
+	    "n": "Superscript Plus Sign",
+		"s": "superscript-plus-sign",
+		"u": "U+0207A",
+		"x": "#x207A;",
+		"h": "#8314;",
+		"e": ""
+	},
+	{
+	    "n": "Superscript Minus",
+		"s": "superscript-minus",
+		"u": "U+0207B",
+		"x": "#x207B;",
+		"h": "#8315;",
+		"e": ""
+	},
+	{
+	    "n": "Superscript Equals Sign",
+		"s": "superscript-equals-sign",
+		"u": "U+0207C",
+		"x": "#x207C;",
+		"h": "#8316;",
+		"e": ""
+	},
+	{
+	    "n": "Superscript Left Parenthesis",
+		"s": "superscript-left-parenthesis",
+		"u": "U+0207D",
+		"x": "#x207D;",
+		"h": "#8317;",
+		"e": ""
+	},
+	{
+	    "n": "Superscript Right Parenthesis",
+		"s": "superscript-right-parenthesis",
+		"u": "U+0207E",
+		"x": "#x207E;",
+		"h": "#8318;",
+		"e": ""
+	},
+	{
+	    "n": "Superscript Latin Small Letter N",
+		"s": "superscript-latin-small-letter-n",
+		"u": "U+0207F",
+		"x": "#x207F;",
+		"h": "#8319;",
+		"e": ""
+	},
+	{
+	    "n": "Subscript Zero",
+		"s": "subscript-zero",
+		"u": "U+02080",
+		"x": "#x2080;",
+		"h": "#8320;",
+		"e": ""
+	},
+	{
+	    "n": "Subscript One",
+		"s": "subscript-one",
+		"u": "U+02081",
+		"x": "#x2081;",
+		"h": "#8321;",
+		"e": ""
+	},
+	{
+	    "n": "Subscript Two",
+		"s": "subscript-two",
+		"u": "U+02082",
+		"x": "#x2082;",
+		"h": "#8322;",
+		"e": ""
+	},
+	{
+	    "n": "Subscript Three",
+		"s": "subscript-three",
+		"u": "U+02083",
+		"x": "#x2083;",
+		"h": "#8323;",
+		"e": ""
+	},
+	{
+	    "n": "Subscript Four",
+		"s": "subscript-four",
+		"u": "U+02084",
+		"x": "#x2084;",
+		"h": "#8324;",
+		"e": ""
+	},
+	{
+	    "n": "Subscript Five",
+		"s": "subscript-five",
+		"u": "U+02085",
+		"x": "#x2085;",
+		"h": "#8325;",
+		"e": ""
+	},
+	{
+	    "n": "Subscript Six",
+		"s": "subscript-six",
+		"u": "U+02086",
+		"x": "#x2086;",
+		"h": "#8326;",
+		"e": ""
+	},
+	{
+	    "n": "Subscript Seven",
+		"s": "subscript-seven",
+		"u": "U+02087",
+		"x": "#x2087;",
+		"h": "#8327;",
+		"e": ""
+	},
+	{
+	    "n": "Subscript Eight",
+		"s": "subscript-eight",
+		"u": "U+02088",
+		"x": "#x2088;",
+		"h": "#8328;",
+		"e": ""
+	},
+	{
+	    "n": "Subscript Nine",
+		"s": "subscript-nine",
+		"u": "U+02089",
+		"x": "#x2089;",
+		"h": "#8329;",
+		"e": ""
+	},
+	{
+	    "n": "Subscript Plus Sign",
+		"s": "subscript-plus-sign",
+		"u": "U+0208A",
+		"x": "#x208A;",
+		"h": "#8330;",
+		"e": ""
+	},
+	{
+	    "n": "Subscript Minus",
+		"s": "subscript-minus",
+		"u": "U+0208B",
+		"x": "#x208B;",
+		"h": "#8331;",
+		"e": ""
+	},
+	{
+	    "n": "Subscript Equals Sign",
+		"s": "subscript-equals-sign",
+		"u": "U+0208C",
+		"x": "#x208C;",
+		"h": "#8332;",
+		"e": ""
+	},
+	{
+	    "n": "Subscript Left Parenthesis",
+		"s": "subscript-left-parenthesis",
+		"u": "U+0208D",
+		"x": "#x208D;",
+		"h": "#8333;",
+		"e": ""
+	},
+	{
+	    "n": "Subscript Right Parenthesis",
+		"s": "subscript-right-parenthesis",
+		"u": "U+0208E",
+		"x": "#x208E;",
+		"h": "#8334;",
+		"e": ""
+	},
+	{
+	    "n": "Latin Subscript Small Letter A",
+		"s": "latin-subscript-small-letter-a",
+		"u": "U+02090",
+		"x": "#x2090;",
+		"h": "#8336;",
+		"e": ""
+	},
+	{
+	    "n": "Latin Subscript Small Letter E",
+		"s": "latin-subscript-small-letter-e",
+		"u": "U+02091",
+		"x": "#x2091;",
+		"h": "#8337;",
+		"e": ""
+	},
+	{
+	    "n": "Latin Subscript Small Letter O",
+		"s": "latin-subscript-small-letter-o",
+		"u": "U+02092",
+		"x": "#x2092;",
+		"h": "#8338;",
+		"e": ""
+	},
+	{
+	    "n": "Latin Subscript Small Letter X",
+		"s": "latin-subscript-small-letter-x",
+		"u": "U+02093",
+		"x": "#x2093;",
+		"h": "#8339;",
+		"e": ""
+	},
+	{
+	    "n": "Latin Subscript Small Letter Schwa",
+		"s": "latin-subscript-small-letter-schwa",
+		"u": "U+02094",
+		"x": "#x2094;",
+		"h": "#8340;",
+		"e": ""
+	}
+]

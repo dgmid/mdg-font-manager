@@ -5,6 +5,19 @@ body {
   	background-size: 100% auto;
 }
 
+::placeholder {
+	
+	color: $text;	
+	opacity: .3;
+	transition: opacity .2s;
+}
+
+:focus::placeholder {
+	
+	opacity: 0;
+}
+
+
 .col {
 	
 	float: left;

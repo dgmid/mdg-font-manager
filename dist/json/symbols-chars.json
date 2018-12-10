@@ -1,0 +1,3354 @@
+[
+	{
+	    "n": "Copyright Sign",
+		"s": "copyright-sign",
+		"u": "U+000A9",
+		"x": "#xa9;",
+		"h": "#169;",
+		"e": "copy;"
+	},
+	{
+	    "n": "Registered Trade Mark Sign",
+		"s": "registered-trade-mark-sign",
+		"u": "U+000AE",
+		"x": "#xae;",
+		"h": "#174;",
+		"e": "reg;"
+	},
+	{
+	    "n": "Trade Mark Sign",
+		"s": "trade-mark-sign",
+		"u": "U+02122",
+		"x": "#x2122;",
+		"h": "#8482;",
+		"e": "trade;"
+	},
+	{
+	    "n": "At Symbol",
+		"s": "at-symbol",
+		"u": "U+00040",
+		"x": "#x40;",
+		"h": "#64;",
+		"e": "commat;"
+	},
+	{
+	    "n": "Paragraph Sign",
+		"s": "paragraph-sign",
+		"u": "U+000B6",
+		"x": "#xb6;",
+		"h": "#182;",
+		"e": "para;"
+	},
+	{
+	    "n": "Section Sign",
+		"s": "section-sign",
+		"u": "U+000A7",
+		"x": "#xa7;",
+		"h": "#167;",
+		"e": "sect;"
+	},
+	{
+	    "n": "Account Of",
+		"s": "account-of",
+		"u": "U+02100",
+		"x": "#x2100;",
+		"h": "#8448;",
+		"e": ""
+	},
+	{
+	    "n": "Addressed to the Subject",
+		"s": "addressed-to-the-subject",
+		"u": "U+02101",
+		"x": "#x2101;",
+		"h": "#8449;",
+		"e": ""
+	},
+	{
+	    "n": "Double-Struck Capital C",
+		"s": "double-struck-capital-c",
+		"u": "U+02102",
+		"x": "#x2102;",
+		"h": "#8450;",
+		"e": "Copf;"
+	},
+	{
+	    "n": "Degree Celsius",
+		"s": "degree-celsius",
+		"u": "U+02103",
+		"x": "#x2103;",
+		"h": "#8451;",
+		"e": ""
+	},
+	{
+	    "n": "Centre Line Symbol",
+		"s": "centre-line-symbol",
+		"u": "U+02104",
+		"x": "#x2104;",
+		"h": "#8452;",
+		"e": ""
+	},
+	{
+	    "n": "Care Of",
+		"s": "care-of",
+		"u": "U+02105",
+		"x": "#x2105;",
+		"h": "#8453;",
+		"e": "incare;"
+	},
+	{
+	    "n": "Cada Una",
+		"s": "cada-una",
+		"u": "U+02106",
+		"x": "#x2106;",
+		"h": "#8454;",
+		"e": ""
+	},
+	{
+	    "n": "Euler Constant",
+		"s": "euler-constant",
+		"u": "U+02107",
+		"x": "#x2107;",
+		"h": "#8455;",
+		"e": ""
+	},
+	{
+	    "n": "Scruple",
+		"s": "scruple",
+		"u": "U+02108",
+		"x": "#x2108;",
+		"h": "#8456;",
+		"e": ""
+	},
+	{
+	    "n": "Degree Fahrenheit",
+		"s": "degree-fahrenheit",
+		"u": "U+02109",
+		"x": "#x2109;",
+		"h": "#8457;",
+		"e": ""
+	},
+	{
+	    "n": "Script Small G",
+		"s": "script-small-g",
+		"u": "U+0210A",
+		"x": "#x210A;",
+		"h": "#8458;",
+		"e": "gscr;"
+	},
+	{
+	    "n": "Script Capital H",
+		"s": "script-capital-h",
+		"u": "U+0210B",
+		"x": "#x210B;",
+		"h": "#8459;",
+		"e": "hamilt;"
+	},
+	{
+	    "n": "Black-Letter Capital H",
+		"s": "black-letter-capital-h",
+		"u": "U+0210C",
+		"x": "#x210C;",
+		"h": "#8460;",
+		"e": "Hfr;"
+	},
+	{
+	    "n": "Double-Struck Capital H",
+		"s": "double-struck-capital-h",
+		"u": "U+0210D",
+		"x": "#x210D;",
+		"h": "#8461;",
+		"e": "Hopf;"
+	},
+	{
+	    "n": "Planck Constant",
+		"s": "planck-constant",
+		"u": "U+0210E",
+		"x": "#x210E;",
+		"h": "#8462;",
+		"e": "planckh;"
+	},
+	{
+	    "n": "Planck Constant Over Two Pi",
+		"s": "planck-constant-over-two-pi",
+		"u": "U+0210F",
+		"x": "#x210F;",
+		"h": "#8463;",
+		"e": "planck;"
+	},
+	{
+	    "n": "Script Capital I",
+		"s": "script-capital-i",
+		"u": "U+02110",
+		"x": "#x2110;",
+		"h": "#8464;",
+		"e": "Iscr;"
+	},
+	{
+	    "n": "Black-Letter Capital I",
+		"s": "black-letter-capital-i",
+		"u": "U+02111",
+		"x": "#x2111;",
+		"h": "#8465;",
+		"e": "image;"
+	},
+	{
+	    "n": "Script Capital L",
+		"s": "script-capital-l",
+		"u": "U+02112",
+		"x": "#x2112;",
+		"h": "#8466;",
+		"e": "Lscr;"
+	},
+	{
+	    "n": "Script Small L",
+		"s": "script-small-l",
+		"u": "U+02113",
+		"x": "#x2113;",
+		"h": "#8467;",
+		"e": "ell;"
+	},
+	{
+	    "n": "L B Bar Symbol",
+		"s": "l-b-bar-symbol",
+		"u": "U+02114",
+		"x": "#x2114;",
+		"h": "#8468;",
+		"e": ""
+	},
+	{
+	    "n": "Double-Struck Capital N",
+		"s": "double-struck-capital-n",
+		"u": "U+02115",
+		"x": "#x2115;",
+		"h": "#8469;",
+		"e": "Nopf;"
+	},
+	{
+	    "n": "Numero Sign",
+		"s": "numero-sign",
+		"u": "U+02116",
+		"x": "#x2116;",
+		"h": "#8470;",
+		"e": "numero;"
+	},
+	{
+	    "n": "Sound Recording Copyright",
+		"s": "sound-recording-copyright",
+		"u": "U+02117",
+		"x": "#x2117;",
+		"h": "#8471;",
+		"e": "copysr;"
+	},
+	{
+	    "n": "Script Capital P",
+		"s": "script-capital-p",
+		"u": "U+02118",
+		"x": "#x2118;",
+		"h": "#8472;",
+		"e": "weierp;"
+	},
+	{
+	    "n": "Double-Struck Capital P",
+		"s": "double-struck-capital-p",
+		"u": "U+02119",
+		"x": "#x2119;",
+		"h": "#8473;",
+		"e": "Popf;"
+	},
+	{
+	    "n": "Double-Struck Capital Q",
+		"s": "double-struck-capital-q",
+		"u": "U+0211A",
+		"x": "#x211A;",
+		"h": "#8474;",
+		"e": "Qopf;"
+	},
+	{
+	    "n": "Script Capital R",
+		"s": "script-capital-r",
+		"u": "U+0211B",
+		"x": "#x211B;",
+		"h": "#8475;",
+		"e": "Rscr;"
+	},
+	{
+	    "n": "Black-Letter Capital R",
+		"s": "black-letter-capital-r",
+		"u": "U+0211C",
+		"x": "#x211C;",
+		"h": "#8476;",
+		"e": "real;"
+	},
+	{
+	    "n": "Double-Struck Capital R",
+		"s": "double-struck-capital-r",
+		"u": "U+0211D",
+		"x": "#x211D;",
+		"h": "#8477;",
+		"e": "Ropf;"
+	},
+	{
+	    "n": "Prescription Take",
+		"s": "prescription-take",
+		"u": "U+0211E",
+		"x": "#x211E;",
+		"h": "#8478;",
+		"e": "rx;"
+	},
+	{
+	    "n": "Response",
+		"s": "response",
+		"u": "U+0211F",
+		"x": "#x211F;",
+		"h": "#8479;",
+		"e": ""
+	},
+	{
+	    "n": "Service Mark",
+		"s": "service-mark",
+		"u": "U+02120",
+		"x": "#x2120;",
+		"h": "#8480;",
+		"e": ""
+	},
+	{
+	    "n": "Telephone Sign",
+		"s": "telephone-sign",
+		"u": "U+02121",
+		"x": "#x2121;",
+		"h": "#8481;",
+		"e": ""
+	},
+	{
+	    "n": "Versicle",
+		"s": "versicle",
+		"u": "U+02123",
+		"x": "#x2123;",
+		"h": "#8483;",
+		"e": ""
+	},
+	{
+	    "n": "Double-Struck Capital Z",
+		"s": "double-struck-capital-z",
+		"u": "U+02124",
+		"x": "#x2124;",
+		"h": "#8484;",
+		"e": "Zopf;"
+	},
+	{
+	    "n": "Ounce Sign",
+		"s": "ounce-sign",
+		"u": "U+02125",
+		"x": "#x2125;",
+		"h": "#8485;",
+		"e": ""
+	},
+	{
+	    "n": "Ohm Sign",
+		"s": "ohm-sign",
+		"u": "U+02126",
+		"x": "#x2126;",
+		"h": "#8486;",
+		"e": ""
+	},
+	{
+	    "n": "Inverted Ohm Sign",
+		"s": "inverted-ohm-sign",
+		"u": "U+02127",
+		"x": "#x2127;",
+		"h": "#8487;",
+		"e": "mho;"
+	},
+	{
+	    "n": "Black-Letter Capital Z",
+		"s": "black-letter-capital-z",
+		"u": "U+02128",
+		"x": "#x2128;",
+		"h": "#8488;",
+		"e": "Zfr;"
+	},
+	{
+	    "n": "Turned Greek Small Letter Iota",
+		"s": "turned-greek-small-letter-iota",
+		"u": "U+02129",
+		"x": "#x2129;",
+		"h": "#8489;",
+		"e": "iiota;"
+	},
+	{
+	    "n": "Kelvin Sign",
+		"s": "kelvin-sign",
+		"u": "U+0212A",
+		"x": "#x212A;",
+		"h": "#8490;",
+		"e": ""
+	},
+	{
+	    "n": "Angstrom Sign",
+		"s": "angstrom-sign",
+		"u": "U+0212B",
+		"x": "#x212B;",
+		"h": "#8491;",
+		"e": ""
+	},
+	{
+	    "n": "Script Capital B",
+		"s": "script-capital-b",
+		"u": "U+0212C",
+		"x": "#x212C;",
+		"h": "#8492;",
+		"e": "bernou;"
+	},
+	{
+	    "n": "Black-Letter Capital C",
+		"s": "black-letter-capital-c",
+		"u": "U+0212D",
+		"x": "#x212D;",
+		"h": "#8493;",
+		"e": "Cfr;"
+	},
+	{
+	    "n": "Estimated Symbol",
+		"s": "estimated-symbol",
+		"u": "U+0212E",
+		"x": "#x212E;",
+		"h": "#8494;",
+		"e": ""
+	},
+	{
+	    "n": "Script Small E",
+		"s": "script-small-e",
+		"u": "U+0212F",
+		"x": "#x212F;",
+		"h": "#8495;",
+		"e": "escr;"
+	},
+	{
+	    "n": "Script Capital E",
+		"s": "script-capital-e",
+		"u": "U+02130",
+		"x": "#x2130;",
+		"h": "#8496;",
+		"e": "Escr;"
+	},
+	{
+	    "n": "Script Capital F",
+		"s": "script-capital-f",
+		"u": "U+02131",
+		"x": "#x2131;",
+		"h": "#8497;",
+		"e": "Fscr;"
+	},
+	{
+	    "n": "Turned Capital F",
+		"s": "turned-capital-f",
+		"u": "U+02132",
+		"x": "#x2132;",
+		"h": "#8498;",
+		"e": ""
+	},
+	{
+	    "n": "Script Capital M",
+		"s": "script-capital-m",
+		"u": "U+02133",
+		"x": "#x2133;",
+		"h": "#8499;",
+		"e": "Mscr;"
+	},
+	{
+	    "n": "Script Small O",
+		"s": "script-small-o",
+		"u": "U+02134",
+		"x": "#x2134;",
+		"h": "#8500;",
+		"e": "oscr;"
+	},
+	{
+	    "n": "Alef Symbol",
+		"s": "alef-symbol",
+		"u": "U+02135",
+		"x": "#x2135;",
+		"h": "#8501;",
+		"e": "alefsym;"
+	},
+	{
+	    "n": "Bet Symbol",
+		"s": "bet-symbol",
+		"u": "U+02136",
+		"x": "#x2136;",
+		"h": "#8502;",
+		"e": "beth;"
+	},
+	{
+	    "n": "Gimel Symbol",
+		"s": "gimel-symbol",
+		"u": "U+02137",
+		"x": "#x2137;",
+		"h": "#8503;",
+		"e": "gimel;"
+	},
+	{
+	    "n": "Dalet Symbol",
+		"s": "dalet-symbol",
+		"u": "U+02138",
+		"x": "#x2138;",
+		"h": "#8504;",
+		"e": "daleth;"
+	},
+	{
+	    "n": "Information Source",
+		"s": "information-source",
+		"u": "U+02139",
+		"x": "#x2139;",
+		"h": "#8505;",
+		"e": ""
+	},
+	{
+	    "n": "Rotated Capital Q",
+		"s": "rotated-capital-q",
+		"u": "U+0213A",
+		"x": "#x213A;",
+		"h": "#8506;",
+		"e": ""
+	},
+	{
+	    "n": "Facsimile Sign",
+		"s": "facsimile-sign",
+		"u": "U+0213B",
+		"x": "#x213B;",
+		"h": "#8507;",
+		"e": ""
+	},
+	{
+	    "n": "Double-Struck Small Pi",
+		"s": "double-struck-small-pi",
+		"u": "U+0213C",
+		"x": "#x213C;",
+		"h": "#8508;",
+		"e": ""
+	},
+	{
+	    "n": "Double-Struck Small Gamma",
+		"s": "double-struck-small-gamma",
+		"u": "U+0213D",
+		"x": "#x213D;",
+		"h": "#8509;",
+		"e": ""
+	},
+	{
+	    "n": "Double-Struck Capital Gamma",
+		"s": "double-struck-capital-gamma",
+		"u": "U+0213E",
+		"x": "#x213E;",
+		"h": "#8510;",
+		"e": ""
+	},
+	{
+	    "n": "Double-Struck Capital Pi",
+		"s": "double-struck-capital-pi",
+		"u": "U+0213F",
+		"x": "#x213F;",
+		"h": "#8511;",
+		"e": ""
+	},
+	{
+	    "n": "Double-Struck N-Ary Summation",
+		"s": "double-struck-n-ary-summation",
+		"u": "U+02140",
+		"x": "#x2140;",
+		"h": "#8512;",
+		"e": ""
+	},
+	{
+	    "n": "Turned Sans-Serif Capital G",
+		"s": "turned-sans-serif-capital-g",
+		"u": "U+02141",
+		"x": "#x2141;",
+		"h": "#8513;",
+		"e": ""
+	},
+	{
+	    "n": "Turned Sans-Serif Capital L",
+		"s": "turned-sans-serif-capital-l",
+		"u": "U+02142",
+		"x": "#x2142;",
+		"h": "#8514;",
+		"e": ""
+	},
+	{
+	    "n": "Reversed Sans-Serif Capital L",
+		"s": "reversed-sans-serif-capital-l",
+		"u": "U+02143",
+		"x": "#x2143;",
+		"h": "#8515;",
+		"e": ""
+	},
+	{
+	    "n": "Turned Sans-Serif Capital Y",
+		"s": "turned-sans-serif-capital-y",
+		"u": "U+02144",
+		"x": "#x2144;",
+		"h": "#8516;",
+		"e": ""
+	},
+	{
+	    "n": "Double-Struck Italic Capital D",
+		"s": "double-struck-italic-capital-d",
+		"u": "U+02145",
+		"x": "#x2145;",
+		"h": "#8517;",
+		"e": "DD;"
+	},
+	{
+	    "n": "Double-Struck Italic Small D",
+		"s": "double-struck-italic-small-d",
+		"u": "U+02146",
+		"x": "#x2146;",
+		"h": "#8518;",
+		"e": "dd;"
+	},
+	{
+	    "n": "Double-Struck Italic Small E",
+		"s": "double-struck-italic-small-e",
+		"u": "U+02147",
+		"x": "#x2147;",
+		"h": "#8519;",
+		"e": "ee;"
+	},
+	{
+	    "n": "Double-Struck Italic Small I",
+		"s": "double-struck-italic-small-i",
+		"u": "U+02148",
+		"x": "#x2148;",
+		"h": "#8520;",
+		"e": "ii;"
+	},
+	{
+	    "n": "Double-Struck Italic Small J",
+		"s": "double-struck-italic-small-j",
+		"u": "U+02149",
+		"x": "#x2149;",
+		"h": "#8521;",
+		"e": ""
+	},
+	{
+	    "n": "Property Line",
+		"s": "property-line",
+		"u": "U+0214A",
+		"x": "#x214A;",
+		"h": "#8522;",
+		"e": ""
+	},
+	{
+	    "n": "Turned Ampersand",
+		"s": "turned-ampersand",
+		"u": "U+0214B",
+		"x": "#x214B;",
+		"h": "#8523;",
+		"e": ""
+	},
+	{
+	    "n": "Aktieselskab",
+		"s": "aktieselskab",
+		"u": "U+0214D",
+		"x": "#x214D;",
+		"h": "#8525;",
+		"e": ""
+	},
+	{
+	    "n": "Turned Small F",
+		"s": "turned-small-f",
+		"u": "U+0214E",
+		"x": "#x214E;",
+		"h": "#8526;",
+		"e": ""
+	},
+	{
+	    "n": "Black Sun With Rays",
+		"s": "black-sun-with-rays",
+		"u": "U+02600",
+		"x": "#x2600;",
+		"h": "#9728;",
+		"e": ""
+	},
+	{
+	    "n": "Cloud",
+		"s": "cloud",
+		"u": "U+02601",
+		"x": "#x2601;",
+		"h": "#9729;",
+		"e": ""
+	},
+	{
+	    "n": "Umbrella",
+		"s": "umbrella",
+		"u": "U+02602",
+		"x": "#x2602;",
+		"h": "#9730;",
+		"e": ""
+	},
+	{
+	    "n": "Snowman",
+		"s": "snowman",
+		"u": "U+02603",
+		"x": "#x2603;",
+		"h": "#9731;",
+		"e": ""
+	},
+	{
+	    "n": "Comet",
+		"s": "comet",
+		"u": "U+02604",
+		"x": "#x2604;",
+		"h": "#9732;",
+		"e": ""
+	},
+	{
+	    "n": "Black Star",
+		"s": "black-star",
+		"u": "U+02605",
+		"x": "#x2605;",
+		"h": "#9733;",
+		"e": "starf;"
+	},
+	{
+	    "n": "White Star",
+		"s": "white-star",
+		"u": "U+02606",
+		"x": "#x2606;",
+		"h": "#9734;",
+		"e": "star;"
+	},
+	{
+	    "n": "Lightning",
+		"s": "lightning",
+		"u": "U+02607",
+		"x": "#x2607;",
+		"h": "#9735;",
+		"e": ""
+	},
+	{
+	    "n": "Thunderstorm",
+		"s": "thunderstorm",
+		"u": "U+02608",
+		"x": "#x2608;",
+		"h": "#9736;",
+		"e": ""
+	},
+	{
+	    "n": "Sun",
+		"s": "sun",
+		"u": "U+02609",
+		"x": "#x2609;",
+		"h": "#9737;",
+		"e": ""
+	},
+	{
+	    "n": "Ascending Node",
+		"s": "ascending-node",
+		"u": "U+0260A",
+		"x": "#x260A;",
+		"h": "#9738;",
+		"e": ""
+	},
+	{
+	    "n": "Descending Node",
+		"s": "descending-node",
+		"u": "U+0260B",
+		"x": "#x260B;",
+		"h": "#9739;",
+		"e": ""
+	},
+	{
+	    "n": "Conjunction",
+		"s": "conjunction",
+		"u": "U+0260C",
+		"x": "#x260C;",
+		"h": "#9740;",
+		"e": ""
+	},
+	{
+	    "n": "Opposition",
+		"s": "opposition",
+		"u": "U+0260D",
+		"x": "#x260D;",
+		"h": "#9741;",
+		"e": ""
+	},
+	{
+	    "n": "Black Telephone",
+		"s": "black-telephone",
+		"u": "U+0260E",
+		"x": "#x260E;",
+		"h": "#9742;",
+		"e": "phone;"
+	},
+	{
+	    "n": "White Telephone",
+		"s": "white-telephone",
+		"u": "U+0260F",
+		"x": "#x260F;",
+		"h": "#9743;",
+		"e": ""
+	},
+	{
+	    "n": "Ballot Box",
+		"s": "ballot-box",
+		"u": "U+02610",
+		"x": "#x2610;",
+		"h": "#9744;",
+		"e": ""
+	},
+	{
+	    "n": "Ballot Box With Check",
+		"s": "ballot-box-with-check",
+		"u": "U+02611",
+		"x": "#x2611;",
+		"h": "#9745;",
+		"e": ""
+	},
+	{
+	    "n": "Ballot Box With X",
+		"s": "ballot-box-with-x",
+		"u": "U+02612",
+		"x": "#x2612;",
+		"h": "#9746;",
+		"e": ""
+	},
+	{
+	    "n": "Saltire",
+		"s": "saltire",
+		"u": "U+02613",
+		"x": "#x2613;",
+		"h": "#9747;",
+		"e": ""
+	},
+	{
+	    "n": "White Shogi Piece",
+		"s": "white-shogi-piece",
+		"u": "U+02616",
+		"x": "#x2616;",
+		"h": "#9750;",
+		"e": ""
+	},
+	{
+	    "n": "Black Shogi Piece",
+		"s": "black-shogi-piece",
+		"u": "U+02617",
+		"x": "#x2617;",
+		"h": "#9751;",
+		"e": ""
+	},
+	{
+	    "n": "Shamrock",
+		"s": "shamrock",
+		"u": "U+02618",
+		"x": "#x2618;",
+		"h": "#9752;",
+		"e": ""
+	},
+	{
+	    "n": "Reversed Rotated Floral Heart Bullet",
+		"s": "reversed-rotated-floral-heart-bullet",
+		"u": "U+02619",
+		"x": "#x2619;",
+		"h": "#9753;",
+		"e": ""
+	},
+	{
+	    "n": "Black Left Pointing Index",
+		"s": "black-left-pointing-index",
+		"u": "U+0261A",
+		"x": "#x261A;",
+		"h": "#9754;",
+		"e": ""
+	},
+	{
+	    "n": "Black Right Pointing Index",
+		"s": "black-right-pointing-index",
+		"u": "U+0261B",
+		"x": "#x261B;",
+		"h": "#9755;",
+		"e": ""
+	},
+	{
+	    "n": "White Left Pointing Index",
+		"s": "white-left-pointing-index",
+		"u": "U+0261C",
+		"x": "#x261C;",
+		"h": "#9756;",
+		"e": ""
+	},
+	{
+	    "n": "White Up Pointing Index",
+		"s": "white-up-pointing-index",
+		"u": "U+0261D",
+		"x": "#x261D;",
+		"h": "#9757;",
+		"e": ""
+	},
+	{
+	    "n": "White Right Pointing Index",
+		"s": "white-right-pointing-index",
+		"u": "U+0261E",
+		"x": "#x261E;",
+		"h": "#9758;",
+		"e": ""
+	},
+	{
+	    "n": "White Down Pointing Index",
+		"s": "white-down-pointing-index",
+		"u": "U+0261F",
+		"x": "#x261F;",
+		"h": "#9759;",
+		"e": ""
+	},
+	{
+	    "n": "Skull and Crossbones",
+		"s": "skull-and-crossbones",
+		"u": "U+02620",
+		"x": "#x2620;",
+		"h": "#9760;",
+		"e": ""
+	},
+	{
+	    "n": "Caution Sign",
+		"s": "caution-sign",
+		"u": "U+02621",
+		"x": "#x2621;",
+		"h": "#9761;",
+		"e": ""
+	},
+	{
+	    "n": "Radioactive Sign",
+		"s": "radioactive-sign",
+		"u": "U+02622",
+		"x": "#x2622;",
+		"h": "#9762;",
+		"e": ""
+	},
+	{
+	    "n": "Biohazard Sign",
+		"s": "biohazard-sign",
+		"u": "U+02623",
+		"x": "#x2623;",
+		"h": "#9763;",
+		"e": ""
+	},
+	{
+	    "n": "Caduceus",
+		"s": "caduceus",
+		"u": "U+02624",
+		"x": "#x2624;",
+		"h": "#9764;",
+		"e": ""
+	},
+	{
+	    "n": "Ankh",
+		"s": "ankh",
+		"u": "U+02625",
+		"x": "#x2625;",
+		"h": "#9765;",
+		"e": ""
+	},
+	{
+	    "n": "Orthodox Cross",
+		"s": "orthodox-cross",
+		"u": "U+02626",
+		"x": "#x2626;",
+		"h": "#9766;",
+		"e": ""
+	},
+	{
+	    "n": "Chi Rho",
+		"s": "chi-rho",
+		"u": "U+02627",
+		"x": "#x2627;",
+		"h": "#9767;",
+		"e": ""
+	},
+	{
+	    "n": "Cross of Lorraine",
+		"s": "cross-of-lorraine",
+		"u": "U+02628",
+		"x": "#x2628;",
+		"h": "#9768;",
+		"e": ""
+	},
+	{
+	    "n": "Cross of Jerusalem",
+		"s": "cross-of-jerusalem",
+		"u": "U+02629",
+		"x": "#x2629;",
+		"h": "#9769;",
+		"e": ""
+	},
+	{
+	    "n": "Star and Crescent",
+		"s": "star-and-crescent",
+		"u": "U+0262A",
+		"x": "#x262A;",
+		"h": "#9770;",
+		"e": ""
+	},
+	{
+	    "n": "Farsi Symbol",
+		"s": "farsi-symbol",
+		"u": "U+0262B",
+		"x": "#x262B;",
+		"h": "#9771;",
+		"e": ""
+	},
+	{
+	    "n": "Adi Shakti",
+		"s": "adi-shakti",
+		"u": "U+0262C",
+		"x": "#x262C;",
+		"h": "#9772;",
+		"e": ""
+	},
+	{
+	    "n": "Hammer and Sickle",
+		"s": "hammer-and-sickle",
+		"u": "U+0262D",
+		"x": "#x262D;",
+		"h": "#9773;",
+		"e": ""
+	},
+	{
+	    "n": "Peace Symbol",
+		"s": "peace-symbol",
+		"u": "U+0262E",
+		"x": "#x262E;",
+		"h": "#9774;",
+		"e": ""
+	},
+	{
+	    "n": "Yin Yang",
+		"s": "yin-yang",
+		"u": "U+0262F",
+		"x": "#x262F;",
+		"h": "#9775;",
+		"e": ""
+	},
+	{
+	    "n": "Trigram for Heaven",
+		"s": "trigram-for-heaven",
+		"u": "U+02630",
+		"x": "#x2630;",
+		"h": "#9776;",
+		"e": ""
+	},
+	{
+	    "n": "Trigram for Lake",
+		"s": "trigram-for-lake",
+		"u": "U+02631",
+		"x": "#x2631;",
+		"h": "#9777;",
+		"e": ""
+	},
+	{
+	    "n": "Trigram for Fire",
+		"s": "trigram-for-fire",
+		"u": "U+02632",
+		"x": "#x2632;",
+		"h": "#9778;",
+		"e": ""
+	},
+	{
+	    "n": "Trigram for Thunder",
+		"s": "trigram-for-thunder",
+		"u": "U+02633",
+		"x": "#x2633;",
+		"h": "#9779;",
+		"e": ""
+	},
+	{
+	    "n": "Trigram for Wind",
+		"s": "trigram-for-wind",
+		"u": "U+02634",
+		"x": "#x2634;",
+		"h": "#9780;",
+		"e": ""
+	},
+	{
+	    "n": "Trigram for Water",
+		"s": "trigram-for-water",
+		"u": "U+02635",
+		"x": "#x2635;",
+		"h": "#9781;",
+		"e": ""
+	},
+	{
+	    "n": "Trigram for Mountain",
+		"s": "trigram-for-mountain",
+		"u": "U+02636",
+		"x": "#x2636;",
+		"h": "#9782;",
+		"e": ""
+	},
+	{
+	    "n": "Trigram for Earth",
+		"s": "trigram-for-earth",
+		"u": "U+02637",
+		"x": "#x2637;",
+		"h": "#9783;",
+		"e": ""
+	},
+	{
+	    "n": "Wheel of Dharma",
+		"s": "wheel-of-dharma",
+		"u": "U+02638",
+		"x": "#x2638;",
+		"h": "#9784;",
+		"e": ""
+	},
+	{
+	    "n": "White Frowning Face",
+		"s": "white-frowning-face",
+		"u": "U+02639",
+		"x": "#x2639;",
+		"h": "#9785;",
+		"e": ""
+	},
+	{
+	    "n": "White Smiling Face",
+		"s": "white-smiling-face",
+		"u": "U+0263A",
+		"x": "#x263A;",
+		"h": "#9786;",
+		"e": ""
+	},
+	{
+	    "n": "Black Smiling Face",
+		"s": "black-smiling-face",
+		"u": "U+0263B",
+		"x": "#x263B;",
+		"h": "#9787;",
+		"e": ""
+	},
+	{
+	    "n": "White Sun With Rays",
+		"s": "white-sun-with-rays",
+		"u": "U+0263C",
+		"x": "#x263C;",
+		"h": "#9788;",
+		"e": ""
+	},
+	{
+	    "n": "First Quarter Moon",
+		"s": "first-quarter-moon",
+		"u": "U+0263D",
+		"x": "#x263D;",
+		"h": "#9789;",
+		"e": ""
+	},
+	{
+	    "n": "Last Quarter Moon",
+		"s": "last-quarter-moon",
+		"u": "U+0263E",
+		"x": "#x263E;",
+		"h": "#9790;",
+		"e": ""
+	},
+	{
+	    "n": "Mercury",
+		"s": "mercury",
+		"u": "U+0263F",
+		"x": "#x263F;",
+		"h": "#9791;",
+		"e": ""
+	},
+	{
+	    "n": "Female Sign",
+		"s": "female-sign",
+		"u": "U+02640",
+		"x": "#x2640;",
+		"h": "#9792;",
+		"e": "female;"
+	},
+	{
+	    "n": "Earth",
+		"s": "earth",
+		"u": "U+02641",
+		"x": "#x2641;",
+		"h": "#9793;",
+		"e": ""
+	},
+	{
+	    "n": "Male Sign",
+		"s": "male-sign",
+		"u": "U+02642",
+		"x": "#x2642;",
+		"h": "#9794;",
+		"e": "male;"
+	},
+	{
+	    "n": "Jupiter",
+		"s": "jupiter",
+		"u": "U+02643",
+		"x": "#x2643;",
+		"h": "#9795;",
+		"e": ""
+	},
+	{
+	    "n": "Saturn",
+		"s": "saturn",
+		"u": "U+02644",
+		"x": "#x2644;",
+		"h": "#9796;",
+		"e": ""
+	},
+	{
+	    "n": "Uranus",
+		"s": "uranus",
+		"u": "U+02645",
+		"x": "#x2645;",
+		"h": "#9797;",
+		"e": ""
+	},
+	{
+	    "n": "Neptune",
+		"s": "neptune",
+		"u": "U+02646",
+		"x": "#x2646;",
+		"h": "#9798;",
+		"e": ""
+	},
+	{
+	    "n": "Pluto",
+		"s": "pluto",
+		"u": "U+02647",
+		"x": "#x2647;",
+		"h": "#9799;",
+		"e": ""
+	},
+	{
+	    "n": "White Chess King",
+		"s": "white-chess-king",
+		"u": "U+02654",
+		"x": "#x2654;",
+		"h": "#9812;",
+		"e": ""
+	},
+	{
+	    "n": "White Chess Queen",
+		"s": "white-chess-queen",
+		"u": "U+02655",
+		"x": "#x2655;",
+		"h": "#9813;",
+		"e": ""
+	},
+	{
+	    "n": "White Chess Rook",
+		"s": "white-chess-rook",
+		"u": "U+02656",
+		"x": "#x2656;",
+		"h": "#9814;",
+		"e": ""
+	},
+	{
+	    "n": "White Chess Bishop",
+		"s": "white-chess-bishop",
+		"u": "U+02657",
+		"x": "#x2657;",
+		"h": "#9815;",
+		"e": ""
+	},
+	{
+	    "n": "White Chess Knight",
+		"s": "white-chess-knight",
+		"u": "U+02658",
+		"x": "#x2658;",
+		"h": "#9816;",
+		"e": ""
+	},
+	{
+	    "n": "White Chess Pawn",
+		"s": "white-chess-pawn",
+		"u": "U+02659",
+		"x": "#x2659;",
+		"h": "#9817;",
+		"e": ""
+	},
+	{
+	    "n": "Black Chess King",
+		"s": "black-chess-king",
+		"u": "U+0265A",
+		"x": "#x265A;",
+		"h": "#9818;",
+		"e": ""
+	},
+	{
+	    "n": "Black Chess Queen",
+		"s": "black-chess-queen",
+		"u": "U+0265B",
+		"x": "#x265B;",
+		"h": "#9819;",
+		"e": ""
+	},
+	{
+	    "n": "Black Chess Rook",
+		"s": "black-chess-rook",
+		"u": "U+0265C",
+		"x": "#x265C;",
+		"h": "#9820;",
+		"e": ""
+	},
+	{
+	    "n": "Black Chess Bishop",
+		"s": "black-chess-bishop",
+		"u": "U+0265D",
+		"x": "#x265D;",
+		"h": "#9821;",
+		"e": ""
+	},
+	{
+	    "n": "Black Chess Knight",
+		"s": "black-chess-knight",
+		"u": "U+0265E",
+		"x": "#x265E;",
+		"h": "#9822;",
+		"e": ""
+	},
+	{
+	    "n": "Black Chess Pawn",
+		"s": "black-chess-pawn",
+		"u": "U+0265F",
+		"x": "#x265F;",
+		"h": "#9823;",
+		"e": ""
+	},
+	{
+	    "n": "Black Spade Suit",
+		"s": "black-spade-suit",
+		"u": "U+02660",
+		"x": "#x2660;",
+		"h": "#9824;",
+		"e": "spades;"
+	},
+	{
+	    "n": "White Heart Suit",
+		"s": "white-heart-suit",
+		"u": "U+02661",
+		"x": "#x2661;",
+		"h": "#9825;",
+		"e": ""
+	},
+	{
+	    "n": "White Diamond Suit",
+		"s": "white-diamond-suit",
+		"u": "U+02662",
+		"x": "#x2662;",
+		"h": "#9826;",
+		"e": ""
+	},
+	{
+	    "n": "Black Club Suit",
+		"s": "black-club-suit",
+		"u": "U+02663",
+		"x": "#x2663;",
+		"h": "#9827;",
+		"e": "clubs;"
+	},
+	{
+	    "n": "White Spade Suit",
+		"s": "white-spade-suit",
+		"u": "U+02664",
+		"x": "#x2664;",
+		"h": "#9828;",
+		"e": ""
+	},
+	{
+	    "n": "Black Heart Suit",
+		"s": "black-heart-suit",
+		"u": "U+02665",
+		"x": "#x2665;",
+		"h": "#9829;",
+		"e": "hearts;"
+	},
+	{
+	    "n": "Black Diamond Suit",
+		"s": "black-diamond-suit",
+		"u": "U+02666",
+		"x": "#x2666;",
+		"h": "#9830;",
+		"e": "diams;"
+	},
+	{
+	    "n": "White Club Suit",
+		"s": "white-club-suit",
+		"u": "U+02667",
+		"x": "#x2667;",
+		"h": "#9831;",
+		"e": ""
+	},
+	{
+	    "n": "Hot Springs",
+		"s": "hot-springs",
+		"u": "U+02668",
+		"x": "#x2668;",
+		"h": "#9832;",
+		"e": ""
+	},
+	{
+	    "n": "Quarter Note",
+		"s": "quarter-note",
+		"u": "U+02669",
+		"x": "#x2669;",
+		"h": "#9833;",
+		"e": ""
+	},
+	{
+	    "n": "Eighth Note",
+		"s": "eighth-note",
+		"u": "U+0266A",
+		"x": "#x266A;",
+		"h": "#9834;",
+		"e": "sung;"
+	},
+	{
+	    "n": "Beamed Eighth Notes",
+		"s": "beamed-eighth-notes",
+		"u": "U+0266B",
+		"x": "#x266B;",
+		"h": "#9835;",
+		"e": ""
+	},
+	{
+	    "n": "Beamed Sixteenth Notes",
+		"s": "beamed-sixteenth-notes",
+		"u": "U+0266C",
+		"x": "#x266C;",
+		"h": "#9836;",
+		"e": ""
+	},
+	{
+	    "n": "Music Flat Sign",
+		"s": "music-flat-sign",
+		"u": "U+0266D",
+		"x": "#x266D;",
+		"h": "#9837;",
+		"e": "flat;"
+	},
+	{
+	    "n": "Music Natural Sign",
+		"s": "music-natural-sign",
+		"u": "U+0266E",
+		"x": "#x266E;",
+		"h": "#9838;",
+		"e": "natural;"
+	},
+	{
+	    "n": "Music Sharp Sign",
+		"s": "music-sharp-sign",
+		"u": "U+0266F",
+		"x": "#x266F;",
+		"h": "#9839;",
+		"e": "sharp;"
+	},
+	{
+	    "n": "West Syriac Cross",
+		"s": "west-syriac-cross",
+		"u": "U+02670",
+		"x": "#x2670;",
+		"h": "#9840;",
+		"e": ""
+	},
+	{
+	    "n": "East Syriac Cross",
+		"s": "east-syriac-cross",
+		"u": "U+02671",
+		"x": "#x2671;",
+		"h": "#9841;",
+		"e": ""
+	},
+	{
+	    "n": "Universal Recycling Symbol",
+		"s": "universal-recycling-symbol",
+		"u": "U+02672",
+		"x": "#x2672;",
+		"h": "#9842;",
+		"e": ""
+	},
+	{
+	    "n": "Recycling Symbol for Type-1 Plastics",
+		"s": "recycling-symbol-for-type-1-plastics",
+		"u": "U+02673",
+		"x": "#x2673;",
+		"h": "#9843;",
+		"e": ""
+	},
+	{
+	    "n": "Recycling Symbol for Type-2 Plastics",
+		"s": "recycling-symbol-for-type-2-plastics",
+		"u": "U+02674",
+		"x": "#x2674;",
+		"h": "#9844;",
+		"e": ""
+	},
+	{
+	    "n": "Recycling Symbol for Type-3 Plastics",
+		"s": "recycling-symbol-for-type-3-plastics",
+		"u": "U+02675",
+		"x": "#x2675;",
+		"h": "#9845;",
+		"e": ""
+	},
+	{
+	    "n": "Recycling Symbol for Type-4 Plastics",
+		"s": "recycling-symbol-for-type-4-plastics",
+		"u": "U+02676",
+		"x": "#x2676;",
+		"h": "#9846;",
+		"e": ""
+	},
+	{
+	    "n": "Recycling Symbol for Type-5 Plastics",
+		"s": "recycling-symbol-for-type-5-plastics",
+		"u": "U+02677",
+		"x": "#x2677;",
+		"h": "#9847;",
+		"e": ""
+	},
+	{
+	    "n": "Recycling Symbol for Type-6 Plastics",
+		"s": "recycling-symbol-for-type-6-plastics",
+		"u": "U+02678",
+		"x": "#x2678;",
+		"h": "#9848;",
+		"e": ""
+	},
+	{
+	    "n": "Recycling Symbol for Type-7 Plastics",
+		"s": "recycling-symbol-for-type-7-plastics",
+		"u": "U+02679",
+		"x": "#x2679;",
+		"h": "#9849;",
+		"e": ""
+	},
+	{
+	    "n": "Recycling Symbol for Generic Materials",
+		"s": "recycling-symbol-for-generic-materials",
+		"u": "U+0267A",
+		"x": "#x267A;",
+		"h": "#9850;",
+		"e": ""
+	},
+	{
+	    "n": "Black Universal Recycling Symbol",
+		"s": "black-universal-recycling-symbol",
+		"u": "U+0267B",
+		"x": "#x267B;",
+		"h": "#9851;",
+		"e": ""
+	},
+	{
+	    "n": "Recycled Paper Symbol",
+		"s": "recycled-paper-symbol",
+		"u": "U+0267C",
+		"x": "#x267C;",
+		"h": "#9852;",
+		"e": ""
+	},
+	{
+	    "n": "Partially-Recycled Paper Symbol",
+		"s": "partially-recycled-paper-symbol",
+		"u": "U+0267D",
+		"x": "#x267D;",
+		"h": "#9853;",
+		"e": ""
+	},
+	{
+	    "n": "Permanent Paper Sign",
+		"s": "permanent-paper-sign",
+		"u": "U+0267E",
+		"x": "#x267E;",
+		"h": "#9854;",
+		"e": ""
+	},
+	{
+	    "n": "Die Face-1",
+		"s": "die-face-1",
+		"u": "U+02680",
+		"x": "#x2680;",
+		"h": "#9856;",
+		"e": ""
+	},
+	{
+	    "n": "Die Face-2",
+		"s": "die-face-2",
+		"u": "U+02681",
+		"x": "#x2681;",
+		"h": "#9857;",
+		"e": ""
+	},
+	{
+	    "n": "Die Face-3",
+		"s": "die-face-3",
+		"u": "U+02682",
+		"x": "#x2682;",
+		"h": "#9858;",
+		"e": ""
+	},
+	{
+	    "n": "Die Face-4",
+		"s": "die-face-4",
+		"u": "U+02683",
+		"x": "#x2683;",
+		"h": "#9859;",
+		"e": ""
+	},
+	{
+	    "n": "Die Face-5",
+		"s": "die-face-5",
+		"u": "U+02684",
+		"x": "#x2684;",
+		"h": "#9860;",
+		"e": ""
+	},
+	{
+	    "n": "Die Face-6",
+		"s": "die-face-6",
+		"u": "U+02685",
+		"x": "#x2685;",
+		"h": "#9861;",
+		"e": ""
+	},
+	{
+	    "n": "White Circle With Dot Right",
+		"s": "white-circle-with-dot-right",
+		"u": "U+02686",
+		"x": "#x2686;",
+		"h": "#9862;",
+		"e": ""
+	},
+	{
+	    "n": "White Circle With Two Dots",
+		"s": "white-circle-with-two-dots",
+		"u": "U+02687",
+		"x": "#x2687;",
+		"h": "#9863;",
+		"e": ""
+	},
+	{
+	    "n": "Black Circle With White Dot Right",
+		"s": "black-circle-with-white-dot-right",
+		"u": "U+02688",
+		"x": "#x2688;",
+		"h": "#9864;",
+		"e": ""
+	},
+	{
+	    "n": "Black Circle With Two White Dots",
+		"s": "black-circle-with-two-white-dots",
+		"u": "U+02689",
+		"x": "#x2689;",
+		"h": "#9865;",
+		"e": ""
+	},
+	{
+	    "n": "Monogram for Yang",
+		"s": "monogram-for-yang",
+		"u": "U+0268A",
+		"x": "#x268A;",
+		"h": "#9866;",
+		"e": ""
+	},
+	{
+	    "n": "Monogram for Yin",
+		"s": "monogram-for-yin",
+		"u": "U+0268B",
+		"x": "#x268B;",
+		"h": "#9867;",
+		"e": ""
+	},
+	{
+	    "n": "Digram for Greater Yang",
+		"s": "digram-for-greater-yang",
+		"u": "U+0268C",
+		"x": "#x268C;",
+		"h": "#9868;",
+		"e": ""
+	},
+	{
+	    "n": "Digram for Lesser Yin",
+		"s": "digram-for-lesser-yin",
+		"u": "U+0268D",
+		"x": "#x268D;",
+		"h": "#9869;",
+		"e": ""
+	},
+	{
+	    "n": "Digram for Lesser Yang",
+		"s": "digram-for-lesser-yang",
+		"u": "U+0268E",
+		"x": "#x268E;",
+		"h": "#9870;",
+		"e": ""
+	},
+	{
+	    "n": "Digram for Greater Yin",
+		"s": "digram-for-greater-yin",
+		"u": "U+0268F",
+		"x": "#x268F;",
+		"h": "#9871;",
+		"e": ""
+	},
+	{
+	    "n": "White Flag",
+		"s": "white-flag",
+		"u": "U+02690",
+		"x": "#x2690;",
+		"h": "#9872;",
+		"e": ""
+	},
+	{
+	    "n": "Black Flag",
+		"s": "black-flag",
+		"u": "U+02691",
+		"x": "#x2691;",
+		"h": "#9873;",
+		"e": ""
+	},
+	{
+	    "n": "Hammer and Pick",
+		"s": "hammer-and-pick",
+		"u": "U+02692",
+		"x": "#x2692;",
+		"h": "#9874;",
+		"e": ""
+	},
+	{
+	    "n": "Crossed Swords",
+		"s": "crossed-swords",
+		"u": "U+02694",
+		"x": "#x2694;",
+		"h": "#9876;",
+		"e": ""
+	},
+	{
+	    "n": "Staff of Aesculapius",
+		"s": "staff-of-aesculapius",
+		"u": "U+02695",
+		"x": "#x2695;",
+		"h": "#9877;",
+		"e": ""
+	},
+	{
+	    "n": "Scales",
+		"s": "scales",
+		"u": "U+02696",
+		"x": "#x2696;",
+		"h": "#9878;",
+		"e": ""
+	},
+	{
+	    "n": "Alembic",
+		"s": "alembic",
+		"u": "U+02697",
+		"x": "#x2697;",
+		"h": "#9879;",
+		"e": ""
+	},
+	{
+	    "n": "Flower",
+		"s": "flower",
+		"u": "U+02698",
+		"x": "#x2698;",
+		"h": "#9880;",
+		"e": ""
+	},
+	{
+	    "n": "Gear",
+		"s": "gear",
+		"u": "U+02699",
+		"x": "#x2699;",
+		"h": "#9881;",
+		"e": ""
+	},
+	{
+	    "n": "Staff of Hermes",
+		"s": "staff-of-hermes",
+		"u": "U+0269A",
+		"x": "#x269A;",
+		"h": "#9882;",
+		"e": ""
+	},
+	{
+	    "n": "Atom Symbol",
+		"s": "atom-symbol",
+		"u": "U+0269B",
+		"x": "#x269B;",
+		"h": "#9883;",
+		"e": ""
+	},
+	{
+	    "n": "Fleur-De-Lis",
+		"s": "fleur-de-lis",
+		"u": "U+0269C",
+		"x": "#x269C;",
+		"h": "#9884;",
+		"e": ""
+	},
+	{
+	    "n": "Outlined White Star",
+		"s": "outlined-white-star",
+		"u": "U+0269D",
+		"x": "#x269D;",
+		"h": "#9885;",
+		"e": ""
+	},
+	{
+	    "n": "Three Lines Converging Right",
+		"s": "three-lines-converging-right",
+		"u": "U+0269E",
+		"x": "#x269E;",
+		"h": "#9886;",
+		"e": ""
+	},
+	{
+	    "n": "Three Lines Converging Left",
+		"s": "three-lines-converging-left",
+		"u": "U+0269F",
+		"x": "#x269F;",
+		"h": "#9887;",
+		"e": ""
+	},
+	{
+	    "n": "Warning Sign",
+		"s": "warning-sign",
+		"u": "U+026A0",
+		"x": "#x26A0;",
+		"h": "#9888;",
+		"e": ""
+	},
+	{
+	    "n": "Doubled Female Sign",
+		"s": "doubled-female-sign",
+		"u": "U+026A2",
+		"x": "#x26A2;",
+		"h": "#9890;",
+		"e": ""
+	},
+	{
+	    "n": "Doubled Male Sign",
+		"s": "doubled-male-sign",
+		"u": "U+026A3",
+		"x": "#x26A3;",
+		"h": "#9891;",
+		"e": ""
+	},
+	{
+	    "n": "Interlocked Female and Male Sign",
+		"s": "interlocked-female-and-male-sign",
+		"u": "U+026A4",
+		"x": "#x26A4;",
+		"h": "#9892;",
+		"e": ""
+	},
+	{
+	    "n": "Male and Female Sign",
+		"s": "male-and-female-sign",
+		"u": "U+026A5",
+		"x": "#x26A5;",
+		"h": "#9893;",
+		"e": ""
+	},
+	{
+	    "n": "Male With Stroke Sign",
+		"s": "male-with-stroke-sign",
+		"u": "U+026A6",
+		"x": "#x26A6;",
+		"h": "#9894;",
+		"e": ""
+	},
+	{
+	    "n": "Male With Stroke and Male and Female Sign",
+		"s": "male-with-stroke-and-male-and-female-sign",
+		"u": "U+026A7",
+		"x": "#x26A7;",
+		"h": "#9895;",
+		"e": ""
+	},
+	{
+	    "n": "Vertical Male With Stroke Sign",
+		"s": "vertical-male-with-stroke-sign",
+		"u": "U+026A8",
+		"x": "#x26A8;",
+		"h": "#9896;",
+		"e": ""
+	},
+	{
+	    "n": "Horizontal Male With Stroke Sign",
+		"s": "horizontal-male-with-stroke-sign",
+		"u": "U+026A9",
+		"x": "#x26A9;",
+		"h": "#9897;",
+		"e": ""
+	},
+	{
+	    "n": "Medium Small White Circle",
+		"s": "medium-small-white-circle",
+		"u": "U+026AC",
+		"x": "#x26AC;",
+		"h": "#9900;",
+		"e": ""
+	},
+	{
+	    "n": "Marriage Symbol",
+		"s": "marriage-symbol",
+		"u": "U+026AD",
+		"x": "#x26AD;",
+		"h": "#9901;",
+		"e": ""
+	},
+	{
+	    "n": "Divorce Symbol",
+		"s": "divorce-symbol",
+		"u": "U+026AE",
+		"x": "#x26AE;",
+		"h": "#9902;",
+		"e": ""
+	},
+	{
+	    "n": "Unmarried Partnership Symbol",
+		"s": "unmarried-partnership-symbol",
+		"u": "U+026AF",
+		"x": "#x26AF;",
+		"h": "#9903;",
+		"e": ""
+	},
+	{
+	    "n": "Coffin",
+		"s": "coffin",
+		"u": "U+026B0",
+		"x": "#x26B0;",
+		"h": "#9904;",
+		"e": ""
+	},
+	{
+	    "n": "Funeral Urn",
+		"s": "funeral-urn",
+		"u": "U+026B1",
+		"x": "#x26B1;",
+		"h": "#9905;",
+		"e": ""
+	},
+	{
+	    "n": "Neuter",
+		"s": "neuter",
+		"u": "U+026B2",
+		"x": "#x26B2;",
+		"h": "#9906;",
+		"e": ""
+	},
+	{
+	    "n": "Baseball",
+		"s": "baseball",
+		"u": "U+026BE",
+		"x": "#x26BE;",
+		"h": "#9918;",
+		"e": ""
+	},
+	{
+	    "n": "Astronomical Symbol for Uranus",
+		"s": "astronomical-symbol-for-uranus",
+		"u": "U+026E2",
+		"x": "#x26E2;",
+		"h": "#9954;",
+		"e": ""
+	},
+	{
+	    "n": "Upper Blade Scissors",
+		"s": "upper-blade-scissors",
+		"u": "U+02701",
+		"x": "#x2701;",
+		"h": "#9985;",
+		"e": ""
+	},
+	{
+	    "n": "Black Scissors",
+		"s": "black-scissors",
+		"u": "U+02702",
+		"x": "#x2702;",
+		"h": "#9986;",
+		"e": ""
+	},
+	{
+	    "n": "Lower Blade Scissors",
+		"s": "lower-blade-scissors",
+		"u": "U+02703",
+		"x": "#x2703;",
+		"h": "#9987;",
+		"e": ""
+	},
+	{
+	    "n": "White Scissors",
+		"s": "white-scissors",
+		"u": "U+02704",
+		"x": "#x2704;",
+		"h": "#9988;",
+		"e": ""
+	},
+	{
+	    "n": "Telephone Location Sign",
+		"s": "telephone-location-sign",
+		"u": "U+02706",
+		"x": "#x2706;",
+		"h": "#9990;",
+		"e": ""
+	},
+	{
+	    "n": "Tape Drive",
+		"s": "tape-drive",
+		"u": "U+02707",
+		"x": "#x2707;",
+		"h": "#9991;",
+		"e": ""
+	},
+	{
+	    "n": "Airplane",
+		"s": "airplane",
+		"u": "U+02708",
+		"x": "#x2708;",
+		"h": "#9992;",
+		"e": ""
+	},
+	{
+	    "n": "Envelope",
+		"s": "envelope",
+		"u": "U+02709",
+		"x": "#x2709;",
+		"h": "#9993;",
+		"e": ""
+	},
+	{
+	    "n": "Victory Hand",
+		"s": "victory-hand",
+		"u": "U+0270C",
+		"x": "#x270C;",
+		"h": "#9996;",
+		"e": ""
+	},
+	{
+	    "n": "Writing Hand",
+		"s": "writing-hand",
+		"u": "U+0270D",
+		"x": "#x270D;",
+		"h": "#9997;",
+		"e": ""
+	},
+	{
+	    "n": "Lower Right Pencil",
+		"s": "lower-right-pencil",
+		"u": "U+0270E",
+		"x": "#x270E;",
+		"h": "#9998;",
+		"e": ""
+	},
+	{
+	    "n": "Pencil",
+		"s": "pencil",
+		"u": "U+0270F",
+		"x": "#x270F;",
+		"h": "#9999;",
+		"e": ""
+	},
+	{
+	    "n": "Upper Right Pencil",
+		"s": "upper-right-pencil",
+		"u": "U+02710",
+		"x": "#x2710;",
+		"h": "#10000;",
+		"e": ""
+	},
+	{
+	    "n": "White Nib",
+		"s": "white-nib",
+		"u": "U+02711",
+		"x": "#x2711;",
+		"h": "#10001;",
+		"e": ""
+	},
+	{
+	    "n": "Black Nib",
+		"s": "black-nib",
+		"u": "U+02712",
+		"x": "#x2712;",
+		"h": "#10002;",
+		"e": ""
+	},
+	{
+	    "n": "Check Mark",
+		"s": "check-mark",
+		"u": "U+02713",
+		"x": "#x2713;",
+		"h": "#10003;",
+		"e": "check;"
+	},
+	{
+	    "n": "Heavy Check Mark",
+		"s": "heavy-check-mark",
+		"u": "U+02714",
+		"x": "#x2714;",
+		"h": "#10004;",
+		"e": ""
+	},
+	{
+	    "n": "Multiplication X",
+		"s": "multiplication-x",
+		"u": "U+02715",
+		"x": "#x2715;",
+		"h": "#10005;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Multiplication X",
+		"s": "heavy-multiplication-x",
+		"u": "U+02716",
+		"x": "#x2716;",
+		"h": "#10006;",
+		"e": ""
+	},
+	{
+	    "n": "Ballot X",
+		"s": "ballot-x",
+		"u": "U+02717",
+		"x": "#x2717;",
+		"h": "#10007;",
+		"e": "cross;"
+	},
+	{
+	    "n": "Heavy Ballot X",
+		"s": "heavy-ballot-x",
+		"u": "U+02718",
+		"x": "#x2718;",
+		"h": "#10008;",
+		"e": ""
+	},
+	{
+	    "n": "Outlined Greek Cross",
+		"s": "outlined-greek-cross",
+		"u": "U+02719",
+		"x": "#x2719;",
+		"h": "#10009;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Greek Cross",
+		"s": "heavy-greek-cross",
+		"u": "U+0271A",
+		"x": "#x271A;",
+		"h": "#10010;",
+		"e": ""
+	},
+	{
+	    "n": "Open Centre Cross",
+		"s": "open-centre-cross",
+		"u": "U+0271B",
+		"x": "#x271B;",
+		"h": "#10011;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Open Centre Cross",
+		"s": "heavy-open-centre-cross",
+		"u": "U+0271C",
+		"x": "#x271C;",
+		"h": "#10012;",
+		"e": ""
+	},
+	{
+	    "n": "Latin Cross",
+		"s": "latin-cross",
+		"u": "U+0271D",
+		"x": "#x271D;",
+		"h": "#10013;",
+		"e": ""
+	},
+	{
+	    "n": "Shadowed White Latin Cross",
+		"s": "shadowed-white-latin-cross",
+		"u": "U+0271E",
+		"x": "#x271E;",
+		"h": "#10014;",
+		"e": ""
+	},
+	{
+	    "n": "Outlined Latin Cross",
+		"s": "outlined-latin-cross",
+		"u": "U+0271F",
+		"x": "#x271F;",
+		"h": "#10015;",
+		"e": ""
+	},
+	{
+	    "n": "Maltese Cross",
+		"s": "maltese-cross",
+		"u": "U+02720",
+		"x": "#x2720;",
+		"h": "#10016;",
+		"e": "malt;"
+	},
+	{
+	    "n": "Star of David",
+		"s": "star-of-david",
+		"u": "U+02721",
+		"x": "#x2721;",
+		"h": "#10017;",
+		"e": ""
+	},
+	{
+	    "n": "Four Teardrop-Spoked Asterisk",
+		"s": "four-teardrop-spoked-asterisk",
+		"u": "U+02722",
+		"x": "#x2722;",
+		"h": "#10018;",
+		"e": ""
+	},
+	{
+	    "n": "Four Balloon-Spoked Asterisk",
+		"s": "four-balloon-spoked-asterisk",
+		"u": "U+02723",
+		"x": "#x2723;",
+		"h": "#10019;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Four Balloon-Spoked Asterisk",
+		"s": "heavy-four-balloon-spoked-asterisk",
+		"u": "U+02724",
+		"x": "#x2724;",
+		"h": "#10020;",
+		"e": ""
+	},
+	{
+	    "n": "Four Club-Spoked Asterisk",
+		"s": "four-club-spoked-asterisk",
+		"u": "U+02725",
+		"x": "#x2725;",
+		"h": "#10021;",
+		"e": ""
+	},
+	{
+	    "n": "Black Four Pointed Star",
+		"s": "black-four-pointed-star",
+		"u": "U+02726",
+		"x": "#x2726;",
+		"h": "#10022;",
+		"e": ""
+	},
+	{
+	    "n": "White Four Pointed Star",
+		"s": "white-four-pointed-star",
+		"u": "U+02727",
+		"x": "#x2727;",
+		"h": "#10023;",
+		"e": ""
+	},
+	{
+	    "n": "Stress Outlined White Star",
+		"s": "stress-outlined-white-star",
+		"u": "U+02729",
+		"x": "#x2729;",
+		"h": "#10025;",
+		"e": ""
+	},
+	{
+	    "n": "Circled White Star",
+		"s": "circled-white-star",
+		"u": "U+0272A",
+		"x": "#x272A;",
+		"h": "#10026;",
+		"e": ""
+	},
+	{
+	    "n": "Open Centre Black Star",
+		"s": "open-centre-black-star",
+		"u": "U+0272B",
+		"x": "#x272B;",
+		"h": "#10027;",
+		"e": ""
+	},
+	{
+	    "n": "Black Centre White Star",
+		"s": "black-centre-white-star",
+		"u": "U+0272C",
+		"x": "#x272C;",
+		"h": "#10028;",
+		"e": ""
+	},
+	{
+	    "n": "Outlined Black Star",
+		"s": "outlined-black-star",
+		"u": "U+0272D",
+		"x": "#x272D;",
+		"h": "#10029;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Outlined Black Star",
+		"s": "heavy-outlined-black-star",
+		"u": "U+0272E",
+		"x": "#x272E;",
+		"h": "#10030;",
+		"e": ""
+	},
+	{
+	    "n": "Pinwheel Star",
+		"s": "pinwheel-star",
+		"u": "U+0272F",
+		"x": "#x272F;",
+		"h": "#10031;",
+		"e": ""
+	},
+	{
+	    "n": "Shadowed White Star",
+		"s": "shadowed-white-star",
+		"u": "U+02730",
+		"x": "#x2730;",
+		"h": "#10032;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Asterisk",
+		"s": "heavy-asterisk",
+		"u": "U+02731",
+		"x": "#x2731;",
+		"h": "#10033;",
+		"e": ""
+	},
+	{
+	    "n": "Open Centre Asterisk",
+		"s": "open-centre-asterisk",
+		"u": "U+02732",
+		"x": "#x2732;",
+		"h": "#10034;",
+		"e": ""
+	},
+	{
+	    "n": "Eight Spoked Asterisk",
+		"s": "eight-spoked-asterisk",
+		"u": "U+02733",
+		"x": "#x2733;",
+		"h": "#10035;",
+		"e": ""
+	},
+	{
+	    "n": "Eight Pointed Black Star",
+		"s": "eight-pointed-black-star",
+		"u": "U+02734",
+		"x": "#x2734;",
+		"h": "#10036;",
+		"e": ""
+	},
+	{
+	    "n": "Eight Pointed Pinwheel Star",
+		"s": "eight-pointed-pinwheel-star",
+		"u": "U+02735",
+		"x": "#x2735;",
+		"h": "#10037;",
+		"e": ""
+	},
+	{
+	    "n": "Six Pointed Black Star",
+		"s": "six-pointed-black-star",
+		"u": "U+02736",
+		"x": "#x2736;",
+		"h": "#10038;",
+		"e": "sext;"
+	},
+	{
+	    "n": "Eight Pointed Rectilinear Black Star",
+		"s": "eight-pointed-rectilinear-black-star",
+		"u": "U+02737",
+		"x": "#x2737;",
+		"h": "#10039;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Eight Pointed Rectilinear Black Star",
+		"s": "heavy-eight-pointed-rectilinear-black-star",
+		"u": "U+02738",
+		"x": "#x2738;",
+		"h": "#10040;",
+		"e": ""
+	},
+	{
+	    "n": "Twelve Pointed Black Star",
+		"s": "twelve-pointed-black-star",
+		"u": "U+02739",
+		"x": "#x2739;",
+		"h": "#10041;",
+		"e": ""
+	},
+	{
+	    "n": "Sixteen Pointed Asterisk",
+		"s": "sixteen-pointed-asterisk",
+		"u": "U+0273A",
+		"x": "#x273A;",
+		"h": "#10042;",
+		"e": ""
+	},
+	{
+	    "n": "Teardrop-Spoked Asterisk",
+		"s": "teardrop-spoked-asterisk",
+		"u": "U+0273B",
+		"x": "#x273B;",
+		"h": "#10043;",
+		"e": ""
+	},
+	{
+	    "n": "Open Centre Teardrop-Spoked Asterisk",
+		"s": "open-centre-teardrop-spoked-asterisk",
+		"u": "U+0273C",
+		"x": "#x273C;",
+		"h": "#10044;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Teardrop-Spoked Asterisk",
+		"s": "heavy-teardrop-spoked-asterisk",
+		"u": "U+0273D",
+		"x": "#x273D;",
+		"h": "#10045;",
+		"e": ""
+	},
+	{
+	    "n": "Six Petalled Black and White Florette",
+		"s": "six-petalled-black-and-white-florette",
+		"u": "U+0273E",
+		"x": "#x273E;",
+		"h": "#10046;",
+		"e": ""
+	},
+	{
+	    "n": "Black Florette",
+		"s": "black-florette",
+		"u": "U+0273F",
+		"x": "#x273F;",
+		"h": "#10047;",
+		"e": ""
+	},
+	{
+	    "n": "White Florette",
+		"s": "white-florette",
+		"u": "U+02740",
+		"x": "#x2740;",
+		"h": "#10048;",
+		"e": ""
+	},
+	{
+	    "n": "Eight Petalled Outlined Black Florette",
+		"s": "eight-petalled-outlined-black-florette",
+		"u": "U+02741",
+		"x": "#x2741;",
+		"h": "#10049;",
+		"e": ""
+	},
+	{
+	    "n": "Circled Open Centre Eight Pointed Star",
+		"s": "circled-open-centre-eight-pointed-star",
+		"u": "U+02742",
+		"x": "#x2742;",
+		"h": "#10050;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Teardrop-Spoked Pinwheel Asterisk",
+		"s": "heavy-teardrop-spoked-pinwheel-asterisk",
+		"u": "U+02743",
+		"x": "#x2743;",
+		"h": "#10051;",
+		"e": ""
+	},
+	{
+	    "n": "Snowflake",
+		"s": "snowflake",
+		"u": "U+02744",
+		"x": "#x2744;",
+		"h": "#10052;",
+		"e": ""
+	},
+	{
+	    "n": "Tight Trifoliate Snowflake",
+		"s": "tight-trifoliate-snowflake",
+		"u": "U+02745",
+		"x": "#x2745;",
+		"h": "#10053;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Chevron Snowflake",
+		"s": "heavy-chevron-snowflake",
+		"u": "U+02746",
+		"x": "#x2746;",
+		"h": "#10054;",
+		"e": ""
+	},
+	{
+	    "n": "Sparkle",
+		"s": "sparkle",
+		"u": "U+02747",
+		"x": "#x2747;",
+		"h": "#10055;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Sparkle",
+		"s": "heavy-sparkle",
+		"u": "U+02748",
+		"x": "#x2748;",
+		"h": "#10056;",
+		"e": ""
+	},
+	{
+	    "n": "Balloon-Spoked Asterisk",
+		"s": "balloon-spoked-asterisk",
+		"u": "U+02749",
+		"x": "#x2749;",
+		"h": "#10057;",
+		"e": ""
+	},
+	{
+	    "n": "Eight Teardrop-Spoked Propeller Asterisk",
+		"s": "eight-teardrop-spoked-propeller-asterisk",
+		"u": "U+0274A",
+		"x": "#x274A;",
+		"h": "#10058;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Eight Teardrop-Spoked Propeller Asterisk",
+		"s": "heavy-eight-teardrop-spoked-propeller-asterisk",
+		"u": "U+0274B",
+		"x": "#x274B;",
+		"h": "#10059;",
+		"e": ""
+	},
+	{
+	    "n": "Shadowed White Circle",
+		"s": "shadowed-white-circle",
+		"u": "U+0274D",
+		"x": "#x274D;",
+		"h": "#10061;",
+		"e": ""
+	},
+	{
+	    "n": "Lower Right Drop-Shadowed White Square",
+		"s": "lower-right-drop-shadowed-white-square",
+		"u": "U+0274F",
+		"x": "#x274F;",
+		"h": "#10063;",
+		"e": ""
+	},
+	{
+	    "n": "Upper Right Drop-Shadowed White Square",
+		"s": "upper-right-drop-shadowed-white-square",
+		"u": "U+02750",
+		"x": "#x2750;",
+		"h": "#10064;",
+		"e": ""
+	},
+	{
+	    "n": "Lower Right Shadowed White Square",
+		"s": "lower-right-shadowed-white-square",
+		"u": "U+02751",
+		"x": "#x2751;",
+		"h": "#10065;",
+		"e": ""
+	},
+	{
+	    "n": "Upper Right Shadowed White Square",
+		"s": "upper-right-shadowed-white-square",
+		"u": "U+02752",
+		"x": "#x2752;",
+		"h": "#10066;",
+		"e": ""
+	},
+	{
+	    "n": "Black Diamond Minus White X",
+		"s": "black-diamond-minus-white-x",
+		"u": "U+02756",
+		"x": "#x2756;",
+		"h": "#10070;",
+		"e": ""
+	},
+	{
+	    "n": "Light Vertical Bar",
+		"s": "light-vertical-bar",
+		"u": "U+02758",
+		"x": "#x2758;",
+		"h": "#10072;",
+		"e": "VerticalSeparator;"
+	},
+	{
+	    "n": "Medium Vertical Bar",
+		"s": "medium-vertical-bar",
+		"u": "U+02759",
+		"x": "#x2759;",
+		"h": "#10073;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Vertical Bar",
+		"s": "heavy-vertical-bar",
+		"u": "U+0275A",
+		"x": "#x275A;",
+		"h": "#10074;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Single Turned Comma Quotation Mark Ornament",
+		"s": "heavy-single-turned-comma-quotation-mark-ornament",
+		"u": "U+0275B",
+		"x": "#x275B;",
+		"h": "#10075;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Single Comma Quotation Mark Ornament",
+		"s": "heavy-single-comma-quotation-mark-ornament",
+		"u": "U+0275C",
+		"x": "#x275C;",
+		"h": "#10076;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Double Turned Comma Quotation Mark Ornament",
+		"s": "heavy-double-turned-comma-quotation-mark-ornament",
+		"u": "U+0275D",
+		"x": "#x275D;",
+		"h": "#10077;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Double Comma Quotation Mark Ornament",
+		"s": "heavy-double-comma-quotation-mark-ornament",
+		"u": "U+0275E",
+		"x": "#x275E;",
+		"h": "#10078;",
+		"e": ""
+	},
+	{
+	    "n": "Curved Stem Paragraph Sign Ornament",
+		"s": "curved-stem-paragraph-sign-ornament",
+		"u": "U+02761",
+		"x": "#x2761;",
+		"h": "#10081;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Exclamation Mark Ornament",
+		"s": "heavy-exclamation-mark-ornament",
+		"u": "U+02762",
+		"x": "#x2762;",
+		"h": "#10082;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Heart Exclamation Mark Ornament",
+		"s": "heavy-heart-exclamation-mark-ornament",
+		"u": "U+02763",
+		"x": "#x2763;",
+		"h": "#10083;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Black Heart",
+		"s": "heavy-black-heart",
+		"u": "U+02764",
+		"x": "#x2764;",
+		"h": "#10084;",
+		"e": ""
+	},
+	{
+	    "n": "Rotated Heavy Black Heart Bullet",
+		"s": "rotated-heavy-black-heart-bullet",
+		"u": "U+02765",
+		"x": "#x2765;",
+		"h": "#10085;",
+		"e": ""
+	},
+	{
+	    "n": "Floral Heart",
+		"s": "floral-heart",
+		"u": "U+02766",
+		"x": "#x2766;",
+		"h": "#10086;",
+		"e": ""
+	},
+	{
+	    "n": "Rotated Floral Heart Bullet",
+		"s": "rotated-floral-heart-bullet",
+		"u": "U+02767",
+		"x": "#x2767;",
+		"h": "#10087;",
+		"e": ""
+	},
+	{
+	    "n": "Medium Left Parenthesis Ornament",
+		"s": "medium-left-parenthesis-ornament",
+		"u": "U+02768",
+		"x": "#x2768;",
+		"h": "#10088;",
+		"e": ""
+	},
+	{
+	    "n": "Medium Right Parenthesis Ornament",
+		"s": "medium-right-parenthesis-ornament",
+		"u": "U+02769",
+		"x": "#x2769;",
+		"h": "#10089;",
+		"e": ""
+	},
+	{
+	    "n": "Medium Flattened Left Parenthesis Ornament",
+		"s": "medium-flattened-left-parenthesis-ornament",
+		"u": "U+0276A",
+		"x": "#x276A;",
+		"h": "#10090;",
+		"e": ""
+	},
+	{
+	    "n": "Medium Flattened Right Parenthesis Ornament",
+		"s": "medium-flattened-right-parenthesis-ornament",
+		"u": "U+0276B",
+		"x": "#x276B;",
+		"h": "#10091;",
+		"e": ""
+	},
+	{
+	    "n": "Medium Left-Pointing Angle Bracket Ornament",
+		"s": "medium-left-pointing-angle-bracket-ornament",
+		"u": "U+0276C",
+		"x": "#x276C;",
+		"h": "#10092;",
+		"e": ""
+	},
+	{
+	    "n": "Medium Right-Pointing Angle Bracket Ornament",
+		"s": "medium-right-pointing-angle-bracket-ornament",
+		"u": "U+0276D",
+		"x": "#x276D;",
+		"h": "#10093;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Left-Pointing Angle Quotation Mark Ornament",
+		"s": "heavy-left-pointing-angle-quotation-mark-ornament",
+		"u": "U+0276E",
+		"x": "#x276E;",
+		"h": "#10094;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Right-Pointing Angle Quotation Mark Ornament",
+		"s": "heavy-right-pointing-angle-quotation-mark-ornament",
+		"u": "U+0276F",
+		"x": "#x276F;",
+		"h": "#10095;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Left-Pointing Angle Bracket Ornament",
+		"s": "heavy-left-pointing-angle-bracket-ornament",
+		"u": "U+02770",
+		"x": "#x2770;",
+		"h": "#10096;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Right-Pointing Angle Bracket Ornament",
+		"s": "heavy-right-pointing-angle-bracket-ornament",
+		"u": "U+02771",
+		"x": "#x2771;",
+		"h": "#10097;",
+		"e": ""
+	},
+	{
+	    "n": "Light Left Tortoise Shell Bracket Ornament",
+		"s": "light-left-tortoise-shell-bracket-ornament",
+		"u": "U+02772",
+		"x": "#x2772;",
+		"h": "#10098;",
+		"e": "lbbrk;"
+	},
+	{
+	    "n": "Light Right Tortoise Shell Bracket Ornament",
+		"s": "light-right-tortoise-shell-bracket-ornament",
+		"u": "U+02773",
+		"x": "#x2773;",
+		"h": "#10099;",
+		"e": "rbbrk;"
+	},
+	{
+	    "n": "Medium Left Curly Bracket Ornament",
+		"s": "medium-left-curly-bracket-ornament",
+		"u": "U+02774",
+		"x": "#x2774;",
+		"h": "#10100;",
+		"e": ""
+	},
+	{
+	    "n": "Medium Right Curly Bracket Ornament",
+		"s": "medium-right-curly-bracket-ornament",
+		"u": "U+02775",
+		"x": "#x2775;",
+		"h": "#10101;",
+		"e": ""
+	},
+	{
+	    "n": "Dingbat Negative Circled Digit One",
+		"s": "dingbat-negative-circled-digit-one",
+		"u": "U+02776",
+		"x": "#x2776;",
+		"h": "#10102;",
+		"e": ""
+	},
+	{
+	    "n": "Dingbat Negative Circled Digit Two",
+		"s": "dingbat-negative-circled-digit-two",
+		"u": "U+02777",
+		"x": "#x2777;",
+		"h": "#10103;",
+		"e": ""
+	},
+	{
+	    "n": "Dingbat Negative Circled Digit Three",
+		"s": "dingbat-negative-circled-digit-three",
+		"u": "U+02778",
+		"x": "#x2778;",
+		"h": "#10104;",
+		"e": ""
+	},
+	{
+	    "n": "Dingbat Negative Circled Digit Four",
+		"s": "dingbat-negative-circled-digit-four",
+		"u": "U+02779",
+		"x": "#x2779;",
+		"h": "#10105;",
+		"e": ""
+	},
+	{
+	    "n": "Dingbat Negative Circled Digit Five",
+		"s": "dingbat-negative-circled-digit-five",
+		"u": "U+0277A",
+		"x": "#x277A;",
+		"h": "#10106;",
+		"e": ""
+	},
+	{
+	    "n": "Dingbat Negative Circled Digit Six",
+		"s": "dingbat-negative-circled-digit-six",
+		"u": "U+0277B",
+		"x": "#x277B;",
+		"h": "#10107;",
+		"e": ""
+	},
+	{
+	    "n": "Dingbat Negative Circled Digit Seven",
+		"s": "dingbat-negative-circled-digit-seven",
+		"u": "U+0277C",
+		"x": "#x277C;",
+		"h": "#10108;",
+		"e": ""
+	},
+	{
+	    "n": "Dingbat Negative Circled Digit Eight",
+		"s": "dingbat-negative-circled-digit-eight",
+		"u": "U+0277D",
+		"x": "#x277D;",
+		"h": "#10109;",
+		"e": ""
+	},
+	{
+	    "n": "Dingbat Negative Circled Digit Nine",
+		"s": "dingbat-negative-circled-digit-nine",
+		"u": "U+0277E",
+		"x": "#x277E;",
+		"h": "#10110;",
+		"e": ""
+	},
+	{
+	    "n": "Dingbat Negative Circled Number Ten",
+		"s": "dingbat-negative-circled-number-ten",
+		"u": "U+0277F",
+		"x": "#x277F;",
+		"h": "#10111;",
+		"e": ""
+	},
+	{
+	    "n": "Dingbat Circled Sans-Serif Digit One",
+		"s": "dingbat-circled-sans-serif-digit-one",
+		"u": "U+02780",
+		"x": "#x2780;",
+		"h": "#10112;",
+		"e": ""
+	},
+	{
+	    "n": "Dingbat Circled Sans-Serif Digit Two",
+		"s": "dingbat-circled-sans-serif-digit-two",
+		"u": "U+02781",
+		"x": "#x2781;",
+		"h": "#10113;",
+		"e": ""
+	},
+	{
+	    "n": "Dingbat Circled Sans-Serif Digit Three",
+		"s": "dingbat-circled-sans-serif-digit-three",
+		"u": "U+02782",
+		"x": "#x2782;",
+		"h": "#10114;",
+		"e": ""
+	},
+	{
+	    "n": "Dingbat Circled Sans-Serif Digit Four",
+		"s": "dingbat-circled-sans-serif-digit-four",
+		"u": "U+02783",
+		"x": "#x2783;",
+		"h": "#10115;",
+		"e": ""
+	},
+	{
+	    "n": "Dingbat Circled Sans-Serif Digit Five",
+		"s": "dingbat-circled-sans-serif-digit-five",
+		"u": "U+02784",
+		"x": "#x2784;",
+		"h": "#10116;",
+		"e": ""
+	},
+	{
+	    "n": "Dingbat Circled Sans-Serif Digit Six",
+		"s": "dingbat-circled-sans-serif-digit-six",
+		"u": "U+02785",
+		"x": "#x2785;",
+		"h": "#10117;",
+		"e": ""
+	},
+	{
+	    "n": "Dingbat Circled Sans-Serif Digit Seven",
+		"s": "dingbat-circled-sans-serif-digit-seven",
+		"u": "U+02786",
+		"x": "#x2786;",
+		"h": "#10118;",
+		"e": ""
+	},
+	{
+	    "n": "Dingbat Circled Sans-Serif Digit Eight",
+		"s": "dingbat-circled-sans-serif-digit-eight",
+		"u": "U+02787",
+		"x": "#x2787;",
+		"h": "#10119;",
+		"e": ""
+	},
+	{
+	    "n": "Dingbat Circled Sans-Serif Digit Nine",
+		"s": "dingbat-circled-sans-serif-digit-nine",
+		"u": "U+02788",
+		"x": "#x2788;",
+		"h": "#10120;",
+		"e": ""
+	},
+	{
+	    "n": "Dingbat Circled Sans-Serif Number Ten",
+		"s": "dingbat-circled-sans-serif-number-ten",
+		"u": "U+02789",
+		"x": "#x2789;",
+		"h": "#10121;",
+		"e": ""
+	},
+	{
+	    "n": "Dingbat Negative Circled Sans-Serif Digit One",
+		"s": "dingbat-negative-circled-sans-serif-digit-one",
+		"u": "U+0278A",
+		"x": "#x278A;",
+		"h": "#10122;",
+		"e": ""
+	},
+	{
+	    "n": "Dingbat Negative Circled Sans-Serif Digit Two",
+		"s": "dingbat-negative-circled-sans-serif-digit-two",
+		"u": "U+0278B",
+		"x": "#x278B;",
+		"h": "#10123;",
+		"e": ""
+	},
+	{
+	    "n": "Dingbat Negative Circled Sans-Serif Digit Three",
+		"s": "dingbat-negative-circled-sans-serif-digit-three",
+		"u": "U+0278C",
+		"x": "#x278C;",
+		"h": "#10124;",
+		"e": ""
+	},
+	{
+	    "n": "Dingbat Negative Circled Sans-Serif Digit Four",
+		"s": "dingbat-negative-circled-sans-serif-digit-four",
+		"u": "U+0278D",
+		"x": "#x278D;",
+		"h": "#10125;",
+		"e": ""
+	},
+	{
+	    "n": "Dingbat Negative Circled Sans-Serif Digit Five",
+		"s": "dingbat-negative-circled-sans-serif-digit-five",
+		"u": "U+0278E",
+		"x": "#x278E;",
+		"h": "#10126;",
+		"e": ""
+	},
+	{
+	    "n": "Dingbat Negative Circled Sans-Serif Digit Six",
+		"s": "dingbat-negative-circled-sans-serif-digit-six",
+		"u": "U+0278F",
+		"x": "#x278F;",
+		"h": "#10127;",
+		"e": ""
+	},
+	{
+	    "n": "Dingbat Negative Circled Sans-Serif Digit Seven",
+		"s": "dingbat-negative-circled-sans-serif-digit-seven",
+		"u": "U+02790",
+		"x": "#x2790;",
+		"h": "#10128;",
+		"e": ""
+	},
+	{
+	    "n": "Dingbat Negative Circled Sans-Serif Digit Eight",
+		"s": "dingbat-negative-circled-sans-serif-digit-eight",
+		"u": "U+02791",
+		"x": "#x2791;",
+		"h": "#10129;",
+		"e": ""
+	},
+	{
+	    "n": "Dingbat Negative Circled Sans-Serif Digit Nine",
+		"s": "dingbat-negative-circled-sans-serif-digit-nine",
+		"u": "U+02792",
+		"x": "#x2792;",
+		"h": "#10130;",
+		"e": ""
+	},
+	{
+	    "n": "Dingbat Negative Circled Sans-Serif Number Ten",
+		"s": "dingbat-negative-circled-sans-serif-number-ten",
+		"u": "U+02793",
+		"x": "#x2793;",
+		"h": "#10131;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Wide-Headed Right Arrow",
+		"s": "heavy-wide-headed-right-arrow",
+		"u": "U+02794",
+		"x": "#x2794;",
+		"h": "#10132;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy South East Arrow",
+		"s": "heavy-south-east-arrow",
+		"u": "U+02798",
+		"x": "#x2798;",
+		"h": "#10136;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Right Arrow",
+		"s": "heavy-right-arrow",
+		"u": "U+02799",
+		"x": "#x2799;",
+		"h": "#10137;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy North East Arrow",
+		"s": "heavy-north-east-arrow",
+		"u": "U+0279A",
+		"x": "#x279A;",
+		"h": "#10138;",
+		"e": ""
+	},
+	{
+	    "n": "Drafting Point Right Arrow",
+		"s": "drafting-point-right-arrow",
+		"u": "U+0279B",
+		"x": "#x279B;",
+		"h": "#10139;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Round-Tipped Right Arrow",
+		"s": "heavy-round-tipped-right-arrow",
+		"u": "U+0279C",
+		"x": "#x279C;",
+		"h": "#10140;",
+		"e": ""
+	},
+	{
+	    "n": "Triangle-Headed Right Arrow",
+		"s": "triangle-headed-right-arrow",
+		"u": "U+0279D",
+		"x": "#x279D;",
+		"h": "#10141;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Triangle-Headed Right Arrow",
+		"s": "heavy-triangle-headed-right-arrow",
+		"u": "U+0279E",
+		"x": "#x279E;",
+		"h": "#10142;",
+		"e": ""
+	},
+	{
+	    "n": "Dashed Triangle-Headed Right Arrow",
+		"s": "dashed-triangle-headed-right-arrow",
+		"u": "U+0279F",
+		"x": "#x279F;",
+		"h": "#10143;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Dashed Triangle-Headed Right Arrow",
+		"s": "heavy-dashed-triangle-headed-right-arrow",
+		"u": "U+027A0",
+		"x": "#x27A0;",
+		"h": "#10144;",
+		"e": ""
+	},
+	{
+	    "n": "Black Right Arrow",
+		"s": "black-right-arrow",
+		"u": "U+027A1",
+		"x": "#x27A1;",
+		"h": "#10145;",
+		"e": ""
+	},
+	{
+	    "n": "Three-D Top-Lighted Right Arrowhead",
+		"s": "three-d-top-lighted-right-arrowhead",
+		"u": "U+027A2",
+		"x": "#x27A2;",
+		"h": "#10146;",
+		"e": ""
+	},
+	{
+	    "n": "Three-D Bottom-Lighted Right Arrowhead",
+		"s": "three-d-bottom-lighted-right-arrowhead",
+		"u": "U+027A3",
+		"x": "#x27A3;",
+		"h": "#10147;",
+		"e": ""
+	},
+	{
+	    "n": "Black Right Arrowhead",
+		"s": "black-right-arrowhead",
+		"u": "U+027A4",
+		"x": "#x27A4;",
+		"h": "#10148;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Black Curved Down and Right Arrow",
+		"s": "heavy-black-curved-down-and-right-arrow",
+		"u": "U+027A5",
+		"x": "#x27A5;",
+		"h": "#10149;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Black Curved Up and Right Arrow",
+		"s": "heavy-black-curved-up-and-right-arrow",
+		"u": "U+027A6",
+		"x": "#x27A6;",
+		"h": "#10150;",
+		"e": ""
+	},
+	{
+	    "n": "Squat Black Right Arrow",
+		"s": "squat-black-right-arrow",
+		"u": "U+027A7",
+		"x": "#x27A7;",
+		"h": "#10151;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Concave-Pointed Black Right Arrow",
+		"s": "heavy-concave-pointed-black-right-arrow",
+		"u": "U+027A8",
+		"x": "#x27A8;",
+		"h": "#10152;",
+		"e": ""
+	},
+	{
+	    "n": "Right-Shaded White Right Arrow",
+		"s": "right-shaded-white-right-arrow",
+		"u": "U+027A9",
+		"x": "#x27A9;",
+		"h": "#10153;",
+		"e": ""
+	},
+	{
+	    "n": "Left-Shaded White Right Arrow",
+		"s": "left-shaded-white-right-arrow",
+		"u": "U+027AA",
+		"x": "#x27AA;",
+		"h": "#10154;",
+		"e": ""
+	},
+	{
+	    "n": "Back-Tilted Shadowed White Right Arrow",
+		"s": "back-tilted-shadowed-white-right-arrow",
+		"u": "U+027AB",
+		"x": "#x27AB;",
+		"h": "#10155;",
+		"e": ""
+	},
+	{
+	    "n": "Front-Tilted Shadowed White Right Arrow",
+		"s": "front-tilted-shadowed-white-right-arrow",
+		"u": "U+027AC",
+		"x": "#x27AC;",
+		"h": "#10156;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Lower Right-Shadowed White Right Arrow",
+		"s": "heavy-lower-right-shadowed-white-right-arrow",
+		"u": "U+027AD",
+		"x": "#x27AD;",
+		"h": "#10157;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Upper Right-Shadowed White Right Arrow",
+		"s": "heavy-upper-right-shadowed-white-right-arrow",
+		"u": "U+027AE",
+		"x": "#x27AE;",
+		"h": "#10158;",
+		"e": ""
+	},
+	{
+	    "n": "Notched Lower Right-Shadowed White Right Arrow",
+		"s": "notched-lower-right-shadowed-white-right-arrow",
+		"u": "U+027AF",
+		"x": "#x27AF;",
+		"h": "#10159;",
+		"e": ""
+	},
+	{
+	    "n": "Notched Upper Right-Shadowed White Right Arrow",
+		"s": "notched-upper-right-shadowed-white-right-arrow",
+		"u": "U+027B1",
+		"x": "#x27B1;",
+		"h": "#10161;",
+		"e": ""
+	},
+	{
+	    "n": "Circled Heavy White Right Arrow",
+		"s": "circled-heavy-white-right-arrow",
+		"u": "U+027B2",
+		"x": "#x27B2;",
+		"h": "#10162;",
+		"e": ""
+	},
+	{
+	    "n": "White-Feathered Right Arrow",
+		"s": "white-feathered-right-arrow",
+		"u": "U+027B3",
+		"x": "#x27B3;",
+		"h": "#10163;",
+		"e": ""
+	},
+	{
+	    "n": "Black-Feathered South East Arrow",
+		"s": "black-feathered-south-east-arrow",
+		"u": "U+027B4",
+		"x": "#x27B4;",
+		"h": "#10164;",
+		"e": ""
+	},
+	{
+	    "n": "Black-Feathered Right Arrow",
+		"s": "black-feathered-right-arrow",
+		"u": "U+027B5",
+		"x": "#x27B5;",
+		"h": "#10165;",
+		"e": ""
+	},
+	{
+	    "n": "Black-Feathered North East Arrow",
+		"s": "black-feathered-north-east-arrow",
+		"u": "U+027B6",
+		"x": "#x27B6;",
+		"h": "#10166;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Black-Feathered South East Arrow",
+		"s": "heavy-black-feathered-south-east-arrow",
+		"u": "U+027B7",
+		"x": "#x27B7;",
+		"h": "#10167;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Black-Feathered Right Arrow",
+		"s": "heavy-black-feathered-right-arrow",
+		"u": "U+027B8",
+		"x": "#x27B8;",
+		"h": "#10168;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Black-Feathered North East Arrow",
+		"s": "heavy-black-feathered-north-east-arrow",
+		"u": "U+027B9",
+		"x": "#x27B9;",
+		"h": "#10169;",
+		"e": ""
+	},
+	{
+	    "n": "Teardrop-Barbed Right Arrow",
+		"s": "teardrop-barbed-right-arrow",
+		"u": "U+027BA",
+		"x": "#x27BA;",
+		"h": "#10170;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Teardrop-Shanked Right Arrow",
+		"s": "heavy-teardrop-shanked-right-arrow",
+		"u": "U+027BB",
+		"x": "#x27BB;",
+		"h": "#10171;",
+		"e": ""
+	},
+	{
+	    "n": "Wedge-Tailed Right Arrow",
+		"s": "wedge-tailed-right-arrow",
+		"u": "U+027BC",
+		"x": "#x27BC;",
+		"h": "#10172;",
+		"e": ""
+	},
+	{
+	    "n": "Heavy Wedge-Tailed Right Arrow",
+		"s": "heavy-wedge-tailed-right-arrow",
+		"u": "U+027BD",
+		"x": "#x27BD;",
+		"h": "#10173;",
+		"e": ""
+	},
+	{
+	    "n": "Open-Outlined Right Arrow",
+		"s": "open-outlined-right-arrow",
+		"u": "U+027BE",
+		"x": "#x27BE;",
+		"h": "#10174;",
+		"e": ""
+	}
+]
