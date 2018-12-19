@@ -81,6 +81,12 @@ header {
 					
 					color: $link;
 				}
+				
+				&:focus {
+					
+					color: $text;
+					outline: none;
+				}
 			}
 			
 			#active-count,

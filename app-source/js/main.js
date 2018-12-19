@@ -26,6 +26,11 @@ let store = new Store({
 			disabledPath: app.getPath('home') + '/Library/Fonts Disabled/'
 		},
 		
+		fontOrder: {
+			active: 0,
+			disabled: 0	
+		},
+		
 		fontPreview: {
 			size: 8,
 			color: '#000000'

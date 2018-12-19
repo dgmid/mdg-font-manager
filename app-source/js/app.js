@@ -33,7 +33,9 @@ function populateFontLists() {
 //note(@duncanmid): update lists
 
 function updateLists() {
-		
+	
+	//todo(@duncanmid): investigate seperate reloads for each panel
+	
 	$('#active-count, #disabled-count').html('').hide()
 	$('#active-list li, #disabled-list li').remove()
 	$('#update-all').prop('disabled', true)
@@ -53,6 +55,12 @@ function addItemsToList( oldPath, newPath, list) {
 		if ( err ) throw  err
 		
 		let total = 0
+		
+		
+		if( store.get( `fontOrder.${list}` ) == 1 ) { 
+		
+			files.reverse()
+		}
 		
 		for ( let file of files ) {
 			
@@ -427,6 +435,20 @@ ipcRenderer.on('reload', () => {
 	updateLists()
 })
 
+ipcRenderer.on('reorder', (event, message) => {
+	
+	if( store.get( `fontOrder.${message[0]}` ) == message[1] ) {
+	
+		let list = $(`#${message[0]}-list`),
+			listItems = list.children('li')
+		
+		list.append(listItems.get().reverse())
+		
+		store.set( `fontOrder.${message[0]}`, (1 - message[1] )  )
+	}
+})
+
+
 
 //note(@duncanmid): show / hide bezel
 
@@ -519,7 +541,7 @@ $('#search').bind('keyup', function() {
 	
 	$('ul li').each(function(index, value) {
 	
-		let currentName = $(value).text()
+	let currentName = $(value).text()
 	if( currentName.toUpperCase().indexOf(searchString.toUpperCase()) > -1) {
 			
 			$(value).show()
