@@ -61,9 +61,14 @@ const template = [
 				click (item, focusedWindow) { if(focusedWindow) focusedWindow.webContents.send('deselect-all', 'active') }
 			},
 			{
-				label: 'Toggle Active Fonts',
+				label: 'Toggle Active Font Selections',
 				accelerator: 'Control+Command+A',
 				click (item, focusedWindow) { if(focusedWindow) focusedWindow.webContents.send('toggle-selection', 'active') }
+			},
+			{
+				label: 'Toggle Active Font Order',
+				accelerator: 'Control+Alt+Command+A',
+				click (item, focusedWindow) { if(focusedWindow) focusedWindow.webContents.send('reorder', ['active', '2']) }
 			},
 			{
 				type: 'separator'
@@ -79,9 +84,14 @@ const template = [
 				click (item, focusedWindow) { if(focusedWindow) focusedWindow.webContents.send('deselect-all', 'disabled') }
 			},
 			{
-				label: 'Toggle Disabled Fonts',
+				label: 'Toggle Disabled Font Selections',
 				accelerator: 'Control+Command+D',
 				click (item, focusedWindow) { if(focusedWindow) focusedWindow.webContents.send('toggle-selection', 'disabled') }
+			},
+			{
+				label: 'Toggle Disabled Font Order',
+				accelerator: 'Control+Alt+Command+D',
+				click (item, focusedWindow) { if(focusedWindow) focusedWindow.webContents.send('reorder', ['disabled', '2']) }
 			},
 			{
 				type: 'separator'

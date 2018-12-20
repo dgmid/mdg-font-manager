@@ -34,8 +34,6 @@ function populateFontLists() {
 
 function updateLists() {
 	
-	//todo(@duncanmid): investigate seperate reloads for each panel
-	
 	$('#active-count, #disabled-count').html('').hide()
 	$('#active-list li, #disabled-list li').remove()
 	$('#update-all').prop('disabled', true)
@@ -436,6 +434,12 @@ ipcRenderer.on('reload', () => {
 })
 
 ipcRenderer.on('reorder', (event, message) => {
+	
+	if( message[1] == 2 ) {
+		
+		message[1] = store.get( `fontOrder.${message[0]}` )
+	}
+	
 	
 	if( store.get( `fontOrder.${message[0]}` ) == message[1] ) {
 	

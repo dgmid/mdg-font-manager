@@ -8,7 +8,7 @@ const MenuItem = electron.MenuItem
 const ipc = electron.ipcMain
 var preview = require('./preview.min')
 
-
+//todo(@duncanmid): get array of font-names from json file
 
 ipc.on('show-font-menu', (event, message) => {
 	
@@ -29,6 +29,8 @@ ipc.on('show-font-menu', (event, message) => {
 			click (item, focusedWindow) { if(focusedWindow) focusedWindow.webContents.send('delete-single', message[1]) }
 		},
 	]
+	
+	//todo(@duncanmid): if message[0] is in font names, add webfont menu
 	
 	const fontMenu = Menu.buildFromTemplate(fontMenuTemplate)
 	
