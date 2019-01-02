@@ -50,40 +50,43 @@ function addItemsToList( oldPath, newPath, list) {
 	
 	fs.readdir( oldPath, ( err, files ) => {
 		
-		if ( err ) throw  err
-		
-		let total = 0
-		
-		
-		if( store.get( `fontOrder.${list}` ) == 1 ) { 
-		
-			files.reverse()
-		}
-		
-		for ( let file of files ) {
+		if( err ) {
 			
-			let item
-			let stats = fs.statSync( oldPath + file )
+			throw err
+		
+		} else {
 			
-			if( stats.isDirectory() ) {
-					
-					item = 'folder'
-					
-				} else {
-					
-					item = 'file'
-				}
+			let total = 0
+			
+			if( store.get( `fontOrder.${list}` ) == 1 ) { 
+			
+				files.reverse()
+			}
+			
+			for ( let file of files ) {
 				
-				if( !file.startsWith('.') ) {
+				let item
+				let stats = fs.statSync( oldPath + file )
+				
+				if( stats.isDirectory() ) {
 						
-					$(`#${list}-list`).append(`<li class="${item}" data-name="${file}" data-oldpath="${oldPath}${file}" data-newpath="${newPath}${file}" data-type="${item}" title="${file}"><div>${file}</div></li>`)
+						item = 'folder'
+						
+					} else {
+						
+						item = 'file'
+					}
 					
-					total++
-				}
+					if( !file.startsWith('.') ) {
+							
+						$(`#${list}-list`).append(`<li class="${item}" data-name="${file}" data-oldpath="${oldPath}${file}" data-newpath="${newPath}${file}" data-type="${item}" title="${file}"><div>${file}</div></li>`)
+						
+						total++
+					}
+			}
+			
+			$(`#${list}-total`).html( total )
 		}
-		
-		$(`#${list}-total`).html( total )
-		
 	})
 }
 
@@ -274,6 +277,7 @@ function updateAll() {
 		move( oldPath, newPath, counter++, items.length, updateLists )
 	})
 }
+
 
 
 $('#update-all').click( () => {

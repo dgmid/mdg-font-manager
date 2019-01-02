@@ -53,11 +53,11 @@ ipc.on('show-folder-menu', (event, message) => {
 		},
 		{
 			label: `Show ${capitalized} Fonts Folder in Finder`,
-			click() { app.emit('open-folder', `${message}Path`) }
+			click() { app.emit('open-folder', message) }
 		},
 		{
 			label: `Choose ${capitalized} Fonts Folder…`,
-			click() { app.emit('choose-folder', `${message}Path`) }
+			click() { app.emit('choose-folder', message) }
 		}
 	]
 	

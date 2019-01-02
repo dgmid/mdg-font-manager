@@ -6,12 +6,11 @@ const path = require('path')
 const dialog = require('electron').dialog
 const Store = require('electron-store')
 const fs = require( 'fs-extra' )
+const chokidar = require( 'chokidar' )
 
-let win
-
-
-
-let store = new Store({
+let win,
+	watcher,
+	store = new Store({
 	defaults: {
 		
 		windowBounds: {
@@ -70,16 +69,24 @@ function createWindow() {
 		slashes: true 
 	}))
 	
-	win.once('ready-to-show', () => {
-		win.show()
+	win.once('ready-to-show', win.show)
+	
+	win.on('show', () => {
+		
+		checkPaths( 'active' )
+		checkPaths( 'disabled' )
 	})
 	
 	win.on('resize', saveWindowBounds)
 	win.on('move', saveWindowBounds)
 	
-	win.on('closed', () => {
-		app.quit();
+	win.on('focus', () => {
+		
+		if( typeof watcher != 'undefined' ) watcher.close()
 	})
+	
+	win.on('blur', watchOnce)
+	win.on('closed', app.quit)
 	
 	require('./app-menu.min')
 	require('./list-menus.min')
@@ -88,23 +95,28 @@ function createWindow() {
 	require('./install-font.min')
 }
 
-app.on('ready', createWindow) 
+app.on('ready', createWindow)
 
 
 
 app.on('open-folder', (message) => {
 	
-	shell.openExternal('file://' + store.get('fontDirectories.' + message ))
+	shell.openExternal('file://' + store.get(`fontDirectories.${message}Path` ))
 })
 
 
 
 app.on('choose-folder', (message) => {
 	
-	let currentPath = store.get('fontDirectories.' + message ),
-		label = 'Active'
+	chooseFolder( message )
+})
+
+
+
+function chooseFolder(message) {
 	
-	if( message === 'disabledPath' ) label = 'Disabled'
+	let currentPath = store.get('fontDirectories.' + `${message}Path` ),
+	label = capitalize( message )
 	
 	dialog.showOpenDialog(win, {
 			
@@ -124,16 +136,18 @@ app.on('choose-folder', (message) => {
 		
 		if( filename ) {
 			
-			store.set('fontDirectories.' + message, filename[0] + '/')
+			store.set('fontDirectories.' + `${message}Path`, filename[0] + '/')
 			win.webContents.send('update-path')
 		}
 	}
-})
+}
 
 
 
 app.on('export-single', (message) => { exportFonts( [message] ) })
 ipcMain.on('export-list', (event, message) => { exportFonts( message) })
+
+
 
 function exportFonts(fonts) {
 	
@@ -224,3 +238,80 @@ ipcMain.on('import', (event, message) => {
 	}
 })
 
+
+
+function capitalize( word ) {
+	
+	return word.charAt(0).toUpperCase() + word.slice(1)
+}
+
+
+
+function checkPaths( folder ) {
+	
+	let capitalized = capitalize( folder ),
+		message 	= `The ${capitalized} Folder is not yet set.`,
+		response
+	
+	let details = (folder === 'disabled') ? 
+		`Please choose or create a folder to store disabled fonts in:` :
+		`Please set it to: ${app.getPath('home')}/Library/Fonts/`
+		
+	
+	if( !fs.existsSync( store.get(`fontDirectories.${folder}Path`) ) ) {
+		
+		switch ( folder ) {
+			
+			case 'active':
+				
+				response = dialog.showErrorBox( message, details )
+				
+				store.set( 'fontDirectories.activePath', `${app.getPath('home')}/Library/Fonts/` )
+				
+				win.webContents.send('update-path')
+				
+			break
+			
+			case 'disabled':
+				
+				response = dialog.showMessageBox({	
+							message: message,
+							detail: details,
+							buttons: [`Choose ${capitalized} Fonts Folder`,'Cancel']
+						})
+				
+				if( response === 0 ) chooseFolder( `${folder}`)
+			
+			break
+		}
+	}
+}
+
+
+
+function watchOnce() {
+	
+	watcher = chokidar.watch(
+		[
+			store.get('fontDirectories.activePath'),
+			store.get('fontDirectories.disabledPath')
+		],
+		{
+			ignored: /(^|[\/\\])\../,
+			ignoreInitial: true,
+			persistent: true,
+			depth: 0
+		}
+	).on('all', (event, path) => {
+		
+		watcher.close()		
+		
+		function reloadApp() {
+			
+			win.webContents.send('reload')
+		}
+		
+		setTimeout(reloadApp, 1000)
+		setTimeout(watchOnce, 1000)			
+	})
+}
