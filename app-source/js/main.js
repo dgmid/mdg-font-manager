@@ -106,7 +106,7 @@ app.on('ready', createWindow)
 
 app.on('open-folder', (message) => {
 	
-	shell.openExternal('file://' + store.get(`fontDirectories.${message}Path` ))
+	shell.openExternal('file://' + store.get(`fontDirectories.${message}` ))
 })
 
 
