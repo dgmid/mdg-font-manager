@@ -23,6 +23,14 @@ const template = [
 				type: 'separator'
 			},
 			{
+				label: 'Preferences…',
+				accelerator: 'Command+,',
+				click (item, focusedWindow) { if(focusedWindow) focusedWindow.webContents.send('open-prefs') }
+			},
+			{
+				type: 'separator'
+			},
+			{
 				role: 'services',
 				submenu: []
 			},

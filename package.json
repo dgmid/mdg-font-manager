@@ -1,6 +1,6 @@
 {
   "name": "mdg-font-manager",
-  "version": "1.3.0",
+  "version": "1.3.2",
   "productName": "MDG Font Manager",
   "description": "A simple font manager for Mac. For activating and disabling fonts and installing Google Fonts.",
   "main": "dist/js/main.min.js",

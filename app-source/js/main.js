@@ -33,6 +33,11 @@ let win,
 		fontPreview: {
 			size: 8,
 			color: '#000000'
+		},
+		
+		appPrefs: {
+			dividers: false,
+			extensions: true
 		}
 	}
 })
@@ -146,6 +151,13 @@ function chooseFolder(message) {
 
 app.on('export-single', (message) => { exportFonts( [message] ) })
 ipcMain.on('export-list', (event, message) => { exportFonts( message) })
+
+
+
+ipcMain.on('set-prefs', (event, message) => {
+	
+	win.webContents.send('reload')
+})
 
 
 

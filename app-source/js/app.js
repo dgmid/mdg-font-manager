@@ -9,6 +9,10 @@ const dialog = remote.dialog
 const Store = require( 'electron-store' )
 const store = new Store()
 
+const path = require('path')
+
+let modal
+
 populateFontLists()
 
 
@@ -48,6 +52,8 @@ function updateLists() {
 
 function addItemsToList( oldPath, newPath, list) {
 	
+	let prefs = store.get('appPrefs')
+	
 	fs.readdir( oldPath, ( err, files ) => {
 		
 		if( err ) {
@@ -58,10 +64,14 @@ function addItemsToList( oldPath, newPath, list) {
 			
 			let total = 0
 			
-			if( store.get( `fontOrder.${list}` ) == 1 ) { 
+			files.sort(function ( a, b ) {
+				
+				return a.toLowerCase().localeCompare( b.toLowerCase() )
+			})
 			
-				files.reverse()
-			}
+			if( store.get( `fontOrder.${list}` ) == 1 ) files.reverse()
+			
+			let divider = '';
 			
 			for ( let file of files ) {
 				
@@ -69,20 +79,32 @@ function addItemsToList( oldPath, newPath, list) {
 				let stats = fs.statSync( oldPath + file )
 				
 				if( stats.isDirectory() ) {
-						
-						item = 'folder'
-						
-					} else {
-						
-						item = 'file'
+					
+					item = 'folder'
+					
+				} else {
+					
+					item = 'file'
+				}
+			
+				if( !file.startsWith('.') ) {
+					
+					let display = ( prefs.extensions ) ? file : path.parse(file).name
+					
+					if( prefs.dividers ) {
+					
+						if( divider !== file.charAt(0) ) {
+							
+							divider = file.charAt(0).toUpperCase()
+							
+							$(`#${list}-list`).append(`<li class="divider"><span>${divider}</span></li>`)
+						}
 					}
 					
-					if( !file.startsWith('.') ) {
-							
-						$(`#${list}-list`).append(`<li class="${item}" data-name="${file}" data-oldpath="${oldPath}${file}" data-newpath="${newPath}${file}" data-type="${item}" title="${file}"><div>${file}</div></li>`)
-						
-						total++
-					}
+					$(`#${list}-list`).append(`<li class="item ${item}" data-name="${file}" data-oldpath="${oldPath}${file}" data-newpath="${newPath}${file}" data-type="${item}" title="${display}"><div>${display}</div></li>`)
+					
+					total++
+				}
 			}
 			
 			$(`#${list}-total`).html( total )
@@ -204,7 +226,7 @@ function updateButtonState() {
 
 //note(@duncanmid): on click list item
 
-$('body').on('mouseup', '#active-list li, #disabled-list li', function(event) {
+$('body').on('mouseup', '#active-list li.item, #disabled-list li.item', function(event) {
 	
 	if( event.which === 3 ) {
 
@@ -287,6 +309,17 @@ $('#update-all').click( () => {
 
 
 
+//note(@duncanmid): prefs modal
+
+ipcRenderer.on('open-prefs', (event, message) => {
+	
+	console.log('REC - OPEN PREFS')
+	
+	openModal( 'file://' + __dirname + '/../html/prefs.html', 360, 280, false )
+})
+
+
+
 //note(@duncanmid): open font folder menus
 
 $('#active-menu').mouseup( (e) => {
@@ -307,7 +340,7 @@ $('#disabled-menu').mouseup( (e) => {
 
 ipcRenderer.on('select-all', (event, message) => {
 	
-	$('#' + message + '-list li').addClass('selected')
+	$('#' + message + '-list li.item').addClass('selected')
 	updateButtonState()
 })
 
@@ -319,7 +352,7 @@ ipcRenderer.on('deselect-all', (event, message) => {
 
 ipcRenderer.on('toggle-selection', (event, message) => {
 	
-	$('#' + message + '-list li').toggleClass('selected')
+	$('#' + message + '-list li.item').toggleClass('selected')
 	updateButtonState()
 })
 
@@ -437,8 +470,10 @@ ipcRenderer.on('reload', () => {
 	updateLists()
 })
 
+//note(@duncanmid): tidy this up!
+
 ipcRenderer.on('reorder', (event, message) => {
-	
+		
 	if( message[1] == 2 ) {
 		
 		message[1] = store.get( `fontOrder.${message[0]}` )
@@ -446,11 +481,33 @@ ipcRenderer.on('reorder', (event, message) => {
 	
 	
 	if( store.get( `fontOrder.${message[0]}` ) == message[1] ) {
-	
-		let list = $(`#${message[0]}-list`),
-			listItems = list.children('li')
 		
-		list.append(listItems.get().reverse())
+		let prefs = store.get('appPrefs'),
+			divider = '';
+		
+		$(`#${message[0]}-list li.divider`).remove()
+		
+		let list = $(`#${message[0]}-list`),
+			listItems = list.children('li.item')
+		
+		listItems = listItems.get().reverse()
+		
+		$(`#${message[0]}-list`).empty()
+		
+		listItems.forEach( function(item) {
+			
+			if( prefs.dividers ) {
+			
+				if( divider !== $(item).data('name').charAt(0) ) {
+					
+					divider = $(item).data('name').charAt(0).toUpperCase()
+					
+					$(`#${message[0]}-list`).append(`<li class="divider"><span>${divider}</span></li>`)
+				}
+			}
+			
+			$(`#${message[0]}-list`).append(item)
+		})
 		
 		store.set( `fontOrder.${message[0]}`, (1 - message[1] )  )
 	}
@@ -563,3 +620,31 @@ $('#search').bind('keyup', function() {
 		}
 	})
 })
+
+
+
+//note(@duncanmid): modal
+
+function openModal( url, width, height, resize ) {
+	
+	modal = new remote.BrowserWindow({
+		
+			parent: remote.getCurrentWindow(),
+			modal: true,
+			width: width,
+			minWidth: width,
+			maxWidth: width,
+			height: height,
+			minHeight: height,
+			resizable: resize,
+			show: false,
+			backgroundColor: '#293641'
+		})
+		
+	modal.loadURL( url )
+	
+	modal.once('ready-to-show', () => {
+		
+		modal.show()
+	})
+}

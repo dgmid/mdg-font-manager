@@ -1,0 +1,142 @@
+body {
+	
+	width: 100%;
+	height: 100%;
+}
+
+header {
+	
+	padding: 10px 20px;
+	background: rgba($text, .1);
+	font-size: 13px;
+	line-height: 18px;
+	text-align: center;
+}
+
+main {
+	
+	padding: 10px 20px 0;
+}
+
+section {
+	
+	border-bottom: 1px solid rgba($text, .2);
+	padding: 10px 0;
+	margin-bottom: 10px;
+	
+	div {
+		
+		padding-bottom: 10px;
+		
+		> label:not(.switch) {
+			
+			display: block;
+			float: left;
+			width: 240px;
+			text-align: right;
+			font-size: 13px;
+			line-height: 20px;
+			font-weight: 400;
+			padding-right: 10px;
+			
+			&::after { content: ':'; }
+		}
+		
+		.switch {
+			
+			position: relative;
+			display: inline-block;
+			width: 40px;
+			height: 22px;
+			
+			input {
+			
+				opacity: 0;
+				width: 0;
+				height: 0;
+				
+				&:focus + .slider {
+					
+					box-shadow: 0 0 1px 2px rgba($link, .5);
+				}
+			}
+		}
+		
+		.slider {
+			
+			position: absolute;
+			cursor: pointer;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background-color: rgba($text, .2);
+			border-radius: 22px;
+			transition: .25s;
+		}
+		
+		
+		
+		.slider:before {
+			
+			position: absolute;
+			content: "";
+			height: 18px;
+			width: 18px;
+			left: 2px;
+			bottom: 2px;
+			background-color: $text;
+			border-radius: 50%;
+			transition: .25s;
+		}
+		
+		input:checked + .slider { background-color: $link; }
+			
+		input:focus + .slider { box-shadow: 0 0 1px $link; }
+			
+		input:checked + .slider:before { transform: translateX(17px); }
+		
+		li {
+			
+			label { font-size: 13px; }
+		}
+	}
+}
+
+footer {
+	
+	padding: 10px 20px;
+	
+	#close {
+		
+		display: block;
+		width: 120px;
+		height: 30px;
+		margin-left: auto;
+		
+		background: rgba($background, .5);
+		border: 1px solid rgba($text , .3);
+		border-radius: 4px;
+		font-size: 14px;
+		color: $text;
+		font-weight: 200;
+		text-align: center;
+		
+		transition: all .15s ease-in-out;
+		
+		&:hover { background-color: rgba($text, .1); }
+		
+		&:active {
+			
+			background-color: darken($background, 3%);
+			box-shadow: inset 0 2px 4px darken($background, 6%);
+			outline: none;
+		}
+		
+		&:focus {
+			
+			outline: none;
+			box-shadow: 0 0 1px 2px rgba($link, .5);
+		}
+	}
+}
