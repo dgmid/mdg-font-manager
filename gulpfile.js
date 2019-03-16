@@ -8,7 +8,6 @@ const 	gulp 			= require('gulp'),
 		uglify 			= require('gulp-uglify-es').default,
 		pump 			= require('pump'),
 		iconutil 		= require('gulp-iconutil'),
-		sequence 		= require('run-sequence'),
 		exec 			= require('child_process').exec
 
 
@@ -50,7 +49,7 @@ gulp.task('html', () => {
 
 
 
-gulp.task('js', () => {
+gulp.task('js', done => {
 	
 	pump([
 			gulp.src(sourceJs),
@@ -66,7 +65,10 @@ gulp.task('js', () => {
 			gulp.dest(destJs)
 		]
 	)
+	
+	done()
 })
+
 
 
 
@@ -80,7 +82,7 @@ gulp.task('svg', () => {
 
 gulp.task('icns', () => {
 
-	return gulp.src('./app-source/assets/Icon.iconset/icon_*.png')
+	return gulp.src('./app-source/assets/AppIcon.appiconset/icon_*.png')
 		.pipe(iconutil('icon.icns'))
 		.pipe(gulp.dest('./dist/assets/icon/'))
 })
@@ -89,7 +91,7 @@ gulp.task('icns', () => {
 
 gulp.task('icon', () => {	
 	
-	return gulp.src('./app-source/assets/Icon.iconset/icon_128x128@2x.png')
+	return gulp.src('./app-source/assets/AppIcon.appiconset/icon_128x128@2x.png')
 		.pipe(rename('icon.png'))
 		.pipe(gulp.dest('./dist/assets/icon/'))
 })
@@ -106,7 +108,7 @@ gulp.task('json', () => {
 
 gulp.task('google-fonts', () => {
 	
-	exec('php ./app-source/json/generate-json.php', (err, stdout, stderr) => {
+	return exec('php ./app-source/json/generate-json.php', (err, stdout, stderr) => {
 		
 		if (err) throw err
 	})
@@ -114,22 +116,26 @@ gulp.task('google-fonts', () => {
 
 
 
-gulp.task('build', () => {
+gulp.task('build', gulp.series(	'sass',
+								'html',
+								'js',
+								'svg',
+								'json',
+								'icns',
+								'icon',
+								'google-fonts'
+), done => {
 	
-	sequence(
-		'sass',
-		['html', 'js', 'svg', 'json'],
-		'google-fonts',
-		'icns',
-		'icon'
-	)
+	done()
 })
 
 
 
-gulp.task('watch', ['html', 'js', 'sass'], () => {
+gulp.task('watch', gulp.series(gulp.parallel('html', 'js', 'sass'), () => {
 	
-	gulp.watch('app-source/html/**/*.html', ['html'])
-	gulp.watch('app-source/js/**/*.js', ['js'])
-	gulp.watch('app-source/scss/**/*.scss', ['sass'])
-})
+	gulp.watch('app-source/html/**/*.html', gulp.series('html')),
+	gulp.watch('app-source/js/**/*.js', gulp.series('js')),
+	gulp.watch('app-source/scss/**/*.scss', gulp.series('sass'))
+	
+	return
+}))
