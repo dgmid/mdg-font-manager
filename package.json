@@ -5,7 +5,7 @@
   "description": "A simple font manager for Mac. For activating and disabling fonts and installing Google Fonts.",
   "main": "dist/js/main.min.js",
   "scripts": {
-    "package": "npm prune -production; electron-packager . --electron-version=3.0.11 --overwrite --platform=darwin --arch=x64 --icon=dist/assets/icon/icon.icns --ignore=\"app-source|gulpfile\\.js|README\\.md\" --prune=false --out=build"
+    "package": "npm prune -production; electron-packager . --electron-version=3.0.11 --overwrite --platform=darwin --arch=x64 --icon=dist/assets/icon/icon.icns --ignore=\"app-source|gulpfile\\.js|README\\.md\" --prune=false --out=build --darwinDarkModeSupport=true"
   },
   "author": {
     "name": "D.G. Midwinter",
